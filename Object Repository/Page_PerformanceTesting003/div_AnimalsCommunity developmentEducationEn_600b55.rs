@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AnimalsCommunity developmentEducationEn_600b55</name>
+   <tag></tag>
+   <elementGuidId>5fa1d19d-7c99-41d5-b6dc-43926cbeb9ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b15-TagsSection']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.display-flex.gap-s.flex-wrap.OSFillParent</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;AnimalsCommunity developmentEducationEnvironmental protection and sustainability&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>74e18627-3ccd-45f6-a250-cbbc8d35245d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>display-flex gap-s flex-wrap OSFillParent</value>
+      <webElementGuid>04309519-3a87-4d5a-b5ee-54f59137772c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>disable-virtualization</name>
+      <type>Main</type>
+      <value>True</value>
+      <webElementGuid>e499344f-9f47-4113-b6f5-38c9fa240b97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AnimalsCommunity developmentEducationEnvironmental protection and sustainability</value>
+      <webElementGuid>5ccbd384-48d8-4864-8727-6a7d8e3cad04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b15-TagsSection&quot;)/div[@class=&quot;display-flex gap-s flex-wrap OSFillParent&quot;]</value>
+      <webElementGuid>0e0e6cc8-a541-4c18-b641-3dd05d238fa1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b15-TagsSection']/div</value>
+      <webElementGuid>5dc34e56-ef8c-415a-bc64-668afaa3353d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact person'])[1]/following::div[14]</value>
+      <webElementGuid>af8f6496-70c3-4777-aa04-94c90f8fad3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fundraise for us'])[1]/following::div[17]</value>
+      <webElementGuid>07eee0f1-8c32-47d5-8129-dba95e3776ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article/div/div/div/div/div[3]/div</value>
+      <webElementGuid>881fc188-5bf2-486d-b6ec-9240d42a8707</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'AnimalsCommunity developmentEducationEnvironmental protection and sustainability' or . = 'AnimalsCommunity developmentEducationEnvironmental protection and sustainability')]</value>
+      <webElementGuid>e8359297-0a37-4619-b644-517c4ba460bd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

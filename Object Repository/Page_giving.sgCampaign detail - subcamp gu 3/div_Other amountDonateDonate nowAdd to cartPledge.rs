@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Other amountDonateDonate nowAdd to cartPledge</name>
+   <tag></tag>
+   <elementGuidId>1f3b3232-f5ff-4e32-9445-8c06abad1b8b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b1-b30-$b2']/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.header-portion</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Other amount$DonateDonate nowAdd to cartPledge&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>93038e77-52e0-453a-bdc7-1caba885e9de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>header-portion</value>
+      <webElementGuid>1f6f1b4c-a156-4995-88c7-92c77267d928</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Other amount$DonateDonate nowAdd to cartPledge</value>
+      <webElementGuid>5a140636-40db-40a4-b3bd-ada2e5333ba0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b1-b30-$b2&quot;)/div[@class=&quot;color-heading-card&quot;]/div[@class=&quot;heading-section scheme-color-sunshine&quot;]/div[@class=&quot;header-portion&quot;]</value>
+      <webElementGuid>adb1f95c-ec4a-4fe6-a49c-e9dcd64945bf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b1-b30-$b2']/div/div/div</value>
+      <webElementGuid>d29fd5f1-3a3c-44ba-b954-6d7acb03f977</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='donors'])[3]/following::div[12]</value>
+      <webElementGuid>bf0b2acf-eaa6-487e-b6d9-32b907f642e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Donate'])[3]/following::div[14]</value>
+      <webElementGuid>45d338ba-fc41-4cc3-b543-7ec698761e1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article/div/div/div/div[2]/div/div/div/div</value>
+      <webElementGuid>30e2b69f-892b-473e-804b-bd6c7e359a62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Other amount$DonateDonate nowAdd to cartPledge' or . = 'Other amount$DonateDonate nowAdd to cartPledge')]</value>
+      <webElementGuid>fdcaf528-2bdf-409a-97c3-fbcc4a9c8e69</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

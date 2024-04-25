@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Save  preview</name>
+   <tag></tag>
+   <elementGuidId>8822a8c9-53f8-4be4-91f5-407791f023cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b28-PreviewYourCampaign3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='b2-b28-PreviewYourCampaign3']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Save &amp; preview&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>89bc2d8c-8793-4620-a0ad-d632cb5f2293</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn margin-right-base</value>
+      <webElementGuid>0697fa3f-179d-4c75-aa64-f4acf0e87ee4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>75aa2d3e-ed7b-443f-87e2-65960c061766</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b2-b28-PreviewYourCampaign3</value>
+      <webElementGuid>92fbb7f6-50c2-44cf-b4af-c5a1648919f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save &amp; preview</value>
+      <webElementGuid>f370dd71-e5b6-4b71-815f-0d62720f2b1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b28-PreviewYourCampaign3&quot;)</value>
+      <webElementGuid>e883a9b2-aa5f-4186-864e-82d7e81e4acf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='b2-b28-PreviewYourCampaign3']</value>
+      <webElementGuid>4a8a1aca-b441-46cb-ba51-305a064186e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b28-b33-Button']/button</value>
+      <webElementGuid>dd5f7c4f-468c-494b-8c9f-e9a5d98918cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]</value>
+      <webElementGuid>36c0ae4f-00a3-4954-a3cd-c3064340e93b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You are not allowed to claim tax deduction for this campaign.'])[1]/following::button[2]</value>
+      <webElementGuid>da213530-2175-418f-ad8b-f842af2a3662</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit for approval'])[1]/preceding::button[1]</value>
+      <webElementGuid>78068346-a350-47fa-9885-311812270f93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I am fundraising for'])[1]/preceding::button[2]</value>
+      <webElementGuid>c03047b7-ed35-45b1-b4e0-6279470d3f0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Save &amp; preview']/parent::*</value>
+      <webElementGuid>b3535c1d-5cfc-4a3b-84d7-b566dc738ef1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/div[2]/div/div/div/div/div/button</value>
+      <webElementGuid>69e341b8-8f9d-48bd-8f7a-1fb597e9c68d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @id = 'b2-b28-PreviewYourCampaign3' and (text() = 'Save &amp; preview' or . = 'Save &amp; preview')]</value>
+      <webElementGuid>d51bc43d-d715-4399-bd87-9643b4b9f671</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_IPC issue date_b4-b3-b17-b1-Icon - Copy</name>
+   <tag></tag>
+   <elementGuidId>a7fbb5e1-7e67-4cda-a79b-a25373f4f7af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b4-b3-b17-b1-Icon']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b4-b3-b17-b1-Icon</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;b4-b3-DateInput_IPCIssueDate&quot;)[count(. | //*[@class = 'form-control OSFillParent flatpickr-input']) = count(//*[@class = 'form-control OSFillParent flatpickr-input'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#b4-b3-b17-b1-Icon</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>input</name>
+      <type>Main</type>
+      <value>data-input</value>
+      <webElementGuid>f20b4c99-17f0-40d5-80da-ce5d0db43161</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control OSFillParent flatpickr-input</value>
+      <webElementGuid>299f8705-2ae1-4cd8-b913-f5fcd6025bba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b4-b3-DateInput_IPCIssueDate</value>
+      <webElementGuid>e0e8d226-583c-465b-b65d-fc06a1aecbf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b4-b3-DateInput_IPCIssueDate&quot;)</value>
+      <webElementGuid>5dfcf727-3ebc-4f41-8383-26c27e677355</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b4-b3-b17-b1-Icon']</value>
+      <webElementGuid>e9b84e40-9432-424d-b75e-83a37c02e10d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b4-b3-b17-b1-InputWithIconWrapper']/div</value>
+      <webElementGuid>519ae5fe-0275-4b1c-ae64-faa1c1a921ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IPC issue date'])[1]/following::div[8]</value>
+      <webElementGuid>014d8fc3-aed2-47b5-8a1b-f8d3bdb38a4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::div[13]</value>
+      <webElementGuid>52dda211-99d2-4cad-8565-8e7a2089c932</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Use cmd or ctrl + down arrow key to navigate into calendar context;'])[1]/preceding::div[3]</value>
+      <webElementGuid>abf624f3-181a-4098-99c4-811ac24ed956</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Use arrow keys to navigate through calendar days;'])[1]/preceding::div[3]</value>
+      <webElementGuid>22bf329c-2002-4465-88e0-319b8a9ea9d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]/div/div/div/div/div</value>
+      <webElementGuid>829d2bc5-925a-44b5-8ad1-3aa422fc30c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'b4-b3-b17-b1-Icon']</value>
+      <webElementGuid>b31209e0-789b-4ba2-8c8c-5bc103725359</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

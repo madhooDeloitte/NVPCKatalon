@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Supported causes</name>
+   <tag></tag>
+   <elementGuidId>26eb10b9-780d-4983-9733-acd4afea7d70</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b1-b1-TopContent']/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.margin-top-base > span.heading4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Supported causes&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8f22017e-9bf3-40df-8bbc-03db3e9c4f5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>heading4</value>
+      <webElementGuid>bb806e54-60d8-4332-8dd5-4da64ec9178d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Supported causes</value>
+      <webElementGuid>1b9badd9-1836-49cc-b36a-b15acdd8a114</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b1-b1-TopContent&quot;)/div[@class=&quot;margin-top-base&quot;]/span[@class=&quot;heading4&quot;]</value>
+      <webElementGuid>3d14c6e0-9f1f-4ab2-bcb1-05bc463b8624</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b1-b1-TopContent']/div/span</value>
+      <webElementGuid>98d64af3-b916-4193-80d5-3d8914235b66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Donate now'])[1]/following::span[1]</value>
+      <webElementGuid>1d6b6f3c-a790-4355-b125-b846d787acbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='days to go'])[1]/following::span[1]</value>
+      <webElementGuid>f14fbbf5-28ec-4932-8ee6-7d72e478ddf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Animal welfare'])[1]/preceding::span[1]</value>
+      <webElementGuid>7ff800eb-8b69-4681-a91d-9d0172fc2878</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Foreign workers'])[1]/preceding::span[2]</value>
+      <webElementGuid>24c20db3-de43-4321-a63b-39f28b0f1fe3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Supported causes']/parent::*</value>
+      <webElementGuid>8bbffdc4-a240-4287-95d7-324828294bde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/span</value>
+      <webElementGuid>9279eea5-fc5a-4324-a8a9-9de5c67c0d7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Supported causes' or . = 'Supported causes')]</value>
+      <webElementGuid>baf5f0d1-a32d-408b-9a31-18919e2eed37</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

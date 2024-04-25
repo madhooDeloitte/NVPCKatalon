@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_DirectCreditAuthorisationForm.pdf</name>
+   <tag></tag>
+   <elementGuidId>e8c078c4-46eb-41ef-b347-22633e9cd35a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.upload-zone-title.break-word</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b4-b3-Upload_DCA_File']/div/div[2]/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;DirectCreditAuthorisationForm.pdf&quot;i >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ee9499fb-30c8-4860-a2f2-6cee366607cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>upload-zone-title break-word</value>
+      <webElementGuid>749efd7f-2a50-402d-b662-8a2b231b5213</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DirectCreditAuthorisationForm.pdf</value>
+      <webElementGuid>aa002e08-8b3f-48c9-8a7e-092a16d0e01f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b4-b3-Upload_DCA_File&quot;)/div[@class=&quot;upload-zone-single has-upload&quot;]/div[@class=&quot;upload-zone-title-wrapper&quot;]/div[@class=&quot;flex1&quot;]/span[@class=&quot;upload-zone-title break-word&quot;]</value>
+      <webElementGuid>7d62ca00-03d0-4bd3-b97c-87e1a474a5bd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b4-b3-Upload_DCA_File']/div/div[2]/div/span</value>
+      <webElementGuid>73e19950-56ab-4f39-b08e-713aa997d32c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload document'])[1]/following::span[1]</value>
+      <webElementGuid>d67dacdf-7040-430c-a0ca-7fe4057dae87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Swift code'])[1]/following::span[2]</value>
+      <webElementGuid>dc2cd532-298d-4e1c-8349-08bcd743656e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(152.79KB)'])[1]/preceding::span[1]</value>
+      <webElementGuid>e37df531-6034-41d8-a3ca-057007e49d96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DirectCreditAuthorisationForm.pdf'])[2]/preceding::span[2]</value>
+      <webElementGuid>dc663101-51f6-494d-8464-f1978eef48dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='DirectCreditAuthorisationForm.pdf']/parent::*</value>
+      <webElementGuid>9009fc4c-0808-43cb-a6bd-e20ebb80a84e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/span</value>
+      <webElementGuid>316e534c-46a2-44ac-9234-7e4ef946c74b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'DirectCreditAuthorisationForm.pdf' or . = 'DirectCreditAuthorisationForm.pdf')]</value>
+      <webElementGuid>12eb4e2c-eae3-44d9-8151-5db5182c1073</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

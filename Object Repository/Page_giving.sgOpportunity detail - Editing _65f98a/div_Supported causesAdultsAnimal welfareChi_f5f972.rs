@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Supported causesAdultsAnimal welfareChi_f5f972</name>
+   <tag></tag>
+   <elementGuidId>0053818c-a4b7-4fba-b56b-0bbcb047ab60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b1-TopContent']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b1-TopContent > div.margin-top-base</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Supported causesAdultsAnimal welfareChildrenFamiliesYouth&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b1a1b6af-298a-485d-9fbf-7c89e1190abe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>margin-top-base</value>
+      <webElementGuid>01da97a0-0acf-4dc5-8737-b0a3f845dc37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Supported causesAdultsAnimal welfareChildrenFamiliesYouth</value>
+      <webElementGuid>e0a7bfb5-dbad-4879-b9ee-3d042460a150</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b1-TopContent&quot;)/div[@class=&quot;margin-top-base&quot;]</value>
+      <webElementGuid>3157b21e-9b6f-4681-823c-933b11bdf7c4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b1-TopContent']/div</value>
+      <webElementGuid>fe16726e-dfbc-4247-a574-6f1d45ca84a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I want to volunteer'])[1]/following::div[2]</value>
+      <webElementGuid>a607d6b9-ab72-4f1d-beb2-a05a44827972</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More options'])[1]/following::div[4]</value>
+      <webElementGuid>f9e94d77-e92a-4ff5-8203-39a264e72b6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[4]/div</value>
+      <webElementGuid>7ea9d17e-deb6-4210-a117-48474656e94a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Supported causesAdultsAnimal welfareChildrenFamiliesYouth' or . = 'Supported causesAdultsAnimal welfareChildrenFamiliesYouth')]</value>
+      <webElementGuid>27685caf-5fa8-4456-9f96-7215dbf2be03</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

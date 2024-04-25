@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Our organisations</name>
+   <tag></tag>
+   <elementGuidId>d1d36318-1759-4791-965d-45eb76958a64</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b1-l1-1322_8-b2-Label']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b1-l1-1322_8-b2-Label > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Our organisations&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2e857233-bda6-4d49-8e38-556119c35468</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Our organisations</value>
+      <webElementGuid>91bf1cbe-03d2-463b-9867-c196365ae688</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b1-l1-1322_8-b2-Label&quot;)/span[1]</value>
+      <webElementGuid>f0566dd9-ac6f-4f3b-a8eb-133988fdbeba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-l1-1322_8-b2-Label']/span</value>
+      <webElementGuid>3be1bcc2-31f5-424b-a93d-66c4603c86f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fundraise'])[1]/following::span[1]</value>
+      <webElementGuid>a820e75c-e634-4b5f-a5a4-c35aba15b333</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Volunteer'])[1]/following::span[2]</value>
+      <webElementGuid>9bbd9856-4a76-4238-bb50-59438091253f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stories'])[1]/preceding::span[1]</value>
+      <webElementGuid>7d395f06-6a5a-4a5e-b438-fbeedad86202</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[1]/preceding::span[2]</value>
+      <webElementGuid>41e91d94-a426-457a-a4c9-0fe7620d4fa3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Our organisations']/parent::*</value>
+      <webElementGuid>cc0ac2f4-e467-4412-8af9-71e2fec9a487</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/a/div[2]/span</value>
+      <webElementGuid>4b697a65-287a-4fbc-8ef1-22d885e2e76d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Our organisations' or . = 'Our organisations')]</value>
+      <webElementGuid>4126194c-4afb-4423-ba1e-44a628a577e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-l1-1918_8-b2-Label']/span</value>
+      <webElementGuid>99f3b5b4-1d55-4547-823c-cce7e9f6c3c4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

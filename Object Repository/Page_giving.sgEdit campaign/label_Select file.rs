@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Select file</name>
+   <tag></tag>
+   <elementGuidId>d05b8d89-0ae3-4954-81c2-27caaf11aff9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b4-b11-Upload_Image</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'b2-b4-b11-Upload_Image' and (text() = 'Select file' or . = 'Select file')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='b2-b4-b11-Upload_Image']/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>label >> internal:has-text=&quot;Select file&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>14c36b2b-9573-4a41-9b99-a13531b7fb00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>&quot;upload&quot; OSFillParent</value>
+      <webElementGuid>e24ff0ba-d7dc-41ad-a797-47eedd710352</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>accept</name>
+      <type>Main</type>
+      <value>.jpeg,.png,.jpg,.gif,.jpe,.jfi,.jfif,.jif</value>
+      <webElementGuid>fa31ba81-9464-4c70-a85d-8c1390fa2ffd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b2-b4-b11-Upload_Image</value>
+      <webElementGuid>d1c074ea-1271-444f-8c41-07315d461a95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select file</value>
+      <webElementGuid>f74d7569-2c0c-4704-a9b8-6682050ec5af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b4-b11-Upload_Image&quot;)</value>
+      <webElementGuid>5edb5ea8-9d2f-412b-93f4-dcf1bd28fe85</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='b2-b4-b11-Upload_Image']/input</value>
+      <webElementGuid>880b353b-040a-482b-aee2-93576edae78a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b4-Assetupload']/div/div[2]/span/label</value>
+      <webElementGuid>13679ed4-ef12-45ec-b722-4b9b6284d576</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Photos of campaign'])[1]/following::label[1]</value>
+      <webElementGuid>fa5dc2e1-7d27-4163-a543-d3450e9cb4f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recommended size: 1440 x 810 | JPG, PNG, GIF. Max size: 5MB'])[1]/preceding::label[1]</value>
+      <webElementGuid>5826d46c-f50b-4e3c-93ca-bbe099d7e527</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/label</value>
+      <webElementGuid>2f08bb99-e885-424b-91fd-82756d37e28e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'b2-b4-b11-Upload_Image' and (text() = 'Select file' or . = 'Select file')]</value>
+      <webElementGuid>1f9c67bb-4e93-4654-b8e1-3aee877a137f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

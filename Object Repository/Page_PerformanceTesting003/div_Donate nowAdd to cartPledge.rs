@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Donate nowAdd to cartPledge</name>
+   <tag></tag>
+   <elementGuidId>d1341663-5a45-4d99-b6b3-0cf92a14729f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b15-Desktop2']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b15-Desktop2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Donate nowAdd to cartPledge&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6d41e64c-80ec-479b-a8c1-2ccc784023c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>display-flex justify-content-flex-end hide-if-phone</value>
+      <webElementGuid>7184bee4-c59e-4dad-ba18-1286d28c541d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b2-b15-Desktop2</value>
+      <webElementGuid>5e54cf6e-4231-4586-b93d-0514c0bc179e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Donate nowAdd to cartPledge</value>
+      <webElementGuid>a565b437-3ae5-4c68-a7c3-31b3e1e4a744</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b15-Desktop2&quot;)</value>
+      <webElementGuid>b5b88d6a-1fcf-4cb9-bc5e-c52ecad18223</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b15-Desktop2']</value>
+      <webElementGuid>63d37858-7dfc-4899-b478-b60f9a72e8f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b15-b13-Action']/div[2]</value>
+      <webElementGuid>2a78ddd8-f912-4d51-8448-7cc7cfc6d4b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Donate'])[4]/following::div[1]</value>
+      <webElementGuid>5b164a76-e962-4839-99ae-774d2a1fbc36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[2]/following::div[6]</value>
+      <webElementGuid>4b65945a-82c0-466a-b1bd-f41b54cdc51d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/div[2]/div[2]</value>
+      <webElementGuid>25a321b9-f435-448f-ab0c-10600a68bf01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'b2-b15-Desktop2' and (text() = 'Donate nowAdd to cartPledge' or . = 'Donate nowAdd to cartPledge')]</value>
+      <webElementGuid>5e1c8410-813b-4302-8fd6-9d1ce623001f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

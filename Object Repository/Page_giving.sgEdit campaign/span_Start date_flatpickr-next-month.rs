@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Start date_flatpickr-next-month</name>
+   <tag></tag>
+   <elementGuidId>1ff074e7-ca38-4e57-bd13-6d1c1a07cd29</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.flatpickr-next-month</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b20-b4-Datepicker']/span/div/div/div/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.flatpickr-next-month >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>032b9eaf-6cd0-494b-98be-2ca8bf338971</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flatpickr-next-month</value>
+      <webElementGuid>ef0ba1ba-8b1f-428e-9bff-3d223d4c58c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b20-b4-Datepicker&quot;)/span[@class=&quot;input-date&quot;]/div[@class=&quot;flatpickr-wrapper&quot;]/div[@class=&quot;flatpickr-calendar animate static osui-datepicker-calendar static-datepicker arrowTop arrowLeft open&quot;]/div[@class=&quot;flatpickr-months&quot;]/span[@class=&quot;flatpickr-next-month&quot;]</value>
+      <webElementGuid>4af6adfc-a2a9-438f-8c28-e7db54e09a43</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b20-b4-Datepicker']/span/div/div/div/span[2]</value>
+      <webElementGuid>79d9bb5a-20be-4e4b-b273-6241c851aca7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start date'])[1]/following::span[5]</value>
+      <webElementGuid>67510c44-c62d-45ba-b660-3c96684cdb44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Set up the schedule'])[2]/following::span[5]</value>
+      <webElementGuid>431ba2f7-77c1-48c8-8a19-0538f7033ae4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun'])[1]/preceding::span[1]</value>
+      <webElementGuid>4d8e01f3-0242-41e0-87bd-650f518137da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mon'])[1]/preceding::span[2]</value>
+      <webElementGuid>005d3851-e06e-48dc-94ce-ca3bb2a3c710</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]</value>
+      <webElementGuid>423f2ea0-6134-423d-8057-2f32e1b6b863</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

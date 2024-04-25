@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Upload file</name>
+   <tag></tag>
+   <elementGuidId>8c606ef4-9bd7-4085-bcc8-ecaf425eb1be</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b4-b3-b14-UploadWidget</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'b4-b3-b14-UploadWidget' and (text() = 'Upload file' or . = 'Upload file')]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id=&quot;b4-b3-b14-UploadWidget&quot;]/input&#xd;
+&#xd;
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>label >> internal:has-text=&quot;Upload file&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>4751d85c-db4a-43eb-8920-db5f3eb8e6de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-small btn-primary</value>
+      <webElementGuid>6070afae-54fe-4b51-ad99-7803404c6f5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>accept</name>
+      <type>Main</type>
+      <value>.pdf</value>
+      <webElementGuid>0a61d166-8f3c-4565-a4d6-08ff88472fcd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b4-b3-b14-UploadWidget</value>
+      <webElementGuid>205e41e4-75d9-40b6-85eb-dc4c0e698337</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Upload file</value>
+      <webElementGuid>97969ada-5617-4a70-a3ab-2fccb333e751</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div/div/div/div/div[1]/div/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div[2]/form/div[6]/div/div/div[3]/div/div/div[3]/span/label/input</value>
+      <webElementGuid>39685eff-ca50-4e4f-ac46-8aa0e0ce577d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='b4-b3-b14-UploadWidget']/input&#xd;
+</value>
+      <webElementGuid>3d3df8b9-e757-4edd-a4ed-5c5d37a186f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b4-b3-Upload_DCA_File']/div/div[3]/span/label</value>
+      <webElementGuid>bef5bebc-2333-449a-85e9-4ff46955d190</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maximum file size is 5MB.'])[1]/following::label[1]</value>
+      <webElementGuid>74ff8e1b-543b-4da1-aa52-dc367e1a0611</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Direct Credit Authorisation (DCA)'])[1]/following::label[1]</value>
+      <webElementGuid>a5ffcc67-8840-422d-a3bd-79740c79cf4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Do you have a valid IPC status?'])[1]/preceding::label[1]</value>
+      <webElementGuid>1b2610b6-53c9-41da-a2d3-1827a6a45007</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/label</value>
+      <webElementGuid>fa801370-21c5-4fbc-8c20-d74835f1900d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'b4-b3-b14-UploadWidget' and (text() = 'Upload file' or . = 'Upload file')]</value>
+      <webElementGuid>028ba353-1c35-4917-9eca-2bc1ac51d2d1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
