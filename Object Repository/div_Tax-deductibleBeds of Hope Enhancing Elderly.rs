@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Tax-deductibleBeds of Hope Enhancing Elderly</name>
+   <tag></tag>
+   <elementGuidId>326ccddb-cbf1-45fa-a101-e658b2315db9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b25-Content']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b25-Content > div.list.list-group.OSFillParent</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4eae44e3-d454-413f-93e5-3ffdb60eebb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>list list-group OSFillParent</value>
+      <webElementGuid>e6002b5c-cc59-46cc-8c57-52781cb620ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>disable-virtualization</name>
+      <type>Main</type>
+      <value>True</value>
+      <webElementGuid>fad03b8f-8ff3-4c0e-b762-54e5f411500c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tax-deductibleBeds of Hope: Enhancing Elderly ComfortBright Hill Evergreen Home$0 raised of $100,0000 donorsTax-deductibleManage 'Jurassic Park'MO Bo for ACRES$0 raised of $50,0000 donorsTax-deductibleHelp pay our POWER billsTania for Children-At-Risk Empowerment Association (CARE Singapore)$4,681 raised of $5,00015 donorsTax-deductibleHelp the disabled- give them a voiceTENEN for Children-At-Risk Empowerment Association (CARE Singapore)$1,605 raised of $9,00025 donorsTax-deductible感天感地感动你.. spread the love our world needsTania for Children-At-Risk Empowerment Association (CARE Singapore)$368 raised of $28,0005 donorsTax-deductibleShine a torch, light a match, share some hope Tania for Children-At-Risk Empowerment Association (CARE Singapore)$1,508 raised of $10,20018 donorsTax-deductibleLove thy neighbourTania for Children-At-Risk Empowerment Association (CARE Singapore)$2,592 raised of $8,78039 donors18 days leftTax-deductiblePSLE taught me Mental Health is important.Rui Jie for Children-At-Risk Empowerment Association (CARE Singapore)$4,916 raised of $999,99946 donorsHelp change lives for people like me with disabilities by giving your gift to make things better.Bobby Yeo for Friends of the Disabled Society$356 raised of $16,50813 donorsTax-deductibleBullies.... it hurtsTENEN for Children-At-Risk Empowerment Association (CARE Singapore)$1,550 raised of $5,55130 donorsHelp change lives for people like me with disabilities by giving your gift to make things better.Bobby Yeo for Friends of the Disabled Society$1,465 raised of $16,50816 donorsTax-deductibleSTOP the bullies, because they hurt tooTENEN for Children-At-Risk Empowerment Association (CARE Singapore)$411 raised of $11,0005 donors36 days leftTax-deductibleFill their tummiesCFamily for Children-At-Risk Empowerment Association (CARE Singapore)$27,053 raised of $59,687306 donorsTax-deductible把欢乐带给大家！能舍是福气... spread love and joy through givingTania for Children-At-Risk Empowerment Association (CARE Singapore)$5,504 raised of $8,88853 donorsTax-deductibleWe must if we careRui Jie for Children-At-Risk Empowerment Association (CARE Singapore)$6,100 raised of $15,55062 donors12 days leftTax-deductibleFeed them love pleaseTania for Children-At-Risk Empowerment Association (CARE Singapore)$15,128 raised of $39,555143 donors12 days leftBreaking Barriers, Dreams unbound : The Danxability donation driveBobby Yeo for Friends of the Disabled Society$320 raised of $10,00011 donorsTax-deductibleChoose happiness and make the world better CFamily for Children-At-Risk Empowerment Association (CARE Singapore)$1,514 raised of $25,55031 donorsTax-deductibleHelp them please. Show love todayRui Jie for Children-At-Risk Empowerment Association (CARE Singapore)$2,073 raised of $9,00045 donorsTax-deductibleBe kind be here be goodRui Jie for Children-At-Risk Empowerment Association (CARE Singapore)$987 raised of $7,00029 donorsTax-deductibleHelo lead the way to a better future - For girls - #Givingweek #JustgivelahCFamily for Children-At-Risk Empowerment Association (CARE Singapore)$5,066 raised of $28,77085 donorsTax-deductibleWe can only if you helpCFamily for Children-At-Risk Empowerment Association (CARE Singapore)$22,475 raised of $39,555201 donors12 days leftTax-deductibleTouch above and reach the sky, save the world!CFamily for Children-At-Risk Empowerment Association (CARE Singapore)$1,451 raised of $20,77719 donorsBringing Happiness: Sponsoring Memorable Moments for People with Disabilities and Their FamiliesBobby Yeo for Friends of the Disabled Society$1,960 raised of $6,00033 donorsTax-deductibleGift me loveTania for Children-At-Risk Empowerment Association (CARE Singapore)$1,448 raised of $8,00031 donorsTax-deductibleHelp half the world 2 healCFamily for Children-At-Risk Empowerment Association (CARE Singapore)$580 raised of $5,55516 donorsTax-deductibleYou are all grown up.. now help me tooTania for Children-At-Risk Empowerment Association (CARE Singapore)$3,600 raised of $5,87831 donors33 days leftTax-deductibleLoneliness kills... stop thatTania for Children-At-Risk Empowerment Association (CARE Singapore)$776 raised of $7,23512 donorsTax-deductibleDefeat hunger, help them thriveTENEN for Children-At-Risk Empowerment Association (CARE Singapore)$8,583 raised of $9,99979 donorsTax-deductibleI am a girl. Girl supports girlRui Jie for Children-At-Risk Empowerment Association (CARE Singapore)$5,146 raised of $32,33375 donors</value>
+      <webElementGuid>3f70cc7d-9e5a-4671-acbb-746e7731044f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b25-Content&quot;)/div[@class=&quot;list list-group OSFillParent&quot;]</value>
+      <webElementGuid>9d076580-fff6-4476-8622-bf14731fd3d5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b25-Content']/div</value>
+      <webElementGuid>42836890-acda-44dc-aa32-4192780e7e2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Results per page'])[1]/following::div[7]</value>
+      <webElementGuid>b2f0b184-29a3-440c-8a74-4e047a7645b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article/div/div/div[2]/div/div/div</value>
+      <webElementGuid>6764954d-a054-4392-b3fc-281b4f1c5613</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;Tax-deductibleBeds of Hope: Enhancing Elderly ComfortBright Hill Evergreen Home$0 raised of $100,0000 donorsTax-deductibleManage &quot; , &quot;'&quot; , &quot;Jurassic Park&quot; , &quot;'&quot; , &quot;MO Bo for ACRES$0 raised of $50,0000 donorsTax-deductibleHelp pay our POWER billsTania for Children-At-Risk Empowerment Association (CARE Singapore)$4,681 raised of $5,00015 donorsTax-deductibleHelp the disabled- give them a voiceTENEN for Children-At-Risk Empowerment Association (CARE Singapore)$1,605 raised of $9,00025 donorsTax-deductible感天感地感动你.. spread the love our world needsTania for Children-At-Risk Empowerment Association (CARE Singapore)$368 raised of $28,0005 donorsTax-deductibleShine a torch, light a match, share some hope Tania for Children-At-Risk Empowerment Association (CARE Singapore)$1,508 raised of $10,20018 donorsTax-deductibleLove thy neighbourTania for Children-At-Risk Empowerment Association (CARE Singapore)$2,592 raised of $8,78039 donors18 days leftTax-deductiblePSLE taught me Mental Health is important.Rui Jie for Children-At-Risk Empowerment Association (CARE Singapore)$4,916 raised of $999,99946 donorsHelp change lives for people like me with disabilities by giving your gift to make things better.Bobby Yeo for Friends of the Disabled Society$356 raised of $16,50813 donorsTax-deductibleBullies.... it hurtsTENEN for Children-At-Risk Empowerment Association (CARE Singapore)$1,550 raised of $5,55130 donorsHelp change lives for people like me with disabilities by giving your gift to make things better.Bobby Yeo for Friends of the Disabled Society$1,465 raised of $16,50816 donorsTax-deductibleSTOP the bullies, because they hurt tooTENEN for Children-At-Risk Empowerment Association (CARE Singapore)$411 raised of $11,0005 donors36 days leftTax-deductibleFill their tummiesCFamily for Children-At-Risk Empowerment Association (CARE Singapore)$27,053 raised of $59,687306 donorsTax-deductible把欢乐带给大家！能舍是福气... spread love and joy through givingTania for Children-At-Risk Empowerment Association (CARE Singapore)$5,504 raised of $8,88853 donorsTax-deductibleWe must if we careRui Jie for Children-At-Risk Empowerment Association (CARE Singapore)$6,100 raised of $15,55062 donors12 days leftTax-deductibleFeed them love pleaseTania for Children-At-Risk Empowerment Association (CARE Singapore)$15,128 raised of $39,555143 donors12 days leftBreaking Barriers, Dreams unbound : The Danxability donation driveBobby Yeo for Friends of the Disabled Society$320 raised of $10,00011 donorsTax-deductibleChoose happiness and make the world better CFamily for Children-At-Risk Empowerment Association (CARE Singapore)$1,514 raised of $25,55031 donorsTax-deductibleHelp them please. Show love todayRui Jie for Children-At-Risk Empowerment Association (CARE Singapore)$2,073 raised of $9,00045 donorsTax-deductibleBe kind be here be goodRui Jie for Children-At-Risk Empowerment Association (CARE Singapore)$987 raised of $7,00029 donorsTax-deductibleHelo lead the way to a better future - For girls - #Givingweek #JustgivelahCFamily for Children-At-Risk Empowerment Association (CARE Singapore)$5,066 raised of $28,77085 donorsTax-deductibleWe can only if you helpCFamily for Children-At-Risk Empowerment Association (CARE Singapore)$22,475 raised of $39,555201 donors12 days leftTax-deductibleTouch above and reach the sky, save the world!CFamily for Children-At-Risk Empowerment Association (CARE Singapore)$1,451 raised of $20,77719 donorsBringing Happiness: Sponsoring Memorable Moments for People with Disabilities and Their FamiliesBobby Yeo for Friends of the Disabled Society$1,960 raised of $6,00033 donorsTax-deductibleGift me loveTania for Children-At-Risk Empowerment Association (CARE Singapore)$1,448 raised of $8,00031 donorsTax-deductibleHelp half the world 2 healCFamily for Children-At-Risk Empowerment Association (CARE Singapore)$580 raised of $5,55516 donorsTax-deductibleYou are all grown up.. now help me tooTania for Children-At-Risk Empowerment Association (CARE Singapore)$3,600 raised of $5,87831 donors33 days leftTax-deductibleLoneliness kills... stop thatTania for Children-At-Risk Empowerment Association (CARE Singapore)$776 raised of $7,23512 donorsTax-deductibleDefeat hunger, help them thriveTENEN for Children-At-Risk Empowerment Association (CARE Singapore)$8,583 raised of $9,99979 donorsTax-deductibleI am a girl. Girl supports girlRui Jie for Children-At-Risk Empowerment Association (CARE Singapore)$5,146 raised of $32,33375 donors&quot;) or . = concat(&quot;Tax-deductibleBeds of Hope: Enhancing Elderly ComfortBright Hill Evergreen Home$0 raised of $100,0000 donorsTax-deductibleManage &quot; , &quot;'&quot; , &quot;Jurassic Park&quot; , &quot;'&quot; , &quot;MO Bo for ACRES$0 raised of $50,0000 donorsTax-deductibleHelp pay our POWER billsTania for Children-At-Risk Empowerment Association (CARE Singapore)$4,681 raised of $5,00015 donorsTax-deductibleHelp the disabled- give them a voiceTENEN for Children-At-Risk Empowerment Association (CARE Singapore)$1,605 raised of $9,00025 donorsTax-deductible感天感地感动你.. spread the love our world needsTania for Children-At-Risk Empowerment Association (CARE Singapore)$368 raised of $28,0005 donorsTax-deductibleShine a torch, light a match, share some hope Tania for Children-At-Risk Empowerment Association (CARE Singapore)$1,508 raised of $10,20018 donorsTax-deductibleLove thy neighbourTania for Children-At-Risk Empowerment Association (CARE Singapore)$2,592 raised of $8,78039 donors18 days leftTax-deductiblePSLE taught me Mental Health is important.Rui Jie for Children-At-Risk Empowerment Association (CARE Singapore)$4,916 raised of $999,99946 donorsHelp change lives for people like me with disabilities by giving your gift to make things better.Bobby Yeo for Friends of the Disabled Society$356 raised of $16,50813 donorsTax-deductibleBullies.... it hurtsTENEN for Children-At-Risk Empowerment Association (CARE Singapore)$1,550 raised of $5,55130 donorsHelp change lives for people like me with disabilities by giving your gift to make things better.Bobby Yeo for Friends of the Disabled Society$1,465 raised of $16,50816 donorsTax-deductibleSTOP the bullies, because they hurt tooTENEN for Children-At-Risk Empowerment Association (CARE Singapore)$411 raised of $11,0005 donors36 days leftTax-deductibleFill their tummiesCFamily for Children-At-Risk Empowerment Association (CARE Singapore)$27,053 raised of $59,687306 donorsTax-deductible把欢乐带给大家！能舍是福气... spread love and joy through givingTania for Children-At-Risk Empowerment Association (CARE Singapore)$5,504 raised of $8,88853 donorsTax-deductibleWe must if we careRui Jie for Children-At-Risk Empowerment Association (CARE Singapore)$6,100 raised of $15,55062 donors12 days leftTax-deductibleFeed them love pleaseTania for Children-At-Risk Empowerment Association (CARE Singapore)$15,128 raised of $39,555143 donors12 days leftBreaking Barriers, Dreams unbound : The Danxability donation driveBobby Yeo for Friends of the Disabled Society$320 raised of $10,00011 donorsTax-deductibleChoose happiness and make the world better CFamily for Children-At-Risk Empowerment Association (CARE Singapore)$1,514 raised of $25,55031 donorsTax-deductibleHelp them please. Show love todayRui Jie for Children-At-Risk Empowerment Association (CARE Singapore)$2,073 raised of $9,00045 donorsTax-deductibleBe kind be here be goodRui Jie for Children-At-Risk Empowerment Association (CARE Singapore)$987 raised of $7,00029 donorsTax-deductibleHelo lead the way to a better future - For girls - #Givingweek #JustgivelahCFamily for Children-At-Risk Empowerment Association (CARE Singapore)$5,066 raised of $28,77085 donorsTax-deductibleWe can only if you helpCFamily for Children-At-Risk Empowerment Association (CARE Singapore)$22,475 raised of $39,555201 donors12 days leftTax-deductibleTouch above and reach the sky, save the world!CFamily for Children-At-Risk Empowerment Association (CARE Singapore)$1,451 raised of $20,77719 donorsBringing Happiness: Sponsoring Memorable Moments for People with Disabilities and Their FamiliesBobby Yeo for Friends of the Disabled Society$1,960 raised of $6,00033 donorsTax-deductibleGift me loveTania for Children-At-Risk Empowerment Association (CARE Singapore)$1,448 raised of $8,00031 donorsTax-deductibleHelp half the world 2 healCFamily for Children-At-Risk Empowerment Association (CARE Singapore)$580 raised of $5,55516 donorsTax-deductibleYou are all grown up.. now help me tooTania for Children-At-Risk Empowerment Association (CARE Singapore)$3,600 raised of $5,87831 donors33 days leftTax-deductibleLoneliness kills... stop thatTania for Children-At-Risk Empowerment Association (CARE Singapore)$776 raised of $7,23512 donorsTax-deductibleDefeat hunger, help them thriveTENEN for Children-At-Risk Empowerment Association (CARE Singapore)$8,583 raised of $9,99979 donorsTax-deductibleI am a girl. Girl supports girlRui Jie for Children-At-Risk Empowerment Association (CARE Singapore)$5,146 raised of $32,33375 donors&quot;))]</value>
+      <webElementGuid>59e1b185-6b3c-4278-be09-28ffae524f37</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
