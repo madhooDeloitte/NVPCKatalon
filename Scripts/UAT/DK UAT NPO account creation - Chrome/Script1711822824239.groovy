@@ -34,12 +34,12 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgSign up now/button_I
 WebUI.click(findTestObject('Object Repository/Page_giving.sgSign up now/button_Sign up with email (1)'))
 
 WebUI.setText(findTestObject('Page_giving.sgCharity registration/input_Organisation name_b4-b2-Input_CharityName (1)'), 
-    'Test org 5')
+    'NPO Katalon Test ')
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_(65)_b4-b2-Input_PublicEnquiryNumber (1)'), 
     '93607896')
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_UEN_b4-b2-Input_UEN (1)'), '20195681A')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_UEN_b4-b2-Input_UEN (1)'), '20195682A')
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Website URL_b4-b2-Input_Website'), 
     'testurl.com')

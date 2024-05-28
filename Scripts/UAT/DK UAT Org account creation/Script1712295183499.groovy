@@ -30,7 +30,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgSign up now/div_Orga
 WebUI.click(findTestObject('Page_giving.sgSign up now/button_Sign up with email (1)'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_Organisation name_b4-b2-Input_OrgName'), 
-    'Test org 5')
+    'Test org 6')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgOrganisation registration/div_-'))
 
@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgOrganisation registr
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_(65)_b4-b2-Input_PublicEnquiryNumber'), 
     '68686868')
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_UEN_b4-b2-Input_UEN'), '20192460A')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_UEN_b4-b2-Input_UEN'), '20192461A')
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_Website URL_b4-b2-Input_Website'), 
     'testwebsite.com')
