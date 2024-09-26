@@ -3,24 +3,18 @@
    <description></description>
    <name>button_Verify</name>
    <tag></tag>
-   <elementGuidId>b2b5ba53-d443-46b5-b488-887709399f64</elementGuidId>
+   <elementGuidId>1ea02ae4-e36f-42d3-8311-b386517069d3</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#b5-b4-b2-VerifyButton</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@id='b5-b4-b2-VerifyButton']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b5-b4-b2-VerifyButton</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Verify&quot;i]</value>
-      </entry>
-   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e0e561a6-c4d3-4b92-9161-f4b58c20822d</webElementGuid>
+      <webElementGuid>f1d23f63-14b0-4ae9-9b3b-68fb90701877</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>973cb6d3-3dea-4d78-8629-067d8d8df60f</webElementGuid>
+      <webElementGuid>6416bc37-22fc-4dc4-b017-44936bcd7beb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +39,15 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>a9ae0422-5dfe-4ab9-8909-a8d136d38fe9</webElementGuid>
+      <webElementGuid>b3006d2e-a97e-4515-8542-9cc916e36427</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnOTPVerify</value>
+      <webElementGuid>2332624e-3ec2-4f13-8cb2-329dad6faa62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +55,7 @@
       <name>id</name>
       <type>Main</type>
       <value>b5-b4-b2-VerifyButton</value>
-      <webElementGuid>b55e0c16-0819-41ce-829c-f954d2e1bef7</webElementGuid>
+      <webElementGuid>80367eb0-22e2-4095-aef1-7637f973074d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +63,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Verify</value>
-      <webElementGuid>84440cef-4e91-4f0e-b903-4574ad481f80</webElementGuid>
+      <webElementGuid>6292330e-fc59-49f6-b937-fafdd49e4bf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b5-b4-b2-VerifyButton&quot;)</value>
-      <webElementGuid>e39d77c5-2439-49fa-b98e-52c272097620</webElementGuid>
+      <webElementGuid>c0f469ed-ff03-4b61-89a3-76a0bcdfb54f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='b5-b4-b2-VerifyButton']</value>
-      <webElementGuid>7cb49fec-84ac-411c-a5a5-eb3a972a8e53</webElementGuid>
+      <webElementGuid>86f7b426-2951-4200-9ef6-ef49ef78ebcc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b5-b4-b2-b5-Button']/button</value>
-      <webElementGuid>99dd0211-b5a5-4e0d-9c73-561f3c096082</webElementGuid>
+      <webElementGuid>fa494333-1084-4bf7-9216-0439c3d99cc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='An OTP has been sent to the email address indicated in your registration form.'])[1]/following::button[1]</value>
-      <webElementGuid>cf40b998-e8d5-474d-95ba-87f024745389</webElementGuid>
+      <webElementGuid>d4875000-1b69-436c-96f9-5aa297996aa6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,15 +103,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OTP validation'])[1]/following::button[1]</value>
-      <webElementGuid>ce3d3d05-22cf-4a17-b06f-e847a24bdaa0</webElementGuid>
+      <webElementGuid>60429f8c-35a6-4c8b-8aa8-864ca9eb7dff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(02:51)'])[1]/preceding::button[1]</value>
-      <webElementGuid>a16197bc-5e73-4c2f-99f0-3257908cf783</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(03:08)'])[1]/preceding::button[1]</value>
+      <webElementGuid>53d23ef7-9dd9-4e71-911c-244d8ac46225</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Verify']/parent::*</value>
-      <webElementGuid>cb15691b-1c76-46a3-8a82-676f19dcf8ad</webElementGuid>
+      <webElementGuid>62d92b08-da81-4dc6-affe-4ad1d831ec45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +127,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/button</value>
-      <webElementGuid>a48ceb9c-c158-42c5-a28b-fedbf9ab2379</webElementGuid>
+      <webElementGuid>d0a7cce1-a5e2-4e05-a76c-48cc3ad09811</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +135,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and @id = 'b5-b4-b2-VerifyButton' and (text() = 'Verify' or . = 'Verify')]</value>
-      <webElementGuid>ed71e8ba-939d-45bd-93d5-061c7f45414e</webElementGuid>
+      <webElementGuid>03be3732-e4ee-4944-815a-e6d9febaca8e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>670b7f58-f875-4a47-b723-ca8d264e6035</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.upload-zone-title.break-word</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='b4-b3-Upload_DCA_File']/div/div[2]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.upload-zone-title.break-word</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

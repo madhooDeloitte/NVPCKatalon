@@ -3,24 +3,23 @@
    <description></description>
    <name>input_Bank account number_b4-b3-Input_Accou_8cb671</name>
    <tag></tag>
-   <elementGuidId>16a50581-29f5-4fd5-be6d-673ca10c10e4</elementGuidId>
+   <elementGuidId>3e9db368-f1a1-442e-97f3-7697f812f949</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#b4-b3-Input_AccountNumber</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='b4-b3-Input_AccountNumber']</value>
       </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
       <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Bank account to be credited&quot;i</value>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = '	&#xd;
+inpBankAccountNumber']</value>
       </entry>
-   </smartLocatorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b4-b3-Input_AccountNumber</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>426888c1-1af8-404f-846b-cb6cabe715f8</webElementGuid>
+      <webElementGuid>4e7586c6-64c9-4533-a90d-8c28078a82b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +36,15 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control OSFillParent</value>
-      <webElementGuid>a1ec5549-3a40-48f9-b89a-58fccee90dc0</webElementGuid>
+      <webElementGuid>ca6d0de6-2a74-4591-8a23-a8ede9075170</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>45b469e4-a99e-4651-98a9-e59ee36323bd</webElementGuid>
+      <webElementGuid>e71c33a5-db97-45df-b247-148c01dc3fa3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,23 +52,24 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>60cfa25b-a41a-4350-812c-2a26e8a8e7fa</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
-      <type>Main</type>
-      <value>b4-b3-Input_AccountNumber_DescribedBy</value>
-      <webElementGuid>db9e229c-12fb-471d-ab58-9a20a3ebd399</webElementGuid>
+      <webElementGuid>05e7e1f3-f494-4874-ba9c-efc5a6f3a608</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>	&#xd;
+inpBankAccountNumber</value>
+      <webElementGuid>87734fda-4ff2-42de-9789-6f7eadd76036</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b4-b3-Input_AccountNumber</value>
-      <webElementGuid>08067873-7b4f-4e4a-b072-9f710a3b0b73</webElementGuid>
+      <webElementGuid>d14b4908-ce1d-4d2d-9493-f42b22dac7c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b4-b3-Input_AccountNumber&quot;)</value>
-      <webElementGuid>468d9312-1f5c-4551-9bd3-5eb21001d964</webElementGuid>
+      <webElementGuid>0fe78dcf-a828-45c2-aa10-045cb3571f57</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='b4-b3-Input_AccountNumber']</value>
-      <webElementGuid>65c5898a-5a14-4043-bbaf-24848b2af2d7</webElementGuid>
+      <webElementGuid>f1508563-9938-434a-b281-a115a69f8dd1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b4-b3-b9-FieldContent']/span/input</value>
-      <webElementGuid>e382635d-8185-4e32-b98e-2d3c8fcdf2f0</webElementGuid>
+      <webElementGuid>f887b29a-e549-4f06-8d4d-e599db98753a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>f06574ac-7078-40d5-a41f-1c37535d02b3</webElementGuid>
+      <webElementGuid>f7790929-63a5-4563-a5d3-553c5a10540f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'b4-b3-Input_AccountNumber']</value>
-      <webElementGuid>dc4fd983-620e-4c7a-bc8a-de71d447a736</webElementGuid>
+      <webElementGuid>06322a40-e610-4eff-b9a6-b1295c6cbc2b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

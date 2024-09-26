@@ -3,24 +3,18 @@
    <description></description>
    <name>input_Do you have a valid IPC status_b4-b3-_52578c</name>
    <tag></tag>
-   <elementGuidId>99fdc2b2-3069-41e5-ac42-94b067f6caad</elementGuidId>
+   <elementGuidId>eb979535-15cb-46ca-9fc4-ba872a3b8093</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#b4-b3-IPCStatusYes-input</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='b4-b3-IPCStatusYes-input']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b4-b3-IPCStatusYes-input</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Yes&quot;i</value>
-      </entry>
-   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2aca3178-2e21-4462-99ce-066d83e3fd1c</webElementGuid>
+      <webElementGuid>f8360782-daf8-4c49-8c88-4bac0faa5bfe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>f3381cfb-6151-4723-b27f-becb30265c38</webElementGuid>
+      <webElementGuid>3553433a-b5ec-4214-aa53-fe5c53978a39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +39,7 @@
       <name>id</name>
       <type>Main</type>
       <value>b4-b3-IPCStatusYes-input</value>
-      <webElementGuid>eca34acf-be6c-43b9-927c-eecbad584346</webElementGuid>
+      <webElementGuid>ae4d6c6d-9c7a-44b6-8c34-0ac63ae4b683</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>radio-button</value>
-      <webElementGuid>ec3394aa-c7a5-4722-bb1a-1ea3652daee6</webElementGuid>
+      <webElementGuid>d250a12b-90f7-450c-91cc-d96618d5181c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +55,7 @@
       <name>name</name>
       <type>Main</type>
       <value>b4-b3-RadioButtonIPCStatus</value>
-      <webElementGuid>2d816fe6-a13e-4e08-bedc-47e7f301b023</webElementGuid>
+      <webElementGuid>74684ad2-2633-4c85-983c-097925163a14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +63,7 @@
       <name>value</name>
       <type>Main</type>
       <value>True</value>
-      <webElementGuid>22964614-ae4c-46b4-a7d0-74dfc09631f5</webElementGuid>
+      <webElementGuid>ef2d720a-cd0a-4d18-a8b2-4f1ec812ea74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b4-b3-IPCStatusYes-input&quot;)</value>
-      <webElementGuid>4b0eac80-332b-4586-aaac-f1f7713cfe18</webElementGuid>
+      <webElementGuid>e5d2c3b3-4210-4509-ab88-82cce3fbb049</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='b4-b3-IPCStatusYes-input']</value>
-      <webElementGuid>e128b7e9-1e04-47c9-bd0b-1cbd99e3a6d8</webElementGuid>
+      <webElementGuid>5d7e0d44-df7f-417f-adb1-797fa3ac13fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b4-b3-IPCStatusYes']/input</value>
-      <webElementGuid>531c69d5-478e-425d-9320-94f5d4232e8c</webElementGuid>
+      <webElementGuid>023e076b-6bf8-4f1f-bcc9-9c5b61a3e4d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>d7b51032-4bf2-4787-97ba-a9ea77163937</webElementGuid>
+      <webElementGuid>9f1ba823-39f8-4d62-8566-bd7e0302bc4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @id = 'b4-b3-IPCStatusYes-input' and @name = 'b4-b3-RadioButtonIPCStatus']</value>
-      <webElementGuid>02d96225-47b4-4f05-9f06-97cbe03d8b3a</webElementGuid>
+      <webElementGuid>51b9f8da-67c1-4f90-83f4-457398e22cfe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

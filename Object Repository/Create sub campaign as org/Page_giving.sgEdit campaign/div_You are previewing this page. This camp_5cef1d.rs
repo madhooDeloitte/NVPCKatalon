@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_You are previewing this page. This camp_5cef1d</name>
+   <tag></tag>
+   <elementGuidId>c3434762-8381-4551-aad5-a077578e90de</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b36-b3-Desktop']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b36-b3-Desktop</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fbcda8f5-e42e-4e4d-84e6-b32b2701f1b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hide-if-phone icon-wrapper active</value>
+      <webElementGuid>8bd2b188-fbe8-40e7-9ed7-e513971e5b8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b2-b36-b3-Desktop</value>
+      <webElementGuid>ddba1892-201f-46c7-a8a2-51d55a9ba1fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b36-b3-Desktop&quot;)</value>
+      <webElementGuid>1bd60df2-2859-4fce-ab07-97264c5b47ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b36-b3-Desktop']</value>
+      <webElementGuid>41f33151-1211-4855-89d5-35517d711fff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b36-$b3']/div/div</value>
+      <webElementGuid>ced6b737-2a82-4a70-aed4-1ee291c28a10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You are previewing this page. This campaign has not yet been published.'])[1]/following::div[5]</value>
+      <webElementGuid>405dc820-8958-4288-8347-a7380ef65b96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[2]/following::div[6]</value>
+      <webElementGuid>68e9771f-ae7b-4309-afd5-6cfe9e814da1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Return to creation'])[1]/preceding::div[3]</value>
+      <webElementGuid>aeb80e36-529c-43f2-87a6-af6bf9ba4b6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit for approval'])[1]/preceding::div[7]</value>
+      <webElementGuid>2b9998c8-f237-47cb-8568-12732a0e11ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>a225bf6a-52ad-4479-af9f-b28827c341ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'b2-b36-b3-Desktop']</value>
+      <webElementGuid>eb0d4d43-5a6a-4108-8b28-c91d2453519a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

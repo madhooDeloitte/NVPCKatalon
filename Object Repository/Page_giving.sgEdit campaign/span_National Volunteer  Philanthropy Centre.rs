@@ -6,12 +6,12 @@
    <elementGuidId>b7db9372-f4f2-4eed-8003-c87d0076d485</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.vscomp-option-text</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.vscomp-option-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

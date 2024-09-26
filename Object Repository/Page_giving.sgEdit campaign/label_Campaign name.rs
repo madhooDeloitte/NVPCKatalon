@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Campaign name</name>
+   <tag></tag>
+   <elementGuidId>7787f72d-8633-438e-8055-271ef73c73a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b4-b4-Label']/label</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'mandatory OSFillParent' and (text() = 'Campaign name' or . = 'Campaign name')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.mandatory.OSFillParent</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>73571d58-9741-4149-8e55-15c891a1083b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mandatory OSFillParent</value>
+      <webElementGuid>0880b1d4-aa41-4f7b-ac77-4d3a8eb7b73a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>b2-b4-Input_CampaignTitle</value>
+      <webElementGuid>bfd4a324-0cf4-4e3f-9ce3-642f039a509d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Campaign name</value>
+      <webElementGuid>9903d91d-7167-4617-bac6-40bae2ed0c30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b4-b4-Label&quot;)/label[@class=&quot;mandatory OSFillParent&quot;]</value>
+      <webElementGuid>9e3a80e3-a1e6-49b8-aea2-1a0ac46d0ec6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b4-b4-Label']/label</value>
+      <webElementGuid>e7a4833b-8610-4dd8-a046-aa193adc8b41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Describe your campaign'])[2]/following::label[1]</value>
+      <webElementGuid>cb5e8ab6-659a-4f78-9a41-e89c096f9661</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/following::label[1]</value>
+      <webElementGuid>67988020-0ad7-42c9-b6ec-77fb15ab2251</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Campaign goal'])[1]/preceding::label[1]</value>
+      <webElementGuid>7aa1ff5d-3368-4bd2-b988-3b85a735f3df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>1f21dd46-2909-4c68-8c86-f2e59ba9cede</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Campaign name' or . = 'Campaign name')]</value>
+      <webElementGuid>b6a51c67-9401-41b7-bc9f-57d0d43c00ed</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

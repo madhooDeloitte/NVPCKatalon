@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DK UAT Add mixed cart items</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ea9e52c9-40d3-41f5-8853-335f997b7de5</testCaseGuid>
+</TestCaseEntity>

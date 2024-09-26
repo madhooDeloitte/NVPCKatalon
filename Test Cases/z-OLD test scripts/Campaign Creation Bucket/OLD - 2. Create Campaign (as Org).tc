@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Campaign Creation Bucket</description>
+   <name>OLD - 2. Create Campaign (as Org)</name>
+   <tag>R1.2</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c9ce72ea-a47d-4932-99f8-8383f8f414fe</testCaseGuid>
+</TestCaseEntity>

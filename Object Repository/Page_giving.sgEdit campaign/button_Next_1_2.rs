@@ -6,12 +6,12 @@
    <elementGuidId>26fbaef6-0f04-455a-b9d5-6d68f6b7c297</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#b2-b20-btn_Next</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='b2-b20-btn_Next']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b20-btn_Next</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Campaigns Management Bucket</description>
+   <name>Managing My Activity-Recurring donations</name>
+   <tag>R1.1</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>317e0b2d-0113-4688-b868-90ba2614d821</testCaseGuid>
+</TestCaseEntity>

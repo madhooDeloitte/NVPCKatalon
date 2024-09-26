@@ -6,15 +6,18 @@
    <elementGuidId>2182d4f5-ad77-4310-a83c-cec9fd08089d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='b2-b20-b7-Datepicker']/span/div/div/div[2]/div/div[2]/div/span[20]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '29' or . = '29')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>c7df4521-c006-40bf-8f1e-3a6b04559672</webElementGuid>
+      <webElementGuid>3842adc2-8518-4a2d-875c-9eec67a48f50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +40,15 @@
       <name>class</name>
       <type>Main</type>
       <value>flatpickr-day</value>
-      <webElementGuid>751d808e-15b3-408a-becf-31c2cc385176</webElementGuid>
+      <webElementGuid>b5fa76a5-d356-4a55-a325-d86685030fdb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
-      <value>April 19, 2024</value>
-      <webElementGuid>116094eb-3cb0-4682-b36d-be6b1fdb29ef</webElementGuid>
+      <value>May 29, 2024</value>
+      <webElementGuid>9b4a94ff-c450-4b27-a166-a74521346bd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +56,15 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>950235a8-79d4-4375-88e6-e74370f2fdf1</webElementGuid>
+      <webElementGuid>ab91da42-6624-45d9-94a9-5418d73b5069</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>19</value>
-      <webElementGuid>2cee994b-34e5-46b3-b971-2b0f936a22ad</webElementGuid>
+      <value>29</value>
+      <webElementGuid>6ba8185c-206b-4045-b236-abf4b6b2e425</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-b20-b7-Datepicker&quot;)/span[@class=&quot;input-date&quot;]/div[@class=&quot;flatpickr-wrapper&quot;]/div[@class=&quot;flatpickr-calendar animate static osui-datepicker-calendar static-datepicker open arrowTop arrowLeft&quot;]/div[@class=&quot;flatpickr-innerContainer&quot;]/div[@class=&quot;flatpickr-rContainer&quot;]/div[@class=&quot;flatpickr-days&quot;]/div[@class=&quot;dayContainer&quot;]/span[@class=&quot;flatpickr-day&quot;]</value>
-      <webElementGuid>75c70b84-0c01-4b7b-86b1-13f62388e15b</webElementGuid>
+      <webElementGuid>f13267fc-f37e-418d-a344-9dd1909ff63b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +80,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b20-b7-Datepicker']/span/div/div/div[2]/div/div[2]/div/span[20]</value>
-      <webElementGuid>91752bb1-32ae-4101-990c-54a245a15140</webElementGuid>
+      <webElementGuid>146415e7-5916-4b18-98ee-3ed1721d7dae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[2]/following::span[20]</value>
-      <webElementGuid>bea79748-abeb-4b82-89f3-f2105d0dc23e</webElementGuid>
+      <webElementGuid>3dcee8d3-b935-493c-aa0f-7f8d765001b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[2]/following::span[21]</value>
-      <webElementGuid>74b5cd17-49e4-403a-9bda-b80870a25533</webElementGuid>
+      <webElementGuid>a50ce0a8-ca80-41d4-9280-d2ba9cb40d24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Use cmd or ctrl + down arrow key to navigate into calendar context;'])[2]/preceding::span[23]</value>
-      <webElementGuid>5b93a941-6f78-4d56-b9de-3c4cc9d33187</webElementGuid>
+      <webElementGuid>33283b14-979a-4517-8d51-eebc7819fea6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Use arrow keys to navigate through calendar days;'])[2]/preceding::span[23]</value>
-      <webElementGuid>8c65f2cc-f04e-46bb-95be-2ee6cfe30b51</webElementGuid>
+      <webElementGuid>2a7ba513-2c39-4ed3-8757-a812dfcd9141</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +120,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/span/div/div/div[2]/div/div[2]/div/span[20]</value>
-      <webElementGuid>451fc40c-19e6-4105-89bf-37c3ca5793c5</webElementGuid>
+      <webElementGuid>bcfd5d32-c10d-410e-a054-069dc5cc4090</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +128,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '19' or . = '19')]</value>
-      <webElementGuid>a94c5e47-8d93-455a-a8c6-3aa4703ccca1</webElementGuid>
+      <webElementGuid>1fd36021-7863-495f-ae5a-1697b14038c4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

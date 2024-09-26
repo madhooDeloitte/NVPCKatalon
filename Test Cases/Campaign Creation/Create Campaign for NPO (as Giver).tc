@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Campaign for NPO (as Giver)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>995145e5-86ca-4b6e-a56c-c75efdf87bfa</testCaseGuid>
+</TestCaseEntity>

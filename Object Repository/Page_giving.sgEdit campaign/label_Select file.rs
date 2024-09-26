@@ -6,16 +6,16 @@
    <elementGuidId>d05b8d89-0ae3-4954-81c2-27caaf11aff9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#b2-b4-b11-Upload_Image</value>
+         <key>XPATH</key>
+         <value>//label[@id='b2-b4-b11-Upload_Image']/input</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@id = 'b2-b4-b11-Upload_Image' and (text() = 'Select file' or . = 'Select file')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//label[@id='b2-b4-b11-Upload_Image']/input</value>
+         <key>CSS</key>
+         <value>#b2-b4-b11-Upload_Image</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

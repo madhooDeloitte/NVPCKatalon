@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Our organisations</name>
+   <tag></tag>
+   <elementGuidId>6a13b485-9834-40bd-bd50-e807da89348f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b1-l1-37_10-$b2']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.nav-menu-item.active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1d41d93b-cc6e-4162-a1a9-2fb91bda7c7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-menu-item active</value>
+      <webElementGuid>cf80caaf-4c38-4035-8f88-0614ae5be21f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/organisations</value>
+      <webElementGuid>bb8c29c0-afff-4d84-ab27-e2946cd476c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Our organisations</value>
+      <webElementGuid>9fc81456-4cd0-467f-8ae0-04101df99045</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b1-l1-37_10-$b2&quot;)/a[@class=&quot;nav-menu-item active&quot;]</value>
+      <webElementGuid>c5e3f318-daf5-4fe0-83b3-98f450a00611</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-l1-37_10-$b2']/a</value>
+      <webElementGuid>9dd37e67-4ee7-44d2-b41a-21cc39c2411c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fundraise'])[1]/following::a[1]</value>
+      <webElementGuid>7a81deab-0601-4e4b-b2ae-00168c2146a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Collaborate'])[1]/following::a[2]</value>
+      <webElementGuid>59ab264e-2f15-4e20-bec9-f59067f41866</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stories'])[1]/preceding::a[1]</value>
+      <webElementGuid>0cafab76-1977-4a62-b4a2-9f93e84307c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/organisations')]</value>
+      <webElementGuid>987ef92b-ae14-4a10-a5ae-024fdafd8a83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[5]/div/a</value>
+      <webElementGuid>3f073397-7059-4155-be9c-126c4183a58a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/organisations' and (text() = 'Our organisations' or . = 'Our organisations')]</value>
+      <webElementGuid>d24f5867-747a-470f-80f2-092d26a0be6f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

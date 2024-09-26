@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Campaign (as Org)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>07b39d8d-8ea3-43c5-bfdb-31ecb6d27450</testCaseGuid>
+</TestCaseEntity>

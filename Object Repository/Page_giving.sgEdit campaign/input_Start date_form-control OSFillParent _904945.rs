@@ -6,12 +6,12 @@
    <elementGuidId>c16c8e1d-66ae-44cb-af58-6d997a550c5b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.form-control.OSFillParent.input.active</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@type='text']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.OSFillParent.input.active</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

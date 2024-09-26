@@ -3,24 +3,22 @@
    <description></description>
    <name>input_Organisation name_b4-b2-Input_CharityName</name>
    <tag></tag>
-   <elementGuidId>e7e5173b-ffe5-4837-964a-f27eb7d73d7b</elementGuidId>
+   <elementGuidId>9bf83184-3e24-40c3-8354-b6652ae3a38e</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#b4-b2-Input_CharityName</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='b4-b2-Input_CharityName']</value>
       </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
       <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Organisation name&quot;i</value>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'inpOrgName']</value>
       </entry>
-   </smartLocatorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b4-b2-Input_CharityName</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>01e12b5d-d7b4-465d-a2d5-c674ebb4e1ed</webElementGuid>
+      <webElementGuid>f6d59d0e-3478-4048-8bd4-e614a6660527</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control OSFillParent</value>
-      <webElementGuid>4b334988-7232-4759-8374-d720710d5a9a</webElementGuid>
+      <webElementGuid>e0f4ff54-aa7d-446c-82a3-11db6990dbff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>5962f05e-a7d0-44ef-8a3c-70e5fe8d4978</webElementGuid>
+      <webElementGuid>80381775-4bac-4896-86b4-6d3b2dcb5720</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,31 +51,31 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>3785f817-3336-4183-ba9a-33746806438a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
-      <type>Main</type>
-      <value>b4-b2-Input_CharityName_DescribedBy</value>
-      <webElementGuid>575ef34b-334f-4929-b845-72ff1553d2ca</webElementGuid>
+      <webElementGuid>6716897b-f0ac-4cbf-8e84-4200a1d97aac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>50</value>
-      <webElementGuid>0a2cb27d-742e-4395-a3ba-ab11bfb010c0</webElementGuid>
+      <value>100</value>
+      <webElementGuid>ead2d4e3-4c63-4655-85f5-6a0c58819335</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>inpOrgName</value>
+      <webElementGuid>e578b47f-974f-48d0-bdfe-a668696596bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b4-b2-Input_CharityName</value>
-      <webElementGuid>69293708-4acb-49b7-b60c-43cde0a0e1d8</webElementGuid>
+      <webElementGuid>2cbce478-847f-4934-bdc5-fc62ad2a46a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +83,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b4-b2-Input_CharityName&quot;)</value>
-      <webElementGuid>b34807a4-6c3f-4a1b-ab6b-ceb3b75cbe56</webElementGuid>
+      <webElementGuid>362da50e-42cf-40be-a42a-72aba15590d7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +91,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='b4-b2-Input_CharityName']</value>
-      <webElementGuid>8362eae0-ed5a-45c6-869b-721d2485fa0c</webElementGuid>
+      <webElementGuid>3981d881-57f0-41c3-b4d6-f13308006634</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +99,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b4-b2-b7-FieldContent']/span/input</value>
-      <webElementGuid>7ad064b4-11b8-45fd-8ee6-e915ed417270</webElementGuid>
+      <webElementGuid>358b6f8e-c8bf-48d2-8a2e-037f494b853e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>249b9a6c-0bab-44af-8a53-7b5b22041895</webElementGuid>
+      <webElementGuid>f6867797-d4f8-4e28-b7cd-eb568676e976</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'b4-b2-Input_CharityName']</value>
-      <webElementGuid>933f6c11-b559-4351-ad78-62daa5a56feb</webElementGuid>
+      <webElementGuid>16d391e1-0c7d-4f65-891f-a2105de0f734</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

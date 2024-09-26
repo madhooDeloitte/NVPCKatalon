@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_1st campaign request - hover</name>
+   <tag></tag>
+   <elementGuidId>14d4e6b3-e61c-4b40-9539-289591a770e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@ktl-id='divCampaignTable']/tbody/tr[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;b6-b6-l1_0-807_0-b5-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b6-b6-l1_0-807_0-b5-b1-Content > div.icon-box</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d22898b7-122d-47ee-8bd8-a9e00ad58392</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-box</value>
+      <webElementGuid>2a4f4e9d-ee26-4ad5-97ef-bb39aeccc683</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b6-b6-l1_0-807_0-b5-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]</value>
+      <webElementGuid>91eca995-6d27-4b56-b9cb-dc91bafe325a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b6-b6-l1_0-807_0-b5-b1-Content']/div</value>
+      <webElementGuid>77bbfae2-7ad1-47f1-8b82-b3b4d8df2bc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='rajeev@marriott.dk.dev'])[1]/following::div[6]</value>
+      <webElementGuid>6b02cc5d-c1a9-4eb3-a5ed-2a56c80110f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rajeev Menon'])[1]/following::div[7]</value>
+      <webElementGuid>88e290c6-7b65-4ea9-9172-6c7fc3b81b87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Review'])[1]/preceding::div[2]</value>
+      <webElementGuid>15b68439-0be5-4768-8b42-1b516fe5af36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[1]/preceding::div[12]</value>
+      <webElementGuid>76145700-3ce9-49d3-a159-713847eed157</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]/div/div/div/div/div/div</value>
+      <webElementGuid>728b6853-a836-4df1-aacb-241734b38272</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

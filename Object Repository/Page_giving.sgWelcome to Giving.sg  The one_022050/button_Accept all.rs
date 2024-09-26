@@ -3,24 +3,22 @@
    <description></description>
    <name>button_Accept all</name>
    <tag></tag>
-   <elementGuidId>0b31d3a8-cc27-4805-ae52-b61fa8fc1a8c</elementGuidId>
+   <elementGuidId>7d49200f-c09e-49c2-bf77-1a75bfce2cd1</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[44]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnAcceptAll']</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>#b1-b38-b1-PrimaryButtons > button.btn.btn-primary</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='b1-b38-b1-PrimaryButtons']/button</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Accept all&quot;i]</value>
-      </entry>
-   </smartLocatorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2698a3c6-bdb2-4884-8dfc-abe719d5ebea</webElementGuid>
+      <webElementGuid>71480fb8-cf85-4e56-b94b-91f8aa55bcdc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,23 +35,31 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>19c57f06-8136-4606-b5f7-31d94f4591a3</webElementGuid>
+      <webElementGuid>fd265e59-f44b-4af6-b56b-affed501d397</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>72bc04d6-074b-4cbd-bc2c-a4d776148ee0</webElementGuid>
+      <webElementGuid>81b282c5-4c3d-440c-96b0-fa6a6f28ebf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnAcceptAll</value>
+      <webElementGuid>2726c8f9-b219-4c4e-a8af-ca4425a7a852</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Accept all</value>
-      <webElementGuid>8459b17e-e5d1-4065-afbb-85493143c2eb</webElementGuid>
+      <webElementGuid>236adbdd-9e2d-406f-a948-118eafd05b9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,15 +67,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b1-b38-b1-PrimaryButtons&quot;)/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>fa60c09f-fa4f-43e5-81be-f844d5e2a47b</webElementGuid>
+      <webElementGuid>d55d58ae-94ef-43a3-a07a-3cbe6f9ce31c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[30]</value>
-      <webElementGuid>4d2314a4-69f9-4d6d-8259-11a6e22fc0e8</webElementGuid>
+      <value>(//button[@type='button'])[44]</value>
+      <webElementGuid>45c71df4-dacf-460f-816e-0bf8c364efc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b1-b38-b1-PrimaryButtons']/button</value>
-      <webElementGuid>5a17994c-864d-45ce-816c-d96a611110f7</webElementGuid>
+      <webElementGuid>9fdaeb4a-ea64-4dfc-a4cd-feb3109d7451</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Deny and close'])[1]/following::button[1]</value>
-      <webElementGuid>7c5b27d6-95d6-4a83-912a-27da9b92c774</webElementGuid>
+      <webElementGuid>13c20495-adf5-4d3c-b472-b76eb9d1c82a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='We value your privacy'])[1]/following::button[2]</value>
-      <webElementGuid>b82312cd-5588-4ac5-b369-58cd435f1181</webElementGuid>
+      <webElementGuid>69e4363c-eb42-4052-bd5b-8afb13e898ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,15 +107,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Accept all']/parent::*</value>
-      <webElementGuid>57608b95-3fe5-4f01-be7f-2ac1c110d525</webElementGuid>
+      <webElementGuid>7ea24f7b-2ee6-4ea1-bade-4b943be54f08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/button</value>
-      <webElementGuid>10e80779-4cb9-4c58-b82b-3740db5dfc34</webElementGuid>
+      <value>//div[2]/div/div/div/div/div/div/div[4]/div/div/div[2]/div/button</value>
+      <webElementGuid>72154cdb-e81e-463e-8735-e7bbe485fc65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,22 +123,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Accept all' or . = 'Accept all')]</value>
-      <webElementGuid>55e37398-8f1f-43b8-9517-b2b0824228d5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[31]</value>
-      <webElementGuid>f0ed462a-7c26-43ad-ae9c-1b3ef75649d4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[25]</value>
-      <webElementGuid>8ad87e24-877e-4af1-a778-fc9c1969fd52</webElementGuid>
+      <webElementGuid>765e24c4-a145-42a5-85c6-714c614472dc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

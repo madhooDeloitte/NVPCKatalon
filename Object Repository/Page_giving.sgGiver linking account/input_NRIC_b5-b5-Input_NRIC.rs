@@ -3,24 +3,22 @@
    <description></description>
    <name>input_NRIC_b5-b5-Input_NRIC</name>
    <tag></tag>
-   <elementGuidId>a5811af6-f226-49f3-84b9-de69478a4a87</elementGuidId>
+   <elementGuidId>eea268bc-7d87-4cae-a8e0-5aeebf8edba0</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#b5-b5-Input_NRIC</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='b5-b5-Input_NRIC']</value>
       </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
       <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;NRIC&quot;i</value>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'inpNRIC']</value>
       </entry>
-   </smartLocatorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b5-b5-Input_NRIC</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9ee7464f-5a3d-46b0-a35d-4722b2499000</webElementGuid>
+      <webElementGuid>95d42cb5-8296-42be-9860-4eca52bdfdd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control OSFillParent</value>
-      <webElementGuid>a26387fe-e608-405d-9ba7-5a71ca911dc9</webElementGuid>
+      <webElementGuid>8577f869-7706-4bb6-91a4-c27947b2d877</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>f791a015-f00b-4aa1-a1fd-98110cd152cf</webElementGuid>
+      <webElementGuid>6e3c9d14-6384-450f-9efe-8a4ec643bfdf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,23 +51,15 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9d69afc7-6e3c-4f14-a119-8fdb45f9a9e6</webElementGuid>
+      <webElementGuid>d79c43da-fd9f-4e7a-a627-13039782a65c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
-      <type>Main</type>
-      <value>b5-b5-Input_NRIC_DescribedBy</value>
-      <webElementGuid>d7b0ea49-a8b9-4c67-9761-aa816c4304bf</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b5-b5-Input_NRIC</value>
-      <webElementGuid>237cfb0a-2f5b-471d-b77a-4d3085a5cc5f</webElementGuid>
+      <webElementGuid>c44a3ace-35ae-4956-b013-8305ec93ed12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +67,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b5-b5-Input_NRIC&quot;)</value>
-      <webElementGuid>fd681610-f69d-4a7a-85b7-b8290ae7cd30</webElementGuid>
+      <webElementGuid>a560321e-f7c1-4921-b7c0-f8d0a3ae5269</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>inpNRIC</value>
+      <webElementGuid>5f46dc27-436f-4f18-8021-8ecf245a8cdb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='b5-b5-Input_NRIC']</value>
-      <webElementGuid>41eb94c8-0366-4e45-9a18-39909cc78342</webElementGuid>
+      <webElementGuid>e823e1d9-2b16-4700-a770-e48bc1ad9107</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b5-b5-b3-FieldContent']/span/input</value>
-      <webElementGuid>37807cf4-6b2e-4f91-90fe-1bd6adad705f</webElementGuid>
+      <webElementGuid>e4059530-cfc7-4d2d-bb68-7ce6869efff6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[3]/span/input</value>
-      <webElementGuid>58d05b1f-fb98-435b-89f5-749f51e6d45f</webElementGuid>
+      <webElementGuid>0b0bd5ca-33ac-485b-b3b1-eaf24cb4ef8e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'b5-b5-Input_NRIC']</value>
-      <webElementGuid>119d1f39-35ec-47ab-bf06-9575b36e7337</webElementGuid>
+      <webElementGuid>6c4bf7d4-7970-430f-9a68-08c8fc5f7145</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,24 +3,18 @@
    <description></description>
    <name>div_Select</name>
    <tag></tag>
-   <elementGuidId>7438f6bf-a06e-4e4f-8c83-c6fe2fcf1bcd</elementGuidId>
+   <elementGuidId>52e39ec7-6a7e-4219-aecf-3d2e40431f6f</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vscomp-ele-wrapper-846']/div</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>div.vscomp-toggle-button</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Name of parent organisation'])[1]/following::div[7]</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Select an option&quot;i >> div >> nth=0</value>
-      </entry>
-   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e1a8abc2-6485-4b23-a0b0-fac2fffef461</webElementGuid>
+      <webElementGuid>069d2929-10af-4e18-a322-8ccf1af6ac1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>vscomp-toggle-button</value>
-      <webElementGuid>281a5984-9f4d-4aa0-8456-a4ca11e818df</webElementGuid>
+      <webElementGuid>83a5d22e-9542-4023-a742-c751917cb0ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,30 +40,28 @@
       <type>Main</type>
       <value>
           Select...
-
           
-
           
             
           
         </value>
-      <webElementGuid>2065eecd-c77a-4b9c-beda-3a0ecf592ef0</webElementGuid>
+      <webElementGuid>e48dc96a-51f8-463c-8f4b-715c53941c72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vscomp-ele-wrapper-3948&quot;)/div[@class=&quot;vscomp-toggle-button&quot;]</value>
-      <webElementGuid>7a8115b0-8755-4ee5-84b2-374a75f14593</webElementGuid>
+      <value>id(&quot;vscomp-ele-wrapper-846&quot;)/div[@class=&quot;vscomp-toggle-button&quot;]</value>
+      <webElementGuid>f663da61-566a-4c2f-8e8a-a4e2adde20fd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vscomp-ele-wrapper-3948']/div</value>
-      <webElementGuid>cfd6602f-e69b-4058-a667-2739d6707fc8</webElementGuid>
+      <value>//div[@id='vscomp-ele-wrapper-846']/div</value>
+      <webElementGuid>95a2ccdc-e99e-46c5-81f3-cf39daa0701a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Name of parent organisation'])[1]/following::div[7]</value>
-      <webElementGuid>7a951bae-0258-40a0-8c31-b7905007e319</webElementGuid>
+      <webElementGuid>10cbd6af-1b04-456d-b2f6-4c8f9e6dc53b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Is Groundup a part of a parent organisation?'])[1]/following::div[15]</value>
-      <webElementGuid>5f9c7935-44f5-425c-bfba-ed1bae03abae</webElementGuid>
+      <webElementGuid>7791d056-90db-4720-b22a-7ea6f029f7ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='UEN number'])[1]/preceding::div[4]</value>
-      <webElementGuid>5e00166e-2c69-41a2-9afe-3e2fca85abdc</webElementGuid>
+      <webElementGuid>b8878096-8a1b-4ecc-a6c5-19342978a8ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div[3]/div/div/div/div</value>
-      <webElementGuid>7360c53f-2544-4b0f-a5f9-354546381829</webElementGuid>
+      <webElementGuid>0be14d1d-b6bf-4a4e-bd03-f8a4d5672f5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,21 +102,17 @@
       <type>Main</type>
       <value>//div[(text() = '
           Select...
-
           
-
           
             
           
         ' or . = '
           Select...
-
           
-
           
             
           
         ')]</value>
-      <webElementGuid>3b47dc9e-cf6d-462c-a3dc-b26ed7973ea7</webElementGuid>
+      <webElementGuid>526d29d9-9a1b-464e-a614-f1e393861d94</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

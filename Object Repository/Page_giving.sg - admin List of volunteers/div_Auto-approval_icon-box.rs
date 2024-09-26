@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Auto-approval_icon-box</name>
+   <tag></tag>
+   <elementGuidId>541fe59e-e815-4f9f-b295-5715688a1f2c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b25-l1_0-124_1-b5-b1-Content']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b25-l1_0-124_1-b5-b1-Content > div.icon-box</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>69f62c4e-9914-48af-9b05-7d7b493b5189</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-box</value>
+      <webElementGuid>d7e61e16-3dfe-4485-8568-d00471e898a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b25-l1_0-124_1-b5-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]</value>
+      <webElementGuid>d0adc8ae-f64b-47b3-884f-f0796af8926a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b25-l1_0-124_1-b5-b1-Content']/div</value>
+      <webElementGuid>2f1bd249-b9b0-437e-83c8-a6ceade7827d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Auto-approval'])[2]/following::div[5]</value>
+      <webElementGuid>0dbe0b7a-a5b5-4f91-adc5-641ac298104f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Registered'])[3]/following::div[5]</value>
+      <webElementGuid>92b5ee90-00db-430a-a7c9-f7fd6421af35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Review'])[2]/preceding::div[2]</value>
+      <webElementGuid>3f885947-d62c-4720-91bd-f45ee81a7cf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='to'])[1]/preceding::div[10]</value>
+      <webElementGuid>14629bf5-b91e-431c-821d-1932c88b38bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[7]/div/div/div/div/div</value>
+      <webElementGuid>bfe80d2f-290b-407d-bc89-dc70e1e3da69</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>cebf591d-cd7c-4ad5-aa89-5db8a2f89965</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.nav-menu-item.active</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Fundraise'])[1]/following::a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.nav-menu-item.active</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_SwitchToAdminPortal</name>
+   <tag></tag>
+   <elementGuidId>d5584fcf-ac08-43ec-9cbb-a52fe1b34629</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@ktl-id = 'btnAdminView-GraphIcon']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.hide-if-phone > a.icon-box</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>813b9d78-5d39-486e-9093-4cd7efec97b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-box</value>
+      <webElementGuid>c1ca70cb-7e12-42e2-a34d-afe454e357c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>e47692c3-1db4-4935-85fc-5927695a131c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b1-b1-PortalSwitch&quot;)/div[@class=&quot;hide-if-phone&quot;]/a[@class=&quot;icon-box&quot;]</value>
+      <webElementGuid>a0225c18-6a60-4edd-b1a9-00099908c543</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

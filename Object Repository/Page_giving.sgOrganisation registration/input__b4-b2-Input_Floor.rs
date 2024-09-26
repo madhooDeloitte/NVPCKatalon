@@ -3,24 +3,22 @@
    <description></description>
    <name>input__b4-b2-Input_Floor</name>
    <tag></tag>
-   <elementGuidId>4fb94ab7-1431-47fc-9e20-7d18a4e970be</elementGuidId>
+   <elementGuidId>2497ec3f-ae00-471a-8ae6-59709449b84f</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#b4-b2-Input_Floor</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='b4-b2-Input_Floor']</value>
       </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
       <entry>
-         <key>SMART_LOCATOR</key>
-         <value>div >> internal:has-text=/^Floor#-Unit$/ >> internal:role=textbox >> nth=0</value>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'inpFloorNumber']</value>
       </entry>
-   </smartLocatorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b4-b2-Input_Floor</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>dc379408-3782-41e3-b3b8-8128885efd23</webElementGuid>
+      <webElementGuid>b2bfdd93-f375-4f27-b7ac-e3c819891877</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control OSFillParent</value>
-      <webElementGuid>33930c12-0b31-4fc7-ae70-8d3362dba44d</webElementGuid>
+      <webElementGuid>ef75f2ed-4362-4343-ab7a-65c6c59bbfd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>863e5b4f-3104-419f-aa10-78b9cefe4027</webElementGuid>
+      <webElementGuid>31392e4b-7b60-4bb6-a3ab-f1717eabeb82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,23 +51,23 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1156f709-fadf-404b-ae48-f670aa5e62fe</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
-      <type>Main</type>
-      <value>b4-b2-Input_Floor_DescribedBy</value>
-      <webElementGuid>3a2a3868-8cce-412f-9371-922d9f5ac687</webElementGuid>
+      <webElementGuid>9dd36f37-1361-4ee9-b96a-f7860c834a62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>inpFloorNumber</value>
+      <webElementGuid>a2427f3a-aaca-4fab-95dd-fe11f2561f1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b4-b2-Input_Floor</value>
-      <webElementGuid>5bdad5ee-9f06-4e8b-a869-9166d81064a9</webElementGuid>
+      <webElementGuid>8a4aa55b-f461-4258-a94f-dd69fb8cc8e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b4-b2-Input_Floor&quot;)</value>
-      <webElementGuid>07a99128-2c10-408f-be27-bc1f9068e008</webElementGuid>
+      <webElementGuid>472bf21a-d9c9-45e7-818a-0035a26afe7e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='b4-b2-Input_Floor']</value>
-      <webElementGuid>40fd130a-d9d7-403a-854b-a6e531758356</webElementGuid>
+      <webElementGuid>947c9fa2-5167-4e54-9c05-25eff0edb7ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b4-b2-b14-Input']/span/input</value>
-      <webElementGuid>21e1a595-c208-42dd-9b6a-0cad33589d2b</webElementGuid>
+      <webElementGuid>66ba7681-29d7-42ff-a242-17245d0595d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div[2]/div/span/input</value>
-      <webElementGuid>58851271-b756-4f0b-ab09-7da0bfe62089</webElementGuid>
+      <webElementGuid>625a5d40-733a-4fbf-80fc-62e226ab0e47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'b4-b2-Input_Floor']</value>
-      <webElementGuid>4331f193-4ec7-442e-80b5-5a4a2b6f29c6</webElementGuid>
+      <webElementGuid>7da37967-465f-4520-a461-99c1e489e68f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

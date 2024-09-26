@@ -3,24 +3,21 @@
    <description></description>
    <name>div_Government Body</name>
    <tag></tag>
-   <elementGuidId>c1eb84ac-6d83-46fd-a126-0a657d56dd5f</elementGuidId>
+   <elementGuidId>877f5e5a-8062-4ffa-8419-328037380c75</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='b4-b2-Dropdown_Type']/div[2]/div/div[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Government Body' or . = 'Government Body')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>div >> internal:has-text=/^Government Body$/</value>
-      </entry>
-   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>0d324190-fe2b-4c3a-ac46-c4f19243e65f</webElementGuid>
+      <webElementGuid>8ca64a44-b92c-4f93-a1c5-a488103345a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dropdown-popup-row</value>
-      <webElementGuid>cffe8e36-83e2-4986-9297-4b927acee443</webElementGuid>
+      <webElementGuid>260f9f06-bc4d-4db5-a2f9-e8afaaefcb05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Government Body</value>
-      <webElementGuid>9bd37efe-9df4-41da-9125-32a34292abf6</webElementGuid>
+      <webElementGuid>2f0b4266-1cb5-4b75-bd0d-141ab6b77cd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b4-b2-Dropdown_Type&quot;)/div[@class=&quot;dropdown-list&quot;]/div[@class=&quot;scrollable-list scrollable-list-with-scroll&quot;]/div[@class=&quot;dropdown-popup-row&quot;]</value>
-      <webElementGuid>4678cfdc-d1ed-466e-ad25-082226bc2889</webElementGuid>
+      <webElementGuid>5f11bf79-ded4-451a-8082-ff914da5a097</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b4-b2-Dropdown_Type']/div[2]/div/div[2]</value>
-      <webElementGuid>2dd46d1d-53fd-42cc-8bce-bfc9eafe8815</webElementGuid>
+      <webElementGuid>b9362f5a-437c-4377-b8fd-e2ea21066391</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[2]/following::div[1]</value>
-      <webElementGuid>671a5fcc-c325-4d94-a33e-acb2702af647</webElementGuid>
+      <webElementGuid>3ac4bac4-9157-4a07-999f-fc4d59f3d618</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::div[4]</value>
-      <webElementGuid>89bad289-5f1c-411f-a74e-993eded1f2fc</webElementGuid>
+      <webElementGuid>40bc4623-13f6-4ea7-befe-b9b35c05e211</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Corporate'])[1]/preceding::div[1]</value>
-      <webElementGuid>2ff1cfa2-cd37-4d70-bb93-9cfd982be4d9</webElementGuid>
+      <webElementGuid>e9cff533-a9de-4e4c-ae36-4cc728631e01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[2]/div/div[2]</value>
-      <webElementGuid>f02f0e36-c47d-4f1b-bce3-b37c859b9410</webElementGuid>
+      <webElementGuid>fa9113aa-ccdb-44c3-ac3d-2aa35630ee1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Government Body' or . = 'Government Body')]</value>
-      <webElementGuid>7054ed2e-3e98-4b03-be0f-ba0ecaefbdeb</webElementGuid>
+      <webElementGuid>c986838b-2627-4614-a5fc-b5f932538901</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

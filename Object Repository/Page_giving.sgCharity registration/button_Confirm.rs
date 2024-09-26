@@ -3,24 +3,22 @@
    <description></description>
    <name>button_Confirm</name>
    <tag></tag>
-   <elementGuidId>b4da4b1c-820d-4e3c-9522-4b7eb92d6e18</elementGuidId>
+   <elementGuidId>147f4d78-4bb7-4bbb-a5d8-e1c4892f5f79</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#b4-b5-p_ConfirmButton</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@id='b4-b5-p_ConfirmButton']</value>
       </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
       <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Confirm&quot;i]</value>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnConfirm']</value>
       </entry>
-   </smartLocatorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b4-b5-p_ConfirmButton</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>7940a588-e2c1-4a06-9f99-a51e9dc3cd42</webElementGuid>
+      <webElementGuid>d4a45144-2a25-4f18-955f-eab06c6ca013</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,31 +35,39 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>67a1edb5-e4e7-4409-84a2-29d4ee6058e6</webElementGuid>
+      <webElementGuid>22681f34-836a-4263-99a2-a1ee39fcb8dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d3f2a3d2-48b8-490a-b4f9-6a54495b8f56</webElementGuid>
+      <webElementGuid>88a83cc4-09a7-444b-b814-c35f67f190cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnConfirm</value>
+      <webElementGuid>31dcb74d-d14a-44d1-bbf6-8771fde607c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b4-b5-p_ConfirmButton</value>
-      <webElementGuid>321e01e5-1495-497d-b89c-b6c9f7239b6c</webElementGuid>
+      <webElementGuid>a2a76721-4d29-4365-8bcc-a12335d768b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Confirm</value>
-      <webElementGuid>f452dc31-5a27-4a0e-83d9-8b68f9ec5144</webElementGuid>
+      <webElementGuid>b4d3e14b-09f5-48f2-a9b9-493b0409d517</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b4-b5-p_ConfirmButton&quot;)</value>
-      <webElementGuid>b7823ac8-27b7-4dce-9abf-1727873af578</webElementGuid>
+      <webElementGuid>7720f3dd-22cb-456a-823e-3cbebe97d36d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='b4-b5-p_ConfirmButton']</value>
-      <webElementGuid>6eef619a-bee1-43a3-b059-bc18268283b3</webElementGuid>
+      <webElementGuid>bbfeec31-b7ca-43a8-af02-f7016ddd20c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b4-b5-b30-Button']/button</value>
-      <webElementGuid>eb87d0c0-d060-4dca-8f95-58e9583c5c1a</webElementGuid>
+      <webElementGuid>c6ccec6c-be58-4985-bc03-c984fd7259ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
-      <webElementGuid>db1a7760-7414-4312-9d60-694caf6cbade</webElementGuid>
+      <webElementGuid>c6f3f13d-9748-4a57-9150-a3fa6c949fb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you ready to submit?'])[1]/following::button[2]</value>
-      <webElementGuid>c6a225b7-d0f2-4d6b-9576-9a439dd578d5</webElementGuid>
+      <webElementGuid>879e0a3d-a93c-45c4-8575-746e3b37f623</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Confirm']/parent::*</value>
-      <webElementGuid>b3af084b-d444-4647-baaf-5618609ce65d</webElementGuid>
+      <webElementGuid>0bd3dfd0-94ab-4961-9340-96cadad3774e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +123,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/button</value>
-      <webElementGuid>c38cf32f-1adb-4e3c-bee9-22230b694908</webElementGuid>
+      <webElementGuid>de23c958-99b5-43f6-9c56-a8c9ff929563</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +131,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'b4-b5-p_ConfirmButton' and (text() = 'Confirm' or . = 'Confirm')]</value>
-      <webElementGuid>d707b6ad-75d4-4d09-a5a4-1e2044c7b1e3</webElementGuid>
+      <webElementGuid>14218ef8-18ec-40c0-99f4-494384d5b138</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

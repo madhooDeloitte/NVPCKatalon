@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Browse DK as anonymous user - works</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8a504ab3-9424-478f-91ef-a1cf04b449f3</testCaseGuid>
+</TestCaseEntity>

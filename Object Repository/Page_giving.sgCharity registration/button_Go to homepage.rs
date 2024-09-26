@@ -3,24 +3,18 @@
    <description></description>
    <name>button_Go to homepage</name>
    <tag></tag>
-   <elementGuidId>95f1a2fc-cb83-434b-aaee-aaf2fba834ce</elementGuidId>
+   <elementGuidId>73315aee-5475-4e0e-90a7-900a2f98adee</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-primary</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[2]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Go to homepage&quot;i</value>
-      </entry>
-   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>50ab5acf-fcfd-48ea-8c28-be43e2085d70</webElementGuid>
+      <webElementGuid>6d131d1b-64bc-4113-9fed-7fbd05955cef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>6e09f946-679c-489e-810c-d9a8a42b5d01</webElementGuid>
+      <webElementGuid>bb5b80b4-9edd-49ca-ba39-89148ce5b0ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>bbe9b692-fcc6-479c-8167-39fcb777f32e</webElementGuid>
+      <webElementGuid>24b9e1bd-b7c2-4c8a-813a-c75de315a895</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Go to homepage</value>
-      <webElementGuid>ef7086e6-611a-4550-a014-df78ed476c8a</webElementGuid>
+      <webElementGuid>ce286771-1918-4bad-b95e-c90b8e753801</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b4-b6-b2-Actions&quot;)/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>66a57b44-0b4e-4f58-9248-6faa1fb718d8</webElementGuid>
+      <webElementGuid>deb60215-a949-4edf-aeed-3036bc7ac51c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>f3a7af3b-693b-4c54-ad2f-6d3645eb20cb</webElementGuid>
+      <webElementGuid>1d95f07f-0de7-46a9-a0ad-a5cdece77385</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b4-b6-b2-Actions']/button</value>
-      <webElementGuid>07b0e199-c0bf-408a-a7c9-f734058bef7b</webElementGuid>
+      <webElementGuid>66f90d9d-669b-4e35-a1d7-c403379c68a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='We are reviewing your application, you will hear from us in the next few days!'])[1]/following::button[1]</value>
-      <webElementGuid>fbbba6e8-be82-4121-b4a4-7d46502822a3</webElementGuid>
+      <webElementGuid>804242dd-a163-4fcb-b691-f0597d564331</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Thank you for registering with us!'])[1]/following::button[1]</value>
-      <webElementGuid>e323ad77-4399-4b52-849f-e09c74fbc1df</webElementGuid>
+      <webElementGuid>2f27dc26-70c0-4338-a40c-e87e847d52b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Go to homepage']/parent::*</value>
-      <webElementGuid>218f8981-9774-4083-877c-3c62ead32186</webElementGuid>
+      <webElementGuid>4bd9f547-c556-4f60-b5c3-07f54da270e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/button</value>
-      <webElementGuid>d3f6f8e6-213b-46df-bb48-77b52becdae4</webElementGuid>
+      <webElementGuid>7dcfdc11-21bb-4c51-afc8-db90425ba5ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Go to homepage' or . = 'Go to homepage')]</value>
-      <webElementGuid>35d9bb2f-ca72-4eeb-8b92-5865a9a217d7</webElementGuid>
+      <webElementGuid>61ea8be9-d5f2-4688-9e41-832d123770d9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

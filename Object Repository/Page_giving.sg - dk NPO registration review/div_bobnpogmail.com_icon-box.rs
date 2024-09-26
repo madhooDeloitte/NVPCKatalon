@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_bobnpogmail.com_icon-box</name>
+   <tag></tag>
+   <elementGuidId>0adf6e39-68fe-4f27-beae-f73659ccb26a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b14-l1_0-101_0-b3-b1-Content']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b14-l1_0-101_0-b3-b1-Content > div.icon-box</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>92e49534-98f9-496b-a2f8-fced95006a0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-box</value>
+      <webElementGuid>33d0b84d-97c1-4be5-8cf6-1b6ae7255b80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b14-l1_0-101_0-b3-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]</value>
+      <webElementGuid>b7cf59a9-72f7-4f53-bc80-be64ec67c8a2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b14-l1_0-101_0-b3-b1-Content']/div</value>
+      <webElementGuid>6fedb194-8151-49bb-bc12-c0254fe1437b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='bobnpo@gmail.com'])[1]/following::div[6]</value>
+      <webElementGuid>6372f3ae-59b7-4cb4-9ffb-4278c5f54fda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BobTheNPO'])[2]/following::div[7]</value>
+      <webElementGuid>2ec3fd38-3911-4d65-8d8f-be984a8fe963</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[1]/preceding::div[2]</value>
+      <webElementGuid>18376dcc-47f5-46aa-b8e0-40d3da46b9ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Advance'])[1]/preceding::div[12]</value>
+      <webElementGuid>ba38ab22-db77-4015-8a8e-9d65042691bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]/div/div/div/div/div/div</value>
+      <webElementGuid>c0d8d2fd-a4d4-4a68-a59e-24b0524b8b08</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

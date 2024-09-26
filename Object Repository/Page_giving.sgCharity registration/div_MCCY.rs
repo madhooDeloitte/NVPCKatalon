@@ -3,24 +3,17 @@
    <description></description>
    <name>div_MCCY</name>
    <tag></tag>
-   <elementGuidId>07147d7e-af50-4162-bb0b-488a60ff0b0a</elementGuidId>
+   <elementGuidId>174e1db6-07a1-4b41-8455-dbca2505f443</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='b4-b4-Dropdown_Sector']/div[2]/div/div[2]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>div >> internal:has-text=/^MCCY$/</value>
-      </entry>
-   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>33f05539-3a54-4ba6-9b8a-8cc13b4971ea</webElementGuid>
+      <webElementGuid>d2b5432a-fc3c-4458-953d-3045b825bab4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dropdown-popup-row</value>
-      <webElementGuid>057858e8-741f-4ea3-b3f2-5c0dbba61857</webElementGuid>
+      <webElementGuid>fd376747-cfd1-4a9f-b6cb-27b2826597f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>MCCY</value>
-      <webElementGuid>e0e50db2-5ee4-49a0-86e9-1c2d17c2869b</webElementGuid>
+      <webElementGuid>7605df29-3b0f-429e-a276-4d4e67c118c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b4-b4-Dropdown_Sector&quot;)/div[@class=&quot;dropdown-list&quot;]/div[@class=&quot;scrollable-list scrollable-list-with-scroll&quot;]/div[@class=&quot;dropdown-popup-row&quot;]</value>
-      <webElementGuid>704afaa6-0a9d-45ca-9d32-d5c92d86b5ff</webElementGuid>
+      <webElementGuid>804ad477-d9a8-47ad-83be-f2f3cffc11b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b4-b4-Dropdown_Sector']/div[2]/div/div[2]</value>
-      <webElementGuid>2048d637-d04a-4c07-a583-55e607b7b8b8</webElementGuid>
+      <webElementGuid>b1369b8c-449a-420e-85f6-fdc0f241983b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[2]/following::div[1]</value>
-      <webElementGuid>ba4e8c42-6ac7-4238-9c4e-7443c86a0c30</webElementGuid>
+      <webElementGuid>f68e0377-fb34-4a8e-8987-5b6d388eed33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::div[4]</value>
-      <webElementGuid>3f531264-618e-4550-9c47-8e997bb86cdc</webElementGuid>
+      <webElementGuid>5c4e9d32-aadf-4987-af95-8a6021a2268f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SSG'])[1]/preceding::div[1]</value>
-      <webElementGuid>d5a80cfd-62e5-489d-b258-61ecbba29794</webElementGuid>
+      <webElementGuid>f4678519-9bb7-44e3-99fc-08dc78cbc68b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[2]/div/div[2]</value>
-      <webElementGuid>e84a3c9b-9ca7-453c-bfdc-29b371998fe0</webElementGuid>
+      <webElementGuid>6572f8a4-1622-46a3-9134-ca1be2258b26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'MCCY' or . = 'MCCY')]</value>
-      <webElementGuid>b2dd396a-d989-4743-9ed5-60c5cedd2eb1</webElementGuid>
+      <webElementGuid>50ad8259-8c69-4ef6-8c92-ad151334385e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,24 +3,22 @@
    <description></description>
    <name>button_Submit</name>
    <tag></tag>
-   <elementGuidId>a5022c16-fc50-4b21-b599-a232e3cf681a</elementGuidId>
+   <elementGuidId>98de93bf-e226-48df-87ec-29761055129f</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-primary</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[3]</value>
       </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
       <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Submit&quot;i]</value>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnSubmit']</value>
       </entry>
-   </smartLocatorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>26f475e3-ed7f-4d57-a234-e1b1a3f3533b</webElementGuid>
+      <webElementGuid>09541aef-9fbd-4b43-9251-7d2c8c434125</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,23 +35,31 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>6a65eeb0-b9aa-4762-9b57-1bd295b79ef8</webElementGuid>
+      <webElementGuid>3ee7938b-a475-46e9-ad3e-a93141d87826</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0216d439-67a7-4fb5-9be2-c118e5e19e60</webElementGuid>
+      <webElementGuid>6707ac05-4333-455f-9564-8757f53d73ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnSubmit</value>
+      <webElementGuid>e22a2b02-73b3-406c-b07f-145d27dd6efd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Submit</value>
-      <webElementGuid>98bc7caa-4a73-4e32-bbb7-50da0f9de7ba</webElementGuid>
+      <webElementGuid>cc17075d-6405-4cbd-8d26-15f2b3278e42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b4-b5-b28-Right&quot;)/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>0100224b-c3d0-4d95-8278-ddee6e0e1a7d</webElementGuid>
+      <webElementGuid>17d72b0a-e703-4b9f-8dd0-0152aea0f497</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[3]</value>
-      <webElementGuid>007c474c-9e34-488f-88d3-6bf9a0484b49</webElementGuid>
+      <webElementGuid>35b4abd3-8a13-4d61-8f99-594a510315a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b4-b5-b28-Right']/button</value>
-      <webElementGuid>467a0713-c614-4e77-a10c-17f4aeac0897</webElementGuid>
+      <webElementGuid>d2ae19e5-c4a7-43be-a973-76527788100c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[1]</value>
-      <webElementGuid>b14001c3-b9ad-4e75-a5fe-4a4edd2224aa</webElementGuid>
+      <webElementGuid>666262da-5887-4591-a121-d7db4548a884</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm password'])[1]/following::button[2]</value>
-      <webElementGuid>0c7dbddc-d295-451e-b1c4-c09fab41cccd</webElementGuid>
+      <webElementGuid>44b9dcd9-d05d-4913-aaed-c636235e5394</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Submit']/parent::*</value>
-      <webElementGuid>c23a5d44-93a9-4d63-a0eb-f4b26e8c8b93</webElementGuid>
+      <webElementGuid>d6292bbd-a134-47ba-91f7-19ed952ef5dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +115,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>23a8de78-e4ab-4535-a61e-50a719460b8d</webElementGuid>
+      <webElementGuid>dd023b95-a7d6-4270-8a16-e55ec5413e3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +123,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Submit' or . = 'Submit')]</value>
-      <webElementGuid>016515d9-fdb9-4aac-9be8-e7d40efbe95e</webElementGuid>
+      <webElementGuid>033b84b2-7484-4b88-b534-96c7ba10dc4a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

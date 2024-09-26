@@ -3,24 +3,17 @@
    <description></description>
    <name>a_Animal welfare</name>
    <tag></tag>
-   <elementGuidId>6de30075-d09d-4957-976b-5b3a3e02c7ca</elementGuidId>
+   <elementGuidId>d68b3948-cdc2-4ca5-ab1f-23354bd388d6</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='b4-b4-$b12']/div/div[2]/a</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Animal welfare&quot;i]</value>
-      </entry>
-   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>455f0622-820b-4fe2-b9f5-b21ae35117b1</webElementGuid>
+      <webElementGuid>1d5b4729-6639-46e2-bce8-eca3d795b9ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>chips-select-item </value>
-      <webElementGuid>9dae4c97-ea6f-4d0e-97bf-427457f88b30</webElementGuid>
+      <webElementGuid>245bc8c3-4284-4094-a2b6-75215a0cf3a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>90ab0bd5-e682-412e-8e82-852759741ba0</webElementGuid>
+      <webElementGuid>581acb09-3a63-427a-9b25-5f55d76fbe07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Animal welfare</value>
-      <webElementGuid>070f2bdd-fbb2-4530-9ca7-32e9e2a2eaad</webElementGuid>
+      <webElementGuid>ef1d0b3c-def6-469e-92a8-db03f064d94e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b4-b4-$b12&quot;)/div[@class=&quot;chips-select OSFillParent&quot;]/div[2]/a[@class=&quot;chips-select-item&quot;]</value>
-      <webElementGuid>b094d299-ae53-4423-82af-1c5d9b7529b5</webElementGuid>
+      <webElementGuid>245213cf-bf97-4713-90f1-20507ee12c0d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b4-b4-$b12']/div/div[2]/a</value>
-      <webElementGuid>1d528ffa-87e6-42c5-ab9d-707947bb8a5c</webElementGuid>
+      <webElementGuid>d31a8c4f-134b-4cbe-ac72-82f6000675cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Adults'])[1]/following::a[1]</value>
-      <webElementGuid>28d4fd91-2bef-486d-80ad-473d43cd38c1</webElementGuid>
+      <webElementGuid>61175cfb-83a6-47c1-8f5a-c2bb6fc0af62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select up to 2 target groups'])[1]/following::a[2]</value>
-      <webElementGuid>acad4f24-4e7d-4107-848c-f03664234108</webElementGuid>
+      <webElementGuid>0211e8bc-50cf-40f1-9aef-6900cdb47678</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Caregivers'])[1]/preceding::a[1]</value>
-      <webElementGuid>4c5c0c27-b7c8-4ac1-a2f7-442962583f36</webElementGuid>
+      <webElementGuid>e1ccc3e1-baf4-41d7-ab09-90bbe78802de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +94,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[12]</value>
-      <webElementGuid>9924bb8f-e490-4dec-b962-07c60a07a671</webElementGuid>
+      <webElementGuid>fbfe2c8c-bae0-4ff7-ad31-4be9806d43d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div[3]/div/div/div[2]/a</value>
-      <webElementGuid>b1974fdc-cddd-4d72-a5d9-9f432cae997c</webElementGuid>
+      <webElementGuid>d38bc9e2-47d7-4354-ab10-c0e54f7fac3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Animal welfare' or . = 'Animal welfare')]</value>
-      <webElementGuid>47ce4108-a22c-4dd1-bbb9-7cd34a3fb3bf</webElementGuid>
+      <webElementGuid>59217482-27fe-49d3-958a-362a9829db49</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

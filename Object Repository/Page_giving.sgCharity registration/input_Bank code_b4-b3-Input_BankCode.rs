@@ -3,24 +3,22 @@
    <description></description>
    <name>input_Bank code_b4-b3-Input_BankCode</name>
    <tag></tag>
-   <elementGuidId>dc9a5f62-8831-418d-b826-00536056eaa0</elementGuidId>
+   <elementGuidId>23a63849-3a27-48f4-89fd-a3a0b61ad4d8</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#b4-b3-Input_BankCode</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='b4-b3-Input_BankCode']</value>
       </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
       <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Bank code&quot;i</value>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'inpBankCode']</value>
       </entry>
-   </smartLocatorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b4-b3-Input_BankCode</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8c4f0c55-aa1b-41bb-97b5-8011c43501d9</webElementGuid>
+      <webElementGuid>48bd1367-ff51-44dd-b6b7-f989ab2111f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control OSFillParent</value>
-      <webElementGuid>636d7fe3-70e7-4fd5-a388-e40c880076a5</webElementGuid>
+      <webElementGuid>6cdb08bf-ad00-40be-b3f9-c5d615946a50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>180a6a58-6e00-4d6f-893a-d6122b0ba28f</webElementGuid>
+      <webElementGuid>e50b5153-6218-4278-8d34-6e36ac961af5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +51,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ca17e871-3aff-4ea7-88a3-0ccd5fece47e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
-      <type>Main</type>
-      <value>b4-b3-Input_BankCode_DescribedBy</value>
-      <webElementGuid>b77d6e40-5188-4caf-9622-a62841e318f5</webElementGuid>
+      <webElementGuid>2cec055a-cf28-45e3-bdde-567b8166b6f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,15 +59,23 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>50</value>
-      <webElementGuid>72f82427-b0ac-4570-81e2-4fdd4bdb148a</webElementGuid>
+      <webElementGuid>8b8c2903-5649-4b27-b57e-68593ff11ec2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>inpBankCode</value>
+      <webElementGuid>dd122242-6bf9-4143-adb4-221e16138ba0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b4-b3-Input_BankCode</value>
-      <webElementGuid>f2265fb4-c729-4b03-9088-5d5d1b6de9c5</webElementGuid>
+      <webElementGuid>eaa56bbd-b794-420a-958b-3425047d1666</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +83,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b4-b3-Input_BankCode&quot;)</value>
-      <webElementGuid>15dd0668-5bb1-448b-98bc-8bd6659cc801</webElementGuid>
+      <webElementGuid>dd22fafe-ac80-4a0f-be3b-af6b7c1ac106</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +91,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='b4-b3-Input_BankCode']</value>
-      <webElementGuid>2dc7341e-ade6-46af-a05e-f2a311f334e2</webElementGuid>
+      <webElementGuid>f8fc9f48-c9a2-4d56-b9fe-8cb8168eb952</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +99,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b4-b3-b10-FieldContent']/span/input</value>
-      <webElementGuid>764446ad-0014-481a-bc9d-799b7d2f8496</webElementGuid>
+      <webElementGuid>adffeb1d-7b84-4f9b-9319-e38ca2ce102d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div[3]/span/input</value>
-      <webElementGuid>f7302850-0f41-46d7-9c89-94a550546679</webElementGuid>
+      <webElementGuid>436e9b5a-627b-4256-8acd-8294248e18a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'b4-b3-Input_BankCode']</value>
-      <webElementGuid>cbc4f5e0-ee58-49b2-9504-0ae737a6423b</webElementGuid>
+      <webElementGuid>14271b8d-4158-4e43-8b16-c384da94f614</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

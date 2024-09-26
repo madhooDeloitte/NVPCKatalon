@@ -6,12 +6,12 @@
    <elementGuidId>9626fe72-4848-4d2a-b274-b1368615fd38</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#b1-l1-154_6-b2-Label > span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='b1-l1-279_6-$b2']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b1-l1-154_6-b2-Label > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

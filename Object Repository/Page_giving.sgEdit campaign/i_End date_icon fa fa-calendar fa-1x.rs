@@ -6,12 +6,12 @@
    <elementGuidId>d7459430-ba9b-4d91-bb49-d794f7a74e4f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#b2-b20-b6-Icon > i.icon.fa.fa-calendar.fa-1x</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='b2-b20-b6-Icon']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b20-b6-Icon > i.icon.fa.fa-calendar.fa-1x</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

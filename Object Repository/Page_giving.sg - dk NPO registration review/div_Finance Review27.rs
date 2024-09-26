@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Finance Review27</name>
+   <tag></tag>
+   <elementGuidId>d0e79c9f-8872-4dc7-a584-7d486748dbdf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b9-Title']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b9-Title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>048f283a-d74e-415d-b678-1fd4899c3f6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>display-contents ph</value>
+      <webElementGuid>09073d16-c592-4d18-9ea5-ff88fd1afe36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b2-b9-Title</value>
+      <webElementGuid>fdd7f1df-b2b9-43d5-ac14-5345ffb7d594</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Finance Review27</value>
+      <webElementGuid>7a5dfd49-9049-49de-9f4b-c3f27294292c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b9-Title&quot;)</value>
+      <webElementGuid>9ab5043d-960a-4ab2-8faa-82dcaa91d76d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b9-Title']</value>
+      <webElementGuid>f9d477c7-fb2a-4695-a6d6-09ad0588800e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-$b9']/button/div</value>
+      <webElementGuid>a62a6f56-c37c-49ef-8449-4bb4c373c7d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Registration review'])[2]/following::div[17]</value>
+      <webElementGuid>6a922cee-2bc2-4ba9-b355-01b1fed6f26e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='rejected'])[1]/preceding::div[4]</value>
+      <webElementGuid>307b055f-d822-49c0-b431-fd11d5f92349</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='registered'])[1]/preceding::div[6]</value>
+      <webElementGuid>e2dcc56b-c5c1-4bc0-a6b2-df9b69f31d38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Finance Review']/parent::*</value>
+      <webElementGuid>6356a290-b93c-4de3-82c7-3308c372de41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header/div/div[2]/div/button/div</value>
+      <webElementGuid>7eb078cf-dc23-433c-ab49-1cc128cc693b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'b2-b9-Title' and (text() = 'Finance Review27' or . = 'Finance Review27')]</value>
+      <webElementGuid>7bd68976-3a0f-46f6-a954-c3de358a933a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

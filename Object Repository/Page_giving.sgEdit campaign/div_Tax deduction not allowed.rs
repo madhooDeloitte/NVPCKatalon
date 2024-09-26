@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Tax deduction not allowed</name>
+   <tag></tag>
+   <elementGuidId>511d7704-4051-49e9-9265-1208c1e7a038</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b28-$b7']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.alert-box.alert-warning</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>divTdrAlert</value>
+      <webElementGuid>be3e2807-4961-4870-b7b9-c4d344215ba2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b28-$b7']/div</value>
+      <webElementGuid>401301e5-4150-4b1f-a3d1-85665beffe1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Giving for local communities and citizens'])[1]/following::div[17]</value>
+      <webElementGuid>d7f49522-24ec-4c09-9380-2266d26b9307</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Local'])[1]/following::div[18]</value>
+      <webElementGuid>13d9beb3-97a6-4c77-8248-7c2fc49a15f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[2]/div/div/div</value>
+      <webElementGuid>6e1ca09c-b1d3-4a2f-ae79-88553f5ae0ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Tax deduction set by the NPOYou are not allowed to claim tax deduction for this campaign.' or . = 'Tax deduction set by the NPOYou are not allowed to claim tax deduction for this campaign.')]</value>
+      <webElementGuid>fd63777d-127a-40eb-a2d0-0b2af784834d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

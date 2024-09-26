@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Take screenshots of main pages</description>
-   <name>Browse Digital Kampong as anonymous user</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>be5e3a5c-7700-40ca-83f5-0a6142fddacc</testCaseGuid>
-</TestCaseEntity>

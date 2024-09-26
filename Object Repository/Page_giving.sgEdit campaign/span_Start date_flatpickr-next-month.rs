@@ -6,12 +6,12 @@
    <elementGuidId>1ff074e7-ca38-4e57-bd13-6d1c1a07cd29</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.flatpickr-next-month</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='b2-b20-b4-Datepicker']/span/div/div/div/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.flatpickr-next-month</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

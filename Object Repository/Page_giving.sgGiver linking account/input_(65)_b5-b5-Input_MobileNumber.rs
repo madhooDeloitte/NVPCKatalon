@@ -3,24 +3,22 @@
    <description></description>
    <name>input_(65)_b5-b5-Input_MobileNumber</name>
    <tag></tag>
-   <elementGuidId>731d9255-0f8b-4ecf-933b-43ada028adad</elementGuidId>
+   <elementGuidId>3fdcb4da-ea15-415c-8e4b-61299ea23dba</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#b5-b5-Input_MobileNumber</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='b5-b5-Input_MobileNumber']</value>
       </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
       <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Mobile number&quot;i</value>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'inpMobileNumber']</value>
       </entry>
-   </smartLocatorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b5-b5-Input_MobileNumber</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8b285d7b-01c5-4664-b480-1920b962bc53</webElementGuid>
+      <webElementGuid>4418ef73-20df-4f4e-8036-7d6e03a30822</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control OSFillParent</value>
-      <webElementGuid>12e1a90b-46a3-438d-ad8d-0f44d0de5d18</webElementGuid>
+      <webElementGuid>e75884be-4719-4aab-a08a-71afa5f67659</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>bd2798e8-4aa1-4cfe-819c-1560d01e18be</webElementGuid>
+      <webElementGuid>53e66f81-b075-4fca-8d05-aa73efaabec2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,23 +51,23 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>c2ebcac6-5e99-4e5a-9acf-5b68a363d634</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
-      <type>Main</type>
-      <value>b5-b5-Input_MobileNumber_DescribedBy</value>
-      <webElementGuid>40ed5d1c-1dff-43b0-a797-64c89fe1480f</webElementGuid>
+      <webElementGuid>5a1019ee-fff9-4802-8568-42a1b8ff21bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>inpMobileNumber</value>
+      <webElementGuid>92248bf4-0446-4b5d-a7b9-0ccc9c0869f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b5-b5-Input_MobileNumber</value>
-      <webElementGuid>48926b6f-5924-4cf8-b65e-440de541c964</webElementGuid>
+      <webElementGuid>beabeabb-74b5-456e-a648-d289f3d71e48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b5-b5-Input_MobileNumber&quot;)</value>
-      <webElementGuid>e35c7548-a0d0-4195-b9ef-8b66db54ed4d</webElementGuid>
+      <webElementGuid>e6086847-a5a1-4e79-be7e-e6545bb92915</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='b5-b5-Input_MobileNumber']</value>
-      <webElementGuid>e3e0ee33-f70f-4a24-ba4e-5badb17f70f2</webElementGuid>
+      <webElementGuid>5dd8d9f7-588a-41b4-9a12-0ffb92259004</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b5-b5-b8-Input']/span/input</value>
-      <webElementGuid>b07757ef-568e-4e1c-90fc-6194c0149b7e</webElementGuid>
+      <webElementGuid>26b8adb8-f371-493e-8eaa-ecadeb836ece</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/span/input</value>
-      <webElementGuid>c29d38cb-0420-4f38-a768-8374859b4d38</webElementGuid>
+      <webElementGuid>f18fa734-68b7-42e3-8504-cb9b43bcc5be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'tel' and @id = 'b5-b5-Input_MobileNumber']</value>
-      <webElementGuid>495da870-bf89-4fa7-acb4-2175d1dfe029</webElementGuid>
+      <webElementGuid>1f27161e-6fa5-49b2-af3b-d43b1954fc0e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Save Koala</name>
+   <tag></tag>
+   <elementGuidId>66efd0c1-9e21-4f09-a463-d35d5f535e10</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b4-l1-213_0-b2-InjectHTMLWrapper']/b/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>b > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>895f6e07-53f5-44f1-82fa-72040f3c0f41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://dk.deloitte-sea.com/admin/volunteer/opportunity/detail/878820b2-7a90-444d-ba94-d82f2d0444f1</value>
+      <webElementGuid>c03fff9f-aa80-45fe-9c92-6be52785566f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save Koala</value>
+      <webElementGuid>7a194612-3d4e-4d3b-84a6-113ce7eb515a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b4-l1-213_0-b2-InjectHTMLWrapper&quot;)/b[1]/a[1]</value>
+      <webElementGuid>066a3a20-801d-4c2e-8d85-d65c8609bddf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b4-l1-213_0-b2-InjectHTMLWrapper']/b/a</value>
+      <webElementGuid>e67dd804-169e-442b-af51-fb3f3b84644b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Save Koala')]</value>
+      <webElementGuid>00a0eb9f-2c87-4303-96f8-4d7b519f7649</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mark all as read'])[1]/following::a[1]</value>
+      <webElementGuid>f946386f-8ada-4e33-81ad-487a92872bef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Emma Watsons'])[2]/preceding::a[1]</value>
+      <webElementGuid>ee228d33-8341-477d-aea4-15bafdc32040</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Save Koala']/parent::*</value>
+      <webElementGuid>462145d2-12a5-48e8-8352-a74858926c40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://dk.deloitte-sea.com/admin/volunteer/opportunity/detail/878820b2-7a90-444d-ba94-d82f2d0444f1')]</value>
+      <webElementGuid>7410280a-fe8a-42bc-8600-16c2cd409d18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//b/a</value>
+      <webElementGuid>c789d568-381f-4717-b374-2ba2af3993f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://dk.deloitte-sea.com/admin/volunteer/opportunity/detail/878820b2-7a90-444d-ba94-d82f2d0444f1' and (text() = 'Save Koala' or . = 'Save Koala')]</value>
+      <webElementGuid>2b4f8f58-7922-4faf-8d90-73e2e8624b66</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

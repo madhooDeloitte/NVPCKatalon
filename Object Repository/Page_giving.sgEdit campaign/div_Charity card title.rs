@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Charity card title</name>
+   <tag></tag>
+   <elementGuidId>36fadc13-bcc1-4e23-a2bb-8ee8729d0844</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-$b10']/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'charity-card-title']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.charity-card-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>43e953f0-2159-403a-844b-a4066144fd38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>charity-card-title</value>
+      <webElementGuid>83d4bfba-7dbe-4718-95a1-55292989fd2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>testing approved campaign name with longer name to testKeep Inviting Love Library (KILL)</value>
+      <webElementGuid>7ddaa801-aad6-4256-bc8c-4de35c50e389</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-$b10&quot;)/div[@class=&quot;charity-card-title&quot;]</value>
+      <webElementGuid>793c7ea6-70fb-4472-ba5f-6a2791a05509</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-$b10']/div</value>
+      <webElementGuid>81b25864-e757-4e6e-992f-b4411b726428</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I am fundraising for'])[1]/following::div[3]</value>
+      <webElementGuid>874e5617-74a6-4f40-8ea9-e24cc9ceaa42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::div[6]</value>
+      <webElementGuid>7a040a0f-1f9f-48de-b240-e2f715b5342c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div</value>
+      <webElementGuid>16af3e48-f9ce-41f4-ab0a-be8d53923eb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'testing approved campaign name with longer name to testKeep Inviting Love Library (KILL)' or . = 'testing approved campaign name with longer name to testKeep Inviting Love Library (KILL)')]</value>
+      <webElementGuid>520a13e4-5979-4c46-8202-8e6a25f652df</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

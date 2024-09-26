@@ -6,12 +6,12 @@
    <elementGuidId>831ba1fe-4486-4251-b298-5c1d47ad8d23</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#b2-Header3</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[3]/article/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-Header3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

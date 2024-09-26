@@ -4,25 +4,23 @@
    <name>label_Upload file</name>
    <tag></tag>
    <elementGuidId>8c606ef4-9bd7-4085-bcc8-ecaf425eb1be</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#b4-b3-b14-UploadWidget</value>
+         <key>XPATH</key>
+         <value>//label[@id=&quot;b4-b3-b14-UploadWidget&quot;]/input&#xd;
+&#xd;
+</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@id = 'b4-b3-b14-UploadWidget' and (text() = 'Upload file' or . = 'Upload file')]</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <key>CSS</key>
+         <value>#b4-b3-b14-UploadWidget</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//label[@id=&quot;b4-b3-b14-UploadWidget&quot;]/input&#xd;
-&#xd;
-</value>
+         <key>IMAGE</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,16 +6,16 @@
    <elementGuidId>8f659355-84c2-4e74-bd12-a91c8d066397</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-l3-255_0-$b26']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@src = '/res/GetCampaignImage/4dbc8bd7-0f80-4d35-a49a-065b816aa466.jpg?Category=3' and @id = 'b2-l3-284_0-b26-b1-ContentImage']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#b2-l3-284_0-b26-b1-ContentImage</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='b2-l3-255_0-$b26']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

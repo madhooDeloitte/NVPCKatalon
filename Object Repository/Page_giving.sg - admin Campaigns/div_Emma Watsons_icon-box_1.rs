@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Emma Watsons_icon-box_1</name>
+   <tag></tag>
+   <elementGuidId>925a678d-b321-4757-b656-5876fba27a4c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b29-l1_0-291_1-b10-b1-Content']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b29-l1_0-291_1-b10-b1-Content > div.icon-box</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1e50f5d0-4372-45fe-b3e9-2ac02056b612</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-box</value>
+      <webElementGuid>05410a98-d345-4222-9515-6f8e38f7a3b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b29-l1_0-291_1-b10-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]</value>
+      <webElementGuid>49e1ef05-4f24-47ab-ab99-ce47cb4cdf41</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b29-l1_0-291_1-b10-b1-Content']/div</value>
+      <webElementGuid>d2ea4d4c-96d2-406b-9914-eb82b53402fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Emma Watsons'])[3]/following::div[5]</value>
+      <webElementGuid>1d876f92-aeee-4d11-ab8a-89e708d98d5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Draft'])[1]/following::div[5]</value>
+      <webElementGuid>7b191ab2-98ca-430c-8bae-100fad268c3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[2]/preceding::div[2]</value>
+      <webElementGuid>9c9c6222-c83f-40c4-ac0b-8201a4492f3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::div[13]</value>
+      <webElementGuid>b5d2918d-af22-45c9-8f10-9658125f8b23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[7]/div/div/div/div/div</value>
+      <webElementGuid>1951f467-0e8a-4f66-918f-41d8adf61eb6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

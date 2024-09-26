@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_About the charity</name>
+   <tag></tag>
+   <elementGuidId>523f328d-2154-4398-a653-0168a36bc87a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b1-b1-BottomContent']/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b1-b1-BottomContent > div > span.heading4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d9732e27-99f7-4cdd-a40d-bc78e8678631</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>heading4</value>
+      <webElementGuid>e294fcad-bf7d-4ed2-ba1b-e88b22933a5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>About the charity</value>
+      <webElementGuid>1fffee25-24ff-4404-a6bf-3a3c8dd43020</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b1-b1-BottomContent&quot;)/div[1]/span[@class=&quot;heading4&quot;]</value>
+      <webElementGuid>16391c70-6e0d-4172-913c-c52a29bfea04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_giving.sgEdit campaign/iframe_Submit for approval_b2-b36-MobileIframe</value>
+      <webElementGuid>8cb501f1-b5c3-4162-ac0a-a561446cc245</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b1-b1-BottomContent']/div/span</value>
+      <webElementGuid>eb28e0cf-b32b-4c07-8420-8d5a6b075b66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show more'])[1]/following::span[1]</value>
+      <webElementGuid>a6fd45d7-6cfa-4f82-a67e-37f2642f2dad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See more'])[1]/preceding::span[2]</value>
+      <webElementGuid>b11f7cb3-fa55-405b-ad51-64a2975c8935</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/preceding::span[3]</value>
+      <webElementGuid>e0fe2c70-ae7d-4130-8b05-6bf0e0a8fc19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='About the charity']/parent::*</value>
+      <webElementGuid>ddc232c5-2eb4-4d6d-b932-d778743e1c6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/span</value>
+      <webElementGuid>249d1eb7-0c6f-41d3-815f-80fcb28081e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'About the charity' or . = 'About the charity')]</value>
+      <webElementGuid>1fb33e5f-580f-4b55-ba98-802d9ad18394</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

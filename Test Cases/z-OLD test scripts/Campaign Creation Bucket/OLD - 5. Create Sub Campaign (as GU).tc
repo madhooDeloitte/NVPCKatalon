@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Campaign Creation Bucket</description>
+   <name>OLD - 5. Create Sub Campaign (as GU)</name>
+   <tag>R1.3</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d9ebdfcb-295f-45e0-9b2d-00e0c4be8f04</testCaseGuid>
+</TestCaseEntity>

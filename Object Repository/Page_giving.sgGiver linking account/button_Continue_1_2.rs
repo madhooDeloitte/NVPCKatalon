@@ -3,24 +3,18 @@
    <description></description>
    <name>button_Continue_1_2</name>
    <tag></tag>
-   <elementGuidId>b0856d0f-1574-4f81-9a9a-375d550fc73c</elementGuidId>
+   <elementGuidId>8b7a562d-1a25-4e60-9bde-b0627924de6c</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#b5-b6-Complete</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@id='b5-b6-Complete']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b5-b6-Complete</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Continue&quot;i]</value>
-      </entry>
-   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b45f4c2a-4592-4a7a-9081-1498839e0f08</webElementGuid>
+      <webElementGuid>9f9810ff-ac4a-4316-b79a-98ddd4d614f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>f92ab2ea-4107-4bed-9138-d11a8317a451</webElementGuid>
+      <webElementGuid>acae32a4-90f6-4496-837d-38542d9d1691</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +39,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>40b4762e-33a2-4f26-bcac-d520bf3d42ee</webElementGuid>
+      <webElementGuid>c3f51258-fac7-4f59-80a8-aa7e27e233b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnContinue</value>
+      <webElementGuid>dfeebfd7-0796-4912-95d8-8d01fdf16891</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +55,7 @@
       <name>id</name>
       <type>Main</type>
       <value>b5-b6-Complete</value>
-      <webElementGuid>898ecc8c-0b2b-4250-ad96-e9a80827b9af</webElementGuid>
+      <webElementGuid>143c6d3c-a31d-4339-b380-58125ed66321</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +63,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Continue</value>
-      <webElementGuid>5baf3001-5ee5-48ac-bf43-1e1e334800b8</webElementGuid>
+      <webElementGuid>c3030766-bac4-459d-9456-55d87ffdf159</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b5-b6-Complete&quot;)</value>
-      <webElementGuid>6488c13a-407b-4fd5-9b47-dbc631b5f80b</webElementGuid>
+      <webElementGuid>1ca53c8c-5d2a-4e14-83d6-37f841eabd41</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='b5-b6-Complete']</value>
-      <webElementGuid>6249b275-890d-4d60-b46a-eedd88f5f32c</webElementGuid>
+      <webElementGuid>b899bcb7-cfff-40e0-8d42-18f055308e60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b5-b6-b4-Button']/button</value>
-      <webElementGuid>3deeb750-3f01-4e44-b95c-402c781ef5a8</webElementGuid>
+      <webElementGuid>dc220f20-9e3a-4e43-aa3e-11e3ff983bdc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Skip'])[1]/following::button[1]</value>
-      <webElementGuid>64253581-737d-4ef0-bd94-0dd44d041541</webElementGuid>
+      <webElementGuid>af6a5f06-d6fc-425c-b7eb-66068bd77f70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Youth'])[1]/following::button[2]</value>
-      <webElementGuid>47dbc342-b0f7-45e2-8c25-9cb3bdb7f87f</webElementGuid>
+      <webElementGuid>60de39a0-d12f-430c-88ff-5e1bae89e9ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Continue']/parent::*</value>
-      <webElementGuid>275faf11-c0cc-45d0-bdb1-d2a15e1c8e75</webElementGuid>
+      <webElementGuid>448a4ad3-d1bd-4c1f-995b-189dbb7dac30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +119,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/button</value>
-      <webElementGuid>5c12345a-7660-4b54-bb8c-7843b680aea6</webElementGuid>
+      <webElementGuid>a21f1ce3-b4a2-4b5d-8e7d-7489efc8f6f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +127,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'b5-b6-Complete' and (text() = 'Continue' or . = 'Continue')]</value>
-      <webElementGuid>a5c2c6fc-c063-45d0-a005-1d236bdd2965</webElementGuid>
+      <webElementGuid>67e0a2aa-1970-4827-8bfc-fef0cb585bc6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

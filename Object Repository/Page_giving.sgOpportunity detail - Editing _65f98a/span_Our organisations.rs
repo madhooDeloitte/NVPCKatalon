@@ -6,12 +6,12 @@
    <elementGuidId>5d6c9af2-ad14-41be-a505-7962d68edde7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#b1-l1-1243_8-b2-Label > span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Fundraise'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b1-l1-1243_8-b2-Label > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

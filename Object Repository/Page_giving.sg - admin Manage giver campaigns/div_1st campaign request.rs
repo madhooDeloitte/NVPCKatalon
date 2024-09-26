@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_1st campaign request</name>
+   <tag></tag>
+   <elementGuidId>6016d717-16f0-493f-b625-f4e1dffd1baa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@ktl-id='divFundraiserCampaignTable']/tbody/tr[1]/td[5]/div/div/div/div/div[1]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b6-b6-l1_0-807_0-b5-b1-Content > div.icon-box</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c9879949-44da-4fcb-8265-970c293eef59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-box</value>
+      <webElementGuid>b13b2df1-a9a9-4cf2-84c1-5b053adab2d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b6-b6-l1_0-807_0-b5-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]</value>
+      <webElementGuid>a0fb764d-dc54-4e11-8a52-f314385dffd6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b6-b6-l1_0-807_0-b5-b1-Content']/div</value>
+      <webElementGuid>7398d640-0ff6-4922-9dba-fc311797f1c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='rajeev@marriott.dk.dev'])[1]/following::div[6]</value>
+      <webElementGuid>f3a169a4-6b43-48ee-8c15-d0bc8d6b6189</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rajeev Menon'])[1]/following::div[7]</value>
+      <webElementGuid>33ec1889-75f9-46de-980e-50d30cfae6b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Review'])[1]/preceding::div[2]</value>
+      <webElementGuid>1a7ea010-cbb6-44b2-99d4-6039b2182c37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[1]/preceding::div[12]</value>
+      <webElementGuid>c009a0b5-5b0d-4d44-b875-8f19aa0cb855</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]/div/div/div/div/div/div</value>
+      <webElementGuid>5c7fadd3-839f-48bf-9c4f-4683da7b9b03</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -4,19 +4,16 @@
    <name>span_6</name>
    <tag></tag>
    <elementGuidId>862d7cd3-fd01-4ec7-9af8-486b6bd969e4</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>span.flatpickr-day.today.selected</value>
       </entry>
       <entry>
          <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

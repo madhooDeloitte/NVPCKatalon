@@ -3,24 +3,22 @@
    <description></description>
    <name>input_(65)_b4-b2-Input_PublicEnquiryNumber</name>
    <tag></tag>
-   <elementGuidId>5bc2ff57-bf2b-4f51-b5f8-907ed0c281da</elementGuidId>
+   <elementGuidId>b332dc30-fc5e-4b64-9b45-23cd75cf6248</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#b4-b2-Input_PublicEnquiryNumber</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='b4-b2-Input_PublicEnquiryNumber']</value>
       </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
       <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Contact number&quot;i</value>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'inpContactNumber']</value>
       </entry>
-   </smartLocatorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b4-b2-Input_PublicEnquiryNumber</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>423946b6-ac67-40eb-93c8-863d4842409a</webElementGuid>
+      <webElementGuid>20dfe7e7-4607-44c7-973b-326dbc204150</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control OSFillParent</value>
-      <webElementGuid>e44989cc-a600-4114-b3d4-12cbf357cc2d</webElementGuid>
+      <webElementGuid>6eb7fb00-d178-42a0-a94c-bad9b02d3cbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>edb3ff20-3405-4911-bd5c-69376ebf32c0</webElementGuid>
+      <webElementGuid>e6002969-5e04-4108-8d34-75a97cf2688b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,23 +51,23 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>03604d35-095b-46d8-8c00-58c0c6e95ffa</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
-      <type>Main</type>
-      <value>b4-b2-Input_PublicEnquiryNumber_DescribedBy</value>
-      <webElementGuid>b8839af9-112a-43a3-acf0-3b0a0e096696</webElementGuid>
+      <webElementGuid>48a75ad7-59fe-4b70-b11b-11b16a19fc34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>inpContactNumber</value>
+      <webElementGuid>4ed8a25c-7c22-4951-b47f-8b2d547314a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b4-b2-Input_PublicEnquiryNumber</value>
-      <webElementGuid>d8e9caf7-9979-4dff-a1e5-353d10ffece9</webElementGuid>
+      <webElementGuid>d2739f38-8933-43f4-9bb7-90b5c30efac6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b4-b2-Input_PublicEnquiryNumber&quot;)</value>
-      <webElementGuid>7423f11f-2e2c-497a-a041-f493429625fa</webElementGuid>
+      <webElementGuid>20d8d321-3771-4a38-9def-b8d6347c7d29</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='b4-b2-Input_PublicEnquiryNumber']</value>
-      <webElementGuid>697c0b9c-3937-4e40-aa91-855fbfb6eaf2</webElementGuid>
+      <webElementGuid>d572b74f-9372-4639-bdc1-e47cc6b1c53e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b4-b2-b9-Input']/span/input</value>
-      <webElementGuid>8be9ae34-61d0-4eba-a5e0-916638aae9a6</webElementGuid>
+      <webElementGuid>41b58cf0-dbab-4e68-8bce-0303aad59ba4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/span/input</value>
-      <webElementGuid>4d5c9725-ee76-4af5-ac1e-2d54d63b6f12</webElementGuid>
+      <webElementGuid>98d98753-38d7-4967-94be-1295607251b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'number' and @id = 'b4-b2-Input_PublicEnquiryNumber']</value>
-      <webElementGuid>ee46114a-e0f5-45dd-9ebc-eb56bd4c9d76</webElementGuid>
+      <webElementGuid>a8546a1f-4d6b-4dda-a702-ffeea802b479</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

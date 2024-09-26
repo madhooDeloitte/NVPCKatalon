@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_I am fundraising for</name>
+   <tag></tag>
+   <elementGuidId>0deedfd3-50b6-45e1-82d5-6a54d9945f00</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b4-Insights_Top']/div/label</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@class = 'OSFillParent' and (text() = 'I am fundraising for' or . = 'I am fundraising for')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b4-Insights_Top > div > label.OSFillParent</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>7a2cec91-e824-455e-9bbd-e2aa0e677ba1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>OSFillParent</value>
+      <webElementGuid>568e5f06-95c0-4d50-b743-98538e189525</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>I am fundraising for</value>
+      <webElementGuid>8e32faa8-ef51-44b4-bbe8-2e0b5b90ff21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b4-Insights_Top&quot;)/div[1]/label[@class=&quot;OSFillParent&quot;]</value>
+      <webElementGuid>6672dc4a-e8b5-4b74-8de4-00d4fafe1cea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b4-Insights_Top']/div/label</value>
+      <webElementGuid>8452b7d3-c0a0-4ba2-ae90-18a02096388c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::label[1]</value>
+      <webElementGuid>48948b32-758f-4fd8-a714-12b7e3e7a939</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save draft'])[1]/following::label[1]</value>
+      <webElementGuid>c54aff25-bb9c-4cff-b289-1f67fa5b1b28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='testing approved campaign name with longer name to test'])[1]/preceding::label[1]</value>
+      <webElementGuid>bf15e6dc-fbd3-4dc2-b2b1-aa27485029f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/label</value>
+      <webElementGuid>d9e77e42-7ce0-4523-b76d-a4bef20adab4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'I am fundraising for' or . = 'I am fundraising for')]</value>
+      <webElementGuid>87786eb1-6086-4c79-9d0c-46aaf1913a80</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

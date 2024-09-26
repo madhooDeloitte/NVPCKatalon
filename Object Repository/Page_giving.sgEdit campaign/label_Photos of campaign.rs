@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Photos of campaign</name>
+   <tag></tag>
+   <elementGuidId>5c753d34-a6f6-40e5-9562-47fc7491dad5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b4-b9-Label']/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.heading6.mandatory.OSFillParent</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>aa045041-2cbf-41ed-80b8-0f0b1637772a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>heading6 mandatory OSFillParent</value>
+      <webElementGuid>85a3df73-cd13-4192-b236-e6fb66926139</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>labPhotosOfCampaign</value>
+      <webElementGuid>b99693a4-01ea-4f78-8e69-65af5940eac5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Photos of campaign</value>
+      <webElementGuid>0cb1e32b-eae3-4a54-b5d8-21c15d1d79a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b4-b9-Label&quot;)/label[@class=&quot;heading6 mandatory OSFillParent&quot;]</value>
+      <webElementGuid>564a63db-e2ce-46dd-9219-d84840163b49</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b4-b9-Label']/label</value>
+      <webElementGuid>a81d0b31-94f3-4650-82ca-8a1496fec5f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='giving.sg/donate/campaign'])[1]/following::label[1]</value>
+      <webElementGuid>01d1ca42-e1ea-4c3e-95cc-b50595e519ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Campaign URL'])[1]/following::label[1]</value>
+      <webElementGuid>284c6eca-d20d-4e7e-86b9-fb86fe31a4b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload up to 5 pictures or include a YouTube link for donors to learn more.'])[1]/preceding::label[1]</value>
+      <webElementGuid>6dea1056-864f-4e5b-8a8d-6e456ad26d83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cover photo'])[1]/preceding::label[1]</value>
+      <webElementGuid>440f3766-dab2-4048-9ba6-6fd9b4b73d20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Photos of campaign']/parent::*</value>
+      <webElementGuid>55a2532f-30c9-4c29-8c53-e264e0bd7c25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/div/div/label</value>
+      <webElementGuid>ce6d0b8f-1125-43fa-b1f6-bc331d717354</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Photos of campaign' or . = 'Photos of campaign')]</value>
+      <webElementGuid>bbdfb0b5-39fe-4a35-b757-e47244cc7429</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

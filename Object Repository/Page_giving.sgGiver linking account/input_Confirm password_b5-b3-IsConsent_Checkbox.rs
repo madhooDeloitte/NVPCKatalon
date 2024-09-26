@@ -3,24 +3,18 @@
    <description></description>
    <name>input_Confirm password_b5-b3-IsConsent_Checkbox</name>
    <tag></tag>
-   <elementGuidId>95aab03d-cf75-4521-8c9c-ae2ef309d392</elementGuidId>
+   <elementGuidId>d42e3115-2111-4d60-8ee4-8b9d8f59a613</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#b5-b3-IsConsent_Checkbox</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='b5-b3-IsConsent_Checkbox']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b5-b3-IsConsent_Checkbox</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:role=checkbox</value>
-      </entry>
-   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ce48b7fb-4042-47e1-97cd-1c65cf75e171</webElementGuid>
+      <webElementGuid>82a47036-1cf9-4653-8765-3aba8a44d74b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>4d7bd464-0fcb-438f-8292-556be58055f0</webElementGuid>
+      <webElementGuid>51f39a53-4135-4789-a816-f8b44c776b1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>61e5e1e4-c33b-4909-8268-25f0b41a78b4</webElementGuid>
+      <webElementGuid>e9709ae7-0939-4294-bc46-31b2e2a23b1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +47,7 @@
       <name>id</name>
       <type>Main</type>
       <value>b5-b3-IsConsent_Checkbox</value>
-      <webElementGuid>a72301ad-e56a-493f-838b-d9ee87ba78d0</webElementGuid>
+      <webElementGuid>fc5e9244-a764-4272-b6c3-d1e7d94c4c2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b5-b3-IsConsent_Checkbox&quot;)</value>
-      <webElementGuid>99b38e01-92c8-4eaf-8a4b-28d16e8fcbec</webElementGuid>
+      <webElementGuid>1499bc57-232e-4126-863c-adab3d03890d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='b5-b3-IsConsent_Checkbox']</value>
-      <webElementGuid>dbbaa9cb-c8e6-43c6-b178-ac7cf16657ef</webElementGuid>
+      <webElementGuid>127ba30d-f3f3-40c9-8c0b-cef35637636b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b5-b3-b19-Control']/span/input</value>
-      <webElementGuid>aaa4027a-82f6-4e1b-993d-82f5c7bf6bee</webElementGuid>
+      <webElementGuid>da743044-d610-48be-89ad-9114c055b542</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div/div/div/span/input</value>
-      <webElementGuid>125948ac-83f5-4798-a56a-2a78866de7b4</webElementGuid>
+      <webElementGuid>77dfa6dc-0e58-497b-9bdb-4ef8c4a999a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'checkbox' and @id = 'b5-b3-IsConsent_Checkbox']</value>
-      <webElementGuid>03210aaf-b62e-4a07-bc5a-5f790bfcfda6</webElementGuid>
+      <webElementGuid>edd4fb5e-0ce6-4d08-b03b-9601143b6f1c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

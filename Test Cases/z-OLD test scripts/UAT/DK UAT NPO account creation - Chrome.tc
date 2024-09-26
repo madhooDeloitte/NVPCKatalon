@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DK UAT NPO account creation - Chrome</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>76ff5f88-52ef-4afd-a1de-452398065816</testCaseGuid>
+</TestCaseEntity>

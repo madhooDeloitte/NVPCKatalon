@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add items (mixed cart, one time, pledge, recurring) and make payment via Stripe saved card</name>
+   <tag>R1.0</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>69263fd3-84f4-47d8-b67e-2df4228ca578</testCaseGuid>
+</TestCaseEntity>

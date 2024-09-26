@@ -6,12 +6,12 @@
    <elementGuidId>23ecc388-c49d-45ee-b0d2-4689b7888071</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#b2-b15-b20-AddDedication > a</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Add dedication message')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b15-b20-AddDedication > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

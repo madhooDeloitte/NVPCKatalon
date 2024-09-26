@@ -3,24 +3,22 @@
    <description></description>
    <name>input_Swift code_b4-b3-Input_SwiftCode</name>
    <tag></tag>
-   <elementGuidId>f4cd9a0f-2c7a-4c46-9d99-e5a5f8decd51</elementGuidId>
+   <elementGuidId>cbad9766-c082-4b52-aefb-610e99097aa0</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#b4-b3-Input_SwiftCode</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='b4-b3-Input_SwiftCode']</value>
       </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
       <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Swift code&quot;i</value>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'inpSwiftCode']</value>
       </entry>
-   </smartLocatorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b4-b3-Input_SwiftCode</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>4808f5b4-7b8d-4a76-b02a-75c9501d45a6</webElementGuid>
+      <webElementGuid>e179eecf-5811-4f16-86d9-8f683cea609e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control OSFillParent</value>
-      <webElementGuid>debbe38f-27e7-4bd9-a0aa-888012e3fb85</webElementGuid>
+      <webElementGuid>1f95c7a8-27c8-46f6-9547-e9c88d0ae853</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>c9395dd8-1abe-4886-a927-0ce8b9f474c2</webElementGuid>
+      <webElementGuid>70ca1e21-9637-4b5d-a68f-82eec83e60b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +51,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>b5a12e4b-b716-40f1-8b3a-666cdbf32dc4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
-      <type>Main</type>
-      <value>b4-b3-Input_SwiftCode_DescribedBy</value>
-      <webElementGuid>66ccb692-a929-47e4-bdbc-7a3114a28d50</webElementGuid>
+      <webElementGuid>fdb6aeab-566e-4042-9e94-6559244401ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,15 +59,23 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>11</value>
-      <webElementGuid>ad960ce6-fe42-457b-ae00-72b45b1b5671</webElementGuid>
+      <webElementGuid>fde7f762-fc38-44e9-968a-e330577dc006</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>inpSwiftCode</value>
+      <webElementGuid>0da89386-3248-421e-9ab7-aae390733050</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b4-b3-Input_SwiftCode</value>
-      <webElementGuid>f9c0513b-1c00-41ee-ac5c-e5dfc5e38221</webElementGuid>
+      <webElementGuid>6e982d83-95ed-493b-8503-8f7f733c3101</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +83,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b4-b3-Input_SwiftCode&quot;)</value>
-      <webElementGuid>6ea18caa-6af6-4d80-ab51-a855aa701fe5</webElementGuid>
+      <webElementGuid>bd32854c-a576-4061-a6bf-9b6ec81f9426</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +91,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='b4-b3-Input_SwiftCode']</value>
-      <webElementGuid>f9778989-05eb-43ed-8373-aa848e2561c5</webElementGuid>
+      <webElementGuid>ccac2302-f4f2-47b3-9ae2-a6376a951cf9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +99,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b4-b3-b12-FieldContent']/span/input</value>
-      <webElementGuid>9948242f-8f61-4f18-80bf-25df1bb7c02d</webElementGuid>
+      <webElementGuid>eb92df78-955f-4d51-9a5a-59cc9c29482d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div[3]/span/input</value>
-      <webElementGuid>bc670874-13cf-430f-b319-e4d57fed3711</webElementGuid>
+      <webElementGuid>33279c59-a42c-4deb-b247-9b131822eaf1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'b4-b3-Input_SwiftCode']</value>
-      <webElementGuid>15f8753f-fbff-4bcc-9dd8-955e323fcf7d</webElementGuid>
+      <webElementGuid>106dfdaf-bf2b-40bc-8ae7-183530b28b5f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

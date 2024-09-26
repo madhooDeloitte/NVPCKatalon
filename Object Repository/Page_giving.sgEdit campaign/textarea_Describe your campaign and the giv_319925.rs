@@ -6,12 +6,12 @@
    <elementGuidId>4c58d419-cd24-4673-8715-c9651b5b0f8f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#b2-b4-TextArea_CampaignDescription</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//textarea[@id='b2-b4-TextArea_CampaignDescription']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b4-TextArea_CampaignDescription</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Fundraising type</name>
+   <tag></tag>
+   <elementGuidId>e7ba020d-e2f4-4a35-9275-049f993a7945</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b28-b2-Label']/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.mandatory.OSFillParent</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>9997a693-1dc6-4454-a2fb-b400e3b73cae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mandatory OSFillParent</value>
+      <webElementGuid>ba7aad8c-6f97-4f8c-ab4b-84e7b927505b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>labFundraisingType</value>
+      <webElementGuid>06cdae49-0f2d-4628-b504-35312943e412</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Fundraising type</value>
+      <webElementGuid>ae47a4f7-f410-45a1-a5ee-57c838731452</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b28-b2-Label&quot;)/label[@class=&quot;mandatory OSFillParent&quot;]</value>
+      <webElementGuid>6e79264b-77a6-4292-8638-644169afeee9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b28-b2-Label']/label</value>
+      <webElementGuid>741b982a-a554-4355-b38b-6d2556bae5b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[2]/following::label[1]</value>
+      <webElementGuid>589c59cc-b729-401c-a9b4-8bc80c8505f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/following::label[1]</value>
+      <webElementGuid>4b0cb5ef-ce12-402c-a854-7acb2bbf9aca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Local'])[1]/preceding::label[1]</value>
+      <webElementGuid>e0824ac1-b3d5-4735-9988-6a94eefc14cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>ef457e29-3589-47b7-b0a1-7c1fafbfe8ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Fundraising type' or . = 'Fundraising type')]</value>
+      <webElementGuid>ab659e91-0baf-493b-a570-0ff121872186</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

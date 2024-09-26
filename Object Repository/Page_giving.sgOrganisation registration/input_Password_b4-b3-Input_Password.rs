@@ -3,24 +3,22 @@
    <description></description>
    <name>input_Password_b4-b3-Input_Password</name>
    <tag></tag>
-   <elementGuidId>6f232771-b133-454e-92d1-ad2f4aadb8fa</elementGuidId>
+   <elementGuidId>1073dd82-9fc6-429f-9e7a-2655566f5f72</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#b4-b3-Input_Password</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='b4-b3-Input_Password']</value>
       </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
       <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Password&quot;s</value>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'inpPassword']</value>
       </entry>
-   </smartLocatorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b4-b3-Input_Password</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>fbefb1ba-4cdf-4c20-b3f7-9b318043dde1</webElementGuid>
+      <webElementGuid>f7b7cbf1-4bbc-48b4-8115-a6437c9fa762</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control OSFillParent</value>
-      <webElementGuid>b2dbbe69-3aea-44ac-a7e8-43da0688b8d0</webElementGuid>
+      <webElementGuid>2d9fb999-82a9-4396-aebf-e05811d4a328</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>b06aed87-215d-41a3-be36-8e7e9cec731f</webElementGuid>
+      <webElementGuid>1b58726b-962f-491d-9d22-aee433180052</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +51,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>c8cda003-d8f3-4de7-8614-18d982906527</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
-      <type>Main</type>
-      <value>b4-b3-Input_Password_DescribedBy</value>
-      <webElementGuid>4fb40635-2b89-4dc2-b82f-a2a07c9cfe7c</webElementGuid>
+      <webElementGuid>f185750c-3064-4238-a29c-7b19957ddd6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +59,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>64</value>
-      <webElementGuid>054a8dad-8d28-4c17-b967-dc78e852480e</webElementGuid>
+      <webElementGuid>0f1228d2-d9fd-49d5-9535-98483fab1077</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,15 +67,23 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>new-password</value>
-      <webElementGuid>d28baba6-990d-4e01-aa87-3c704e288b51</webElementGuid>
+      <webElementGuid>638ef684-dc7b-4e39-a850-01370a7180dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>inpPassword</value>
+      <webElementGuid>e7f76c15-8c4e-4be5-8e9e-af913e70cc6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b4-b3-Input_Password</value>
-      <webElementGuid>ba78d02f-30a1-4874-88f3-826d9d267d86</webElementGuid>
+      <webElementGuid>47d4d408-2e48-46ea-9e5d-645242962aff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +91,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b4-b3-Input_Password&quot;)</value>
-      <webElementGuid>86860334-ec4f-457f-9146-e2d482b9ed8a</webElementGuid>
+      <webElementGuid>b6330d6c-b359-4e90-93ac-d0d7a85911ee</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +99,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='b4-b3-Input_Password']</value>
-      <webElementGuid>c7376263-a380-4b7f-aaa3-fe57bce2337f</webElementGuid>
+      <webElementGuid>2bccf439-827b-4f82-bf34-ee6a9a795e87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +107,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b4-b3-b17-PasswordInput']/span/input</value>
-      <webElementGuid>c707fe62-2b04-4e91-86a9-446dedc8a396</webElementGuid>
+      <webElementGuid>6abb8eb7-7871-4769-b121-127f85813cfa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +115,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/span/input</value>
-      <webElementGuid>62ea1aea-48e9-4ee5-8d92-8a86534d9a48</webElementGuid>
+      <webElementGuid>20ce5686-dcbc-4dab-a68f-1b18d94a85d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +123,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'password' and @id = 'b4-b3-Input_Password']</value>
-      <webElementGuid>71ff64b8-415a-4fb1-bd32-5e1b3769e2de</webElementGuid>
+      <webElementGuid>9f0b7a8a-7803-46dd-a517-cb2b8453c001</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

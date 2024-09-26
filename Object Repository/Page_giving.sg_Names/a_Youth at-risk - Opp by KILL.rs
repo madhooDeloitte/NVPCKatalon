@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Youth at-risk - Opp by KILL</name>
+   <tag></tag>
+   <elementGuidId>2c363673-c008-452f-9bef-a45068509bf5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b4-l1-213_0-b2-InjectHTMLWrapper']/b/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>b > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>efb4c86b-0775-4ea9-b74f-8a2f6951c222</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://dk.deloitte-sea.com/admin/volunteer/opportunity/detail/0ea87b24-bd09-434b-a542-a2add901912f</value>
+      <webElementGuid>bcad4a09-3066-4fdc-ab72-5b0d5ef9c236</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Youth at-risk - Opp by KILL</value>
+      <webElementGuid>dfb2eb1f-8655-4c8e-afd8-e536a4e17083</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b4-l1-213_0-b2-InjectHTMLWrapper&quot;)/b[1]/a[1]</value>
+      <webElementGuid>546e719d-d46d-4735-be77-556fbb6e4772</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b4-l1-213_0-b2-InjectHTMLWrapper']/b/a</value>
+      <webElementGuid>447faf86-f0e4-4842-913a-aa396d2cbc1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Youth at-risk - Opp by KILL')]</value>
+      <webElementGuid>803902b7-930f-4da3-b609-aa1b5872fc17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mark all as read'])[1]/following::a[1]</value>
+      <webElementGuid>55556d1b-4702-4c9d-bbba-853c46b98a0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Datatagscript2'])[1]/preceding::a[1]</value>
+      <webElementGuid>ea0774dd-d1a4-4e90-b38e-523032b92380</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Youth at-risk - Opp by KILL']/parent::*</value>
+      <webElementGuid>d8571549-d32b-4c9e-9edf-242edb15f3c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://dk.deloitte-sea.com/admin/volunteer/opportunity/detail/0ea87b24-bd09-434b-a542-a2add901912f')]</value>
+      <webElementGuid>451195ee-55f5-4af8-b0a4-dd7eda87f32e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//b/a</value>
+      <webElementGuid>69444224-ef6a-4df3-926e-2486d253d011</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://dk.deloitte-sea.com/admin/volunteer/opportunity/detail/0ea87b24-bd09-434b-a542-a2add901912f' and (text() = 'Youth at-risk - Opp by KILL' or . = 'Youth at-risk - Opp by KILL')]</value>
+      <webElementGuid>e61bcb87-3105-4ee5-9b33-fb30cb33d5b7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

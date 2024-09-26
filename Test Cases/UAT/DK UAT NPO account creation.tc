@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Shakedown - Creating an NPO account</description>
-   <name>DK UAT NPO account creation</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>afa0c6ea-8d5f-4e99-ac31-e752e5422251</testCaseGuid>
-</TestCaseEntity>

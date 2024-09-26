@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_(DS) NPO 0004</name>
+   <tag></tag>
+   <elementGuidId>983c5e13-156a-462a-91c2-5c7fbffd2d0c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b3-$b34']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.charity-card.display-flex.background-yellow-lightest</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5605571c-ca3c-467d-b729-8e5e6bc51296</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>charity-card display-flex background-yellow-lightest</value>
+      <webElementGuid>c1c8a202-57f4-429f-aea5-c7330708350f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>(DS) NPO 0004</value>
+      <webElementGuid>616b7cad-6ce3-4232-8713-d776a46acb4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b3-$b34&quot;)/div[@class=&quot;charity-card display-flex background-yellow-lightest&quot;]</value>
+      <webElementGuid>5b54991d-ab22-4e35-b3b2-26b429568b43</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b3-$b34']/div</value>
+      <webElementGuid>441ed4b2-59e7-4f82-a4b7-85c8264fb817</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I am fundraising for'])[1]/following::div[3]</value>
+      <webElementGuid>1a431a57-7126-4ae5-9304-81ec7757be9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit for approval'])[1]/following::div[6]</value>
+      <webElementGuid>e8764672-b1e1-4409-b91e-c14d4cc4b457</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div</value>
+      <webElementGuid>c4716e9c-e77c-4838-81fb-9e037c882f29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '(DS) NPO 0004' or . = '(DS) NPO 0004')]</value>
+      <webElementGuid>c949455b-e2a1-4efa-baaa-817cb8fa41d9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

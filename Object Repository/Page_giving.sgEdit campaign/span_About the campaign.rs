@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_About the campaign</name>
+   <tag></tag>
+   <elementGuidId>8a7c6a8c-dd09-427b-be24-bdfcd68786c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b1-b1-TopContent']/div[3]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.margin-top-m > span.heading4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7c932144-29a1-4b3c-8d0e-0c18697a6369</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>heading4</value>
+      <webElementGuid>c23c09a7-4725-43ae-af80-5e2a24305600</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>About the campaign</value>
+      <webElementGuid>4846b0e9-2e2d-489d-8dc4-815d33d38690</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b1-b1-TopContent&quot;)/div[@class=&quot;margin-top-m&quot;]/span[@class=&quot;heading4&quot;]</value>
+      <webElementGuid>ea89289f-072a-40de-8c28-70e0a9ff996d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_giving.sgEdit campaign/iframe_Submit for approval_b2-b36-MobileIframe</value>
+      <webElementGuid>17b24ca6-7cdf-4441-a870-074266be6380</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b1-b1-TopContent']/div[3]/span</value>
+      <webElementGuid>4f2b11ce-6d82-4567-bc62-7dce66f2ba23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adults'])[1]/following::span[1]</value>
+      <webElementGuid>81ce6656-8058-4e11-833f-0f1d97ddbc49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Supported causes'])[1]/following::span[2]</value>
+      <webElementGuid>9a1112b8-7d3d-41ab-9c88-5cd654ceb28e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test'])[1]/preceding::span[1]</value>
+      <webElementGuid>19d97432-4e3d-49fc-9cba-2f2680ee6a4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tax-deductible'])[2]/preceding::span[2]</value>
+      <webElementGuid>cb42442d-fb56-4113-a8b2-73761b477af8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='About the campaign']/parent::*</value>
+      <webElementGuid>4f934b8a-a3bf-45a6-b111-736039306db7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[3]/span</value>
+      <webElementGuid>f9498d11-bbf1-44ef-8981-f62b0ebaa311</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'About the campaign' or . = 'About the campaign')]</value>
+      <webElementGuid>154d2c13-9cf3-416a-a3f8-64252bc2ae48</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

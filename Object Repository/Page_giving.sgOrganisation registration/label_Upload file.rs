@@ -3,24 +3,22 @@
    <description></description>
    <name>label_Upload file</name>
    <tag></tag>
-   <elementGuidId>d22eb261-5f89-4be6-986e-0bac300db5dc</elementGuidId>
+   <elementGuidId>612941f1-3a4f-47bf-a5be-bc8cec37bea0</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='b4-b3-b7-UploadWidget']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Upload file' or . = 'Upload file')]</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>#b4-b3-b7-UploadWidget</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//label[@id='b4-b3-b7-UploadWidget']/input</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>label >> internal:has-text=&quot;Upload file&quot;i</value>
-      </entry>
-   </smartLocatorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>f0ac1eae-a121-4972-81db-763b7b79a873</webElementGuid>
+      <webElementGuid>87f9dbc5-3592-43a8-b81c-cbdb9d537329</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-small btn-primary</value>
-      <webElementGuid>b85187d4-7e9c-41f4-8cf1-1d712effec5a</webElementGuid>
+      <webElementGuid>39be4b27-909c-40ec-94db-d653a0261501</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +43,15 @@
       <name>accept</name>
       <type>Main</type>
       <value>.pdf</value>
-      <webElementGuid>707000d3-45fd-4ba5-a3de-7f0494527303</webElementGuid>
+      <webElementGuid>67744a89-7003-4e65-a9b3-e4ca98bab1da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b4-b3-b7-UploadWidget</value>
-      <webElementGuid>41c11904-17f8-4bd2-b3b3-f1988d2d166c</webElementGuid>
+      <webElementGuid>aae32e07-eac7-45e6-ab98-154d22466e89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +59,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Upload file</value>
-      <webElementGuid>23870927-a0d7-4ef8-b318-6391bca8e69e</webElementGuid>
+      <webElementGuid>09c5018d-87a8-4a83-ac9c-56cd0b6120c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,15 +67,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b4-b3-b7-UploadWidget&quot;)</value>
-      <webElementGuid>b7be8f5e-522f-4213-8d6d-fa53ccecfeff</webElementGuid>
+      <webElementGuid>0f5d7054-0108-49db-87b6-610b141f5040</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>inpUploadLOAFile</value>
+      <webElementGuid>ad711301-b475-49f1-9daf-15a0c940c567</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//label[@id='b4-b3-b7-UploadWidget']/input</value>
-      <webElementGuid>94b7632a-154d-4239-bd1b-d15e272a353e</webElementGuid>
+      <value>//label[@id='b4-b3-b7-UploadWidget']</value>
+      <webElementGuid>4d01a689-2a3e-4e58-9250-613dd9eddbcc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,15 +91,15 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b4-b3-Upload_LOA_File']/div/div[3]/span/label</value>
-      <webElementGuid>cfcedbac-8bf8-4adf-878d-f351cbbd753b</webElementGuid>
+      <webElementGuid>af480660-dfaa-4d1d-ba03-56f557018856</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='The form is valid for 3 months from the date signed off by the bank.Maximum file size 5MB'])[1]/following::label[1]</value>
-      <webElementGuid>ca89bcca-5c5b-4682-b3a5-1dafce6be5b2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maximum file size 5MB'])[1]/following::label[1]</value>
+      <webElementGuid>14d19126-98cb-411a-8b3c-ffe0c075db48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Letter of Authorisation (LOA)'])[1]/following::label[1]</value>
-      <webElementGuid>fa831694-6015-44ed-a7eb-4741cff4f0eb</webElementGuid>
+      <webElementGuid>ed18894a-623b-492e-a5d7-468f729b3f82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/preceding::label[1]</value>
-      <webElementGuid>4fbf1947-3508-45a5-881b-6f97a55b4e5d</webElementGuid>
+      <webElementGuid>ecb53d73-bec2-4672-a984-0be8e0238d08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +123,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/label</value>
-      <webElementGuid>f67a1d99-2edf-48fd-b83b-0364d4303347</webElementGuid>
+      <webElementGuid>603bee44-0aa1-417a-b06b-159597a5b1c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +131,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[@id = 'b4-b3-b7-UploadWidget' and (text() = 'Upload file' or . = 'Upload file')]</value>
-      <webElementGuid>99849464-d87e-4389-95d7-b8f99da8ee39</webElementGuid>
+      <webElementGuid>bf8169aa-72a7-4d32-9b7f-f77374d6858f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

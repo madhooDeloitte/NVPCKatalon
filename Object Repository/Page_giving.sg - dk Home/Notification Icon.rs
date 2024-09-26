@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Notification Icon</name>
+   <tag></tag>
+   <elementGuidId>a5d2e8b1-79de-49c4-af31-538dc1c6ef91</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b1-b3-b1-Icon_WIthCount']/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'divNotificationIcon']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.bell-ringing.fa-solid.fa-bell</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>4ae2e935-199b-4b72-b6e8-c7049b537c9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bell-ringing fa-solid fa-bell</value>
+      <webElementGuid>c9e5e78e-65ac-4830-9ee1-a4b385eff770</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b1-b3-b1-Icon_WIthCount&quot;)/i[@class=&quot;bell-ringing fa-solid fa-bell&quot;]</value>
+      <webElementGuid>0b29a514-b1f2-48e3-9d5f-43e00c373bd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>divNotificationIcon</value>
+      <webElementGuid>73188f66-d026-4d13-8066-ee4a614c1eea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-b3-b1-Icon_WIthCount']/i</value>
+      <webElementGuid>c5edd076-8e6b-418a-9a6c-24eda1d75ee1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/i</value>
+      <webElementGuid>a99e3f3d-1b18-4d0c-b6a7-a38df8db6166</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

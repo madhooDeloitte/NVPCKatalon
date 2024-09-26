@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_View members</name>
+   <tag></tag>
+   <elementGuidId>cae5604b-cb5b-4bdb-b425-4d9aef24a6b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='b2-b28-NavigateToMemberScreen']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b28-NavigateToMemberScreen > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>18e1d1de-48f8-4d01-b21b-c6cf4fba3ceb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>lnkViewMembers</value>
+      <webElementGuid>d6c3a39e-0084-429b-9db6-b77cfbf53ddf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View members</value>
+      <webElementGuid>73cbc012-b50f-4665-a8f2-862d13a0aaba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b28-NavigateToMemberScreen&quot;)/span[1]</value>
+      <webElementGuid>269f64f4-02e3-4bd3-a64c-8bf48a449ccd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='b2-b28-NavigateToMemberScreen']/span</value>
+      <webElementGuid>a5f8434b-fb2a-420b-bae2-71d7c677881c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Private campaigns can only be viewed by your members. They are not viewable to the public.'])[1]/following::span[1]</value>
+      <webElementGuid>33600f42-da2a-4d55-8c4d-7f55d745602d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Make campaign private?'])[1]/following::span[2]</value>
+      <webElementGuid>0281511e-0681-47da-ae1f-a35b747ba3cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/preceding::span[3]</value>
+      <webElementGuid>69ae2f22-2695-4d72-a0da-e12077f8d7cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save &amp; preview'])[1]/preceding::span[3]</value>
+      <webElementGuid>4a03d1f3-530c-4c4b-89cb-5bdaa2e76654</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View members']/parent::*</value>
+      <webElementGuid>dc6e8d98-3f79-454a-bfe0-2309d8799bda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/span</value>
+      <webElementGuid>b106c687-8f4e-481f-b52d-c1f6c861b92a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'View members' or . = 'View members')]</value>
+      <webElementGuid>75336811-a610-43db-a61e-e2ade7bfa3d6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

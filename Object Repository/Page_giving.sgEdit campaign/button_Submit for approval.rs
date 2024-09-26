@@ -6,12 +6,12 @@
    <elementGuidId>4ddff279-250b-4982-b40f-3cfea11bf3ca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-primary.ThemeGrid_MarginGutter</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.ThemeGrid_MarginGutter</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

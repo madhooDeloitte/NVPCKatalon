@@ -6,12 +6,12 @@
    <elementGuidId>4c81617e-90ee-492f-ae71-d2a735565440</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.chips-select-item > span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='b2-b12-$b3']/div/div/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.chips-select-item > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
