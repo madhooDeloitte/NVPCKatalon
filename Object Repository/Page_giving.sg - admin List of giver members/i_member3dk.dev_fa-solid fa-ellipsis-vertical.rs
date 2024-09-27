@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_member3dk.dev_fa-solid fa-ellipsis-vertical</name>
+   <tag></tag>
+   <elementGuidId>36dc22ed-97b3-4d89-9e58-3e61edcab2ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b15-l1_0-213_0-b1-b1-Content']/div/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'fa-solid fa-ellipsis-vertical']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b15-l1_0-213_0-b1-b1-Content > div.icon-box > i.fa-solid.fa-ellipsis-vertical</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>4713e74e-5474-454d-8d79-c84715addd8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa-solid fa-ellipsis-vertical</value>
+      <webElementGuid>837c1bea-98ae-4757-a264-0e469decd5cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b15-l1_0-213_0-b1-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]/i[@class=&quot;fa-solid fa-ellipsis-vertical&quot;]</value>
+      <webElementGuid>39ab6236-9d3c-4d4d-9660-343461fed8c9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b15-l1_0-213_0-b1-b1-Content']/div/i</value>
+      <webElementGuid>be14a18c-cf4a-418c-b26c-2a3c78e85435</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/article/div/div/table/tbody/tr/td[4]/div/div/div/div/div/div/i</value>
+      <webElementGuid>ff470c5a-0efe-4a50-b795-fb815b355b06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b15-l1_0-83_0-b1-b1-Content']/div/i</value>
+      <webElementGuid>2dea9957-0b18-4082-b15f-1af8b1a64dab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Ethan Org 1_icon-box</name>
+   <tag></tag>
+   <elementGuidId>13c8c28f-c2a3-4558-88e3-ab27aedc857a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@ktl-id='divGUListingViewmoreactions-Dropdown']/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'divGUListingViewmoreactions-Dropdown']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b10-l1_0-108_0-b1-b1-Content > div.icon-box</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>504ac23b-12ea-405c-8b8d-659d2ca04437</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-box</value>
+      <webElementGuid>62266702-d94c-4a8f-ba8c-ae236300c2cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b10-l1_0-108_0-b1-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]</value>
+      <webElementGuid>484e51e1-1741-4c9e-ba4d-46b4ab91f497</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>divGUListingViewmoreactions-Dropdown</value>
+      <webElementGuid>1d583d29-7ac6-4f80-8141-fb77c489841f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td&#xd;
+[@ktl-id='divGUListingViewmoreactions-Dropdown']/div</value>
+      <webElementGuid>0333125f-9a61-4007-a2ff-a1c40e9b5bf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ethan Org 1'])[2]/following::div[5]</value>
+      <webElementGuid>efb49640-de92-4a19-b8dd-b4e6666c45f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ethangu2@mailto.plus'])[1]/following::div[5]</value>
+      <webElementGuid>a06330ce-bb14-4fd0-b5e9-6c9cb5609053</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[1]/preceding::div[2]</value>
+      <webElementGuid>f7a27a40-cac8-456d-8326-1a013b7df7ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[1]/preceding::div[12]</value>
+      <webElementGuid>9c100304-9810-488c-9b33-19c37bec4914</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/div/div/div/div/div</value>
+      <webElementGuid>350c2d3e-ba4d-46f1-9d38-9559c58281ef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

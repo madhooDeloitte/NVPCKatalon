@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>b_Groundup</name>
+   <tag></tag>
+   <elementGuidId>ae9f43e7-a79b-43b3-ae9a-99371b240aed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b4-l1-209_5-b2-InjectHTMLWrapper']/a/b</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Groundup' or . = 'Groundup')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a > b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>92683d94-1cf8-4295-91e8-7e62dcd4f7a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Groundup</value>
+      <webElementGuid>df37d05d-de21-430f-9511-9415b5d909d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b4-l1-209_5-b2-InjectHTMLWrapper&quot;)/a[1]/b[1]</value>
+      <webElementGuid>277d447c-0264-4e48-b342-3f0c9e857435</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b4-l1-209_5-b2-InjectHTMLWrapper']/a/b</value>
+      <webElementGuid>f7376ddc-6a31-49aa-852d-1b0050d08447</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile settings'])[5]/following::b[1]</value>
+      <webElementGuid>0ebd38b7-695a-44ea-a5e5-36e1f467b9ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='to'])[1]/preceding::b[1]</value>
+      <webElementGuid>5b8b24d8-c8f5-4181-ae7c-34649e3b1648</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='of'])[1]/preceding::b[1]</value>
+      <webElementGuid>3f0aceb7-bcde-44f1-b3a9-bf03bf8c1308</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Groundup']/parent::*</value>
+      <webElementGuid>a5a0895f-8395-4d1b-bccb-757ee48d4bf7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/b</value>
+      <webElementGuid>812d7ea6-c84c-4c23-8af3-abdcf2699c31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//b[(text() = 'Groundup' or . = 'Groundup')]</value>
+      <webElementGuid>cbd37718-2258-4d8b-9d6d-adfe8b397798</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

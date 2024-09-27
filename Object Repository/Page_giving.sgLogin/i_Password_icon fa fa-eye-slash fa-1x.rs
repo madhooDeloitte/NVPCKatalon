@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Password_icon fa fa-eye-slash fa-1x</name>
+   <tag></tag>
+   <elementGuidId>479d8e2e-24c8-4f0d-a68f-ee5914da37d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b3-b9-b3-b1-Icon']/a/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;b3-b9-b3-b1-Icon&quot;)/a[1]/i[@class=&quot;icon fa fa-eye-slash fa-1x&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.fa.fa-eye-slash.fa-1x</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>2e2d7859-4d19-47fa-8bdf-792e74cbc889</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon fa fa-eye-slash fa-1x</value>
+      <webElementGuid>789b63d4-069d-41ea-bea7-7eb4b9e02876</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b3-b9-b3-b1-Icon&quot;)/a[1]/i[@class=&quot;icon fa fa-eye-slash fa-1x&quot;]</value>
+      <webElementGuid>ed71b3b4-3998-448a-8cbc-68d47f636548</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b3-b9-b3-b1-Icon']/a/i</value>
+      <webElementGuid>af61bde5-40b5-4ad4-8941-55c20e04f7e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/i</value>
+      <webElementGuid>089304d6-d5c4-4d28-8cff-2e7e736f301d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
