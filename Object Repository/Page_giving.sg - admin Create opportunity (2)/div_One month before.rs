@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_One month before</name>
+   <tag></tag>
+   <elementGuidId>779cca6b-fd20-4c46-b87a-a6afc11ebd8a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@ktl-id='divRegistrationEndDateDropdown2']/div[2]/div/div[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9d0c7426-fbc2-45f7-92ee-b5448980d9a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-popup-row</value>
+      <webElementGuid>7576ea5c-859b-4a3f-a34f-90cc623629cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>One week before</value>
+      <webElementGuid>111d07e3-b8fb-486c-bdf8-fa11732a11a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b6-RegThreshold_Dropdown2&quot;)/div[@class=&quot;dropdown-list&quot;]/div[@class=&quot;scrollable-list scrollable-list-with-scroll&quot;]/div[@class=&quot;dropdown-popup-row&quot;]</value>
+      <webElementGuid>151aa8d1-ca4f-4829-a67b-aa3e2d3e3956</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b6-RegThreshold_Dropdown2']/div[2]/div/div[3]</value>
+      <webElementGuid>0f9beb9b-88dc-45db-ac97-26650c794b2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='One day before'])[1]/following::div[1]</value>
+      <webElementGuid>69b45841-9658-4e97-84b8-e532ba2d4b7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select'])[2]/following::div[2]</value>
+      <webElementGuid>adf7dd5a-5f03-4d55-a7ec-9c6ee6a4e091</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Opportunity type'])[1]/preceding::div[7]</value>
+      <webElementGuid>fb58e1fb-fd9c-465f-b03c-1f589a52d8f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/div[3]</value>
+      <webElementGuid>ff024123-bcda-4da4-b302-d33d81d47d08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'One week before' or . = 'One week before')]</value>
+      <webElementGuid>97d6b536-71de-40f0-96af-4cfe0cb5c6d4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

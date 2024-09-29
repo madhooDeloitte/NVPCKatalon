@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Draft_fa-solid fa-ellipsis-vertical</name>
+   <tag></tag>
+   <elementGuidId>14933991-75f0-425c-af4c-9fbbb62581c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b40-l1_0-237_1-b13-b1-Content > div.icon-box > i.fa-solid.fa-ellipsis-vertical</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>c8ee42f6-be93-430d-8a46-d9c1e10363dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa-solid fa-ellipsis-vertical</value>
+      <webElementGuid>a8125de7-efcd-4c57-bcf0-68a3ab1d872e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b40-l1_0-237_1-b13-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]/i[@class=&quot;fa-solid fa-ellipsis-vertical&quot;]</value>
+      <webElementGuid>78e97ccf-f242-4aa1-b2aa-8d646cf56f18</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b40-l1_0-237_1-b13-b1-Content']/div/i</value>
+      <webElementGuid>5b8093db-eb5c-428e-ad56-feaf82367813</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[7]/div/div/div/div/div/i</value>
+      <webElementGuid>a23a674e-866a-415a-b418-94c3637fc016</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

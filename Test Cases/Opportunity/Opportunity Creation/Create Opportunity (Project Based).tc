@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Opportunity (Project Based)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>47b8896b-3013-4bba-81e0-428680fe7c20</testCaseGuid>
+</TestCaseEntity>

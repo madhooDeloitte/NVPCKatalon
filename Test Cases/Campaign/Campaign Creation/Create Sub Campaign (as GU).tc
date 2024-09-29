@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Sub Campaign (as GU)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>75dacdf6-d92f-49a7-9cd6-2f84ef127195</testCaseGuid>
+</TestCaseEntity>

@@ -10,6 +10,10 @@
          <value>//div[@id='b2-b1-Title']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Groundup registration review' or . = 'Groundup registration review')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#b2-b1-Title</value>
       </entry>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>067b1a7f-cd5b-416c-9608-8fc465cb0e1b</webElementGuid>
+      <webElementGuid>294db2ce-72a1-458f-895d-7d6877627665</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>content-layout-page-title flex3</value>
-      <webElementGuid>54facf46-039f-427f-9cc9-34725434d8d0</webElementGuid>
+      <webElementGuid>29aea2f9-f23b-4cab-8e71-fc15858fdce4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b2-b1-Title</value>
-      <webElementGuid>8bc548ab-50ed-4524-9697-11551f8644b3</webElementGuid>
+      <webElementGuid>94dd9fde-876c-4050-b8d3-b3b58b7d332b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Groundup registration review</value>
-      <webElementGuid>9c78f5df-e12e-47b6-acc0-724a72680350</webElementGuid>
+      <webElementGuid>05819d40-b9c4-4c7c-bae8-5b30b2e2e646</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-b1-Title&quot;)</value>
-      <webElementGuid>4040dd7a-ca6d-4089-ab2d-bed1de709a8a</webElementGuid>
+      <webElementGuid>3258bad1-293a-4666-9aad-60cad3139a92</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='b2-b1-Title']</value>
-      <webElementGuid>f65997ab-3432-486d-b10d-478b7ac6921e</webElementGuid>
+      <webElementGuid>b62a01f0-bf8b-4e6a-a9c9-124d121c1c03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-$b1']/div/div[2]/div</value>
-      <webElementGuid>d6087bb1-b303-48b2-9094-2bae5c5f8c51</webElementGuid>
+      <webElementGuid>1609c0f0-dbe8-431a-8508-b0df18df1855</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Registration review'])[1]/following::div[3]</value>
-      <webElementGuid>da5dfe65-7a24-4aa6-9e5e-e5c85cd2587a</webElementGuid>
+      <webElementGuid>644b1c90-77e4-485e-b438-676b699ca2ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Groundups'])[1]/following::div[7]</value>
-      <webElementGuid>cc11c6e2-d335-444e-a2c9-0a3025e171e9</webElementGuid>
+      <webElementGuid>f3e44394-4a37-4190-8336-a88f2150cfd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='These are the Groundups that indicated your Organisation as their parent organisation.'])[1]/preceding::div[2]</value>
-      <webElementGuid>c899ff78-5aa3-483e-a1b6-37471868da3a</webElementGuid>
+      <webElementGuid>38474061-9a16-4652-bbf0-58ef25421b5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Review'])[1]/preceding::div[6]</value>
-      <webElementGuid>0c2bc8b6-dfb3-4daf-bd3c-3e492585dea0</webElementGuid>
+      <webElementGuid>7f1b2bc1-7374-4717-bb13-6a4d4eb0ee26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Groundup registration review']/parent::*</value>
-      <webElementGuid>b0185452-a437-4ad8-89f7-6564f0c89278</webElementGuid>
+      <webElementGuid>3949959f-31a7-4b57-bd39-bb7e5211cf2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +123,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div[2]/div</value>
-      <webElementGuid>cc52bfbb-032e-480b-a5de-0ba92e1954f7</webElementGuid>
+      <webElementGuid>44d81b84-0b0a-44c9-9c14-79425c8e24e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +131,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'b2-b1-Title' and (text() = 'Groundup registration review' or . = 'Groundup registration review')]</value>
-      <webElementGuid>d7c2e126-2b7a-4f7a-81a8-9bb349b62a01</webElementGuid>
+      <webElementGuid>0a8ac738-1990-4fdf-9330-4429eb2137dc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

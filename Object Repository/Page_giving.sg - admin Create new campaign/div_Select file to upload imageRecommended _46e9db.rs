@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select file to upload imageRecommended _46e9db</name>
+   <tag></tag>
+   <elementGuidId>935c573e-2ccf-4c01-9a26-77a7cba24b7b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Select file to upload imageRecommended size: 1440 x 810 | JPG, PNG, GIF. Max size: 5MBOrYouTube URLEmbed YouTube videos by1. Share > Embed2. Copy the URL code' or . = 'Select file to upload imageRecommended size: 1440 x 810 | JPG, PNG, GIF. Max size: 5MBOrYouTube URLEmbed YouTube videos by1. Share > Embed2. Copy the URL code')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.asset-upload</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b3-b4-Assetupload']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b7f8ae59-5e2b-4c5f-ab7b-86bf90632ac9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>asset-upload</value>
+      <webElementGuid>175f855d-f9a8-4845-af0d-cd77a62a6d9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select file to upload imageRecommended size: 1440 x 810 | JPG, PNG, GIF. Max size: 5MBOrYouTube URLEmbed YouTube videos by1. Share > Embed2. Copy the URL code</value>
+      <webElementGuid>07aa0d13-d98a-48e3-b663-7ac509a23fd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b3-b4-Assetupload&quot;)/div[@class=&quot;asset-upload&quot;]</value>
+      <webElementGuid>717f3812-bcbe-4a50-a4a0-6d42f681c17c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b3-b4-Assetupload']/div</value>
+      <webElementGuid>64864e4d-77ec-4f25-893a-dd3ebb2a925f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[4]/following::div[6]</value>
+      <webElementGuid>8fe99562-a779-439f-adfe-3c64409fd959</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview video'])[1]/following::div[11]</value>
+      <webElementGuid>0b100d20-cf32-48e7-9ec7-297416da6b00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div/div[3]/div[2]/div/div</value>
+      <webElementGuid>f2051e4e-cee0-4e03-a365-8c72912542d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Select file to upload imageRecommended size: 1440 x 810 | JPG, PNG, GIF. Max size: 5MBOrYouTube URLEmbed YouTube videos by1. Share > Embed2. Copy the URL code' or . = 'Select file to upload imageRecommended size: 1440 x 810 | JPG, PNG, GIF. Max size: 5MBOrYouTube URLEmbed YouTube videos by1. Share > Embed2. Copy the URL code')]</value>
+      <webElementGuid>9086bd77-a681-4ab6-9d8c-f712c49af5c8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

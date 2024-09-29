@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Opportunity (Recurring)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c8401588-67ed-4e2c-af41-178ac4dcc2de</testCaseGuid>
+</TestCaseEntity>

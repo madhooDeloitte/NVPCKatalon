@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='b2-l1_0-324_0-b5-Items']/a</value>
+         <value>//*[@ktl-id=&quot;divBacthUploadTable&quot;]/tbody/tr[1]/td[9]/div[@ktl-id=&quot;divViewmoreactions-Dropdown&quot;]/div[@ktl-id=&quot;divViewmoreactions-Dropdown&quot;]/div/div/div/div[2]/div[1]/div/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -18,7 +18,7 @@
          <value>#b2-l1_0-324_0-b5-Items > a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>926e5f4a-9d46-4349-bf6b-0f0d8116d838</webElementGuid>
+      <webElementGuid>32ba51a3-a746-49e6-a709-c706aad812d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>dcac50ea-092a-4a37-8f38-f0cf188421c2</webElementGuid>
+      <webElementGuid>9767f7b1-e588-4365-9ce9-96c77b41f7dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +43,7 @@
       <name>ktl-id</name>
       <type>Main</type>
       <value>btnView</value>
-      <webElementGuid>b3f013ee-3a2b-4e9f-b924-98a06b968735</webElementGuid>
+      <webElementGuid>53d1f055-19a6-4d1a-a575-0c0de0e205e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>View</value>
-      <webElementGuid>141fbad7-b750-48f1-8765-811a1efacfee</webElementGuid>
+      <webElementGuid>874e048d-9d56-4735-a6d2-2a06d095b9c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-l1_0-324_0-b5-Items&quot;)/a[1]</value>
-      <webElementGuid>c04f1100-aac0-4ec6-b8a3-ff3d325e59bf</webElementGuid>
+      <webElementGuid>e6b0b768-0374-4bfa-960c-ec5088e933ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-l1_0-324_0-b5-Items']/a</value>
-      <webElementGuid>18ebd3dc-4dc1-4aa2-9613-d138366a768d</webElementGuid>
+      <webElementGuid>6f4247dc-f2db-47d4-aac7-9ddf1f5c18f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Success'])[1]/following::a[1]</value>
-      <webElementGuid>281bc0e7-c6f1-43e6-963d-f57c6df4aa35</webElementGuid>
+      <webElementGuid>ded07f58-1c32-4b1d-81b9-fc4b74ed6ca3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Processed on'])[1]/following::a[1]</value>
-      <webElementGuid>b69cb7b5-e78d-4265-a9a4-687548089f24</webElementGuid>
+      <webElementGuid>cb78bc21-de0d-4c25-a4fe-be995d03fdb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Success'])[2]/preceding::a[1]</value>
-      <webElementGuid>4236794e-122b-4c47-b004-483937eb43ae</webElementGuid>
+      <webElementGuid>481300fb-fa59-45ba-9977-f2c87ca609f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[8]</value>
-      <webElementGuid>2583cdd2-0277-4bbd-8b59-357768b7d763</webElementGuid>
+      <webElementGuid>1b106169-9af8-43da-9395-2c7c2a8fdf46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[9]/div/div/div/div/div[2]/div/div/a</value>
-      <webElementGuid>79ec1923-2af4-4663-85c5-b6c10628f09a</webElementGuid>
+      <webElementGuid>3c63f902-652d-4786-97f4-42a35c5b72d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and @ktl-id = 'btnView' and (text() = 'View' or . = 'View')]</value>
-      <webElementGuid>937e4a80-3849-4cb2-bf09-45aca3da44da</webElementGuid>
+      <webElementGuid>cfe7b7cc-fa13-4401-a168-4e639d523e1f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

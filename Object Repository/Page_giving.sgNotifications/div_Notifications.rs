@@ -10,6 +10,10 @@
          <value>//div[@id='b2-Title']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Notifications' or . = 'Notifications')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#b2-Title</value>
       </entry>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>6065a37e-1d89-420c-9b29-af512eab822c</webElementGuid>
+      <webElementGuid>616e4fa1-8d1b-4517-bca0-090019a7ce36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>content-layout-page-title</value>
-      <webElementGuid>5207be7e-8b93-4c76-b714-9eeaa830eee3</webElementGuid>
+      <webElementGuid>fadcf632-2381-4daa-a054-1956fa2893f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b2-Title</value>
-      <webElementGuid>28405914-22b0-489d-8780-4e065c564b9a</webElementGuid>
+      <webElementGuid>9f76ffcb-bd1d-4f50-b759-45b579a9ed43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Notifications</value>
-      <webElementGuid>f0226890-ae03-409b-a02e-bcb114068492</webElementGuid>
+      <webElementGuid>1a107dcd-53aa-4a44-ad13-570939d58f81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-Title&quot;)</value>
-      <webElementGuid>da13a84b-7d05-4e4d-b489-eef38e919c28</webElementGuid>
+      <webElementGuid>f0025d7c-f9a6-4f05-b6a2-480bd5205e52</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='b2-Title']</value>
-      <webElementGuid>52b719ac-b678-400f-8a34-659a759803ae</webElementGuid>
+      <webElementGuid>026b1c09-46b5-4821-a59b-34496c0fb0c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='$b2']/div/div[2]/div</value>
-      <webElementGuid>3d2cddf7-1d3c-48d6-9315-fa488e1d2981</webElementGuid>
+      <webElementGuid>d7be9608-351a-4483-ae6e-16cccb9f90f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::div[11]</value>
-      <webElementGuid>0088bece-6386-4863-8f64-dd38046cd1d8</webElementGuid>
+      <webElementGuid>3a6ec0aa-e0a9-4c6f-9947-a37041ab0fde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Giving.sg'])[1]/following::div[13]</value>
-      <webElementGuid>22c988f7-276f-412e-a0de-42a6d62b69fa</webElementGuid>
+      <webElementGuid>5b48508f-012b-4367-bd55-769fcebc491e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mark all as read'])[1]/preceding::div[1]</value>
-      <webElementGuid>78f8bd98-d855-46cc-9c66-d249208a0439</webElementGuid>
+      <webElementGuid>6c66124f-a358-4519-bbdc-c4f64fc34e86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Notifications']/parent::*</value>
-      <webElementGuid>0eabb2c3-888d-44cf-bd1f-784fa12a468e</webElementGuid>
+      <webElementGuid>e98918e8-255a-424c-9b75-cb26f8946422</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +115,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div[2]/div</value>
-      <webElementGuid>49b26159-0787-48a9-bb43-b90428a60fbd</webElementGuid>
+      <webElementGuid>e45862a1-8b7f-4362-b1b9-113e2891918f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +123,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'b2-Title' and (text() = 'Notifications' or . = 'Notifications')]</value>
-      <webElementGuid>11dc9a97-8306-475e-ba7b-7837725830a7</webElementGuid>
+      <webElementGuid>064c592e-b804-48a2-9db4-c8d656546001</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

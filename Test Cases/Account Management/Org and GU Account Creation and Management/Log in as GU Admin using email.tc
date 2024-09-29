@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Log in as GU Admin using email</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aa053c04-7b9e-4cea-bc4b-c7c0300cbe08</testCaseGuid>
+</TestCaseEntity>

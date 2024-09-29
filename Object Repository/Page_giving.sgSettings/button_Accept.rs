@@ -10,6 +10,10 @@
          <value>//button[@id='b2-b24-l1-129_0-ButtonAccept']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @ktl-id = 'btnAccept' and (text() = 'Accept' or . = 'Accept')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#b2-b24-l1-129_0-ButtonAccept</value>
       </entry>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2c1ea385-677a-4804-b88c-229987a76577</webElementGuid>
+      <webElementGuid>b0702fe8-2580-4d53-8b75-1d89a70acd09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-success hide-if-phone</value>
-      <webElementGuid>c5b851c8-d7e0-439b-96ce-da61e12ed5da</webElementGuid>
+      <webElementGuid>2d489f94-2b31-46c9-934d-dbde357e7f32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +43,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f834264d-97ac-471a-8845-23dbf107f196</webElementGuid>
+      <webElementGuid>e5d6fd49-f57b-43a4-b43e-fa9501b3bc8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,15 +51,15 @@
       <name>ktl-id</name>
       <type>Main</type>
       <value>btnAccept</value>
-      <webElementGuid>65379002-2862-494e-8c1f-7b4e14179688</webElementGuid>
+      <webElementGuid>1d57d10e-5e1b-48bf-bb74-b091a4318e20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b2-b24-l1-129_0-ButtonAccept</value>
-      <webElementGuid>fffeda55-c5f1-45e8-bf9a-2d4b43f58f3f</webElementGuid>
+      <webElementGuid>21e1f352-e9fa-4f81-90d8-ebf1ee067c16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +67,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Accept</value>
-      <webElementGuid>1adcc214-d0ee-42ea-9299-b6cd434bae41</webElementGuid>
+      <webElementGuid>dee28317-d7cc-4d7c-b1bf-8b251d5099d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-b24-l1-129_0-ButtonAccept&quot;)</value>
-      <webElementGuid>a3a0d227-1cef-4096-9904-0022c30373db</webElementGuid>
+      <webElementGuid>f5f1c1ea-be17-4b44-afc0-69c45f847d7b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='b2-b24-l1-129_0-ButtonAccept']</value>
-      <webElementGuid>83c2c4aa-d472-46be-afc3-893c6e0a25d9</webElementGuid>
+      <webElementGuid>4ce1b37a-3867-49b7-90aa-04293ae5a490</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b24-l1-129_0-IsDesktop_Tablet']/button</value>
-      <webElementGuid>008d5596-8127-4609-9394-ae297928c625</webElementGuid>
+      <webElementGuid>210ac085-a7ca-48cd-aac2-ba987c0ed58a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Organisation'])[1]/following::button[1]</value>
-      <webElementGuid>95832c45-85fe-4007-b64e-14f5e54b8bd2</webElementGuid>
+      <webElementGuid>d3e36e98-3003-4a9a-ba79-d7147bf7071c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ethan Org 1'])[1]/following::button[1]</value>
-      <webElementGuid>511c2679-5a22-40c1-919c-1264b9685e79</webElementGuid>
+      <webElementGuid>bbb09709-24db-42ad-b2a1-9af70ace3c35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Decline'])[1]/preceding::button[1]</value>
-      <webElementGuid>8e4d58d4-3f81-49dc-bbce-bb6e5998115f</webElementGuid>
+      <webElementGuid>43f8c199-2892-4dc4-b562-6acc6e681a04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Organised by'])[1]/preceding::button[4]</value>
-      <webElementGuid>acdef6ee-743e-49d2-b796-063718611287</webElementGuid>
+      <webElementGuid>6ed15c26-20a5-4c9f-9ae7-305e00fe1331</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +131,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Accept']/parent::*</value>
-      <webElementGuid>a3ef65e2-9e61-42de-a87a-67fb602c2554</webElementGuid>
+      <webElementGuid>a625a7a1-f5e1-44c9-9438-d52fc766b829</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +139,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/button</value>
-      <webElementGuid>383dc29a-014f-4599-b77f-51d2aaa3db6d</webElementGuid>
+      <webElementGuid>6c2e512a-8d76-4462-991e-d1caf2effd92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,6 +147,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @ktl-id = 'btnAccept' and @id = 'b2-b24-l1-129_0-ButtonAccept' and (text() = 'Accept' or . = 'Accept')]</value>
-      <webElementGuid>647b561d-4001-416c-ac6a-3fa49f545c8a</webElementGuid>
+      <webElementGuid>e1f1502f-e0b9-42ec-9ace-fa0b797577b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create opportunity Linked with NPO as Org</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b34cda3b-aacd-4149-88af-dcf3138d2d9f</testCaseGuid>
+</TestCaseEntity>

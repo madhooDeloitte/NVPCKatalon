@@ -10,6 +10,10 @@
          <value>//div[@id='b2-b31-Title']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Reject registration' or . = 'Reject registration')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#b2-b31-Title</value>
       </entry>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>93cca0b4-ba90-48f2-9508-caa5b90ae290</webElementGuid>
+      <webElementGuid>ea60e115-b892-4cf9-8540-d11bb9976648</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>heading2</value>
-      <webElementGuid>253a5a7a-b2ba-4c11-98b0-7ed1acb45e47</webElementGuid>
+      <webElementGuid>92ebe9c8-6b3b-4ae7-8770-aefa09bc72b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b2-b31-Title</value>
-      <webElementGuid>973372a4-cfae-45e1-b8ee-18236a668733</webElementGuid>
+      <webElementGuid>2df1689c-4aac-443a-8406-75a6d8c59209</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Reject registration</value>
-      <webElementGuid>a383987f-df38-4200-af97-1a2e41702bfa</webElementGuid>
+      <webElementGuid>7616119d-3128-48b8-b882-81c8dd8bd9d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-b31-Title&quot;)</value>
-      <webElementGuid>854f437b-4a18-4a55-b1ff-5529755d811c</webElementGuid>
+      <webElementGuid>5454aa45-00e9-48fa-be01-1419e9aa2afa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='b2-b31-Title']</value>
-      <webElementGuid>b55d3451-62eb-48dd-bf82-1c554085c2f0</webElementGuid>
+      <webElementGuid>c4869a80-dbe5-4bbc-bcd8-94da1c7cebb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-$b31']/div/div</value>
-      <webElementGuid>43c16ed6-1042-4f16-95b7-c99820c2dcfc</webElementGuid>
+      <webElementGuid>054789fd-91d8-441f-996a-b30deafa269d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[1]/following::div[11]</value>
-      <webElementGuid>cff84433-5a59-421f-887b-c159832981ca</webElementGuid>
+      <webElementGuid>4143c04b-b7a9-46ce-860f-4839296f59e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='The Groundup admin will receive a notification on the rejection reason.'])[1]/preceding::div[1]</value>
-      <webElementGuid>8addbe1a-faf8-452a-a89b-647fdc714ab9</webElementGuid>
+      <webElementGuid>e309559a-46d5-4d9a-a72b-d832a548e202</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rejection reason'])[1]/preceding::div[2]</value>
-      <webElementGuid>1b8b910f-b86d-4dc2-8f53-cfd4630959df</webElementGuid>
+      <webElementGuid>a80aa1e5-ee18-41fd-b1ee-97236f555d47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Reject registration']/parent::*</value>
-      <webElementGuid>30a1ace2-016b-466f-80dc-bc7434b20fac</webElementGuid>
+      <webElementGuid>6fbb8830-9475-46f5-b01d-091424f840e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +115,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/div/div</value>
-      <webElementGuid>20e2e3b2-b7c7-49c8-9ae1-6114e66518a7</webElementGuid>
+      <webElementGuid>827dcd92-63df-4d71-9a16-eeadc88079e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +123,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'b2-b31-Title' and (text() = 'Reject registration' or . = 'Reject registration')]</value>
-      <webElementGuid>01a8e75e-b939-4c89-8cfc-f3d3ea67c409</webElementGuid>
+      <webElementGuid>36674ea4-704c-441c-b6ad-546f51f250eb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

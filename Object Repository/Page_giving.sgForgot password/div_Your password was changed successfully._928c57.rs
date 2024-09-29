@@ -10,6 +10,10 @@
          <value>//div[@id='b3-b18-SubMessage']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Your password was changed successfully. Login to start giving today.' or . = 'Your password was changed successfully. Login to start giving today.')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#b3-b18-SubMessage</value>
       </entry>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>bfaa2e4b-f597-446b-bf35-139aeb7941b0</webElementGuid>
+      <webElementGuid>a3954dd2-cb6f-4762-92ea-f92995fcbb5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>acknowledgement-feedback-submessage</value>
-      <webElementGuid>4b8e28c1-f3af-40b2-8d21-2467adef8a97</webElementGuid>
+      <webElementGuid>1d5fd506-73d6-4993-b8f5-87d351ec5d2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b3-b18-SubMessage</value>
-      <webElementGuid>def85305-cf72-4ff8-ad44-fa43366b7596</webElementGuid>
+      <webElementGuid>d93d1da9-cdf4-4c19-8136-e1c44baf81cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Your password was changed successfully. Login to start giving today.</value>
-      <webElementGuid>d7643385-cc94-4ba8-a273-bf4e61d85445</webElementGuid>
+      <webElementGuid>d50bdb0c-fa9a-409e-b714-3707dfa84f21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b3-b18-SubMessage&quot;)</value>
-      <webElementGuid>38fc256c-4a28-4d3a-9f71-f8629c06ff1c</webElementGuid>
+      <webElementGuid>2194b3e6-0d57-40b2-91f6-f557850e1cc8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='b3-b18-SubMessage']</value>
-      <webElementGuid>2ad5777e-68ca-49fb-ba89-891cd21ce757</webElementGuid>
+      <webElementGuid>d2f1b752-98ac-473d-8bdf-d9792818ab1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b3-$b18']/div/div[2]</value>
-      <webElementGuid>d29b5634-9457-4927-b804-eb5086183447</webElementGuid>
+      <webElementGuid>2fd6df80-aabd-4f96-b882-7f179ceb1511</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset password'])[1]/following::div[1]</value>
-      <webElementGuid>b3347f51-8d05-4e6f-b928-0b366e0a5979</webElementGuid>
+      <webElementGuid>26d81149-ee4b-41d9-8426-5419bdf97e7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Exit'])[1]/following::div[25]</value>
-      <webElementGuid>b52b2c7a-8fc4-4175-ba6b-ae4ce378c060</webElementGuid>
+      <webElementGuid>922d542a-bffb-40dc-b8ee-4bc5bd95d133</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::div[2]</value>
-      <webElementGuid>88081d1d-b571-48b7-afd1-216e2837c305</webElementGuid>
+      <webElementGuid>29ab4ccb-29fb-4601-8091-f29edfd3c501</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Your password was changed successfully. Login to start giving today.']/parent::*</value>
-      <webElementGuid>2701af0f-096c-4cad-8410-9aef6308c0e3</webElementGuid>
+      <webElementGuid>a9160c5d-a7e0-4ced-ac12-e2c37d4ca9aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +115,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/div[2]</value>
-      <webElementGuid>b82908c7-a174-41c4-872a-cb3de651054a</webElementGuid>
+      <webElementGuid>6043e265-9b45-4dee-92a5-631260cb4975</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +123,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'b3-b18-SubMessage' and (text() = 'Your password was changed successfully. Login to start giving today.' or . = 'Your password was changed successfully. Login to start giving today.')]</value>
-      <webElementGuid>72f3e2d9-e1d1-484b-a0cc-5caf03b44901</webElementGuid>
+      <webElementGuid>5c677c81-ec31-4055-acd9-583206fef0ad</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Foreign Campaign (as NPO)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>33d4d166-dcaa-45ab-b779-d023675b5bf8</testCaseGuid>
+</TestCaseEntity>

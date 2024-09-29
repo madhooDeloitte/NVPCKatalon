@@ -10,6 +10,10 @@
          <value>//div[@id='b3-b2-Title']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Set new password' or . = 'Set new password')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#b3-b2-Title</value>
       </entry>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e881e891-a6b5-48d4-8aa4-9f7113b20da3</webElementGuid>
+      <webElementGuid>2df9f42f-f533-4b98-9f54-4a4ab446d2c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>heading1 margin-bottom-m ph</value>
-      <webElementGuid>4f795dc8-985d-4c6c-917c-bb1627444899</webElementGuid>
+      <webElementGuid>68c63e2e-35b2-4768-a937-2f93301d16e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b3-b2-Title</value>
-      <webElementGuid>9fbed6dd-a65c-4557-8b6a-807b4a9526fd</webElementGuid>
+      <webElementGuid>e3bae0c0-600e-4d41-bb32-ca1468605379</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Set new password</value>
-      <webElementGuid>669fe045-d85d-40f0-ba79-ce8af67ff0e9</webElementGuid>
+      <webElementGuid>6fe589ac-32eb-43a4-96c8-fadd044be84e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b3-b2-Title&quot;)</value>
-      <webElementGuid>6381ecde-61e8-43c3-93cd-7886f7ac636c</webElementGuid>
+      <webElementGuid>d1013110-e536-4d2f-9c29-b435af8fbc3c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='b3-b2-Title']</value>
-      <webElementGuid>e95a7830-0fa1-4f4c-8e9f-d33539a492c1</webElementGuid>
+      <webElementGuid>1a2164ab-1529-4500-8111-89bea2a73b76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b3-b2-MainContentWrapper']/div/div[2]/div</value>
-      <webElementGuid>cb1b5561-6d3a-45ce-89f3-1421a4339055</webElementGuid>
+      <webElementGuid>1cba9d51-eed4-4147-9438-0b3360bd2966</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Exit'])[1]/following::div[20]</value>
-      <webElementGuid>ba29d5d5-3bfc-42dc-a690-f72bbb9d3932</webElementGuid>
+      <webElementGuid>71c27acd-fea2-4468-9e37-0395420b26ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::div[1]</value>
-      <webElementGuid>632385b7-077d-43d1-a6a2-c66296b4e505</webElementGuid>
+      <webElementGuid>40d1743f-728d-412f-9db4-e3c071a4a240</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm password'])[1]/preceding::div[18]</value>
-      <webElementGuid>34ad2d77-db3b-4ffb-a848-cde53ccb0b45</webElementGuid>
+      <webElementGuid>03e3f2fc-0c9a-472d-8034-e33c26d104b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Set new password']/parent::*</value>
-      <webElementGuid>a6f55833-bdce-4d8b-8dc5-7a4a62328cb9</webElementGuid>
+      <webElementGuid>b7643a05-4e54-4a10-b43c-3fdf186232b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +115,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div[2]/div</value>
-      <webElementGuid>0b0f6b83-033f-4199-852e-b70eb4698ef1</webElementGuid>
+      <webElementGuid>aa43f55a-e5dd-4cdb-aecb-6f908f8801bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +123,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'b3-b2-Title' and (text() = 'Set new password' or . = 'Set new password')]</value>
-      <webElementGuid>50643f9e-433b-4373-a958-b43ea0c31426</webElementGuid>
+      <webElementGuid>1088e9c3-3f74-4b59-9b5b-e26944f63af4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register for NPO account with email</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>37d19a9b-9d5f-4baf-be34-a97d22d4a2e2</testCaseGuid>
+</TestCaseEntity>

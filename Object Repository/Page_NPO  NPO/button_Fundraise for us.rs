@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Fundraise for us</name>
+   <tag></tag>
+   <elementGuidId>989aab7a-5e58-42e0-9ef8-d3cb902231ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.hide-if-phone.ThemeGrid_MarginGutter</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9ad1ed2f-c5e3-4be4-bd90-e9cc3615b15f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn hide-if-phone ThemeGrid_MarginGutter</value>
+      <webElementGuid>ac1d15b7-a6b7-4118-aeec-5b5292b06f24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5eef83e1-a244-45a7-8c72-2bdda99d4f57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Fundraise for us</value>
+      <webElementGuid>50702b3e-3cb6-43e6-b70b-fe79f8de27e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b15-DonateSection&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;display-flex flex-direction-column gap-s ignore-btn-margin margin-top-base&quot;]/button[@class=&quot;btn hide-if-phone ThemeGrid_MarginGutter&quot;]</value>
+      <webElementGuid>30133409-d772-4ca0-8b78-b92db4501610</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[5]</value>
+      <webElementGuid>af3655bf-f6c7-43e1-a3c4-fd1512133474</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b15-DonateSection']/div/div[2]/button[2]</value>
+      <webElementGuid>b1a6c971-5e5e-49f4-9f85-b2cff1603063</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Donate'])[3]/following::button[1]</value>
+      <webElementGuid>2d8946ba-da8a-4f9f-8eb4-6740cdd535b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Make a donation'])[1]/following::button[2]</value>
+      <webElementGuid>b04b985d-1257-4336-88a8-9440eea84d4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact person'])[1]/preceding::button[1]</value>
+      <webElementGuid>d94700e6-a602-4bd1-8c54-bfe057cdefcd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Animals'])[1]/preceding::button[1]</value>
+      <webElementGuid>ed33f1cf-4e3b-48c4-a881-0ee9b1d6f6ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Fundraise for us']/parent::*</value>
+      <webElementGuid>b53d5b74-55dd-412f-8ab4-0dc63262ad7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div[2]/button[2]</value>
+      <webElementGuid>419cb1b6-ad6c-40f5-bf88-d8354d5e6b75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Fundraise for us' or . = 'Fundraise for us')]</value>
+      <webElementGuid>853b9090-1a23-4463-9809-64c8db922a0d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

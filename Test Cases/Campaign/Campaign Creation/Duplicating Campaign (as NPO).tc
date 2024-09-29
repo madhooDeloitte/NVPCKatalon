@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Duplicating Campaign (as NPO)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cc2cfc01-b75b-46b5-b45d-70cd5dd6a97f</testCaseGuid>
+</TestCaseEntity>

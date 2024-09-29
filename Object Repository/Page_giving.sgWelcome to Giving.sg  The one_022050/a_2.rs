@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ktl-id = 'btnNotificationIcon']</value>
+         <value>//*[@ktl-id = 'btnNotificationBell']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>fa988e26-e8dc-4187-bdbe-f81624ef3ee2</webElementGuid>
+      <webElementGuid>6ce04082-797c-49ae-9bfc-5b7911265816</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>icon-box</value>
-      <webElementGuid>6f89c2bd-bbff-4054-aa56-652e4e719c93</webElementGuid>
+      <webElementGuid>4648a9a3-a559-4ce0-83db-8a677ff4b2bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/notifications</value>
-      <webElementGuid>8009981d-39ab-437d-9928-c54fc4e1f23d</webElementGuid>
+      <webElementGuid>b5b5b4b1-e426-4890-9929-62a7cf4c665b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>185a1cd3-0eeb-461e-9445-33e8516df19f</webElementGuid>
+      <webElementGuid>7f33cf8f-81d7-4142-88f2-5f964071787e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,15 +59,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b1-b1-Notification&quot;)/div[1]/a[@class=&quot;icon-box&quot;]</value>
-      <webElementGuid>c19b411c-5ccb-490d-8b2c-37ab3a85b503</webElementGuid>
+      <webElementGuid>4ef2e3a0-8ed9-4f78-a3d1-ddd5bc427ce2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ktl-id</name>
       <type>Main</type>
-      <value>btnNotificationIcon</value>
-      <webElementGuid>3b04bd52-227b-4392-a222-5e59bd60f67e</webElementGuid>
+      <value>btnNotificationBell</value>
+      <webElementGuid>00b901d4-acc3-4374-97b5-30305c939e5e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b1-b1-Notification']/div/a</value>
-      <webElementGuid>0e179548-d97b-4f97-80f5-a9b119915bc7</webElementGuid>
+      <webElementGuid>9e72fbb5-3e58-470c-b97d-9f0fe28e0a8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Stories'])[1]/following::a[1]</value>
-      <webElementGuid>46706b08-ec7f-44a8-b268-6404d012469f</webElementGuid>
+      <webElementGuid>8e764058-7747-4198-9fa3-252f6e3a2f7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Our organisations'])[1]/following::a[2]</value>
-      <webElementGuid>42c9e25b-de7b-4caa-80aa-deb27cb57eb8</webElementGuid>
+      <webElementGuid>bf3a5208-17f1-410f-a94f-c12b06efa899</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Public profile'])[1]/preceding::a[1]</value>
-      <webElementGuid>81124dec-a98b-439f-bc25-09867b52e255</webElementGuid>
+      <webElementGuid>2520fddb-face-4661-8536-673d43464345</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My activities'])[1]/preceding::a[2]</value>
-      <webElementGuid>9242148b-94ca-4c72-9a4b-e20b26083c39</webElementGuid>
+      <webElementGuid>f926315d-f95d-4624-a89d-3264070b08a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/notifications')]</value>
-      <webElementGuid>20567e08-dee2-4ac4-856e-7fe7918757c4</webElementGuid>
+      <webElementGuid>0ff24172-16c1-4063-873f-e6bd6376fb52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/div/a</value>
-      <webElementGuid>29ac18fe-8b88-4ee9-959e-2d792173bc30</webElementGuid>
+      <webElementGuid>fe57d2d8-6b55-496c-b7bb-fbbeed6eb586</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,6 +131,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/notifications' and (text() = '2' or . = '2')]</value>
-      <webElementGuid>cb348aab-22ed-4f26-8377-7e9138249e18</webElementGuid>
+      <webElementGuid>24db2fba-1ca3-4a99-b0f9-7c3c641f5cda</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

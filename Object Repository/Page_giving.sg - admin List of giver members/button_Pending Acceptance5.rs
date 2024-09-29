@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@name='0.pfgnhxcezg']</value>
+         <value>//*[@ktl-id = 'btnPendingAcceptanceTab']/div/button</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ktl-id = 'btnPendingAcceptance']</value>
+         <value>//*[@ktl-id = 'btnPendingAcceptanceTab']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button[name=&quot;0.pfgnhxcezg&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6acf7f58-20e5-4595-ad70-3675f801876f</webElementGuid>
+      <webElementGuid>79fb728f-84f0-419b-894e-74367040e254</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>osui-tabs__header-item</value>
-      <webElementGuid>da62c6ba-c090-4c74-a2f1-4eb684039660</webElementGuid>
+      <webElementGuid>df837b31-f391-463e-b623-8b8bdc0f952f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>name</name>
       <type>Main</type>
       <value>0.pfgnhxcezg</value>
-      <webElementGuid>dbdaf90b-90f3-45b1-a15d-fa573552d4f0</webElementGuid>
+      <webElementGuid>662e9986-0de6-4f5c-aaa2-63ff4e29049d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>data-tab</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>2489726a-96dc-403f-8401-9dafbb6d200f</webElementGuid>
+      <webElementGuid>833ddff7-e4d5-42aa-b861-4c341a5d4276</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>3bfd046b-c3c6-4a9f-b43a-a132f19845f3</webElementGuid>
+      <webElementGuid>23c86286-fbb6-41c7-8df0-4f6c5141fc2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>42c47c72-e2f7-4576-94e4-1a20007e1312</webElementGuid>
+      <webElementGuid>2e9a6268-d938-413e-b89a-e82de41198d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>aa6a00cb-f3c6-48b9-8366-dee135b2dfc4</webElementGuid>
+      <webElementGuid>44a9f7ba-a035-4be1-aad2-787bc6b6c2b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>b2-$b14</value>
-      <webElementGuid>ad3c70c7-4c62-499f-bfdc-3725c6fb31d0</webElementGuid>
+      <webElementGuid>3f38d76d-a804-4e8a-8056-ba8dc445f957</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Pending Acceptance5</value>
-      <webElementGuid>5dd9cc66-9d8c-4c0f-ad09-042b40c4931e</webElementGuid>
+      <webElementGuid>5f4fab9d-890a-4632-abc2-d4a755d6543a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,15 +99,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-$b8&quot;)/button[@class=&quot;osui-tabs__header-item&quot;]</value>
-      <webElementGuid>02b14664-f8bf-4e4f-8c39-37855f459900</webElementGuid>
+      <webElementGuid>3fefbd78-7980-4c9a-b4c9-15c3271a0d2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ktl-id</name>
       <type>Main</type>
-      <value>btnPendingAcceptance</value>
-      <webElementGuid>986d5115-8d51-4fdf-9fdf-b3b7e8e783dc</webElementGuid>
+      <value>btnPendingAcceptanceTab</value>
+      <webElementGuid>e0f99100-07c2-4900-b1e5-2bcedae44e46</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -115,7 +115,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@name='0.pfgnhxcezg']</value>
-      <webElementGuid>3521ec54-12a0-446c-81c0-2b20ff01d32e</webElementGuid>
+      <webElementGuid>1753c3fc-0c2e-4a2b-8cc5-18f6e845575f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-$b8']/button</value>
-      <webElementGuid>401bbcb8-8705-42e9-9393-4f44c1973748</webElementGuid>
+      <webElementGuid>7c88218b-8881-4d07-97af-2acaa233e7d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,7 +131,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Active (4)'])[1]/following::button[1]</value>
-      <webElementGuid>4d7c595a-d20f-4374-bba6-99644d4e3f6d</webElementGuid>
+      <webElementGuid>33146352-0d6b-4232-919d-a09fbc15eebb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -139,7 +139,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View batch upload'])[1]/following::button[3]</value>
-      <webElementGuid>78076419-43dd-4f98-85ec-6ff4bc298136</webElementGuid>
+      <webElementGuid>b7c69e78-d23c-45ca-ba3d-5923e1215c80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,7 +147,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/preceding::button[1]</value>
-      <webElementGuid>da81eda1-3212-47b1-b9e8-ea181a7fe752</webElementGuid>
+      <webElementGuid>0078f907-56f4-42e7-a5c1-021b4e2e9cc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -155,7 +155,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//header/div/div[2]/div/button</value>
-      <webElementGuid>c1bfabab-a550-4c46-bb5c-8d657a410f77</webElementGuid>
+      <webElementGuid>1e4619f2-25eb-4094-9bfc-2f028e52f7bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -163,6 +163,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@name = '0.pfgnhxcezg' and (text() = 'Pending Acceptance5' or . = 'Pending Acceptance5')]</value>
-      <webElementGuid>40c5b1f8-9d67-482b-a304-74d3d4c9eb7d</webElementGuid>
+      <webElementGuid>7f23a2e4-cc8f-4ecf-b709-d2e68b372f3d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

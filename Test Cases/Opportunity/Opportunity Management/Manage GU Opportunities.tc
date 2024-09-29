@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Manage GU Opportunities</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8a61fc34-e7b4-493a-a9bf-6d1a21bb29fa</testCaseGuid>
+</TestCaseEntity>

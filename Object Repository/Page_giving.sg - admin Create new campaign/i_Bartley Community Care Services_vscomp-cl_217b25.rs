@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Bartley Community Care Services_vscomp-cl_217b25</name>
+   <tag></tag>
+   <elementGuidId>539e4dd8-50a2-4a0a-b823-4f76a4ec9276</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.vscomp-clear-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vscomp-ele-wrapper-9366']/div/div[3]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>4abe730b-ccba-46fa-a1d9-d5a4b6aa551c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>vscomp-clear-icon</value>
+      <webElementGuid>2064a7fa-1cec-4e66-8fba-0dade0ca431f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vscomp-ele-wrapper-9366&quot;)/div[@class=&quot;vscomp-toggle-button&quot;]/div[@class=&quot;vscomp-clear-button toggle-button-child&quot;]/i[@class=&quot;vscomp-clear-icon&quot;]</value>
+      <webElementGuid>ae021e84-9a36-4a2e-b134-c38623f46dc9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vscomp-ele-wrapper-9366']/div/div[3]/i</value>
+      <webElementGuid>a71af489-19c9-4043-b780-3fb027258829</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/i</value>
+      <webElementGuid>3362b50e-3003-482c-ae3c-6dc8741e0d60</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

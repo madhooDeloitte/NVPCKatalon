@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create TDR Campaign (as NPO)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>848978bf-f52f-444c-bffa-4e59ad4735fe</testCaseGuid>
+</TestCaseEntity>

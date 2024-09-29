@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Please select</name>
+   <tag></tag>
+   <elementGuidId>26ac17e6-5001-4790-b00e-d8ab8f94273d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Please select' or . = 'Please select')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.dropdown-display</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@ktl-id='divRecurringTypeDropdown']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3382a15b-4d2d-41b7-b7c7-e4519a7e9a84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-display</value>
+      <webElementGuid>4b90d23e-e074-4b0c-89a1-4f9cf7c2efc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Please select</value>
+      <webElementGuid>ef9a9bd2-bd1b-47e3-8a4a-517871729d93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b6-b12-Dropdown_RecurringType&quot;)/div[@class=&quot;dropdown-display&quot;]</value>
+      <webElementGuid>903db8d6-078a-4dde-97d4-c6a72ca934bf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b6-b12-Dropdown_RecurringType']/div</value>
+      <webElementGuid>397ac803-2051-45bf-bfb1-d667068500ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='How often do you want your volunteer to commit?'])[1]/following::div[5]</value>
+      <webElementGuid>46ad53e4-f841-4826-b7ce-dd921941c7f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='End time'])[1]/following::div[16]</value>
+      <webElementGuid>225c02be-808f-41dc-9228-392bfe4349f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Registration end date'])[1]/preceding::div[8]</value>
+      <webElementGuid>e2048057-3dd6-42d2-b2c0-fcfdbff5fc44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div[3]/div/div</value>
+      <webElementGuid>f17fe1bb-8268-452b-9cd2-a5cb48f71275</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Please select' or . = 'Please select')]</value>
+      <webElementGuid>c52bccc5-e263-46f5-9e82-bce1d479660a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

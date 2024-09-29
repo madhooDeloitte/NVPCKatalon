@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register for opportunity (no auto-approval, manually approved) - detail page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9868c3e3-3d9d-461f-b171-9c3928ee508a</testCaseGuid>
+</TestCaseEntity>

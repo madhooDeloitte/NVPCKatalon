@@ -10,6 +10,10 @@
          <value>//div[@id='b2-b24-b5-Title']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Accept membership invite?' or . = 'Accept membership invite?')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#b2-b24-b5-Title</value>
       </entry>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8a8c3388-d49b-447e-89de-07cf2671bc69</webElementGuid>
+      <webElementGuid>a1e30f4d-0b6f-492d-8953-9e5a2dece042</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>heading2</value>
-      <webElementGuid>f864741a-e1ed-4aec-986b-bce056574579</webElementGuid>
+      <webElementGuid>ddbfc9c5-5a2f-4cfd-a866-de0581ddfdbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b2-b24-b5-Title</value>
-      <webElementGuid>fed02818-eaf6-4b3f-a911-2fdb2c5fa8a7</webElementGuid>
+      <webElementGuid>31513a3e-a2bc-4f6f-ae35-09e538ca2d7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Accept membership invite?</value>
-      <webElementGuid>1af99883-0ea2-460e-833a-af7370bc567d</webElementGuid>
+      <webElementGuid>449e5bdc-2223-4a4e-a58d-3a66958e7b9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-b24-b5-Title&quot;)</value>
-      <webElementGuid>63e31722-aa57-4a72-8277-06f1fc257b93</webElementGuid>
+      <webElementGuid>b55a8ebe-a746-4550-8230-798041b0bf8a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='b2-b24-b5-Title']</value>
-      <webElementGuid>11f3d543-f12a-43ab-8ca6-25223e05b8ab</webElementGuid>
+      <webElementGuid>9d7993f3-ecab-4c52-8f6d-687b1bf4a8a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b24-$b5']/div/div</value>
-      <webElementGuid>4ff70c44-74e8-49c2-ab7c-dfaf1f857b02</webElementGuid>
+      <webElementGuid>25becddb-691a-40d7-a6bd-f77494a63d92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='The organisation admin will be notified.'])[1]/preceding::div[1]</value>
-      <webElementGuid>578ca75a-b270-48ec-96ca-8ff6637423b3</webElementGuid>
+      <webElementGuid>cfae6f7f-8f36-4252-8d67-561be581f49a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::div[3]</value>
-      <webElementGuid>9a8886e3-9683-4b50-852a-73799e67ff58</webElementGuid>
+      <webElementGuid>1e398cd2-2ace-4b9d-94ea-a12c2a4a1968</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Accept membership invite?']/parent::*</value>
-      <webElementGuid>b9d28177-f69a-45ef-9b0c-04e9312f0b3d</webElementGuid>
+      <webElementGuid>b23b5219-c71f-4099-b46a-59b6f4721ae9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/div/div</value>
-      <webElementGuid>fbbd6c66-8c35-4825-ad0e-f266be7c630f</webElementGuid>
+      <webElementGuid>5267ea35-f458-4b08-93ef-2931e4aad5bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'b2-b24-b5-Title' and (text() = 'Accept membership invite?' or . = 'Accept membership invite?')]</value>
-      <webElementGuid>e3be1b83-35b8-4765-8c81-5c3e69b48697</webElementGuid>
+      <webElementGuid>5b8f7ced-c893-4c19-b86d-0eb2593798a6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
