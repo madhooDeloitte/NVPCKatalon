@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register for GU account with email</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6bd7c5f4-a700-40ef-9b1b-32a52a7d2c12</testCaseGuid>
+</TestCaseEntity>

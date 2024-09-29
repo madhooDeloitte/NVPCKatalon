@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Invitation sent</name>
+   <tag></tag>
+   <elementGuidId>6747a78c-93c8-47a6-b0fe-d64ebb7a8e97</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='feedbackMessageContainer']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.feedback-message.feedback-message-success.feedback-message-autoclose</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e4786e64-65d6-4068-b352-6d559c74e7d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>feedback-message feedback-message-success feedback-message-autoclose</value>
+      <webElementGuid>265e0e0d-9fa9-4ec9-85e7-21fb4715a106</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invitation sent</value>
+      <webElementGuid>b82143d5-81db-4b3c-a242-0fe5fb747df8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;feedbackMessageContainer&quot;)/div[@class=&quot;feedback-message feedback-message-success feedback-message-autoclose&quot;]</value>
+      <webElementGuid>8dfd3298-ee45-431a-a749-6ab9a05d087f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='feedbackMessageContainer']/div</value>
+      <webElementGuid>8301695e-ba5d-4d37-b6f3-8cbf31afcb93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/preceding::div[3]</value>
+      <webElementGuid>8d05b066-8248-4651-a37f-689aba33dd35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div</value>
+      <webElementGuid>88c9ed0c-4ec9-47aa-bced-f54c8dfa12d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Invitation sent' or . = 'Invitation sent')]</value>
+      <webElementGuid>d1ad9881-e95a-412d-884b-b2072932eb0d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Manage Org opportunities</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2a75e6ce-65c9-4d0b-8fbd-4053b3cfe7cc</testCaseGuid>
+</TestCaseEntity>

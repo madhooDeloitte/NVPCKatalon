@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Manage rolesDelete</name>
+   <tag></tag>
+   <elementGuidId>80d7abfa-19c7-4853-bd6f-53d7ebf90158</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='b2-Table_EG_Employees']/tbody/tr/td[5]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.cell-action > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6f445e24-a7f5-4c5a-8e0d-32c5853fe497</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>divViewmoreactions-Dropdown</value>
+      <webElementGuid>9a34b181-f48d-4b04-b9d8-1b36f95a9dce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Manage rolesDelete</value>
+      <webElementGuid>2f1c705a-80de-4ed1-b451-735992e95ddb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-Table_EG_Employees&quot;)/tbody[1]/tr[@class=&quot;table-row&quot;]/td[@class=&quot;cell-action&quot;]/div[1]</value>
+      <webElementGuid>58a13299-32cd-4c6a-9b71-5b62b2fda2ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='b2-Table_EG_Employees']/tbody/tr/td[5]/div</value>
+      <webElementGuid>7aa13686-4cc1-4618-a002-cdbe838efaaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nil'])[1]/following::div[1]</value>
+      <webElementGuid>f0a4f2ef-c1ff-48c0-b721-c9223060b5e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending'])[1]/following::div[1]</value>
+      <webElementGuid>e22912e9-ddb4-46c3-bc5a-9fe22936393a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]/div</value>
+      <webElementGuid>18821e40-628f-4f37-a45c-5a7dddeeec5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@ktl-id = 'divViewmoreactions-Dropdown' and (text() = 'Manage rolesDelete' or . = 'Manage rolesDelete')]</value>
+      <webElementGuid>049336f3-f851-4a26-913f-f9863e798e24</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

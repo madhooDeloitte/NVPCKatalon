@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Membership accepted</name>
+   <tag></tag>
+   <elementGuidId>92f7893d-90a3-48e3-ab75-28986daf4584</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='feedbackMessageContainer']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.feedback-message.feedback-message-success.feedback-message-autoclose</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>440a79ac-2217-4dd8-ab6f-9b60c79192e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>feedback-message feedback-message-success feedback-message-autoclose</value>
+      <webElementGuid>70811725-0bec-44a4-a439-7bb8643f15ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Membership accepted</value>
+      <webElementGuid>7850852c-05f2-4e5c-b905-33e788ad668b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;feedbackMessageContainer&quot;)/div[@class=&quot;feedback-message feedback-message-success feedback-message-autoclose&quot;]</value>
+      <webElementGuid>53965f67-2abc-458c-86f9-e0d436c2a294</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='feedbackMessageContainer']/div</value>
+      <webElementGuid>72e29d87-5810-458e-910c-5e47d086a752</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/preceding::div[3]</value>
+      <webElementGuid>37291971-85e6-4e05-a092-704155820f66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div</value>
+      <webElementGuid>2c355f88-8d7b-4884-b008-061d3c304362</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Membership accepted' or . = 'Membership accepted')]</value>
+      <webElementGuid>12a1e633-5840-4206-9afc-40ce58197a6b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

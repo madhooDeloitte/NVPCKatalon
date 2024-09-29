@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>5 span__EndTime_Hour_ArrowUp</name>
+   <tag></tag>
+   <elementGuidId>e4bc7fad-624a-4079-9f41-b17e8f57ba05</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#vscomp-option-223-0 > span.checkbox-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[5]/div/div[1]/span[1]&#xd;
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c4e14299-60a5-4136-a4a3-6a88d7c44d6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>checkbox-icon</value>
+      <webElementGuid>ac54dff8-6e17-4382-8e1b-40532dc0c25a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vscomp-option-223-0&quot;)/span[@class=&quot;checkbox-icon&quot;]</value>
+      <webElementGuid>d9dba95b-5c92-4c24-b813-e70db0abda0a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vscomp-option-223-0']/span</value>
+      <webElementGuid>3672850f-cd14-4757-a21c-0c1fbdcbdb8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/span</value>
+      <webElementGuid>f1fbbaea-811f-446e-9d76-631f1848d098</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

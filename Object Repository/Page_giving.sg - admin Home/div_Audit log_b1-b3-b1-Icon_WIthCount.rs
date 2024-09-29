@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Audit log_b1-b3-b1-Icon_WIthCount</name>
+   <tag></tag>
+   <elementGuidId>af176e69-64cb-4bd9-98a3-dfcd8ba76268</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'b1-b3-b1-Icon_WIthCount']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b1-b3-b1-Icon_WIthCount</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b1-b3-b1-Icon_WIthCount']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e73a6ca4-6a91-4604-b30b-fd5e31a4cc1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b1-b3-b1-Icon_WIthCount</value>
+      <webElementGuid>8ef7d2c3-23ba-44f0-9545-1f212dcd2ad0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b1-b3-b1-Icon_WIthCount&quot;)</value>
+      <webElementGuid>8928e8d7-7a60-4295-a83d-8b973d284228</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b1-b3-b1-Icon_WIthCount']</value>
+      <webElementGuid>f2df475b-4a0d-40cf-b966-197e13159d61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-b3-$b1']/div/div</value>
+      <webElementGuid>8d4eb3f9-672f-4ca0-8102-98ad8744675e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit log'])[1]/following::div[8]</value>
+      <webElementGuid>fc20b1b8-3039-48c1-8ac6-e9d279296d85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reports'])[1]/following::div[12]</value>
+      <webElementGuid>644c256d-d359-44df-9315-be602429f700</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Partnership applications'])[1]/preceding::div[11]</value>
+      <webElementGuid>30c29a00-566b-4cc4-a4e7-b922acbaf8a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/preceding::div[16]</value>
+      <webElementGuid>d39d3483-b5c8-4801-92f7-4e106fba3a01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/div/div/div</value>
+      <webElementGuid>fce25ea2-6e47-4c10-a474-26389773569d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'b1-b3-b1-Icon_WIthCount']</value>
+      <webElementGuid>0cac6dbd-190a-4509-89cc-98c86253aa1a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

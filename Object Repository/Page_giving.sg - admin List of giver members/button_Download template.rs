@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Download template</name>
+   <tag></tag>
+   <elementGuidId>0717a43e-2682-4f81-ac80-06c58254079f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[8]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnDownloadTemplate']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b16-b1-PrimaryButtons > button.btn.margin-right-s</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2defc618-c4d2-4896-b5d2-20fa3e9aa1b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn margin-right-s</value>
+      <webElementGuid>6382e452-ce0c-44ce-b07c-c4f2354d67c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>88440d01-fa6a-4e7c-8582-24fb3075a125</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnDownloadTemplate</value>
+      <webElementGuid>7e8d73f6-f928-4de0-b18c-105ba82a17c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Download template</value>
+      <webElementGuid>68a487d0-fc05-43c8-b34b-7d702da6dc51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b16-b1-PrimaryButtons&quot;)/button[@class=&quot;btn margin-right-s&quot;]</value>
+      <webElementGuid>6e824ec6-614a-4a61-96e9-73987dd38124</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[8]</value>
+      <webElementGuid>d77b33b9-d144-47e1-9798-fa3a6cd6d810</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b16-b1-PrimaryButtons']/button</value>
+      <webElementGuid>8f82f085-1c87-401b-95c5-bf02f13a5adb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+      <webElementGuid>19ad4b04-dc39-4e82-9a4a-f4e7220babfb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload file'])[1]/following::button[2]</value>
+      <webElementGuid>9109b27e-86f2-4450-8c70-580dbb73503f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send invite'])[1]/preceding::button[1]</value>
+      <webElementGuid>d16e3f6d-afaf-4815-8354-ff24ed9b1ffc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Download template']/parent::*</value>
+      <webElementGuid>45a17aff-0273-4ca0-9782-6928495aa6c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div[2]/div/button</value>
+      <webElementGuid>80f79015-b0f2-42c5-b0af-cb4dd78649a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @ktl-id = 'btnDownloadTemplate' and (text() = 'Download template' or . = 'Download template')]</value>
+      <webElementGuid>369ad67c-1307-4919-90a7-922058de1e7f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

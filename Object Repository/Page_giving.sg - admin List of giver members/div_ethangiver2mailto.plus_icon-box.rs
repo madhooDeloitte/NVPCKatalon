@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_ethangiver2mailto.plus_icon-box</name>
+   <tag></tag>
+   <elementGuidId>ef650290-9c71-49ca-b96f-1fa81992bb93</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b15-l1_0-216_0-b1-b1-Content']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b15-l1_0-216_0-b1-b1-Content > div.icon-box</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2111fe5a-f6a1-4115-813b-3aed5c33cb03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-box</value>
+      <webElementGuid>aee3305d-3810-4b1d-87a2-d42f6b859074</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b15-l1_0-216_0-b1-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]</value>
+      <webElementGuid>032f9590-d8f6-4a29-a03d-b8dc8ec004e0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b15-l1_0-216_0-b1-b1-Content']/div</value>
+      <webElementGuid>30164de8-57d1-432b-a416-1767941114b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ethangiver2@mailto.plus'])[1]/following::div[6]</value>
+      <webElementGuid>0e6ae3ee-c5b0-414b-b3c6-7ea293a935da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ethan Giver 2'])[1]/following::div[6]</value>
+      <webElementGuid>0349d113-b5a0-462e-90fe-9f493c5d7902</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[1]/preceding::div[2]</value>
+      <webElementGuid>22ad3b6b-2602-490a-8335-524f5bee8f69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='to'])[1]/preceding::div[10]</value>
+      <webElementGuid>591f73c7-b1bd-49bf-80bb-13c071b5647c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/div/div/div/div/div/div</value>
+      <webElementGuid>38d95dee-02d2-4780-a8b2-39914a70ce2b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Ethan Org 1 has invited you as a member_9e0181</name>
+   <tag></tag>
+   <elementGuidId>615b1a1d-47f3-40ce-98c1-1984d2f161dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b4-l1-249_0-$b1']/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.inbox-content</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ec80882d-4eda-4d9e-9a51-f25503a2d827</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inbox-content</value>
+      <webElementGuid>7d7cd2cd-95c0-42d2-a297-237e94857438</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ethan Org 1 has invited you as a member of their organisation. View the invite.4 hours ago</value>
+      <webElementGuid>39a896bf-5f8e-4781-8ec5-749eaaa1f91c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b4-l1-249_0-$b1&quot;)/div[@class=&quot;inbox-notification&quot;]/div[@class=&quot;inbox-content&quot;]</value>
+      <webElementGuid>5256b976-e718-41e8-a504-fc93357c53a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b4-l1-249_0-$b1']/div/div[2]</value>
+      <webElementGuid>ff40ceb3-c466-4368-bc6c-f1ecc84c4684</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mark all as read'])[1]/following::div[11]</value>
+      <webElementGuid>91254241-5d87-4de5-89ed-918e142dda5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/following::div[13]</value>
+      <webElementGuid>2c6e5ce1-7c99-48e5-b848-e2db4ee8e19e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div[2]</value>
+      <webElementGuid>4ea94f6d-2e4e-4e08-81eb-b72c51bba32e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Ethan Org 1 has invited you as a member of their organisation. View the invite.4 hours ago' or . = 'Ethan Org 1 has invited you as a member of their organisation. View the invite.4 hours ago')]</value>
+      <webElementGuid>07d28996-738b-43a5-a475-3451b5c4efe8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Manage NPO opportunities</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d043fa72-46bf-4c0e-9ced-8e49420d8a41</testCaseGuid>
+</TestCaseEntity>

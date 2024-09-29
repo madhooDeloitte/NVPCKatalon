@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_BulkUpload_MembersInvite.xlsx</name>
+   <tag></tag>
+   <elementGuidId>b7f450a0-4563-4109-ab04-bc22aeeeb48e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b16-$b2']/div/div[2]/div/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'BulkUpload_MembersInvite.xlsx' or . = 'BulkUpload_MembersInvite.xlsx')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.upload-zone-title.break-word</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9e5d37fa-4ccd-4bec-85b5-eb5e0f9106e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>upload-zone-title break-word</value>
+      <webElementGuid>e7d4f20b-fdc8-4aaa-a234-24c733370e82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BulkUpload_MembersInvite.xlsx</value>
+      <webElementGuid>f1e94941-ed05-4496-8cf9-77c6c431c6f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b16-$b2&quot;)/div[@class=&quot;upload-zone-single has-upload&quot;]/div[@class=&quot;upload-zone-title-wrapper&quot;]/div[@class=&quot;flex1&quot;]/span[@class=&quot;upload-zone-title break-word&quot;]</value>
+      <webElementGuid>0475d2f8-8fe8-46c7-b4d0-33132d5a4a83</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b16-$b2']/div/div[2]/div/span</value>
+      <webElementGuid>d36d683c-5e23-4038-bb9e-c08eb57e1a67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite your members'])[1]/following::span[1]</value>
+      <webElementGuid>6807bb9e-0348-4824-b24f-f88a541ef9c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite your fellow employees to join in your organisation’s giving journey.'])[1]/following::span[1]</value>
+      <webElementGuid>e9813c41-77d1-4a54-bcd1-ac08dd28e04b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(10.47KB)'])[1]/preceding::span[1]</value>
+      <webElementGuid>c0ea1da1-dccd-48df-af08-61ef921fe205</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BulkUpload_MembersInvite.xlsx'])[2]/preceding::span[2]</value>
+      <webElementGuid>daf1297e-f974-4611-965a-457eea643db2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='BulkUpload_MembersInvite.xlsx']/parent::*</value>
+      <webElementGuid>f14d58a3-351c-473f-bbcb-11ccd5be29a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/span</value>
+      <webElementGuid>ac8fe9d9-80d8-4c10-b6a4-7ca0ad798803</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'BulkUpload_MembersInvite.xlsx' or . = 'BulkUpload_MembersInvite.xlsx')]</value>
+      <webElementGuid>806b82ee-da7f-43e7-ab5b-7b59c35f86d6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

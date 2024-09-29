@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_SuitableFor Chip 1</name>
+   <tag></tag>
+   <elementGuidId>00498565-6eef-47bc-8629-8a8f4796f0d2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@ktl-id='divSuitableForChipsSelect']/div/div/div[1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c05f50f2-2714-4e01-b70d-97fb007b7e7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chips-select-item </value>
+      <webElementGuid>92bf3222-5f3a-4a7c-8b0d-14eaa751c760</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>7ea16787-8b4e-4cb7-ad25-0e2d4b4c417a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>First timers</value>
+      <webElementGuid>452a6dad-1b58-4819-af10-97491aebe0c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b1-b5-$b6&quot;)/div[@class=&quot;chips-select OSFillParent&quot;]/div[1]/a[@class=&quot;chips-select-item&quot;]</value>
+      <webElementGuid>51d293a7-ae8d-47e6-bda1-3557c65fc992</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b1-b5-$b6']/div/div/a</value>
+      <webElementGuid>d8b6e7bc-03f2-4460-b57d-9e3175621aa4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You can select up to 2 items.'])[1]/following::a[1]</value>
+      <webElementGuid>84a32e26-7300-49a9-907e-f2f34f658ba7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suitable for'])[1]/following::a[1]</value>
+      <webElementGuid>d8e47a86-7919-4051-9ccb-2c0ffe6bf90d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organisation or groups'])[1]/preceding::a[1]</value>
+      <webElementGuid>8d14019d-3799-403c-a268-c3fd2f711cb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[32]</value>
+      <webElementGuid>4cfd8dc1-91dd-452e-89b6-5f8d9e9c30a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[3]/div/div/div/div/a</value>
+      <webElementGuid>44cd6d5b-1129-4339-b696-a30a3c5bcc83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'First timers' or . = 'First timers')]</value>
+      <webElementGuid>e64d707f-a936-4153-995b-f1a8f8b1d207</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

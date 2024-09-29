@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Password_icon fa fa-eye fa-1x</name>
+   <tag></tag>
+   <elementGuidId>620b4199-9525-4a2b-a284-011408849381</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b3-b8-b1-Icon']/a/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnPasswordVisibilityToggle']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.fa.fa-eye.fa-1x</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>e138ed0f-f77d-4d0a-bd18-d90d545d5722</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon fa fa-eye fa-1x</value>
+      <webElementGuid>8e881b0d-56ae-4e60-9453-212d8cb3c118</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b3-b8-b1-Icon&quot;)/a[1]/i[@class=&quot;icon fa fa-eye fa-1x&quot;]</value>
+      <webElementGuid>730acd53-2742-4fe5-a25f-e0d7987809cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnPasswordVisibilityToggle</value>
+      <webElementGuid>889928c1-2970-4ea9-959c-60c2817c9ae9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b3-b8-b1-Icon']/a/i</value>
+      <webElementGuid>8548879e-3da2-4cad-94eb-be811c3109bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/i</value>
+      <webElementGuid>549f9301-3f02-4971-a0dd-444c25bbbd26</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

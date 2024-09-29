@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Please ensure your password meets the _526471</name>
+   <tag></tag>
+   <elementGuidId>3ce11490-d42f-4787-bcb3-18653fb69662</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b3-b8-$b1']/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.validation-message.ph.ThemeGrid_MarginGutter</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>41dce988-996e-4043-870f-b072bd898954</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>validation-message ph ThemeGrid_MarginGutter</value>
+      <webElementGuid>6532a264-1029-4d10-b7d8-e9b1336790cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Please ensure your password meets the requirements below.</value>
+      <webElementGuid>0422c313-fca0-4bd2-9590-12c53c9d12ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b3-b8-$b1&quot;)/div[@class=&quot;input-with-icon-ext not-valid&quot;]/span[@class=&quot;validation-message ph ThemeGrid_MarginGutter&quot;]</value>
+      <webElementGuid>5de48b02-b903-458f-88e0-4e415c9c9fa3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b3-b8-$b1']/div/span</value>
+      <webElementGuid>ff15d761-41d5-4bcd-811d-89b8e00de969</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please ensure your password meets the requirements below.'])[1]/following::span[1]</value>
+      <webElementGuid>950d79f5-b09d-4e06-bbe8-3df7049bb681</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::span[3]</value>
+      <webElementGuid>4ac5f4da-bf99-49c9-b938-be1340b56d60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Have at least 12 characters'])[1]/preceding::span[1]</value>
+      <webElementGuid>3b046adb-797f-4971-ae8d-eadcdf146102</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>e3f8eb0d-fa0d-4709-bbd1-3c7b5bef7cde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Please ensure your password meets the requirements below.' or . = 'Please ensure your password meets the requirements below.')]</value>
+      <webElementGuid>e4b833c3-4e83-40b5-8b06-e9017730fbd2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

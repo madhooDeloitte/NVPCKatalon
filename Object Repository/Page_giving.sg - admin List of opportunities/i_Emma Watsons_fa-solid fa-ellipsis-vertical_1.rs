@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Emma Watsons_fa-solid fa-ellipsis-vertical_1</name>
+   <tag></tag>
+   <elementGuidId>b9d53e76-3a37-423a-a1c2-252ab3dc7611</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa-solid.fa-ellipsis-vertical</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@ktl-id='divOngoingOpportunityTable']/tbody/tr/td[7]/div/div/div/div[1]/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>bffd71fc-83f9-4ae5-9613-e157dba88614</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa-solid fa-ellipsis-vertical</value>
+      <webElementGuid>b0aa2ca0-5e75-48d2-8dcf-67adc760e0c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b40-l1_0-237_0-b13-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]/i[@class=&quot;fa-solid fa-ellipsis-vertical&quot;]</value>
+      <webElementGuid>4681a960-130e-4157-8e06-3e04c47536e6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@ktl-id='divOngoingOpportunityTable']/tbody/tr/td[7]/div/div/div/div[1]/div/i</value>
+      <webElementGuid>a788fab1-5369-475c-8436-239f7f4f4895</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[7]/div/div/div/div/div/i</value>
+      <webElementGuid>e077bed3-5284-4cd8-b4ff-f5cd2c469959</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

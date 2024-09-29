@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_99 - Copy</name>
+   <tag></tag>
+   <elementGuidId>1a72f3eb-46dc-4a91-a666-9655d071e9a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnNotificationBell']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b1-b1-Notification > a.icon-box</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b1-b1-Notification']/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>35f02a47-5088-4688-bdf8-66e8719d81b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-box</value>
+      <webElementGuid>c6d67349-3cf3-46e2-8469-03301e745c82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/admin/Notifications</value>
+      <webElementGuid>64a0af1f-bd7d-4311-a59f-d279674d5eb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnNotificationBell</value>
+      <webElementGuid>0e530b36-8b94-4025-bf00-60183922a73d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>99+</value>
+      <webElementGuid>ee50c7c7-a9c2-4bf9-aaf1-2ad607159f90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b1-b1-Notification&quot;)/a[@class=&quot;icon-box&quot;]</value>
+      <webElementGuid>425930cb-957b-4d77-a7fb-d55be6c5f36a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-b1-Notification']/a</value>
+      <webElementGuid>a93403b2-5ee9-45de-b198-4619de06045b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invoices'])[1]/following::a[2]</value>
+      <webElementGuid>ce4bac74-f4ae-4373-9dda-a00bcf9d7be3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit log'])[1]/following::a[3]</value>
+      <webElementGuid>26f73ff7-058c-4bf0-b51d-2cf593601612</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Public profile'])[1]/preceding::a[1]</value>
+      <webElementGuid>2eaf349d-3eae-47a4-a13b-9dacbc48934b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Partnership applications'])[1]/preceding::a[2]</value>
+      <webElementGuid>2b61c400-044f-44d3-9d4c-e145912d1a3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/admin/Notifications')]</value>
+      <webElementGuid>69182d27-0138-48a0-a941-97916cabae3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/a</value>
+      <webElementGuid>0a8f8694-35a5-4791-8bbd-28bcabff9d93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/admin/Notifications' and (text() = '99+' or . = '99+')]</value>
+      <webElementGuid>c3db04ff-7be4-456f-bdce-b7b370a977ed</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

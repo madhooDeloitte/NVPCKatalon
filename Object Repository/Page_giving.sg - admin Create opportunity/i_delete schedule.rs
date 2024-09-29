@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_delete schedule</name>
+   <tag></tag>
+   <elementGuidId>2c2a3bd6-ebab-470a-982a-0fee9a3db334</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@ktl-id='btnEdit']/div/div/div/div[2]/div[1]/div/a[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.vscomp-clear-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>85e4d486-8627-4ffe-980a-177b4da0b8e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>vscomp-clear-icon</value>
+      <webElementGuid>ec6496d5-d8f9-416b-bd93-17fdb03af4b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vscomp-ele-wrapper-9366&quot;)/div[@class=&quot;vscomp-toggle-button&quot;]/div[@class=&quot;vscomp-clear-button toggle-button-child&quot;]/i[@class=&quot;vscomp-clear-icon&quot;]</value>
+      <webElementGuid>af2bd854-176c-486e-851e-55c1d9f7eb95</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vscomp-ele-wrapper-9366']/div/div[3]/i</value>
+      <webElementGuid>bec82215-76a3-4dae-a410-74e47c59e663</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/i</value>
+      <webElementGuid>d8d8becc-a19d-41e9-99bc-ca72a3a6fabf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

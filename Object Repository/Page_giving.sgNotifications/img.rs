@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>8e195f87-d557-457c-bb45-4a804e2a1f85</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '/admin/img/NVPC_Resources.FallBackAvatar.svg?DLsZttr+v9X6smbJiSw9hg']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.nvpc-avatar > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b1-$b5']/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>c68916d8-8c45-4e29-b6c8-3f950bdf2782</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/admin/img/NVPC_Resources.FallBackAvatar.svg?DLsZttr+v9X6smbJiSw9hg</value>
+      <webElementGuid>18a38384-3596-4a87-bd7a-a47562cc6ce7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b1-$b5&quot;)/div[@class=&quot;nvpc-avatar&quot;]/img[1]</value>
+      <webElementGuid>ec435d13-3bc2-4990-b076-ca965b15f6af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-$b5']/div/img</value>
+      <webElementGuid>8540cb0f-c492-4474-9779-9cf527054f0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/img</value>
+      <webElementGuid>446dc5ca-e1ae-4e74-956b-68a3b16a4ae3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/admin/img/NVPC_Resources.FallBackAvatar.svg?DLsZttr+v9X6smbJiSw9hg']</value>
+      <webElementGuid>fa1830a7-1a35-43cd-ae79-2c3a8c8c5481</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Log in as Org Admin using email (registered via email)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6b406a34-ba48-44da-b208-25bb000fb7cb</testCaseGuid>
+</TestCaseEntity>

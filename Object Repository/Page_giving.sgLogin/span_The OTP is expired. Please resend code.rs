@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_The OTP is expired. Please resend code</name>
+   <tag></tag>
+   <elementGuidId>56c33ea4-7cfa-4a54-a530-3ada045b73ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b3-b11-b2-b2-Input2FA']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.validation-message</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1811aa04-2f7b-426a-af12-3abfd2b66dbe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>validation-message</value>
+      <webElementGuid>30fd868b-9f88-4440-a396-013812b9b84d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The OTP is expired. Please resend code.</value>
+      <webElementGuid>37ec8d1b-12b0-4c8d-96f0-d5c5d0d90aad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b3-b11-b2-b2-Input2FA&quot;)/span[@class=&quot;validation-message&quot;]</value>
+      <webElementGuid>2e9e929f-17e6-4948-be23-cb283e30c6b1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b3-b11-b2-b2-Input2FA']/span</value>
+      <webElementGuid>40baaa46-de4f-4ceb-9a33-59f099fb6281</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='If the account exists, you will receive a 6-digit OTP sent to your email.'])[1]/following::span[7]</value>
+      <webElementGuid>2ff6df4a-3748-4243-a2e9-30b3fc969174</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter OTP'])[1]/following::span[7]</value>
+      <webElementGuid>55f51e67-a75b-4b20-bc5e-99495c8c7490</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verify'])[1]/preceding::span[1]</value>
+      <webElementGuid>8526c66f-160e-4071-9a70-e1939f47be23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Resend OTP'])[1]/preceding::span[1]</value>
+      <webElementGuid>093cb53e-2368-4997-80e7-5e43f853d21e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='The OTP is expired. Please resend code.']/parent::*</value>
+      <webElementGuid>30be8de6-f49a-4d4a-acd6-275da3dd2b3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>50f81c2a-7f7a-453a-9906-fa2a0f8beab1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'The OTP is expired. Please resend code.' or . = 'The OTP is expired. Please resend code.')]</value>
+      <webElementGuid>1a7618e2-91c8-42df-b1c2-45911649ff91</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

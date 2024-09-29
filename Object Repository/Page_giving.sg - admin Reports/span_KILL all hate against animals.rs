@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_KILL all hate against animals</name>
+   <tag></tag>
+   <elementGuidId>d7c8d7f8-94e5-4d80-a156-c46ed080b736</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+            KILL all hate against animals
+          ' or . = '
+            KILL all hate against animals
+          ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vscomp-option-2894-0']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.vscomp-option-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>47206dbb-05d5-4113-a55c-eee9b2e866e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>vscomp-option-text</value>
+      <webElementGuid>3fd1a2c2-9a48-4a98-b339-6f684d0858ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip</name>
+      <type>Main</type>
+      <value>KILL all hate against animals</value>
+      <webElementGuid>47a2d54d-2dd9-48b0-a27c-68bff4a9a428</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-enter-delay</name>
+      <type>Main</type>
+      <value>200</value>
+      <webElementGuid>b0171677-bbd4-4987-8fe0-318804c7554f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-z-index</name>
+      <type>Main</type>
+      <value>251</value>
+      <webElementGuid>247d3b52-2abc-4049-9831-aad7de4011d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-font-size</name>
+      <type>Main</type>
+      <value>14px</value>
+      <webElementGuid>ea7e92dd-239e-47df-9d3d-4930f3c6bb68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-alignment</name>
+      <type>Main</type>
+      <value>center</value>
+      <webElementGuid>777066cd-e1b3-4509-a2b1-c06ff2c6ad9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-max-width</name>
+      <type>Main</type>
+      <value>300px</value>
+      <webElementGuid>69361a8c-e5d5-4b2d-b678-4324e3961462</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-ellipsis-only</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>888a4640-fbd8-4ea8-81df-3d45ef227d94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-allow-html</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>1d7d3573-95d8-43c1-8905-2a46fa2bfec3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            KILL all hate against animals
+          </value>
+      <webElementGuid>b2d25d96-1826-4ecb-a405-c09ccaae2206</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vscomp-option-2894-0&quot;)/span[@class=&quot;vscomp-option-text&quot;]</value>
+      <webElementGuid>91f8ff6d-57cb-46d9-b7a2-18cf159b0bbe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vscomp-option-2894-0']/span</value>
+      <webElementGuid>c09e5bea-fe05-4b73-b830-13781f19f1c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::span[1]</value>
+      <webElementGuid>29a7c04e-90e2-49a5-bdf6-a934f6d2890f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::span[2]</value>
+      <webElementGuid>935f8fa7-40cd-4c3b-b667-817525791ecc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KILL all hate against the world. World peace.'])[1]/preceding::span[1]</value>
+      <webElementGuid>98a5935b-4f42-46a3-a1ec-07756e88ee3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ads'])[1]/preceding::span[3]</value>
+      <webElementGuid>54061b02-fbd8-4c32-882f-8e3c1bb77adb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='KILL all hate against animals']/parent::*</value>
+      <webElementGuid>4107fe78-95e7-4282-a168-fb124929c873</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/span</value>
+      <webElementGuid>ed468b2e-21bf-455b-95b3-774f91a83830</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+            KILL all hate against animals
+          ' or . = '
+            KILL all hate against animals
+          ')]</value>
+      <webElementGuid>be20d3f4-4faa-4f80-890a-abced190e5c4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

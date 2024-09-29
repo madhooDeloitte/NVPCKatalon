@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select type</name>
+   <tag></tag>
+   <elementGuidId>11dfb248-7685-49fe-84c6-1cbb0eff9fce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'divDropdownReportType']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b4-Dropdown_ReportType']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.dropdown-display</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8a1e0718-ac44-41f8-8170-0cfb17f4bbed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-display</value>
+      <webElementGuid>cd083dd0-8b91-4b21-abe6-bc122d26720d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select type</value>
+      <webElementGuid>c9f2df9a-1704-48ac-bdf3-31aa441c6574</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b4-Dropdown_ReportType&quot;)/div[@class=&quot;dropdown-display&quot;]</value>
+      <webElementGuid>53a23794-61ea-4e34-8f85-3afa509e369a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>divDropdownReportType</value>
+      <webElementGuid>96b3f58d-9369-4888-9660-fec2968ca8f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b4-Dropdown_ReportType']/div</value>
+      <webElementGuid>770c6258-a349-4a4e-9903-2868cbafb640</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report type'])[1]/following::div[5]</value>
+      <webElementGuid>0aa74461-38c5-43ef-ab52-9434b20a4fa4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reports'])[3]/following::div[17]</value>
+      <webElementGuid>8a1974cd-add4-4d58-95d8-87f8f02b821f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate report'])[1]/preceding::div[2]</value>
+      <webElementGuid>4a5515e0-79bc-49fb-9a93-661875ba4d43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div[3]/div/div</value>
+      <webElementGuid>691074c1-9775-44ff-bad9-0b9512d1449e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Select type' or . = 'Select type')]</value>
+      <webElementGuid>db1b6ee1-9b66-4745-9249-33406766971d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

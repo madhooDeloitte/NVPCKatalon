@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_View batch upload</name>
+   <tag></tag>
+   <elementGuidId>89fff4dd-5126-496d-ad2a-2e610e3d3c41</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[5]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnViewBatchUpload']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.hide-if-phone.ThemeGrid_MarginGutter</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3a958154-a87b-45e9-ad8a-3fe164124e99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn hide-if-phone ThemeGrid_MarginGutter</value>
+      <webElementGuid>568c1cc4-18e2-484c-8fc2-f83eb50840bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>dfc796c6-88fd-43bc-b053-efb285369b3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnViewBatchUpload</value>
+      <webElementGuid>2d5134ae-0ba1-4f7e-9fbc-dd0f42a0585e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View batch upload</value>
+      <webElementGuid>bef34483-c9cb-494e-aa78-008c471bcf07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b1-Actions&quot;)/button[@class=&quot;btn hide-if-phone ThemeGrid_MarginGutter&quot;]</value>
+      <webElementGuid>7842af04-7706-497b-a7a5-4aa70389d0d4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[5]</value>
+      <webElementGuid>51680237-0716-485d-9d09-a6f84c9a9de5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b1-Actions']/button[3]</value>
+      <webElementGuid>a15c2ba9-12a2-4a50-8c0d-8e205965dd0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite member'])[1]/following::button[2]</value>
+      <webElementGuid>8d46770b-3e47-466d-a093-1d8aa783da6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Members'])[3]/following::button[3]</value>
+      <webElementGuid>78c28ae1-67ed-4e52-9f63-66bb9ee41fbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active (1)'])[1]/preceding::button[2]</value>
+      <webElementGuid>d66dd8e3-7ccc-4a65-a11a-51aa946c20ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View batch upload']/parent::*</value>
+      <webElementGuid>8e00e1d6-ea84-4230-a002-32d6949a6284</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]</value>
+      <webElementGuid>82d7b1df-2d87-425a-9406-8788dcb86b02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @ktl-id = 'btnViewBatchUpload' and (text() = 'View batch upload' or . = 'View batch upload')]</value>
+      <webElementGuid>a4a7926d-2286-42bb-8dc5-e95615680cb8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

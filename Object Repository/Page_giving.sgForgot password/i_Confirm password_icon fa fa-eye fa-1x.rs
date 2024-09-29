@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Confirm password_icon fa fa-eye fa-1x</name>
+   <tag></tag>
+   <elementGuidId>2a7c7ab7-d48c-4591-8273-c690cb0a8ba8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;b3-b17-b1-Icon&quot;)/a[1]/i[@class=&quot;icon fa fa-eye fa-1x&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.fa.fa-eye.fa-1x</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@ktl-id='divPasswordForm']/div[2]/div/div[3]/div/div/div/div/div/div[1]/div/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>0ae68786-6fda-4981-bd8f-e2037b0524bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon fa fa-eye fa-1x</value>
+      <webElementGuid>eb7dae0e-4f74-460d-9378-8f46e4043c42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b3-b17-b1-Icon&quot;)/a[1]/i[@class=&quot;icon fa fa-eye fa-1x&quot;]</value>
+      <webElementGuid>f621e327-77b6-455f-9152-c301c2598d07</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b3-b17-b1-Icon']/a/i</value>
+      <webElementGuid>1f40f1ac-3608-4c76-9cc2-227a6686ef53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[3]/div/div/div/div/div/div/div/a/i</value>
+      <webElementGuid>399d7911-d144-4078-8b4e-ddd0d9dcd782</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

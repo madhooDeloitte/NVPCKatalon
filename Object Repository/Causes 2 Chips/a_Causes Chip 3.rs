@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Causes Chip 3</name>
+   <tag></tag>
+   <elementGuidId>1fe83bd9-0e18-4a89-bc4e-dccfb5e3d3d2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@ktl-id='divCausesChipsSelect']/div/div/div[13]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.chips-select-item</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>24812e99-7b79-4f89-8a8b-aa2bb68dfaa4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chips-select-item </value>
+      <webElementGuid>92f2ce67-01c2-4df8-ba15-96c29900dcf3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>47f240af-28b7-41c1-9f6e-fca5eb1c451f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Animals</value>
+      <webElementGuid>d94542d2-bd22-4458-95a0-9a9e72f80ddd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b1-b5-$b4&quot;)/div[@class=&quot;chips-select OSFillParent&quot;]/div[1]/a[@class=&quot;chips-select-item&quot;]</value>
+      <webElementGuid>87c76ded-36d0-4bbc-935d-1a7a80ef28e3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b1-b5-$b4']/div/div/a</value>
+      <webElementGuid>d73f6d19-1bbb-4080-9b8b-5e473fe8fd92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Causes and target groups supported by this opportunity'])[1]/following::a[1]</value>
+      <webElementGuid>ecca2562-861e-4826-86e3-57a8dd221740</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tag your opportunity'])[2]/following::a[1]</value>
+      <webElementGuid>9e55bde6-ed65-4651-9d1d-cd52b8f770b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arts, culture and heritage'])[1]/preceding::a[1]</value>
+      <webElementGuid>da6d99e2-a883-475a-a103-df39c51f1ae2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[2]</value>
+      <webElementGuid>f0949226-71e6-4bdc-b9bb-851d295b7c19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a</value>
+      <webElementGuid>1353bc72-6b8c-43a5-a418-d300bca534a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Animals' or . = 'Animals')]</value>
+      <webElementGuid>645cb4c3-863c-47e9-abf8-abdf4098d71d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

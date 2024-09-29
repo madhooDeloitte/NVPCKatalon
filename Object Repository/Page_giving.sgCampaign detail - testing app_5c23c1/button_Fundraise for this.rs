@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Fundraise for this</name>
+   <tag></tag>
+   <elementGuidId>309b92a1-e706-4673-8beb-6f4c62ae35b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnFundraiseForThis']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b1-b22-Buttons > div > button.btn.margin-top-s.OSFillParent</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[10]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>580f4c2b-3be3-46c2-b476-2751f0fc8975</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn margin-top-s OSFillParent</value>
+      <webElementGuid>8f6297cf-8a4d-47e5-aedd-3b4aef1adbf3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>987f92e1-89da-491c-8a4e-f49b3b53445a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnFundraiseForThis</value>
+      <webElementGuid>f3e37152-988b-45a4-aeca-c9118e1d49f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Fundraise for this</value>
+      <webElementGuid>64d01ae4-9eba-42c1-b941-802598ea483f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b1-b22-Buttons&quot;)/div[1]/button[@class=&quot;btn margin-top-s OSFillParent&quot;]</value>
+      <webElementGuid>f1f0e43b-004d-45f3-97b5-66230feb14ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[10]</value>
+      <webElementGuid>54cb31e8-29ec-4e9e-8210-3efa0383ac9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b1-b22-Buttons']/div/button[2]</value>
+      <webElementGuid>4af5af66-c9c1-46a0-82cc-349ed13d1e28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Donate now'])[2]/following::button[1]</value>
+      <webElementGuid>cbe73173-3396-4276-ab31-84a19e2f54ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='days to go'])[2]/following::button[2]</value>
+      <webElementGuid>63b43c6b-0d21-4d0b-ab95-25b7d6297fcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Donate'])[3]/preceding::button[1]</value>
+      <webElementGuid>6513938f-890e-4480-80f7-f2dcbfb3762e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='donors'])[3]/preceding::button[2]</value>
+      <webElementGuid>0d23115d-4261-403b-af14-3523dc9bc29a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[7]/div/button[2]</value>
+      <webElementGuid>25e934c4-5031-4b13-b27b-94a34f7da666</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Fundraise for this' or . = 'Fundraise for this')]</value>
+      <webElementGuid>4a797918-6ee3-493e-931d-2ed5a221f3a7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

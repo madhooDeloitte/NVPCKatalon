@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Review successful. Rejection sent</name>
+   <tag></tag>
+   <elementGuidId>7a007e35-b96d-41f8-bb08-4ffbdf501ad1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='feedbackMessageContainer']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.feedback-message.feedback-message-success.feedback-message-autoclose</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>718f0150-983d-4346-a7ab-2a333a33564c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>feedback-message feedback-message-success feedback-message-autoclose</value>
+      <webElementGuid>d73ea895-3e2a-4fdf-9164-cedfcda8b375</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Review successful. Rejection sent. </value>
+      <webElementGuid>17da5457-d4da-412c-861d-687e831b0423</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;feedbackMessageContainer&quot;)/div[@class=&quot;feedback-message feedback-message-success feedback-message-autoclose&quot;]</value>
+      <webElementGuid>1b72be9d-a9fb-499e-966a-15564b9e34f2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='feedbackMessageContainer']/div</value>
+      <webElementGuid>3d19997e-e951-45ae-960b-c8e63d7afc04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/preceding::div[3]</value>
+      <webElementGuid>d3e37c24-5686-4024-930f-7601d1823b8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div</value>
+      <webElementGuid>5f4db7a1-738f-4011-9bde-e019e201ab37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Review successful. Rejection sent. ' or . = 'Review successful. Rejection sent. ')]</value>
+      <webElementGuid>2d95366e-db87-44e1-aec8-653fad6128c3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

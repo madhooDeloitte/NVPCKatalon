@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_View request</name>
+   <tag></tag>
+   <elementGuidId>a7ed6e6b-e0dd-4ec2-844e-d8226fcab8b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b12-l1_0-1092_0-b7-Items > a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl = 'btnApprove1']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b12-l1_0-1092_0-b7-Items']/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>5c480089-6224-4d5f-8877-60d0ef1569d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>2505805f-540b-43ab-ad35-fc643d42ec24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl</name>
+      <type>Main</type>
+      <value>btnApprove1</value>
+      <webElementGuid>1f94193a-559f-4988-97ba-5622e2354199</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View request</value>
+      <webElementGuid>b6995eb2-09fe-4a4d-90e2-2849cc6d0bcc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b12-l1_0-1092_0-b7-Items&quot;)/a[1]</value>
+      <webElementGuid>b99b35a5-7742-4392-80e7-a9e5f575c99a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b12-l1_0-1092_0-b7-Items']/a</value>
+      <webElementGuid>ff29d8e8-c833-48c1-8428-fe00ad7d597b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='rajeev@marriott.dk.dev'])[1]/following::a[1]</value>
+      <webElementGuid>8f92d76e-15df-4046-b8ed-6e2a9e662700</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rajeev Menon'])[1]/following::a[1]</value>
+      <webElementGuid>78945158-f4a2-4b0f-9025-e347f6c541c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[1]/preceding::a[1]</value>
+      <webElementGuid>ecaeb2bf-faa1-43d4-8d4d-a047f7a428d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[8]</value>
+      <webElementGuid>8d00b580-e7ab-4e59-a519-f606dbd77753</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/div/div/a</value>
+      <webElementGuid>17adc4a5-2af3-4fd0-a0ce-b763bf0528bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'View request' or . = 'View request')]</value>
+      <webElementGuid>d4fed846-5502-4715-a9b3-af5cf3919bda</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

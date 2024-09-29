@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_hours_icon decrease</name>
+   <tag></tag>
+   <elementGuidId>c508fc3b-2058-44c3-8012-69a88ef04d44</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.text-neutral-normal-02.fa.fa-caret-down.fa-1x</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@ktl-id='divHourDurationPicker']/div/div/div[2]/a[2]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>1646f41d-3b84-4e79-9f3e-8ed87e5726d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon text-neutral-normal-02 fa fa-caret-down fa-1x</value>
+      <webElementGuid>caa3e4f8-07a3-4a6a-9fbc-1314026c179a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b6-b11-$b11&quot;)/div[@class=&quot;hour-duration-picker&quot;]/div[@class=&quot;action-wrapper&quot;]/a[@class=&quot;ThemeGrid_MarginGutter&quot;]/i[@class=&quot;icon text-neutral-normal-02 fa fa-caret-down fa-1x&quot;]</value>
+      <webElementGuid>be6b9f82-ffc0-486a-895c-5de488319df0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b6-b11-$b11']/div/div[2]/a[2]/i</value>
+      <webElementGuid>ec8891d7-3fbd-4298-b82b-3a680ae10f9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]/i</value>
+      <webElementGuid>06bf8434-de45-4a1a-ba7c-808a835203ac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

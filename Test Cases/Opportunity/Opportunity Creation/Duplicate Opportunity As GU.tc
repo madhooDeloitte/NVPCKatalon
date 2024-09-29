@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Duplicate Opportunity As GU</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>65ead487-a163-4a6b-8174-5636803a25b6</testCaseGuid>
+</TestCaseEntity>

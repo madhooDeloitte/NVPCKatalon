@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Accounting and finance_checkbox-icon</name>
+   <tag></tag>
+   <elementGuidId>ea872b34-8ee6-43ee-a8bc-7b6b58316852</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#vscomp-option-223-1 > span.checkbox-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='vscomp-dropbox-container pop-comp-wrapper']/div[2]/div[2]/div[2]/div/div[1]/span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fbb49b3b-f410-4b5b-9afa-5b08e975b582</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>checkbox-icon</value>
+      <webElementGuid>f93a08f7-0a6c-4666-9da7-4b49d6d3aecf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vscomp-option-223-1&quot;)/span[@class=&quot;checkbox-icon&quot;]</value>
+      <webElementGuid>d6ed8daa-e00b-4566-be8c-b82da2bd857e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vscomp-option-223-1']/span</value>
+      <webElementGuid>7beac573-0f6d-4852-9b17-4f2770ab04ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/span</value>
+      <webElementGuid>ccc76c16-9a03-4cfd-92a5-cbb24697c2ef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

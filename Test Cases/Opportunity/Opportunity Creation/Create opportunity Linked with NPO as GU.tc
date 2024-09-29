@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create opportunity Linked with NPO as GU</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>32d90180-ea52-47f3-b714-7f94b84cd427</testCaseGuid>
+</TestCaseEntity>

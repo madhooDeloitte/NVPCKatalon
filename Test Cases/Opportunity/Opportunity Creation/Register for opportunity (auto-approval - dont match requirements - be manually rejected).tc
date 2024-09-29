@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register for opportunity (auto-approval - dont match requirements - be manually rejected)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>486431cf-0fc3-4d01-92e3-f0089076b871</testCaseGuid>
+</TestCaseEntity>

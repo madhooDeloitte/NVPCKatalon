@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_ORG Admin</name>
+   <tag></tag>
+   <elementGuidId>c0db4202-02d0-46bc-baa7-e7f7a1e6095e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b17-l1-239_0-b1-Label']/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b17-l1-239_0-b1-Label > label.OSFillParent</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>111b42ca-1c01-4a35-9c8f-efb9c1fc013a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>OSFillParent</value>
+      <webElementGuid>570e9831-9763-45a4-9fd6-ae9737bb5035</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>b2-b17-l1-239_0-Checkbox</value>
+      <webElementGuid>d9f4974e-3c67-4626-9284-4c7b15173df7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ORG Admin</value>
+      <webElementGuid>f9bd76f4-23d3-4160-bd84-8492492d433e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b17-l1-239_0-b1-Label&quot;)/label[@class=&quot;OSFillParent&quot;]</value>
+      <webElementGuid>28091528-7525-47da-8d2f-4ad20ce30857</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b17-l1-239_0-b1-Label']/label</value>
+      <webElementGuid>b1db96b6-90b6-461b-b766-0b693d37ce6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Roles'])[1]/following::label[1]</value>
+      <webElementGuid>ce1065df-2fa2-42fa-91b6-1cac79516392</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ORG Developer'])[1]/preceding::label[1]</value>
+      <webElementGuid>05f0f954-06b5-4c84-a4c6-298e586f159f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/label</value>
+      <webElementGuid>7703d3aa-097e-4675-9eb7-7c89ad6db125</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'ORG Admin' or . = 'ORG Admin')]</value>
+      <webElementGuid>6e24f945-9fe3-414b-821c-bb1774d6eb13</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

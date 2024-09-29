@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_ORG Volunteer Manager</name>
+   <tag></tag>
+   <elementGuidId>574e0392-7f94-4d22-8f51-64477f183968</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b17-l1-230_3-b1-Label']/label/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b17-l1-230_3-b1-Label > label.OSFillParent > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>19f2a523-958d-48c2-ae8b-1b3ee628402c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ORG Volunteer Manager</value>
+      <webElementGuid>9f26ac4e-c17d-4350-b21e-323b62225551</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b17-l1-230_3-b1-Label&quot;)/label[@class=&quot;OSFillParent&quot;]/span[1]</value>
+      <webElementGuid>318e2ed4-aae6-40a5-ad95-6f0803fee319</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b17-l1-230_3-b1-Label']/label/span</value>
+      <webElementGuid>a153b636-fd78-496d-a127-b26ff86112de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ORG Campaign Manager'])[1]/following::span[2]</value>
+      <webElementGuid>c18e4734-a660-4a9a-90f3-ef288b96c68a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ORG Developer'])[1]/following::span[4]</value>
+      <webElementGuid>a3335452-854b-4767-a86c-7111fba2027c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save changes'])[1]/preceding::span[1]</value>
+      <webElementGuid>344dbf46-d985-424c-961d-a93afed6e0f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ORG Volunteer Manager']/parent::*</value>
+      <webElementGuid>f00e72d6-373f-43a8-a601-3780afbffcba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/label/span</value>
+      <webElementGuid>d2a417d9-2b73-4464-850f-744e2541828c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'ORG Volunteer Manager' or . = 'ORG Volunteer Manager')]</value>
+      <webElementGuid>8a15bfc8-bca3-4ebe-ab13-fba2571d2b46</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
