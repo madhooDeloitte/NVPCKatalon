@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
+WebUI.navigateToUrl('http://uat.giving.sg')
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
@@ -34,12 +34,12 @@ WebUI.click(findTestObject('Page_giving.sgSign up now/button_I understand_DCA'))
 WebUI.click(findTestObject('Page_giving.sgSign up now/button_Sign up with email'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Organisation name_b4-b2-Input_CharityName'), 
-    'BobTheNPO')
+    'Mars NPO')
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_(65)_b4-b2-Input_PublicEnquiryNumber'), 
     '88884444')
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_UEN_b4-b2-Input_UEN'), '200800482M')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_UEN_b4-b2-Input_UEN'), '230800482M')
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Postal code_b4-b2-Input_PostalCode'), 
     '018956')
@@ -62,17 +62,13 @@ WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registrati
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Swift code_b4-b3-Input_SwiftCode'), 
     'UOVBSGSG')
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/label_Upload file'))
+WebUI.uploadFile(findTestObject('Page_giving.sgOrganisation registration/label_Upload file Input'), 'C:\\Users\\smadhoosudhan\\Downloads\\Katalon\\Test data\\Direct Credit Authorisation Form.pdf')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Do you have a valid IPC status_b4-b3-_52578c'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/input_IPC_StartDate'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/span_18'))
-
-WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/input_IPC_StartDate'))
-
-WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/span_30'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/button_Next'))
 
@@ -93,10 +89,10 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/button_Next'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Full name_b4-b5-Input_FullName'), 
-    'BobTheNPO')
+    'Mars NPO Admin')
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Work email_b4-b5-Input_Email'), 
-    'bobnpo@gmail.com')
+    'Mars_NPO@mailto.plus')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Password_b4-b5-Input_Password'), 
     'hJxcABFZyq6YA1kwHae0pw==')

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
+WebUI.navigateToUrl('https://uat.giving.sg')
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
@@ -34,7 +34,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgSign up now/button_I
 WebUI.click(findTestObject('Object Repository/Page_giving.sgSign up now/button_Sign up with email'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_Organisation name_b4-b2-Input_OrgName'), 
-    'BobOrg')
+    'Jupiter The Org')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgOrganisation registration/dropdown'))
 
@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgOrganisation registr
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_(65)_b4-b2-Input_PublicEnquiryNumber'), 
     '88884444')
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_UEN_b4-b2-Input_UEN'), '201912345D')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_UEN_b4-b2-Input_UEN'), '201912335D')
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_Postal code_b4-b2-Input_PostalCode'), 
     '018956')
