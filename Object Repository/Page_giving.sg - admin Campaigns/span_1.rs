@@ -27,8 +27,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-<<<<<<< Updated upstream
-<<<<<<< HEAD
       <webElementGuid>dca83c09-2a1d-4357-86ab-28e7816c74cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
@@ -126,11 +124,8 @@
       <type>Main</type>
       <value>//span[(text() = '1' or . = '1')]</value>
       <webElementGuid>0d3cba31-dd70-48d4-8a2f-6e625b2fe0f5</webElementGuid>
-=======
       <webElementGuid>0dff4fe1-b29e-40d6-89d3-2bf3ff3dbd18</webElementGuid>
-=======
       <webElementGuid>063c2350-f412-4016-8191-ad516197bbeb</webElementGuid>
->>>>>>> Stashed changes
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -226,11 +221,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '1' or . = '1')]</value>
-<<<<<<< Updated upstream
       <webElementGuid>6ffe3b47-0359-406b-ac79-29874e4c0072</webElementGuid>
->>>>>>> branch 'master' of https://github.com/madhooDeloitte/NVPCKatalon.git
-=======
       <webElementGuid>5933e72f-7ecd-4e34-ae3f-37fcb2aa55fb</webElementGuid>
->>>>>>> Stashed changes
    </webElementXpaths>
 </WebElementEntity>
