@@ -33,51 +33,43 @@ WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password_b3-b9-
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
-WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Donate'))
+WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Our organisations'))
 
-WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgDonate/button_CAMPAIGNS'))
+WebUI.setText(findTestObject('Page_giving.sgOur organisations/input_Search organisations_b2-SearchInput'), 'test')
 
-WebUI.setText(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), 'npo')
+WebUI.sendKeys(findTestObject('Page_giving.sgOur organisations/input_Search organisations_b2-SearchInput'), Keys.chord(Keys.ENTER))
 
-WebUI.sendKeys(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Page_giving.sgOur organisations - test/span_test'))
 
-WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgDonate - npo/span_npo without ipc'))
+WebUI.switchToWindowTitle('')
 
-WebUI.switchToWindowTitle('giving.sg : Campaign detail - npo without ipc')
+WebUI.navigateToUrl('https://dk.deloitte-sea.com/organisation/profile/a99f0ba9-b4ee-41fa-a8e7-7fa63d7a4558')
 
-WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgCampaign detail - npo without ipc/button_Donate now'))
+WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now _Main'))
 
-WebUI.mouseOver(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail - npo without ipc/button_Donate now 2'))
+WebUI.mouseOver(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_Tier_Org'))
 
-WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail - npo without ipc/button_Donate now 2'))
+WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_Tier_Org'))
 
-WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgCampaign detail - npo without ipc/a_Add dedication message or name'))
+WebUI.setText(findTestObject('Object Repository/Page_test/input__b2-b15-b20-Input_OtherAmount'), '10')
 
-WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgCampaign detail - npo without ipc/textarea_AddDedicationMessage'), 
-    'test')
+WebUI.click(findTestObject('Object Repository/Page_test/input__b2-b15-b20-Checkbox1'))
 
-WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail - npo without ipc/button_Donate now 3'))
+WebUI.click(findTestObject('Object Repository/Page_test/a_Monthly'))
+
+WebUI.click(findTestObject('Object Repository/Page_test/input_Set an end date for when the recurrin_a6ccf3'))
+
+WebUI.click(findTestObject('Object Repository/Page_test/span_31'))
+
+WebUI.click(findTestObject('Object Repository/Page_test/a_Add dedication message or name'))
+
+WebUI.setText(findTestObject('Object Repository/Page_test/textarea_Dedication messagename_b2-b15-b20-_5b5de8'), 'testing')
+
+WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_PopUp'))
 
 WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Check out'))
 
-WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgCheckout cart/input_OR_b2-b9-l1-448_0-RadioGroup'))
+WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/button_Continue with Payment'))
 
-WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgCheckout cart/input_QR payment_b2-SaveCardFuture'))
-
-WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgCheckout cart/input_QR payment_b2-SaveCardFuture'))
-
-WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgCheckout cart/button_Continue with Payment'))
-
-WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_Test Account/input_Keep using  4242_cardNumber'), 
-    '4242 4242 4242 42422')
-
-WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_Test Account/input_Keep using  4242_cardExpiry'), 
-    '05 / 29')
-
-WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_Test Account/input_Keep using  4242_cardCvc'), 
-    '111')
-
-WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_Test Account/div_SGD10.00_SubmitButton-IconContainer'))
-
-WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgPayment status/button_Continue browsing'))
+WebUI.click(findTestObject('Object Repository/Page_giving.sgPayment status/button_Continue browsing'))
 

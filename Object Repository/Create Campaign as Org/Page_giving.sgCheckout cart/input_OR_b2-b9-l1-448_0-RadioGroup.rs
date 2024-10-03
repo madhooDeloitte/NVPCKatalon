@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='b2-b9-l1-448_0-RadioButton-input']</value>
+         <value>//div[@ktl-id='divAvailablePaymentMethods']/div/div/div[1]/div/div/div/div[1]/div/div/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>fbaf0adc-0920-4626-8c4c-1824e3c59219</webElementGuid>
+      <webElementGuid>ba3d33ec-d26e-4228-88cf-d78caa05e1c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>f1a7f83e-e2ea-44fb-bdd0-840b12d90215</webElementGuid>
+      <webElementGuid>d3a78152-f15b-4d3f-8d1b-70212aace7d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>id</name>
       <type>Main</type>
       <value>b2-b9-l1-448_0-RadioButton-input</value>
-      <webElementGuid>6e80d81c-4874-4b60-a6e0-400bb556763f</webElementGuid>
+      <webElementGuid>0119f712-7434-4482-a3a5-7a4f627b5a66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>radio-button</value>
-      <webElementGuid>45636f17-6e50-4f04-80a1-0ca75e387642</webElementGuid>
+      <webElementGuid>d1200456-0917-407e-93c9-973046fb259a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>name</name>
       <type>Main</type>
       <value>b2-b9-l1-448_0-RadioGroup</value>
-      <webElementGuid>cdd0ac38-25ce-4ab0-a6c9-883c4210b629</webElementGuid>
+      <webElementGuid>1cf599eb-c51e-4d2f-b362-14c8b92bace2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>value</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>1234a4f3-f3a9-468e-8b97-98864b95337b</webElementGuid>
+      <webElementGuid>2ed8a6ec-a1ba-4a3c-be5e-02a6ecba3650</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-b9-l1-448_0-RadioButton-input&quot;)</value>
-      <webElementGuid>1b015a8a-10d7-4543-a0bc-53fd6fe81745</webElementGuid>
+      <webElementGuid>7c092cf2-d108-4fe6-951c-de3bc5572efc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,15 +79,15 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='b2-b9-l1-448_0-RadioButton-input']</value>
-      <webElementGuid>2d723a35-38ef-45e0-afbc-121501fd5161</webElementGuid>
+      <webElementGuid>fb668b60-0501-4a96-99dc-18a428d27ae1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b9-l1-448_0-RadioButton']/input</value>
-      <webElementGuid>0952e0f9-d321-41d3-a5df-73437b93ed2e</webElementGuid>
+      <value>//div[@ktl-id='divAvailablePaymentMethods']/div/div/div[1]/div/div/div/div[1]/div/div/div/input</value>
+      <webElementGuid>3e7c7398-3d73-4845-8d42-c9e4a54b7b2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div/div/div/div/div/div/div/input</value>
-      <webElementGuid>7c18d411-e85e-42ce-9a87-ac65762dd787</webElementGuid>
+      <webElementGuid>26f4bd02-dbce-484c-b4e9-a48450395d85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @id = 'b2-b9-l1-448_0-RadioButton-input' and @name = 'b2-b9-l1-448_0-RadioGroup']</value>
-      <webElementGuid>e9cac7c0-3229-4c63-9e8f-a6b786ef40f4</webElementGuid>
+      <webElementGuid>5be2ce43-004b-473b-b420-4899aa6e1b27</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

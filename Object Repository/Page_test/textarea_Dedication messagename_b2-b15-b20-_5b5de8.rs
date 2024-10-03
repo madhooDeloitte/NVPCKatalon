@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Search organisations_b2-SearchInput</name>
+   <name>textarea_Dedication messagename_b2-b15-b20-_5b5de8</name>
    <tag></tag>
-   <elementGuidId>812ef0af-20f8-49e2-b527-f40b4cf5c08b</elementGuidId>
+   <elementGuidId>69373a30-c925-4092-9934-468c06969509</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#b2-SearchInput</value>
+         <value>#b2-b15-b20-TextArea_DedicationMessage</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ktl-id = 'inpSearchOrg']</value>
+         <value>//*[@ktl-id = 'inpMessage']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='b2-SearchInput']</value>
+         <value>//textarea[@id='b2-b15-b20-TextArea_DedicationMessage']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,8 +26,8 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>3b5b65e2-f25c-4ebb-b2e2-587cc8337c7b</webElementGuid>
+      <value>textarea</value>
+      <webElementGuid>8e0fc949-600b-463f-9586-a8ebb8aa6cbd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,86 +35,78 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control OSFillParent</value>
-      <webElementGuid>a121238c-c65d-4c89-aba1-0134c96a9553</webElementGuid>
+      <webElementGuid>5ec69b5d-0902-4f6d-8b4f-adaf806ddefd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>rows</name>
       <type>Main</type>
-      <value>search</value>
-      <webElementGuid>49787add-2705-4074-856f-8364f723cfc2</webElementGuid>
+      <value>3</value>
+      <webElementGuid>fe90ef86-7e92-4216-a8cf-5e56d2d4ef16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>maxlength</name>
       <type>Main</type>
-      <value>Search by organisation name</value>
-      <webElementGuid>1893d862-1c2e-45f9-9666-d420041a2042</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-required</name>
-      <type>Main</type>
-      <value>false</value>
-      <webElementGuid>f03e9aa8-2117-4895-842e-45f90f683d49</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>b2-SearchInput</value>
-      <webElementGuid>a4142f25-1795-4bce-bb03-76f1535b79ae</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;b2-SearchInput&quot;)</value>
-      <webElementGuid>ab095f64-ce8d-4369-be59-d094ca3b5f45</webElementGuid>
+      <value>500</value>
+      <webElementGuid>7673795e-d7a2-4871-8802-fe4ddc40a022</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ktl-id</name>
       <type>Main</type>
-      <value>inpSearchOrg</value>
-      <webElementGuid>e621f337-3e0a-48ec-8d00-f7ee4cf542f7</webElementGuid>
+      <value>inpMessage</value>
+      <webElementGuid>e60a46e0-0eba-494f-8c0f-fb489cfa5e0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b2-b15-b20-TextArea_DedicationMessage</value>
+      <webElementGuid>06907b7c-5884-491b-b2c6-9b63ddf455d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b15-b20-TextArea_DedicationMessage&quot;)</value>
+      <webElementGuid>35e66157-c0ea-4cc5-b97c-09eac1d0dfdb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='b2-SearchInput']</value>
-      <webElementGuid>9196f4ba-805c-4942-ace9-68f1c3e59f47</webElementGuid>
+      <value>//textarea[@id='b2-b15-b20-TextArea_DedicationMessage']</value>
+      <webElementGuid>65665026-d024-4b71-a854-87671cf80eca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b3-Input']/span/input</value>
-      <webElementGuid>8187b219-0fbd-47d4-b176-2ae16f4fdb80</webElementGuid>
+      <value>//div[@id='b2-b15-b20-b11-FieldContent']/span/textarea</value>
+      <webElementGuid>040e2226-7c2c-47e7-aee1-e30ad71e66ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>dbf84cbb-d443-43d3-a61e-81ad6d0c8c40</webElementGuid>
+      <value>//textarea</value>
+      <webElementGuid>9d3438a1-6ab0-4207-9233-0ab632a524d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'search' and @placeholder = 'Search by organisation name' and @id = 'b2-SearchInput']</value>
-      <webElementGuid>09d0f6ad-5df6-4649-97eb-fea4b49dd5c6</webElementGuid>
+      <value>//textarea[@id = 'b2-b15-b20-TextArea_DedicationMessage']</value>
+      <webElementGuid>b4d39372-14fc-44dd-8f4f-68cc6d4b8449</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

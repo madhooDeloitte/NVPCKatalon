@@ -45,18 +45,17 @@ WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving
 
 WebUI.switchToWindowTitle('giving.sg : Campaign detail - npo without ipc')
 
-WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgCampaign detail - npo without ipc/button_Donate now'))
+WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now _Main'))
 
-WebUI.mouseOver(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail - npo without ipc/button_Donate now 2'))
+WebUI.mouseOver(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_Tier'))
 
-WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail - npo without ipc/button_Donate now 2'))
+WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_Tier'))
 
-WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgCampaign detail - npo without ipc/a_Add dedication message or name'))
+WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/a_Add dedication message or name'))
 
-WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgCampaign detail - npo without ipc/textarea_AddDedicationMessage'), 
-    'test')
+WebUI.setText(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/textarea_AddDedicationMessage'), 'test')
 
-WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail - npo without ipc/button_Donate now 3'))
+WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_PopUp'))
 
 WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Check out'))
 
