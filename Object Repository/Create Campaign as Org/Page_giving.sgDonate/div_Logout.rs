@@ -1,30 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Check out</name>
+   <name>div_Logout</name>
    <tag></tag>
-   <elementGuidId>b0688eb1-2518-471b-b4d5-f968249ddf2d</elementGuidId>
+   <elementGuidId>e1c40a53-f68b-4599-b40a-4dcc8670568f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-primary.full-width.OSFillParent</value>
+         <value>#b1-b12-Text</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ktl-id = 'btnCheckOut']</value>
+         <value>//*[(text() = 'Logout' or . = 'Logout')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
+         <value>//div[@id='b1-b12-Text']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Check out&quot;i]</value>
-      </entry>
-   </smartLocatorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -32,111 +26,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>b5704bfb-7b3f-4291-ba38-c7c2eac33d04</webElementGuid>
+      <value>div</value>
+      <webElementGuid>77bf01ed-c76c-4425-8dc3-17b7f534e0f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary full-width OSFillParent</value>
-      <webElementGuid>4a7276dd-5246-4a2b-b428-027738880b2e</webElementGuid>
+      <value>icon-text-pair-text-part</value>
+      <webElementGuid>4d7cef2a-c720-4324-820f-c69666ae4e7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>29c38047-c664-4c7e-a365-247a463c1e16</webElementGuid>
+      <value>b1-b12-Text</value>
+      <webElementGuid>8728bcb0-15a0-4ad0-a656-eecd7a4df8a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Check out</value>
-      <webElementGuid>c8d5545c-4086-49c5-be74-07c1fcfe8384</webElementGuid>
+      <value>Logout</value>
+      <webElementGuid>c84348ea-976c-4083-850b-21a8263d7e4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b2-b27-Action&quot;)/button[@class=&quot;btn btn-primary full-width OSFillParent&quot;]</value>
-      <webElementGuid>e21bc2e1-6326-45d6-a47f-1fc6d9558319</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ktl-id</name>
-      <type>Main</type>
-      <value>btnCheckOut</value>
-      <webElementGuid>d3fa0128-c0d8-4d7e-8ab6-30724ea24bce</webElementGuid>
+      <value>id(&quot;b1-b12-Text&quot;)</value>
+      <webElementGuid>ab666b3a-bf7f-4e27-84a7-589ba1038f01</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[3]</value>
-      <webElementGuid>05d2dfc1-c52a-45b6-acbf-99291ddee532</webElementGuid>
+      <value>//div[@id='b1-b12-Text']</value>
+      <webElementGuid>a50bfb02-f975-4db2-8828-b0d7ef83ab07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b27-Action']/button</value>
-      <webElementGuid>b694d58b-5b04-4e72-8747-c2fec1c35006</webElementGuid>
+      <value>//div[@id='b1-$b12']/div/div[2]</value>
+      <webElementGuid>8cce584b-378f-4ffc-97e4-9753019ecade</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[7]/following::button[1]</value>
-      <webElementGuid>55d7c1ef-b4db-4425-8a17-3990b66d4fa6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My enquiries'])[1]/following::div[5]</value>
+      <webElementGuid>8ffd10f5-d2ed-4fea-bec7-f8ba0c7f1e05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organised by'])[1]/preceding::button[1]</value>
-      <webElementGuid>8b088703-64ad-4e72-a543-76778b9f3245</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/following::div[15]</value>
+      <webElementGuid>67941cec-43b6-43c7-98ca-250dc43793ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Together, because'])[1]/preceding::button[1]</value>
-      <webElementGuid>a3c132ae-6b2b-4317-aa63-6563ee77a9d9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DEWANARA VANASAMIN'])[1]/preceding::div[6]</value>
+      <webElementGuid>80df072a-c17d-4545-9721-45bde543a6ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Check out']/parent::*</value>
-      <webElementGuid>e8c2ecb0-3880-49c3-8a5d-c6fef1928913</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Public profile'])[2]/preceding::div[17]</value>
+      <webElementGuid>b1152de5-0d59-4ab4-96ec-b87b8bcd0e20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Logout']/parent::*</value>
+      <webElementGuid>6bff225e-8132-4400-bbb7-5b85e0e009f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div[5]/div/button</value>
-      <webElementGuid>7cd96f5d-9d30-404b-b21c-79db2edeff59</webElementGuid>
+      <value>//a[6]/div/div/div[2]</value>
+      <webElementGuid>a14da08d-2fd0-438c-ba06-fe9dfc9f5137</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Check out' or . = 'Check out')]</value>
-      <webElementGuid>f44c3f22-48ec-447e-abf9-8fd263b828b4</webElementGuid>
+      <value>//div[@id = 'b1-b12-Text' and (text() = 'Logout' or . = 'Logout')]</value>
+      <webElementGuid>a603cea2-0cda-4374-943a-ca95fc0fb13d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
