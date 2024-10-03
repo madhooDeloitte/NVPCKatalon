@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Our organisations</name>
+   <name>div_Visa ending in 4242</name>
    <tag></tag>
-   <elementGuidId>1cef0485-e582-4d16-b68c-a6f94d0d3c3f</elementGuidId>
+   <elementGuidId>fd04bccd-5e68-4919-8ce4-e3081665e517</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b7-l1-103_1-b1-Content']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@ktl-id='divGiverMenuItemList']/div[5]/div/a</value>
+         <key>CSS</key>
+         <value>#b2-b7-l1-103_1-b1-Content</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,95 +22,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>a74d4505-f541-4dee-9a3c-64d528490a5d</webElementGuid>
+      <value>div</value>
+      <webElementGuid>385d1d46-cd3d-4458-bf1e-f76ec85ae306</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav-menu-item</value>
-      <webElementGuid>b27a526b-fe1d-405d-856e-d4ec0823e529</webElementGuid>
+      <value>ph card card-content border-radius-none</value>
+      <webElementGuid>fa2c9250-ccbb-48c0-822b-3312e5eeba3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>id</name>
       <type>Main</type>
-      <value>/volunteer</value>
-      <webElementGuid>a95e314f-d8f6-4fec-8240-6524ea1cae0b</webElementGuid>
+      <value>b2-b7-l1-103_1-b1-Content</value>
+      <webElementGuid>3c96acf9-c3a3-4777-889e-67258f0e342b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Volunteer</value>
-      <webElementGuid>8f7bf68c-2c9e-4564-a380-f44a1153c2df</webElementGuid>
+      <value>Visa ending in 4242</value>
+      <webElementGuid>6a23d6dd-7864-4d25-9c89-db9217a301f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b1-l1-19_7-$b2&quot;)/a[@class=&quot;nav-menu-item&quot;]</value>
-      <webElementGuid>ced045f3-6214-4e72-bb85-7fa00bc1fe09</webElementGuid>
+      <value>id(&quot;b2-b7-l1-103_1-b1-Content&quot;)</value>
+      <webElementGuid>994ad06f-4c9c-44b4-98e0-5be4455a26f9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b7-l1-103_1-b1-Content']</value>
+      <webElementGuid>31a212a2-13de-4cec-a65a-bec6bd5e91bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@ktl-id='divGiverMenuItemList']/div[5]/div/a</value>
-      <webElementGuid>9a75e717-7c4f-458c-8892-41b992b37dd5</webElementGuid>
+      <value>//div[@id='b2-b7-l1-103_1-$b1']/div</value>
+      <webElementGuid>fff74a55-93ef-4157-9719-0351320d50a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Donate'])[1]/following::a[1]</value>
-      <webElementGuid>63312fca-b81c-4815-a88d-0354da8f7103</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Default'])[1]/following::div[4]</value>
+      <webElementGuid>9813f7bb-334a-4441-9087-ccc87a193af2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::a[5]</value>
-      <webElementGuid>517f33ca-f33a-4a5c-b4ca-f6ec59073218</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Visa ending in 4242'])[1]/following::div[6]</value>
+      <webElementGuid>fe1529ab-2f8b-48cd-a550-2eccc4b40707</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Collaborate'])[1]/preceding::a[1]</value>
-      <webElementGuid>a88e8963-5bfc-46a9-8233-c9f635ecc3a5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '/volunteer')]</value>
-      <webElementGuid>98feeb6a-6c2b-481d-9432-499c6d0b8a49</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+ Add debit or credit card'])[1]/preceding::div[7]</value>
+      <webElementGuid>39654dbd-674e-4256-8416-21c8545c736f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div/div[2]/div/a</value>
-      <webElementGuid>d981a988-3447-4857-af92-e23c2d426376</webElementGuid>
+      <value>//div[2]/div/div/div[2]/div/div/div/div/div[2]/div/div</value>
+      <webElementGuid>5a7d782f-c533-49af-a3c1-e550ff68bbb6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/volunteer' and (text() = 'Volunteer' or . = 'Volunteer')]</value>
-      <webElementGuid>460cd815-d789-4ca8-951f-43ee2ce66dd1</webElementGuid>
+      <value>//div[@id = 'b2-b7-l1-103_1-b1-Content' and (text() = 'Visa ending in 4242' or . = 'Visa ending in 4242')]</value>
+      <webElementGuid>55eebae9-9a4e-462f-b6d9-0aec0090e6c0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

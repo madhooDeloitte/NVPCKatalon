@@ -10,7 +10,11 @@
    <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>9.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+<<<<<<< Updated upstream
    <projectFileLocation>C:\Users\assaravanan\git\NVPCKatalon\DK UAT Tests.prj</projectFileLocation>
+=======
+   <projectFileLocation>C:\Users\aahmedmahir\git\NVPCKatalon\DK UAT Tests.prj</projectFileLocation>
+>>>>>>> Stashed changes
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

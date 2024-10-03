@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add items and make payment via Stripe (Credit card) - Pledge</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1c1c76ab-5831-415e-8147-66430ffc4455</testCaseGuid>
+</TestCaseEntity>
