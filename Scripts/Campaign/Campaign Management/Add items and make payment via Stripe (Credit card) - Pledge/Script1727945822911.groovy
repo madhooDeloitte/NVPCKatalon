@@ -83,7 +83,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/input_
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/input_Tax may be claimed only for tax-eligi_7e2994'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/button_Continue with Payment'))
+WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCheckout cart/button_Continue with Payment'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgPayment status/button_Continue browsing'))
+WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgPayment status/button_Continue browsing'))
 
