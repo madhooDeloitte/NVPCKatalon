@@ -33,6 +33,8 @@ WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password_b3-b9-
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
+WebUI.takeScreenshotAsCheckpoint('1')
+
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Donate'))
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgDonate/button_CAMPAIGNS'))
@@ -40,6 +42,8 @@ WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving
 WebUI.setText(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), 'npo')
 
 WebUI.sendKeys(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), Keys.chord(Keys.ENTER))
+
+WebUI.takeScreenshotAsCheckpoint('2')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgDonate - npo/span_npo without ipc'))
 
@@ -51,9 +55,13 @@ WebUI.mouseOver(findTestObject('Create Campaign as Org/Page_giving.sgCampaign de
 
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_Tier'))
 
+WebUI.takeScreenshotAsCheckpoint('3')
+
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/a_Add dedication message or name'))
 
 WebUI.setText(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/textarea_AddDedicationMessage'), 'test')
+
+WebUI.takeScreenshotAsCheckpoint('4')
 
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_PopUp'))
 
@@ -65,6 +73,8 @@ WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgCheckout cart/input_QR payment_b2-SaveCardFuture'))
 
+WebUI.takeScreenshotAsCheckpoint('5')
+
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgCheckout cart/button_Continue with Payment'))
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_Test Account/input_Keep using  4242_cardNumber'), 
@@ -75,6 +85,8 @@ WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_Test
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_Test Account/input_Keep using  4242_cardCvc'), 
     '111')
+
+WebUI.takeScreenshotAsCheckpoint('6')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_Test Account/div_SGD10.00_SubmitButton-IconContainer'))
 

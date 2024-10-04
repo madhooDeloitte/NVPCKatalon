@@ -31,6 +31,8 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password_b3-b9-Input_Password'), '963D2jXv1kXHYewulAqKlg==')
 
+WebUI.takeScreenshotAsCheckpoint('1')
+
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Our organisations'))
@@ -38,6 +40,8 @@ WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Our organisatio
 WebUI.setText(findTestObject('Page_giving.sgOur organisations/input_Search organisations_b2-SearchInput'), 'test')
 
 WebUI.sendKeys(findTestObject('Page_giving.sgOur organisations/input_Search organisations_b2-SearchInput'), Keys.chord(Keys.ENTER))
+
+WebUI.takeScreenshotAsCheckpoint('2')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgOur organisations - test/span_test'))
 
@@ -50,6 +54,8 @@ WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail
 WebUI.mouseOver(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_Tier_Org'))
 
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_Tier_Org'))
+
+WebUI.takeScreenshotAsCheckpoint('3')
 
 WebUI.setText(findTestObject('Object Repository/Page_test/input__b2-b15-b20-Input_OtherAmount'), '10')
 
@@ -65,9 +71,15 @@ WebUI.click(findTestObject('Object Repository/Page_test/a_Add dedication message
 
 WebUI.setText(findTestObject('Object Repository/Page_test/textarea_Dedication messagename_b2-b15-b20-_5b5de8'), 'testing')
 
+WebUI.takeScreenshotAsCheckpoint('4')
+
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_PopUp'))
 
+WebUI.takeScreenshotAsCheckpoint('5')
+
 WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Check out'))
+
+WebUI.takeScreenshotAsCheckpoint('6')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/button_Continue with Payment'))
 
