@@ -29,17 +29,19 @@ WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
 WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/span_Log in with'), 0)
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), 'michaelscott@dundermifflin.dk.dev')
+WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), 'ATmanagemember1@mailto.plus')
 
 WebUI.takeScreenshotAsCheckpoint('2')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
-WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password'), 'hJxcABFZyq6YA1kwHae0pw==')
+WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password'), 'hJxcABFZyq4oD3Y625LFBg==')
 
 WebUI.takeScreenshotAsCheckpoint('3')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
+
+WebUI.delay(3)
 
 WebUI.takeScreenshotAsCheckpoint('4')
 
