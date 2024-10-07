@@ -35,6 +35,8 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_Log in'
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg/a_Our Organisations'))
 
+WebUI.takeFullPageScreenshotAsCheckpoint('1')
+
 WebUI.setText(findTestObject('Page_giving.sgOur organisations/input_Search organisations_b2-SearchInput'), 'kill')
 
 WebUI.sendKeys(findTestObject('Page_giving.sgOur organisations/input_Search organisations_b2-SearchInput'), Keys.chord(Keys.ENTER))
@@ -45,7 +47,11 @@ WebUI.switchToWindowTitle('')
 
 WebUI.navigateToUrl('https://dk.deloitte-sea.com/organisation/profile/d32d86ca-320e-4aca-8f59-99dd30476801')
 
+WebUI.takeFullPageScreenshotAsCheckpoint('2')
+
 WebUI.click(findTestObject('Object Repository/Page_Keep Inviting Love Library (KILL)/button_Donate'))
+
+WebUI.takeFullPageScreenshotAsCheckpoint('3')
 
 WebUI.click(findTestObject('Object Repository/Page_Keep Inviting Love Library (KILL)/div_50DonateDonate nowAdd to cartPledge'))
 
@@ -61,9 +67,15 @@ WebUI.click(findTestObject('Object Repository/Page_Keep Inviting Love Library (K
 WebUI.setText(findTestObject('Object Repository/Page_Keep Inviting Love Library (KILL)/input_How did you learn about us_b2-b15-b21_1614c0'), 
     'tw')
 
+WebUI.takeFullPageScreenshotAsCheckpoint('4')
+
 WebUI.click(findTestObject('Object Repository/Page_Keep Inviting Love Library (KILL)/button_Pledge now'))
 
+WebUI.takeFullPageScreenshotAsCheckpoint('5')
+
 WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Check out'))
+
+WebUI.takeFullPageScreenshotAsCheckpoint('6')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/button_Add debit or credit card'))
 
@@ -75,6 +87,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Test Account/input_Card inf
 
 WebUI.setText(findTestObject('Object Repository/Page_Test Account/input_Cardholder name_billingName'), 'c')
 
+WebUI.takeFullPageScreenshotAsCheckpoint('7')
+
 WebUI.click(findTestObject('Object Repository/Page_Test Account/div_Save card_SubmitButton-IconContainer'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/input_Default_b2-b7-l1-103_1-RadioGroup'))
@@ -83,7 +97,11 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/input_
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/input_Tax may be claimed only for tax-eligi_7e2994'))
 
+WebUI.takeFullPageScreenshotAsCheckpoint('8')
+
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCheckout cart/button_Continue with Payment'))
+
+WebUI.takeFullPageScreenshotAsCheckpoint('9')
 
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgPayment status/button_Continue browsing'))
 
