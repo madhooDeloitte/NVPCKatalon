@@ -49,19 +49,23 @@ WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving
 
 WebUI.switchToWindowTitle('giving.sg : Campaign detail - npo without ipc')
 
+WebUI.takeScreenshotAsCheckpoint('3')
+
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now _Main'))
 
 WebUI.mouseOver(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_Tier'))
 
+WebUI.takeScreenshotAsCheckpoint('3')
+
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_Tier'))
 
-WebUI.takeScreenshotAsCheckpoint('3')
+WebUI.takeScreenshotAsCheckpoint('4')
 
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/a_Add dedication message or name'))
 
 WebUI.setText(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/textarea_AddDedicationMessage'), 'test')
 
-WebUI.takeScreenshotAsCheckpoint('4')
+WebUI.takeScreenshotAsCheckpoint('5')
 
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_PopUp'))
 
@@ -73,7 +77,7 @@ WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgCheckout cart/input_QR payment_b2-SaveCardFuture'))
 
-WebUI.takeScreenshotAsCheckpoint('5')
+WebUI.takeScreenshotAsCheckpoint('6')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgCheckout cart/button_Continue with Payment'))
 
@@ -86,9 +90,11 @@ WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_Test
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_Test Account/input_Keep using  4242_cardCvc'), 
     '111')
 
-WebUI.takeScreenshotAsCheckpoint('6')
+WebUI.takeScreenshotAsCheckpoint('7')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_Test Account/div_SGD10.00_SubmitButton-IconContainer'))
+
+WebUI.takeScreenshotAsCheckpoint('8')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgPayment status/button_Continue browsing'))
 

@@ -37,11 +37,13 @@ WebUI.click(findTestObject('Object Repository/Page_Singpass login/button_Passwor
 
 WebUI.setText(findTestObject('Object Repository/Page_Singpass login/input_Password login_username'), 'S8102792G')
 
+WebUI.takeScreenshotAsCheckpoint('3')
+
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Singpass login/input__password'), 'tUM5ps8PP6KPbMdZX3AbAQ==')
 
 WebUI.click(findTestObject('Object Repository/Page_Singpass login/button_Log in'))
 
-WebUI.takeScreenshotAsCheckpoint('3')
+WebUI.takeScreenshotAsCheckpoint('4')
 
 WebUI.closeBrowser()
 
