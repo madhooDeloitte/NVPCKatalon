@@ -49,13 +49,15 @@ WebUI.switchToWindowTitle('')
 
 WebUI.navigateToUrl('https://dk.deloitte-sea.com/organisation/profile/a99f0ba9-b4ee-41fa-a8e7-7fa63d7a4558')
 
+WebUI.takeScreenshotAsCheckpoint('3')
+
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now _Main'))
 
 WebUI.mouseOver(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_Tier_Org'))
 
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_Tier_Org'))
 
-WebUI.takeScreenshotAsCheckpoint('3')
+WebUI.takeScreenshotAsCheckpoint('4')
 
 WebUI.setText(findTestObject('Object Repository/Page_test/input__b2-b15-b20-Input_OtherAmount'), '10')
 
@@ -71,17 +73,19 @@ WebUI.click(findTestObject('Object Repository/Page_test/a_Add dedication message
 
 WebUI.setText(findTestObject('Object Repository/Page_test/textarea_Dedication messagename_b2-b15-b20-_5b5de8'), 'testing')
 
-WebUI.takeScreenshotAsCheckpoint('4')
+WebUI.takeScreenshotAsCheckpoint('5')
 
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_PopUp'))
 
-WebUI.takeScreenshotAsCheckpoint('5')
+WebUI.takeScreenshotAsCheckpoint('6')
 
 WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Check out'))
 
-WebUI.takeScreenshotAsCheckpoint('6')
+WebUI.takeScreenshotAsCheckpoint('7')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/button_Continue with Payment'))
+
+WebUI.takeScreenshotAsCheckpoint('8')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgPayment status/button_Continue browsing'))
 
