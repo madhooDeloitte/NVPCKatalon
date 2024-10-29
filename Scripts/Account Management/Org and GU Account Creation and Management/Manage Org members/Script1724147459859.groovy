@@ -17,15 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL = 'https://dk.deloitte-sea.com/home'
+
+//org email
+String orgEmail = 'ethanorg1@mailto.plus'
+
+//file path
+String filePath = 'C:\\Users\\smadhoosudhan\\Downloads\\Katalon\\Test data\\BulkUpload_MembersInvite.xlsx'
+
+//file name
+String fileName = 'BulkUpload_MembersInvite.xlsx'
+
+//logout URL
+String logoutURL = 'https://dk.deloitte-sea.com/auth/logout'
+
+//org member emails
+String orgMemberEmail1 = 'ATmanagemember1@mailto.plus'
+String orgMemberEmail2 = 'ATmanagemember2@mailto.plus'
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050/button_Accept all'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), 'ethanorg1@mailto.plus')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), orgEmail)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_Log in'))
 
@@ -92,10 +110,10 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of giv
 
 WebUI.takeFullPageScreenshotAsCheckpoint('4')
 
-WebUI.uploadFile(findTestObject('Object Repository/Page_giving.sg - admin List of giver members/label_Upload file'), 'C:\\Users\\smadhoosudhan\\Downloads\\Katalon\\Test data\\BulkUpload_MembersInvite.xlsx')
+WebUI.uploadFile(findTestObject('Object Repository/Page_giving.sg - admin List of giver members/label_Upload file'), filePath)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_giving.sg - admin List of giver members/span_BulkUpload_MembersInvite.xlsx'), 
-    'BulkUpload_MembersInvite.xlsx')
+    fileName)
 
 WebUI.takeScreenshotAsCheckpoint('5')
 
@@ -156,11 +174,11 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Home/a_Logo
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Home/button_Yes'))
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/auth/logout')
+WebUI.navigateToUrl(logoutURL)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogout/button_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), 'ATmanagemember1@mailto.plus')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), orgMemberEmail1)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_Log in'))
 
@@ -200,7 +218,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgSettings/button_Yes_
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogout/button_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), 'ATmanagemember2@mailto.plus')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), orgMemberEmail2)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_Log in'))
 

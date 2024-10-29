@@ -17,9 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL = 'https://dk.deloitte-sea.com/home'
+
+//gu email
+String guEmail = 'bob@gmail.com'
+
+//gu name
+String guName = 'Bob'
+
+//public enquiry number
+String publicEnquiryNumber = '66664444'
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
@@ -30,10 +41,10 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgSign up now/a_Ground
 WebUI.click(findTestObject('Object Repository/Page_giving.sgSign up now/button_Sign up with email'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_Groundup name_b4-b2-Input_GUName'), 
-    'bob@gmail.com')
+    guEmail)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_(65)_b4-b2-Input_PublicEnquiryNumber'), 
-    '66664444')
+    publicEnquiryNumber)
 
 WebUI.click(findTestObject('Page_giving.sgOrganisation registration/input_IsGUpartOfParent_Switch1'))
 
@@ -46,10 +57,10 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgOrganisation registr
 WebUI.click(findTestObject('Object Repository/Page_giving.sgOrganisation registration/button_Next'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_Full name_b4-b3-Input_FullName'), 
-    'Bob')
+    guName)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_Work email_b4-b3-Input_Email'), 
-    'bob@gmail.com')
+    guEmail)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_Password_b4-b3-Input_Password'), 
     'hJxcABFZyq6YA1kwHae0pw==')

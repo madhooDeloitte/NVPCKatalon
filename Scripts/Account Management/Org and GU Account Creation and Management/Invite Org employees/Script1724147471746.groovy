@@ -17,6 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL = 'https://uat.giving.sg'
+
+//org email
+String orgEmail = 'ethanorg1@mailto.plus'
+
+//employee name
+String employeeName = 'Test Employee 3'
+
+//employee email
+String employeeEmail = 'testemployee3@dk.uat'
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
@@ -25,7 +36,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), 'ethanorg1@mailto.plus')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), orgEmail)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_Log in'))
 
@@ -72,10 +83,10 @@ WebUI.takeScreenshotAsCheckpoint('1')
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Employees/button_Invite employee'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Employees/input_Employee name_b2-b18-Input_Name'), 
-    'Test Employee 3')
+    employeeName)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Employees/input_Email address_b2-b18-Input_Email'), 
-    'testemployee3@dk.uat')
+    employeeEmail)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Employees/input_Role_b2-b18-b5-l1-224_0-Checkbox'))
 
@@ -87,7 +98,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sg - ad
 
 WebUI.takeScreenshotAsCheckpoint('3')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_giving.sg - admin Employees/span_testemployee2dk.uat'), 'testemployee3@dk.uat')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_giving.sg - admin Employees/span_testemployee2dk.uat'), employeeEmail)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sg - admin Employees/span_Pending'), 0)
 

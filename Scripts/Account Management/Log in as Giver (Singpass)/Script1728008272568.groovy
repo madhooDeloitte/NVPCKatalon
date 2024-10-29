@@ -17,9 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL = 'https://uat.giving.sg'
+
+//Singpass URL
+String singpassURL = 'https://stg-auth.singpass.gov.sg/main'
+
+//Singpass username 
+String singpassUsername = 'S8102792G'
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://uat.giving.sg')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
@@ -31,11 +39,11 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_Singpas
 
 WebUI.takeScreenshotAsCheckpoint('2')
 
-WebUI.navigateToUrl('https://stg-auth.singpass.gov.sg/main')
+WebUI.navigateToUrl(singpassURL)
 
 WebUI.click(findTestObject('Object Repository/Page_Singpass login/button_Password login'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Singpass login/input_Password login_username'), 'S8102792G')
+WebUI.setText(findTestObject('Object Repository/Page_Singpass login/input_Password login_username'),singpassUsername )
 
 WebUI.takeScreenshotAsCheckpoint('3')
 

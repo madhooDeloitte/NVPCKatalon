@@ -17,9 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL = 'https://uat.giving.sg'
+
+//email
+String giverEmail = 'ATmanagemember1@mailto.plus'
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://uat.giving.sg')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
@@ -29,7 +34,7 @@ WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
 WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/span_Log in with'), 0)
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), 'ATmanagemember1@mailto.plus')
+WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'),giverEmail )
 
 WebUI.takeScreenshotAsCheckpoint('2')
 

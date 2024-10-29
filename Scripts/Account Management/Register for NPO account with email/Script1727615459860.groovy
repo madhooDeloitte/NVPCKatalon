@@ -17,9 +17,50 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL = 'http://uat.giving.sg'
+
+//Charity name
+String charityName = 'Supernova NPO 1'
+
+//Public Enquiry number
+String publicEnquiryNumber = '88884444'
+
+//UEN
+String uen = '230800483M'
+
+//PostalCode
+String postalCode = '018956'
+
+//Bank account number
+String bankAccountNumber = '1234567890'
+
+//Bank code
+String bankCode = '7375'
+
+//Branch code
+String branchCode = '001'
+
+//Swift code
+String swiftCode = 'UOVBSGSG'
+
+//File path
+String filePath = 'C:\\Users\\smadhoosudhan\\Downloads\\Katalon\\Test data\\Direct Credit Authorisation Form.pdf'
+
+//NPO Admin Name
+String npoAdminName = 'Supernova NPO 1 Admin'
+
+//NPO Admin Email
+String npoAdminEmail = 'supernova_npo1@mailto.plus'
+
+//ops admin email
+String opsAdminEmail = 'ops-admin-1-dkuat@mailto.plus'
+
+//DK Finance Admin Email
+String dkFinanceAdminEmail = 'DK_Finance_Admin_00_02@nvpc.dev'
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://uat.giving.sg')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
@@ -34,15 +75,15 @@ WebUI.click(findTestObject('Page_giving.sgSign up now/button_I understand_DCA'))
 WebUI.click(findTestObject('Page_giving.sgSign up now/button_Sign up with email'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Organisation name_b4-b2-Input_CharityName'), 
-    'Supernova NPO 1')
+    charityName)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_(65)_b4-b2-Input_PublicEnquiryNumber'), 
-    '88884444')
+    publicEnquiryNumber)
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_UEN_b4-b2-Input_UEN'), '230800483M')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_UEN_b4-b2-Input_UEN'), uen)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Postal code_b4-b2-Input_PostalCode'), 
-    '018956')
+    postalCode)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/button_Next'))
 
@@ -51,18 +92,18 @@ WebUI.click(findTestObject('Page_giving.sgCharity registration/dropdownBank'))
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/div_UOB'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Bank account number_b4-b3-Input_Accou_8cb671'), 
-    '1234567890')
+    bankAccountNumber)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Bank code_b4-b3-Input_BankCode'), 
-    '7375')
+    bankCode)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Branch code_b4-b3-Input_BranchCode'), 
-    '001')
+    branchCode)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Swift code_b4-b3-Input_SwiftCode'), 
-    'UOVBSGSG')
+    swiftCode)
 
-WebUI.uploadFile(findTestObject('Page_giving.sgOrganisation registration/label_Upload file Input'), 'C:\\Users\\smadhoosudhan\\Downloads\\Katalon\\Test data\\Direct Credit Authorisation Form.pdf')
+WebUI.uploadFile(findTestObject('Page_giving.sgOrganisation registration/label_Upload file Input'), filePath)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Do you have a valid IPC status_b4-b3-_52578c'))
 
@@ -89,10 +130,10 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/button_Next'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Full name_b4-b5-Input_FullName'), 
-    'Supernova NPO 1 Admin')
+    npoAdminName)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Work email_b4-b5-Input_Email'), 
-    'supernova_npo1@mailto.plus')
+    npoAdminEmail)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Password_b4-b5-Input_Password'), 
     'hJxcABFZyq6YA1kwHae0pw==')
@@ -108,7 +149,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), 'ops-admin-1-dkuat@mailto.plus')
+WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), opsAdminEmail)
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
@@ -154,7 +195,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - dk NPO registrati
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), 'DK_Finance_Admin_00_02@nvpc.dev')
+WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), dkFinanceAdminEmail)
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Log in'))
 

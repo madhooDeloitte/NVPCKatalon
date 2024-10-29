@@ -17,9 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL = 'https://dk.deloitte-sea.com/home'
+
+//email
+String guEmail = 'seantayGUmarriott@mailto.plus'
+
+//FilePath
+String filePath = 'C:\\Users\\aahmedmahir\\Downloads\\BulkUpload_MembersInvite.xlsx'
+
+//giver email
+String giverEmail = 'amirgiver1@mailto.plus'
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050 (5)/button_Accept all'))
 
@@ -28,7 +39,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg
 WebUI.delay(100)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin (3)/input_Email address_b3-b9-Input_EmailAddress'), 
-    'seantayGUmarriott@mailto.plus')
+    guEmail)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin (3)/button_Log in'))
 
@@ -67,7 +78,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of giv
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of giver members/button_Download template'))
 
-WebUI.uploadFile(findTestObject('Object Repository/Page_giving.sg - admin List of giver members/label_Upload file'), 'C:\\Users\\aahmedmahir\\Downloads\\BulkUpload_MembersInvite.xlsx')
+WebUI.uploadFile(findTestObject('Object Repository/Page_giving.sg - admin List of giver members/label_Upload file'), filePath)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of giver members/button_Send invite'))
 
@@ -86,7 +97,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of giv
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogout (3)/button_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin (5)/input_Email address_b3-b9-Input_EmailAddress'), 
-    'amirgiver1@mailto.plus')
+    giverEmail)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin (5)/button_Log in'))
 

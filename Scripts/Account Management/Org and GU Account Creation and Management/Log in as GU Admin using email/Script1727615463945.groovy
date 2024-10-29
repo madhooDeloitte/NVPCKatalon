@@ -17,15 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL = 'https://dk.deloitte-sea.com/home'
+
+//email
+String guAdmin = 'jaseventhgen@dk.dev'
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), 'jaseventhgen@dk.dev')
+WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), guAdmin)
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
