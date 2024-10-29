@@ -6,12 +6,12 @@
    <elementGuidId>cf3e2f80-9017-42dc-b66e-b62f53737ad0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#b2-b1-b22-Buttons > div > button.btn.btn-primary.OSFillParent</value>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnDonateNow']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@ktl-id = 'btnDonateMain']</value>
+         <key>CSS</key>
+         <value>#b2-b1-b22-Buttons > div > button.btn.btn-primary.OSFillParent</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f49e7596-f52c-4244-afc9-386912558284</webElementGuid>
+      <webElementGuid>7b44c853-f3f0-4b87-bdf5-a9a09927f9e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary OSFillParent</value>
-      <webElementGuid>3596cfac-e477-464e-84d9-995221e14c19</webElementGuid>
+      <webElementGuid>a53865e5-3b25-4462-9361-91795a7397c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,15 +43,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5b96c76f-f5d8-4e01-9ddd-3719ab868a99</webElementGuid>
+      <webElementGuid>8b94c2d7-4b1e-418f-9d90-0bad78697cc3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ktl-id</name>
       <type>Main</type>
-      <value>btnDonateMain</value>
-      <webElementGuid>109fe42d-916e-439f-8b0f-9d6df00c6783</webElementGuid>
+      <value>btnDonateNow</value>
+      <webElementGuid>a025634b-21db-47e7-af12-7741b02f8a27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Donate now</value>
-      <webElementGuid>d4097a33-0207-4cd2-bb84-73d78d10e511</webElementGuid>
+      <webElementGuid>73fcc8fb-8194-4a34-84df-430ed58699c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-b1-b22-Buttons&quot;)/div[1]/button[@class=&quot;btn btn-primary OSFillParent&quot;]</value>
-      <webElementGuid>0a6b329d-e5a1-4680-ad92-2cb8afe8be29</webElementGuid>
+      <webElementGuid>d5037368-818e-4dfe-965c-e1d24c36af74</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[8]</value>
-      <webElementGuid>fc1978d1-32c2-45fb-a1bf-e644ac4c2d6e</webElementGuid>
+      <webElementGuid>051d5b80-d98e-4862-9d57-922ed0d3802d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b1-b22-Buttons']/div/button</value>
-      <webElementGuid>4ad7ba0f-6c2c-4d21-8eec-693a3e9534aa</webElementGuid>
+      <webElementGuid>5057e491-82ae-4f1c-8938-8ab68b12a074</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='days to go'])[2]/following::button[1]</value>
-      <webElementGuid>d5667046-d83c-449b-8c31-6dab20da3576</webElementGuid>
+      <webElementGuid>ac1248d2-3b51-4dec-9fd0-fc26ce5c6f09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='donors'])[2]/following::button[1]</value>
-      <webElementGuid>c67b1bac-9244-4d07-818e-d4981f7b6c5a</webElementGuid>
+      <webElementGuid>2f83be7f-2027-4bde-892b-412a2cc0b8e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fundraise for this'])[2]/preceding::button[1]</value>
-      <webElementGuid>cde432e7-e974-4c4f-bd0a-37b8111aac43</webElementGuid>
+      <webElementGuid>1d3145fb-a496-44a2-9a8f-b1d65120f26a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Donate'])[3]/preceding::button[2]</value>
-      <webElementGuid>5a21cbb9-2588-4b45-b151-5da03aafa681</webElementGuid>
+      <webElementGuid>ef9c1a73-4e1f-4cc1-8b31-f53a38cfd54d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[7]/div/button</value>
-      <webElementGuid>0b571af0-9a7d-41e4-8408-f9b8a07469ee</webElementGuid>
+      <webElementGuid>b1725dcc-cc5a-4bd4-a006-ac8b8cd59a16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,6 +131,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Donate now' or . = 'Donate now')]</value>
-      <webElementGuid>0e400c66-2aaf-48e7-9d56-35b5b7d77c6c</webElementGuid>
+      <webElementGuid>c44ea149-bf1e-460e-adca-1946940f8167</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

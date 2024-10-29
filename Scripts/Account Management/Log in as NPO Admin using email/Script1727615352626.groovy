@@ -16,10 +16,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import groovy.json.JsonSlurper as JsonSlurper
+import java.net.HttpURLConnection as HttpURLConnection
+import java.net.URL as URL
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+
+// Replace this with your login email
+String userEmail = 'npo_partnerships_test_cm@mailto.plus'
+
+//String userPassword = 'Deloitte@123'
+//String envURL = 'https://dk.deloitte-sea.com'
+//String envOTPURL = 'https://dk.deloitte-sea.com/NVPC_Notification_BO/OTPListScreen'
+String envURL = 'https://uat.giving.sg'
+
+String envOTPURL = 'https://uat.giving.sg/NVPC_Notification_BO/OTPListScreen'
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
@@ -29,7 +43,7 @@ WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
 WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/span_Log in with'), 0)
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), 'emma@kill-charity.com')
+WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), userEmail)
 
 WebUI.takeScreenshotAsCheckpoint('2')
 
@@ -41,17 +55,77 @@ WebUI.takeScreenshotAsCheckpoint('3')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_1'), '1')
+WebUI.executeJavaScript('window.open();', [])
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_2'), '1')
+currentWindow = WebUI.getWindowIndex()
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_3'), '1')
+WebUI.switchToWindowIndex(currentWindow + 1)
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_4'), '1')
+WebUI.navigateToUrl(envOTPURL)
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_5'), '1')
+WebUI.delay(5)
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_6'), '1')
+// Define XPath strings for email and OTP in the first row
+String emailFirstRowXPath = '/html/body/div/div/div/div/div[1]/div/div/div/div[2]/div[2]/div/div[4]/table/tbody/tr[1]/td[1]/span'
+
+String otpFirstRowXPath = '/html/body/div/div/div/div/div[1]/div/div/div/div[2]/div[2]/div/div[4]/table/tbody/tr[1]/td[3]/span'
+
+String emailSecondRowXPath = '/html/body/div/div/div/div/div[1]/div/div/div/div[2]/div[2]/div/div[4]/table/tbody/tr[2]/td[1]/span'
+
+String otpSecondRowXPath = '/html/body/div/div/div/div/div[1]/div/div/div/div[2]/div[2]/div/div[4]/table/tbody/tr[2]/td[3]/span'
+
+// Create TestObject for email and OTP dynamically - from first row of table
+TestObject emailObj = new TestObject().addProperty('xpath', ConditionType.EQUALS, emailFirstRowXPath)
+
+TestObject otpObj = new TestObject().addProperty('xpath', ConditionType.EQUALS, otpFirstRowXPath)
+
+String otpEmailCheck = '' //define globally
+
+String otpCheck = '' //define globally
+
+try {
+    // Retrieve the text for email and OTP
+    otpEmailCheck = WebUI.getText(emailObj)
+
+    otpCheck = WebUI.getText(otpObj)
+
+    if (otpEmailCheck != userEmail) {
+        // if not found in first row, look for OTP in second row
+        emailObj = new TestObject().addProperty('xpath', ConditionType.EQUALS, emailSecondRowXPath)
+
+        otpObj = new TestObject().addProperty('xpath', ConditionType.EQUALS, otpSecondRowXPath)
+
+        otpEmailCheck = WebUI.getText(emailObj)
+
+        otpCheck = WebUI.getText(otpObj)
+    }
+    
+    // Log the email and OTP values
+    WebUI.comment('Found OTP Email: ' + otpEmailCheck)
+
+    WebUI.comment('Found OTP: ' + otpCheck)
+}
+catch (Exception e) {
+    WebUI.comment('An error occurred: ' + e.getMessage())
+} 
+
+WebUI.switchToWindowIndex(currentWindow)
+
+if (otpCheck != null) {
+    WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_1'), otpCheck[0])
+
+    WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_2'), otpCheck[1])
+
+    WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_3'), otpCheck[2])
+
+    WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_4'), otpCheck[3])
+
+    WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_5'), otpCheck[4])
+
+    WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_6'), otpCheck[5])
+} else {
+    WebUI.comment('OTP not found in time.')
+}
 
 WebUI.takeScreenshotAsCheckpoint('4')
 

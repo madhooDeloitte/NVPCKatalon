@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
+WebUI.navigateToUrl('https://uat.giving.sg')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
@@ -43,7 +43,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Singpass login/inp
 
 WebUI.click(findTestObject('Object Repository/Page_Singpass login/button_Log in'))
 
-WebUI.takeScreenshotAsCheckpoint('4')
+WebUI.delay(3)
 
-WebUI.closeBrowser()
+WebUI.takeScreenshotAsCheckpoint('4')
 

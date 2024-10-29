@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
+WebUI.navigateToUrl('https://uat.giving.sg')
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 

@@ -34,12 +34,12 @@ WebUI.click(findTestObject('Page_giving.sgSign up now/button_I understand_DCA'))
 WebUI.click(findTestObject('Page_giving.sgSign up now/button_Sign up with email'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Organisation name_b4-b2-Input_CharityName'), 
-    'Mars NPO')
+    'Supernova NPO 1')
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_(65)_b4-b2-Input_PublicEnquiryNumber'), 
     '88884444')
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_UEN_b4-b2-Input_UEN'), '230800482M')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_UEN_b4-b2-Input_UEN'), '230800483M')
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Postal code_b4-b2-Input_PostalCode'), 
     '018956')
@@ -89,10 +89,10 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/button_Next'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Full name_b4-b5-Input_FullName'), 
-    'Mars NPO Admin')
+    'Supernova NPO 1 Admin')
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Work email_b4-b5-Input_Email'), 
-    'Mars_NPO@mailto.plus')
+    'supernova_npo1@mailto.plus')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_giving.sgCharity registration/input_Password_b4-b5-Input_Password'), 
     'hJxcABFZyq6YA1kwHae0pw==')
@@ -108,7 +108,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), 'dk_admin_02@nvpc.dev')
+WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), 'ops-admin-1-dkuat@mailto.plus')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 

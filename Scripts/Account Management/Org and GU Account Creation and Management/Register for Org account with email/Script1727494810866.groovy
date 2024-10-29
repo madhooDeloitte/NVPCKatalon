@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://uat.giving.sg')
+WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgOrganisation registr
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_(65)_b4-b2-Input_PublicEnquiryNumber'), 
     '88884444')
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_UEN_b4-b2-Input_UEN'), '201912335D')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_UEN_b4-b2-Input_UEN'), '201912332D')
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_Postal code_b4-b2-Input_PostalCode'), 
     '018956')
@@ -58,7 +58,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgOrganisation registr
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgOrganisation registration/button_Next'))
 
-WebUI.uploadFile(findTestObject('Page_giving.sgOrganisation registration/label_Upload file Input'), 'C:\\Users\\assaravanan\\OneDrive - Deloitte (O365D)\\Documents\\Free_Test_Data_1MB_PDF.pdf')
+WebUI.uploadFile(findTestObject('Page_giving.sgOrganisation registration/label_Upload file Input'), 'C:\\Users\\smadhoosudhan\\Downloads\\Katalon\\Test data\\Direct Credit Authorisation Form.pdf')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgOrganisation registration/button_Next'))
 
@@ -73,6 +73,4 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_giving.sgOrganisat
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_Confirm password_b4-b4-Input_ConfirmPassword'), 
     'hJxcABFZyq6YA1kwHae0pw==')
-
-WebUI.closeBrowser()
 

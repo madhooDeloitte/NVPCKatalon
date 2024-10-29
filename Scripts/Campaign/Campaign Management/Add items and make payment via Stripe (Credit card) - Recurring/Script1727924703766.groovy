@@ -51,7 +51,7 @@ WebUI.navigateToUrl('https://dk.deloitte-sea.com/organisation/profile/a99f0ba9-b
 
 WebUI.takeScreenshotAsCheckpoint('3')
 
-WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now _Main'))
+WebUI.click(findTestObject('Page_giving.sgOur organisations/button_Donate_EG_page'))
 
 WebUI.mouseOver(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_Tier_Org'))
 
@@ -68,6 +68,8 @@ WebUI.click(findTestObject('Object Repository/Page_test/a_Monthly'))
 WebUI.click(findTestObject('Object Repository/Page_test/input_Set an end date for when the recurrin_a6ccf3'))
 
 WebUI.click(findTestObject('Object Repository/Page_test/span_31'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_test/a_Add dedication message or name'))
 
@@ -86,6 +88,4 @@ WebUI.takeScreenshotAsCheckpoint('7')
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/button_Continue with Payment'))
 
 WebUI.takeScreenshotAsCheckpoint('8')
-
-WebUI.click(findTestObject('Object Repository/Page_giving.sgPayment status/button_Continue browsing'))
 

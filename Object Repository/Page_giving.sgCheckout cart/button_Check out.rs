@@ -104,7 +104,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organised by'])[1]/preceding::button[1]</value>
+      <value>.//*[normalize-space(text()) and normalize-space(.)='Organised by'])[1]/preceding::button[1]</value>
       <webElementGuid>8b088703-64ad-4e72-a543-76778b9f3245</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>

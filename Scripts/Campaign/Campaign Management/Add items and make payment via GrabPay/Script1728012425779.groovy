@@ -35,11 +35,11 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Donate'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('1')
+WebUI.takeScreenshotAsCheckpoint('1')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgDonate/button_CAMPAIGNS'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('2')
+WebUI.takeScreenshotAsCheckpoint('2')
 
 WebUI.setText(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), 'npo')
 
@@ -49,11 +49,11 @@ WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving
 
 WebUI.switchToWindowTitle('giving.sg : Campaign detail - npo without ipc')
 
-WebUI.takeFullPageScreenshotAsCheckpoint('3')
+WebUI.takeScreenshotAsCheckpoint('3')
 
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('4')
+WebUI.takeScreenshotAsCheckpoint('4')
 
 WebUI.mouseOver(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_Tier'))
 
@@ -63,31 +63,29 @@ WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail
 
 WebUI.setText(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/textarea_AddDedicationMessage'), 'test')
 
-WebUI.takeFullPageScreenshotAsCheckpoint('5')
+WebUI.takeScreenshotAsCheckpoint('5')
 
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/button_Donate now_PopUp'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('\'6')
+WebUI.takeScreenshotAsCheckpoint('\'6')
 
 WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Check out'))
 
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCheckout cart/input_GrabPay_RadioGroup'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('7')
+WebUI.takeScreenshotAsCheckpoint('7')
 
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCheckout cart/button_Continue with Payment'))
 
-WebUI.setText(findTestObject('Page_Test Account/input_Cardholder name_billingName'), 'testo')
+WebUI.setText(findTestObject('Page_Test Account/input_Cardholder name_billingName'), 'test')
 
-WebUI.takeFullPageScreenshotAsCheckpoint('8')
+WebUI.takeScreenshotAsCheckpoint('8')
 
 WebUI.click(findTestObject('Page_Test Account/div_SGD10.00_SubmitButton-IconContainer'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('9')
+WebUI.takeScreenshotAsCheckpoint('9')
 
 WebUI.click(findTestObject('Page_Test Account/div_Save card_SubmitButton-IconContainer - Copy'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('10')
-
-WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgPayment status/button_Continue browsing'))
+WebUI.takeScreenshotAsCheckpoint('10')
 
