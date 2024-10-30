@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Select file</name>
+   <name>button_CampaignGoals_Minus</name>
    <tag></tag>
-   <elementGuidId>39dd61c8-1ffc-4a96-bee0-24ecbaed0d8f</elementGuidId>
+   <elementGuidId>7d18f21b-c8b5-4a71-a2ef-c377161c151a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#b3-b4-b11-Upload_Image</value>
+         <value>button.btn.btn-primary.full-width</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@ktl-id='divSelectFile']/div/div/div[2]/span/label/input</value>
+         <value>//div[@ktl-id='divCampaignGoal']/div/div/div[1]/button</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Select file' or . = 'Select file')]</value>
+         <value>//*[@type = 'button' and (text() = 'Confirm' or . = 'Confirm')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,95 +26,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
-      <webElementGuid>2dccc19c-1fe8-4fa2-aec6-ff23326e0f78</webElementGuid>
+      <value>button</value>
+      <webElementGuid>24357049-39b5-40fa-94cb-6aa206a2296c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>&quot;upload&quot; OSFillParent</value>
-      <webElementGuid>34e0fdc0-0f07-47c6-806e-c2375a4ecc16</webElementGuid>
+      <value>btn btn-primary full-width</value>
+      <webElementGuid>cae9c5ca-ac35-4e7b-ada9-713cc3aea820</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>accept</name>
+      <name>type</name>
       <type>Main</type>
-      <value>.jpeg,.png,.jpg,.gif,.jpe,.jfi,.jfif,.jif</value>
-      <webElementGuid>d6d076fe-c884-49b0-ba0f-97a0d8591619</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>b3-b4-b11-Upload_Image</value>
-      <webElementGuid>24b6fb9f-e82a-4ffa-b2d2-0cffcb48880b</webElementGuid>
+      <value>button</value>
+      <webElementGuid>314c1c3f-452e-49e6-80cc-1d7929ba628f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Select file</value>
-      <webElementGuid>0f024059-ec6c-4175-beaf-4d877024df76</webElementGuid>
+      <value>Confirm</value>
+      <webElementGuid>e4fc4b65-2d9b-43aa-9661-96360636b694</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b3-b4-b11-Upload_Image&quot;)</value>
-      <webElementGuid>a7293c3c-9b71-49ab-aafe-4ce15e59e583</webElementGuid>
+      <value>id(&quot;b3-b28-b41-b2-Button&quot;)/button[@class=&quot;btn btn-primary full-width&quot;]</value>
+      <webElementGuid>469bd78b-25e9-4485-afe1-ec810bcfff52</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//label[@id='b3-b4-b11-Upload_Image']</value>
-      <webElementGuid>bc36f156-ed8a-4292-926a-b42d75d405c8</webElementGuid>
+      <value>(//button[@type='button'])[6]</value>
+      <webElementGuid>7e17a7c3-707d-4281-a697-349396b3091a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b3-b4-Assetupload']/div/div[2]/span/label</value>
-      <webElementGuid>825ecda1-56a0-41aa-a62e-deb9ba95846d</webElementGuid>
+      <value>//div[@id='b3-b28-b41-b2-Button']/button</value>
+      <webElementGuid>26a3f01c-9137-4950-9365-f5a1e7cd07ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload up to 5 pictures or include a YouTube link for donors to learn more.'])[1]/following::label[1]</value>
-      <webElementGuid>9d4c3709-5375-4a3a-91bf-e72f19f9c435</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+      <webElementGuid>87e91eb1-20e0-46fe-a69b-7438fa33e12c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recommended size: 1440 x 810 | JPG, PNG, GIF. Max size: 5MB'])[1]/preceding::label[1]</value>
-      <webElementGuid>89db95aa-3c43-4252-b3b8-af12e6f8c374</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You may still withdraw your creation if you need to make changes.'])[1]/following::button[2]</value>
+      <webElementGuid>400b6d2d-3221-4cc5-92bf-712dbc026712</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Confirm']/parent::*</value>
+      <webElementGuid>481a6f96-96fa-471c-8d4d-d8b3ab698386</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/label</value>
-      <webElementGuid>7452abfc-b626-4c68-8e2e-d5b82d2e9c7b</webElementGuid>
+      <value>//div[4]/div/div/div[2]/div/div/div/button</value>
+      <webElementGuid>460949ee-4ce3-41cc-88d7-cc7cbeaad5b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//label[@id = 'b3-b4-b11-Upload_Image' and (text() = 'Select file' or . = 'Select file')]</value>
-      <webElementGuid>37ba7121-460f-4605-8a39-17e9dd830f42</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Confirm' or . = 'Confirm')]</value>
+      <webElementGuid>3061da49-2a3b-4bca-adbb-6616837ec00b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
