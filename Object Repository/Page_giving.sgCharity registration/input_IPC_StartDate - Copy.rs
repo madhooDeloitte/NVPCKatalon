@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_IPC_StartDate</name>
+   <name>input_IPC_StartDate - Copy</name>
    <tag></tag>
-   <elementGuidId>bad2280b-b9d3-4190-a088-f182292fafc1</elementGuidId>
+   <elementGuidId>056c2a72-bfe6-472a-9be2-3c7d21a0ffa2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@ktl-id='inpIPCIssueDate']/following-sibling::input[1]</value>
+         <value>//input[@ktl-id='inpIPCStartDate']/following-sibling::input[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>7afff40f-efdc-4c38-af85-db3d994991a2</webElementGuid>
+      <webElementGuid>47ab6097-60f5-4a5d-8ff0-196f993ff2e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control OSFillParent input active</value>
-      <webElementGuid>01f8bd0f-3a05-4057-b503-d2fda5719e2f</webElementGuid>
+      <webElementGuid>691cbbe7-3bc9-4551-9771-49c90753b15b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>8d84209a-4412-40b7-8342-4bd85a342ccf</webElementGuid>
+      <webElementGuid>1d923e8d-6127-4db7-aca0-1083e30b7403</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>3a2c6fb7-da9f-4bf8-8b0b-8c1429b02829</webElementGuid>
+      <webElementGuid>6c948340-64bf-4f6d-88e1-b123bdb69127</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>role</name>
       <type>Main</type>
       <value>combobox</value>
-      <webElementGuid>46ff7416-e420-4a09-aeae-e2b5b315f44b</webElementGuid>
+      <webElementGuid>f710c12f-7bd3-4706-8dce-7bc4c51e639d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d5ef0f22-6ee7-46e8-aff8-11e92b262786</webElementGuid>
+      <webElementGuid>d0509cbb-1202-417a-baff-2d55db1c4b74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>cc947d27-f2ce-4d54-ad64-106b094ec49c</webElementGuid>
+      <webElementGuid>1c28cb85-dd8e-4615-ab52-90ed4b162176</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>da50f3f3-5bc2-4d22-bbbe-3781acc65f86</webElementGuid>
+      <webElementGuid>56e86f57-4ba1-4575-9430-af291a8cc9c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>readonly</name>
       <type>Main</type>
       <value>readonly</value>
-      <webElementGuid>70f9c68d-f41e-4740-845b-3a6d2c08568a</webElementGuid>
+      <webElementGuid>74dff846-7e8d-45d0-a34a-2fae372312ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>flatpickr-calendar-0.lw4sxp471p</value>
-      <webElementGuid>061d320e-2e74-4961-9ec3-41f45fddb393</webElementGuid>
+      <webElementGuid>a8352b23-faf2-4e9b-8664-cc94534d2c0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Select a date.</value>
-      <webElementGuid>fb55976c-7f46-4f42-a63c-4621064914d6</webElementGuid>
+      <webElementGuid>06ff5479-4d17-4c69-844d-786bdc38dffd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>b4-b3-b18-DatepickerAccessibilityInfo</value>
-      <webElementGuid>1ae17fdb-0d43-4518-bbed-9298dd140484</webElementGuid>
+      <webElementGuid>1ecacf24-f16e-4196-b514-cb49418b2147</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b4-b3-b18-Datepicker&quot;)/span[@class=&quot;input-date&quot;]/input[@class=&quot;form-control OSFillParent input active&quot;]</value>
-      <webElementGuid>370930e8-efb1-4900-88e0-d091d3e8ba56</webElementGuid>
+      <webElementGuid>907a8779-97dd-41ba-8602-203ac88bc72b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -131,7 +131,7 @@
       <name>ktl-id</name>
       <type>Main</type>
       <value>inpIPCStartDate</value>
-      <webElementGuid>c681770a-8f82-4317-8c05-c19b496b3a0c</webElementGuid>
+      <webElementGuid>9a3be9fb-13c4-4e69-8b9e-6a86b10f6ffe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -139,7 +139,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@type='text'])[5]</value>
-      <webElementGuid>826f18e8-ceb4-4271-b1e4-2074b448cfff</webElementGuid>
+      <webElementGuid>8b84ed93-58e4-495f-abe8-471255cb80e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,7 +147,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b4-b3-b18-Datepicker']/span/input[2]</value>
-      <webElementGuid>6e893442-95c4-43c1-9832-a78e07a883c8</webElementGuid>
+      <webElementGuid>639345ae-5b52-482f-b631-e7485aee99f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -155,7 +155,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input[2]</value>
-      <webElementGuid>8327438f-e285-4165-a7db-95308d5a3ee2</webElementGuid>
+      <webElementGuid>670cc2c7-5b32-4540-a6cc-b92c24fbe83c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -163,6 +163,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>f7a5334e-9fec-4f06-b4d7-b08886a85a6e</webElementGuid>
+      <webElementGuid>aec6fe0c-073d-4c75-8303-ba1c278fdbeb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String envURL = 'http://uat.giving.sg'
+String envURL = 'https://dk.deloitte-sea.com/'
 
 //Charity name
 String charityName = 'Supernova NPO 1'
@@ -44,7 +44,7 @@ String branchCode = '001'
 String swiftCode = 'UOVBSGSG'
 
 //File path
-String filePath = 'C:\\Users\\smadhoosudhan\\Downloads\\Katalon\\Test data\\Direct Credit Authorisation Form.pdf'
+String filePath = 'C:\\Users\\assaravanan\\OneDrive - Deloitte (O365D)\\Documents\\Dummy\\1MB_PDF.pdf'
 
 //NPO Admin Name
 String npoAdminName = 'Supernova NPO 1 Admin'
@@ -111,13 +111,17 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/span_18'))
 
+WebUI.click(findTestObject('Page_giving.sgCharity registration/input_IPC_EndDate'))
+
+WebUI.click(findTestObject('Page_giving.sgCharity registration/span_24'))
+
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/button_Next'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/dropdownSectorIndustry'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/div_MCCY'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/dropdownSectorIndustry'))
+WebUI.click(findTestObject('Page_giving.sgCharity registration/dropdownPrimaryCause'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCharity registration/div_Animals'))
 

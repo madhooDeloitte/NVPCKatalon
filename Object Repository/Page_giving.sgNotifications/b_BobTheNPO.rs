@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>b_BobTheNPO</name>
+   <tag></tag>
+   <elementGuidId>b2f78ac1-6a4a-4e63-b952-0f80931c2c61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>b:nth-of-type(2) > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b4-l1-249_0-b2-InjectHTMLWrapper']/b[2]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'BobTheNPO' or . = 'BobTheNPO')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2368f3c9-9b0b-4547-863f-a794939eaa27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://dk.deloitte-sea.com/giver/settings/membership</value>
+      <webElementGuid>0b731991-7292-4a3b-a4b6-f122a2caf2ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BobTheNPO</value>
+      <webElementGuid>2f38e6b9-9a11-4d21-baee-71aaa2971e8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b4-l1-249_0-b2-InjectHTMLWrapper&quot;)/b[2]/a[1]</value>
+      <webElementGuid>5d1ae20b-4a51-44b9-826a-0db7ec3dc1aa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b4-l1-249_0-b2-InjectHTMLWrapper']/b[2]/a</value>
+      <webElementGuid>3605ff29-116b-4d80-b567-7c7927295d46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'View the invite')]</value>
+      <webElementGuid>7608c4f1-8902-4e99-bd46-efa911ea3cfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ethan Org 1'])[1]/following::a[1]</value>
+      <webElementGuid>acfc94bd-e489-43e2-b1e6-7d0e66f6b156</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ethan Org 1'])[2]/preceding::a[1]</value>
+      <webElementGuid>de604064-55eb-43e9-9c76-7e0ad191bb9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View the invite']/parent::*</value>
+      <webElementGuid>a34f6dde-d6f4-4759-948f-9c5c178ae1f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://dk.deloitte-sea.com/giver/settings/membership')]</value>
+      <webElementGuid>e9477355-9ba5-46f2-aed5-4227b6d42ba9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//b[2]/a</value>
+      <webElementGuid>58d9bda0-a0a7-456d-aca3-2c3317fea359</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://dk.deloitte-sea.com/giver/settings/membership' and (text() = 'View the invite' or . = 'View the invite')]</value>
+      <webElementGuid>c389e518-c255-4e30-8cb1-ed0c3192fffc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
