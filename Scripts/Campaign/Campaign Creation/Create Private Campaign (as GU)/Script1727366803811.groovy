@@ -17,16 +17,45 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL = 'https://dk.deloitte-sea.com/'
+
+//GU email
+String guEmail = 'jaseventhgen@dk.dev'
+
+//input Search fundraising
+String inputSearchFundraising = 'kill'
+
+//Campaign title
+String campaignTitle = 'Datatagscript3private'
+
+//Campaign goals
+String campaignGoal = '1022'
+
+//Campaign description
+String campaignDescription = 'TEST'
+
+//Campaign url
+String campaignURL = 'datatagscript3private'
+
+//Campaign image file path
+String imageFilePath = 'C:\\Users\\aahmedmahir\\Downloads\\delete.png'
+
+//Home URL
+String homeURL = 'https://dk.deloitte-sea.com/home'
+
+//NPO email
+String npoEmail = 'emma@kill-charity.com'
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgWelcome to Giving.sg  The one_022050/button_Accept all'))
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgWelcome to Giving.sg  The one_022050/a_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), 
-    'jaseventhgen@dk.dev')
+    guEmail)
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Log in'))
 
@@ -65,29 +94,29 @@ WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/input_Search Fundraising'), 
-    'kill')
+    inputSearchFundraising)
 
 WebUI.sendKeys(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/input_Search Fundraising'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/input_Campaign name_b3-b4-Input_CampaignTitle'), 
-    'Datatagscript3private')
+    campaignTitle)
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/CampaignGoals/button__btn btn-icon - Plus'))
 
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/CampaignGoals/button__btn btn-icon - Minus'))
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/CampaignGoals/input__CampaignGoals'), 
-    '1022')
+    campaignGoal)
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/textarea_Describe your campaign and the giv_ddfda1'), 
-    'a')
+    campaignDescription)
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/inp_CampaignURL'), 
-    'datatagscript3private')
+    campaignURL)
 
 WebUI.uploadFile(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/label_Select file'), 
-    'C:\\Users\\aahmedmahir\\Downloads\\delete.png')
+    imageFilePath)
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/button_Next'))
 
@@ -132,7 +161,7 @@ WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogout/button_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress (1)'), 
-    'emma@kill-charity.com')
+    npoEmail)
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Log in (1)'))
 

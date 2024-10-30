@@ -17,15 +17,44 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL = 'https://dk.deloitte-sea.com/home'
+
+//Giver email
+String giverEmail = 'amirgiver2@mailto.plus'
+
+//Input search
+String inputSearch = 'kil'
+
+//npo URL slug
+String npoURL = 'https://dk.deloitte-sea.com/organisation/profile/d32d86ca-320e-4aca-8f59-99dd30476801'
+
+//input amount pledge
+String amountPledge = '51'
+
+//input how did you learn about us
+String inputText = 'tt'
+
+//card number
+String cardNumber = '4242 4242 4242 42422'
+
+//card expiry
+String cardExpiry = '05 / 29'
+
+//card CVC
+String cardCVC = '111'
+
+//card billing name
+String billingName = 'Success card non-3ds'
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050/button_Accept all'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), 'amirgiver2@mailto.plus')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), giverEmail)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_Log in'))
 
@@ -37,7 +66,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg
 
 WebUI.takeScreenshotAsCheckpoint('1')
 
-WebUI.setText(findTestObject('Page_giving.sgOur organisations/input_Search organisations_b2-SearchInput'), 'kill')
+WebUI.setText(findTestObject('Page_giving.sgOur organisations/input_Search organisations_b2-SearchInput'), inputSearch)
 
 WebUI.sendKeys(findTestObject('Page_giving.sgOur organisations/input_Search organisations_b2-SearchInput'), Keys.chord(Keys.ENTER))
 
@@ -45,7 +74,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgOur organisations - 
 
 WebUI.switchToWindowTitle('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/organisation/profile/d32d86ca-320e-4aca-8f59-99dd30476801')
+WebUI.navigateToUrl(npoURL)
 
 WebUI.takeScreenshotAsCheckpoint('2')
 
@@ -58,14 +87,14 @@ WebUI.click(findTestObject('Object Repository/Page_Keep Inviting Love Library (K
 WebUI.click(findTestObject('Object Repository/Page_Keep Inviting Love Library (KILL)/button_Pledge'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Keep Inviting Love Library (KILL)/input__b2-b15-b21-Input_OtherAmount'), 
-    '51')
+    amountPledge)
 
 WebUI.click(findTestObject('Object Repository/Page_Keep Inviting Love Library (KILL)/input_Pledge due date_form-control OSFillPa_d1aebf'))
 
 WebUI.click(findTestObject('Object Repository/Page_Keep Inviting Love Library (KILL)/span_26'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Keep Inviting Love Library (KILL)/input_How did you learn about us_b2-b15-b21_1614c0'), 
-    'tw')
+    inputText)
 
 WebUI.takeScreenshotAsCheckpoint('4', [])
 
@@ -79,13 +108,13 @@ WebUI.takeScreenshotAsCheckpoint('6')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/button_Add debit or credit card'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Test Account/input_Card information_cardNumber'), '4242 4242 4242 4242')
+WebUI.setText(findTestObject('Object Repository/Page_Test Account/input_Card information_cardNumber'), cardNumber)
 
-WebUI.setText(findTestObject('Object Repository/Page_Test Account/input_Card information_cardExpiry'), '05 / 29')
+WebUI.setText(findTestObject('Object Repository/Page_Test Account/input_Card information_cardExpiry'), cardExpiry)
 
-WebUI.setText(findTestObject('Object Repository/Page_Test Account/input_Card information_cardCvc'), '123')
+WebUI.setText(findTestObject('Object Repository/Page_Test Account/input_Card information_cardCvc'), cardCVC)
 
-WebUI.setText(findTestObject('Object Repository/Page_Test Account/input_Cardholder name_billingName'), 'Success card non-3ds')
+WebUI.setText(findTestObject('Object Repository/Page_Test Account/input_Cardholder name_billingName'), billingName)
 
 WebUI.takeScreenshotAsCheckpoint('7')
 

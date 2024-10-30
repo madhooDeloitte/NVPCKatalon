@@ -17,16 +17,56 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL='https://dk.deloitte-sea.com/'
+
+//GU email
+String guEmail='seanGUtogether1@mailto.plus'
+
+//Opportunity name
+String oppName='dupe opp 2'
+
+//Opportunity description
+String oppDesc='testing'
+
+//Opportunity URL
+String oppURL='dupe-opp-2'
+
+//Image file path
+String filePath='C:\\Users\\aahmedmahir\\Downloads\\cattt.jpg'
+
+//postal code
+String postalCode='569933'
+
+//Building name
+String buildingName='building'
+
+//Position title
+String positionTitle='helper'
+String positionDesc='helping'
+
+//input search skills
+String inputSearchSkills='account'
+
+//Input other response
+String inputOtherResponse='testing response'
+String inputOtherInfo='testing info'
+
+//Input position count
+String inputPositionCount='12'
+
+//Input point of contact
+String inputSearchContact='a'
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050 (2)/button_Accept all'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050 (2)/a_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin (2)/input_Email address_b3-b9-Input_EmailAddress'), 
-    'seanGUtogether1@mailto.plus')
+    guEmail)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin (2)/button_Log in'))
 
@@ -70,15 +110,15 @@ WebUI.click(findTestObject('Page_giving.sg - admin List of opportunities/i_First
 WebUI.click(findTestObject('Page_giving.sg - admin List of opportunities/a_Duplicate'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity (1)/input_Opportunity name_b2-b1-b4-Input_Oppor_ac3d47'), 
-    'dupOpp2')
+    oppName)
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity (1)/textarea_OppDesc'), 'qqqa')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity (1)/textarea_OppDesc'), oppDesc)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity (1)/input_URLOpportunity'), 
-    'dupOpp2')
+    oppURL)
 
 WebUI.uploadFile(findTestObject('Object Repository/Page_giving.sgEdit opportunity (1)/label_Select file'), 
-    'C:\\Users\\aahmedmahir\\Downloads\\cattt.jpg')
+    filePath)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit opportunity (1)/button_Next'))
 
@@ -105,12 +145,12 @@ WebUI.click(findTestObject('Page_giving.sg - admin Create opportunity (1)/a_Phys
 WebUI.click(findTestObject('Page_giving.sg - admin Create opportunity (1)/input_Postal code_b2-b6-Input_PostalCode'))
 
 WebUI.setText(findTestObject('Page_giving.sg - admin Create opportunity (1)/input_Postal code_b2-b6-Input_PostalCode'), 
-    '569933')
+    postalCode)
 
 WebUI.delay(3)
 
 WebUI.setText(findTestObject('Page_giving.sg - admin Create opportunity (1)/input_Building name_b2-b6-Input_BuildingName'), 
-    'mew')
+    buildingName)
 
 WebUI.setText(findTestObject('Page_giving.sg - admin Create opportunity (1)/input__b2-b6-Input_Floor'), '1')
 
@@ -122,12 +162,12 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit opportunity (1)
 WebUI.click(findTestObject('Page_giving.sgEdit opportunity (1)/i_Add position'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity (1)/input_Position title_b2-b1-b7-Input_PositionTitle'), 
-    'cat')
+    positionTitle)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit opportunity (1)/input_Position title_b2-b1-b7-Input_PositionTitle'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity (1)/textarea_Let potential volunteers know what_58814e'), 
-    'c')
+    positionDesc)
 
 WebUI.click(findTestObject('Page_giving.sgEdit opportunity (1)/a_ShowMoreInfo'))
 
@@ -137,16 +177,16 @@ WebUI.click(findTestObject('Page_giving.sg - admin Create opportunity (1)/input_
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Page_giving.sg - admin Create opportunity (1)/input_Search preferred skills'), 
-    'account')
+    inputSearchSkills)
 
 WebUI.sendKeys(findTestObject('Page_giving.sg - admin Create opportunity (1)/input_Search preferred skills'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity (1)/input_(optional)_b2-b1-b7-Input_OtherResponses'), 
-    'aaa')
+    inputOtherResponse)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity (1)/textarea_Is there any other information vol_fffd39'), 
-    'a')
+    inputOtherInfo)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit opportunity (1)/input_Turn on auto-approval_b2-b1-b7-AutoAp_fadfb2'))
 
@@ -177,7 +217,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit opportunity (1)
 WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit opportunity (1)/input_Not available_b2-b1-b8-l3-478_0-l3-47_610509'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity (1)/input_cat_b2-b1-b8-l3-478_0-l3-479_0-l3-480_d46518'), 
-    '12')
+    inputPositionCount)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit opportunity (1)/button_Next_1_2_3_4'))
 
@@ -197,7 +237,7 @@ WebUI.click(findTestObject('Page_giving.sg - admin Create opportunity (1)/input_
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Page_giving.sg - admin Create opportunity (1)/input_Search point of contact'), 
-    'a')
+    inputSearchContact)
 
 WebUI.sendKeys(findTestObject('Page_giving.sg - admin Create opportunity (1)/input_Search point of contact'), 
     Keys.chord(Keys.ENTER))

@@ -17,15 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL = 'https://dk.deloitte-sea.com/home'
+
+//NPO Email
+String npoEmail = 'emma@kill-charity.com'
+
+//Input search
+String inputSearch1 = 'test'
+String inputSearch2 = 'test'
+String inputSearch3 = 'test'
+
+//Campaign Titles
+String campaignTitle1 = 'Duplicate Active Local Campaign 1'
+String campaignTitle2 ='Duplicate Active Foreign Campaign 1'
+String campaignTitle3 = 'Duplicate Active Private Campaign 1'
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address'), 'emma@kill-charity.com')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address'), npoEmail)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_Log in'))
 
@@ -51,7 +66,7 @@ WebUI.delay(40)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/span_Campaigns'))
 
-WebUI.setText(findTestObject('Page_giving.sg - admin Create new campaign/input_Search campaigns_b2-SearchInput'), 'test')
+WebUI.setText(findTestObject('Page_giving.sg - admin Create new campaign/input_Search campaigns_b2-SearchInput'), inputSearch1)
 
 WebUI.sendKeys(findTestObject('Page_giving.sg - admin Create new campaign/input_Search campaigns_b2-SearchInput'), Keys.chord(
         Keys.ENTER))
@@ -62,7 +77,7 @@ WebUI.click(findTestObject('Page_giving.sg - admin Create new campaign/i_ViewMor
 
 WebUI.click(findTestObject('Page_giving.sg - admin Create new campaign/button_Duplicate'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/input__CampaignTitle'), 'Duplicate Active Local Campaign 1')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/input__CampaignTitle'), campaignTitle1)
 
 WebUI.click(findTestObject('Page_giving.sg - admin Create new campaign/button_Next'))
 
@@ -88,7 +103,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Create new 
 
 WebUI.takeFullPageScreenshotAsCheckpoint('Duplicated Active Local Campaign')
 
-WebUI.setText(findTestObject('Page_giving.sg - admin Create new campaign/input_Search campaigns_b2-SearchInput'), 'test')
+WebUI.setText(findTestObject('Page_giving.sg - admin Create new campaign/input_Search campaigns_b2-SearchInput'), inputSearch2)
 
 WebUI.sendKeys(findTestObject('Page_giving.sg - admin Create new campaign/input_Search campaigns_b2-SearchInput'), Keys.chord(
         Keys.ENTER))
@@ -99,7 +114,7 @@ WebUI.click(findTestObject('Page_giving.sg - admin Create new campaign/i_ViewMor
 
 WebUI.click(findTestObject('Page_giving.sg - admin Create new campaign/button_Duplicate'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/input__CampaignTitle'), 'Duplicate Active Foreign Campaign 1')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/input__CampaignTitle'), campaignTitle2)
 
 WebUI.click(findTestObject('Page_giving.sg - admin Create new campaign/button_Next'))
 
@@ -127,7 +142,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Create new 
 
 WebUI.takeFullPageScreenshotAsCheckpoint('Duplicated Active Foreign Campaign 1')
 
-WebUI.setText(findTestObject('Page_giving.sg - admin Create new campaign/input_Search campaigns_b2-SearchInput'), 'test')
+WebUI.setText(findTestObject('Page_giving.sg - admin Create new campaign/input_Search campaigns_b2-SearchInput'), inputSearch3)
 
 WebUI.sendKeys(findTestObject('Page_giving.sg - admin Create new campaign/input_Search campaigns_b2-SearchInput'), Keys.chord(
         Keys.ENTER))
@@ -138,7 +153,7 @@ WebUI.click(findTestObject('Page_giving.sg - admin Create new campaign/i_ViewMor
 
 WebUI.click(findTestObject('Page_giving.sg - admin Create new campaign/button_Duplicate'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/input__CampaignTitle'), 'Duplicate Active Private Campaign 1')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/input__CampaignTitle'), campaignTitle3)
 
 WebUI.click(findTestObject('Page_giving.sg - admin Create new campaign/button_Next'))
 

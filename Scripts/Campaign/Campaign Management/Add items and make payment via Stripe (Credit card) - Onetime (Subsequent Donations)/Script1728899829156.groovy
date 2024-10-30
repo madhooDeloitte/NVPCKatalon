@@ -17,15 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL = 'https://dk.deloitte-sea.com/home'
+
+//Giver email
+String giverEmail = 'member3@dk.dev'
+
+//Input search
+String inputSearch = 'npo'
+
+//Campaign Page Name
+String campaignPageName = 'giving.sg : Campaign detail - npo without ipc'
+
+//Dedication message
+String dedicationMessage = 'test'
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/button_Accept all'))
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/a_Log in'))
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), 'member3@dk.dev')
+WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), giverEmail)
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
@@ -39,7 +53,7 @@ WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Donate'))
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgDonate/button_CAMPAIGNS'))
 
-WebUI.setText(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), 'npo')
+WebUI.setText(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), inputSearch)
 
 WebUI.sendKeys(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), Keys.chord(Keys.ENTER))
 
@@ -47,7 +61,7 @@ WebUI.takeScreenshotAsCheckpoint('2')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgDonate - npo/span_npo without ipc'))
 
-WebUI.switchToWindowTitle('giving.sg : Campaign detail - npo without ipc')
+WebUI.switchToWindowTitle(campaignPageName)
 
 WebUI.takeScreenshotAsCheckpoint('3')
 
@@ -63,7 +77,7 @@ WebUI.takeScreenshotAsCheckpoint('4')
 
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/a_Add dedication message or name'))
 
-WebUI.setText(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/textarea_AddDedicationMessage'), 'test')
+WebUI.setText(findTestObject('Create Campaign as Org/Page_giving.sgCampaign detail/textarea_AddDedicationMessage'), dedicationMessage)
 
 WebUI.takeScreenshotAsCheckpoint('5')
 

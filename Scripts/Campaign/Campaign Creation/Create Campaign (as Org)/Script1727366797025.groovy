@@ -17,16 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL = 'https://dk.deloitte-sea.com/'
+
+//ORG email
+String orgEmail = 'rajeev@marriott.dk.dev'
+
+//input Search fundraising
+String inputSearchFundraising = 'kill'
+
+//Campaign title
+String campaignTitle = '[AT] Create campaign as Org 1'
+
+//Campaign description
+String campaignDescription = 'TEST'
+
+//Campaign image file path
+String imageFilePath = 'C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\beach volleyball.jpg'
+
+//Home URL
+String homeURL = 'https://dk.deloitte-sea.com/home'
+
+//NPO email
+String npoEmail = 'emma@kill-charity.com'
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgWelcome to Giving.sg  The one_022050/button_Accept all'))
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgWelcome to Giving.sg  The one_022050/a_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), 
-    'rajeev@marriott.dk.dev')
+    orgEmail)
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Log in'))
 
@@ -57,13 +80,13 @@ WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/input_Search Fundraising'), 
-    'kill')
+    inputSearchFundraising)
 
 WebUI.sendKeys(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/input_Search Fundraising'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/input_Campaign name_b3-b4-Input_CampaignTitle'), 
-    '[AT] Create campaign as Org 1')
+    campaignTitle)
 
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/button_CampaignGoals_Plus'))
 
@@ -74,13 +97,17 @@ WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create
 WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/button_CampaignGoals_Minus'))
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/textarea_Describe your campaign and the giv_ddfda1'), 
-    'This is a great description')
+    campaignDescription)
 
 WebUI.verifyElementHasAttribute(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/inp_CampaignURL'), 
     'value', 0)
 
 WebUI.uploadFile(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/label_Select file'), 
+<<<<<<< Updated upstream
     'C:\\Users\\assaravanan\\OneDrive - Deloitte (O365D)\\Pictures\\Example4.jpg')
+=======
+    imageFilePath)
+>>>>>>> Stashed changes
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/button_Next'))
 
@@ -110,7 +137,7 @@ WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/button_Go to homepage'))
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
+WebUI.navigateToUrl(homeURL)
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgWelcome to Giving.sg  The one_022050/a_AdminView-GraphIcon'))
 
@@ -127,7 +154,7 @@ WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogout/button_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress (1)'), 
-    'emma@kill-charity.com')
+    npoEmail)
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Log in (1)'))
 

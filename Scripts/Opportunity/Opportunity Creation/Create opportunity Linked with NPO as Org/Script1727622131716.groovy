@@ -17,16 +17,63 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL='https://dk.deloitte-sea.com/'
+
+//org email
+String orgEmail='seanweareone@mailto.plus'
+
+//Input search npo
+String inputSearchNPO='We are'
+
+//Opportunity name
+String oppName='testGUCreateOpp2 as org linked with npo'
+
+//Opportunity description
+String oppDesc='testing'
+
+//Opportunity URL
+String oppURL='testGUCreateOpp2'
+
+//Image file path
+String filePath='C:\\Users\\aahmedmahir\\Downloads\\cattt.jpg'
+
+//postal code
+String postalCode='569933'
+
+//Building name
+String buildingName='building'
+
+//Position title
+String positionTitle='helper'
+String positionDesc='helping'
+
+//input search skills
+String inputSearchSkills='account'
+
+//Input other response
+String inputOtherResponse='testing response'
+String inputOtherInfo='testing info'
+
+//Input position count
+String inputPositionCount='12'
+
+//Input point of contact
+String inputSearchContact='a'
+
+//NPO email
+String npoEmail = 'seantogetherone@mailto.plus'
+
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050 (2)/button_Accept all'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050 (2)/a_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin (2)/input_Email address_b3-b9-Input_EmailAddress'), 
-    'seanweareone@mailto.plus')
+    orgEmail)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin (2)/button_Log in'))
 
@@ -65,19 +112,19 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Create oppo
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create opportunity/input_Search_vscomp-search-input-1714'), 
-    'we are')
+    inputSearchNPO)
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sg - admin Create opportunity/input_Search_vscomp-search-input-1714'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity/input_Opportunity name_b2-b1-b4-Input_Oppor_ac3d47'), 
-    'testOrgCreateOpp1')
+    oppName)
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity/textarea_OppDesc'), 'qqqa')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity/textarea_OppDesc'), oppDesc)
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity/input_URLOpportunity'), 'testorgcreateopp1')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity/input_URLOpportunity'), oppURL)
 
-WebUI.uploadFile(findTestObject('Object Repository/Page_giving.sgEdit opportunity/label_Select file'), 'C:\\Users\\aahmedmahir\\Downloads\\cattt.jpg')
+WebUI.uploadFile(findTestObject('Object Repository/Page_giving.sgEdit opportunity/label_Select file'), filePath)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit opportunity/button_Next'))
 
@@ -132,12 +179,12 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Create oppo
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Create opportunity (1)/input_Postal code_b2-b6-Input_PostalCode'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create opportunity (1)/input_Postal code_b2-b6-Input_PostalCode'), 
-    '569933')
+    postalCode)
 
 WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create opportunity (1)/input_Building name_b2-b6-Input_BuildingName'), 
-    'mew')
+    buildingName)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create opportunity (1)/input__b2-b6-Input_Floor'), 
     '1')
@@ -152,12 +199,12 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit opportunity/but
 WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit opportunity/i_Add position'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity/input_Position title_b2-b1-b7-Input_PositionTitle'), 
-    'cat')
+    positionTitle)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit opportunity/input_Position title_b2-b1-b7-Input_PositionTitle'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity/textarea_Let potential volunteers know what_58814e'), 
-    'c')
+    positionDesc)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit opportunity/a_ShowMoreInfo'))
 
@@ -167,16 +214,16 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Create oppo
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create opportunity (1)/input_Search preferred skills'), 
-    'account')
+    inputSearchSkills)
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sg - admin Create opportunity (1)/input_Search preferred skills'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity/input_(optional)_b2-b1-b7-Input_OtherResponses'), 
-    'aaa')
+    inputOtherResponse)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity/textarea_Is there any other information vol_fffd39'), 
-    'a')
+    inputOtherInfo)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit opportunity/input_Turn on auto-approval_b2-b1-b7-AutoAp_fadfb2'))
 
@@ -209,7 +256,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit opportunity/but
 WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit opportunity/input_Not available_b2-b1-b8-l3-478_0-l3-47_610509'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgEdit opportunity/input_cat_b2-b1-b8-l3-478_0-l3-479_0-l3-480_d46518'), 
-    '12')
+    inputPositionCount)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit opportunity/button_Next_1_2_3_4'))
 
@@ -229,7 +276,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Create oppo
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create opportunity (1)/input_Search point of contact'), 
-    'a')
+    inputSearchContact)
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sg - admin Create opportunity (1)/input_Search point of contact'), 
     Keys.chord(Keys.ENTER))
@@ -251,7 +298,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Manage give
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogout/button_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin (4)/input_Email address_b3-b9-Input_EmailAddress'), 
-    'seantogetherone@mailto.plus')
+    npoEmail)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin (4)/button_Log in'))
 

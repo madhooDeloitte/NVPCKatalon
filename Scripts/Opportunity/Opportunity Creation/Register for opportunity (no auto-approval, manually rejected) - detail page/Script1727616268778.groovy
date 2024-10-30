@@ -17,15 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL='https://dk.deloitte-sea.com/'
+
+//giver email
+String giverEmail = 'member3@dk.dev'
+
+//input search opportunity
+String inputSearchOpp = 'Save Koala'
+
+//Opp Page name
+String oppPageName = 'giving.sg : Opportunity detail - Save Koala'
+
+//npo email
+String npoEmail = 'emma@kill-charity.com'
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address'), 'member3@dk.dev')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address'), giverEmail)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_Log in'))
 
@@ -35,14 +49,14 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_Log in'
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg/span_Volunteer'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgVolunteer/input_Search opportunities_b2-SearchInput'), 'Save Koala')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgVolunteer/input_Search opportunities_b2-SearchInput'), inputSearchOpp)
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sgVolunteer/input_Search opportunities_b2-SearchInput'), Keys.chord(
         Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer - Save Koala/span_Save Koala'))
 
-WebUI.switchToWindowTitle('giving.sg : Opportunity detail - Save Koala')
+WebUI.switchToWindowTitle(oppPageName)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgOpportunity detail - Save Koala/button_I want to volunteer'))
 
@@ -62,7 +76,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address'), 'emma@kill-charity.com')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address'), npoEmail)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg/a_Log in Email'))
 

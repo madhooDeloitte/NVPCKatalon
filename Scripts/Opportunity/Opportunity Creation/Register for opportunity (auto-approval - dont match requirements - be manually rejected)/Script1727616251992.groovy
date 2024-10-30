@@ -17,15 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL='https://dk.deloitte-sea.com/'
+
+//giver email
+String giverEmail = 'member3@dk.dev'
+
+//input search opportunity
+String inputSearchOpp = 'youth at'
+
+//Opp Page name
+String oppPageName = 'giving.sg : Opportunity detail - Youth at-risk - Opp by KILL'
+
+//npo email
+String npoEmail = 'emma@kill-charity.com'
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), 'member3@dk.dev')
+WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), giverEmail)
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
@@ -35,14 +49,14 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050/a_Volunteer'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgVolunteer/input_Search opportunities_b2-SearchInput'), 'Youth at')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgVolunteer/input_Search opportunities_b2-SearchInput'), inputSearchOpp)
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sgVolunteer/input_Search opportunities_b2-SearchInput'), Keys.chord(
         Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer - Youth at/span_Youth at-risk - Opp by KILL'))
 
-WebUI.switchToWindowTitle('giving.sg : Opportunity detail - Youth at-risk - Opp by KILL')
+WebUI.switchToWindowTitle(oppPageName)
 
 WebUI.click(findTestObject('Page_giving.sgOpportunity detail Buttons/button_I want to volunteer'))
 
@@ -62,7 +76,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer/button_Yes
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), 'emma@kill-charity.com')
+WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), npoEmail)
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 

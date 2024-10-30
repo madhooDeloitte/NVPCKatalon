@@ -17,15 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL='https://dk.deloitte-sea.com/'
+
+//GU Email
+String guEmail = 'seanGUtogether1@mailto.plus'
+
+//input search opportunity
+String inputSearchOppTiedNPO = 'Cancel Opp Tied to NPO'
+String inputSearchOppDraft = 'draft'
+String inputSearchOppNotTiedNPO = 'Cancel Opp not Tied to NPO'
+
+//Cancel reason
+String cancelReason = 'testing'
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050/button_Accept all (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), 'seanGUtogether1@mailto.plus')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), guEmail)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_Log in'))
 
@@ -56,7 +69,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin (3)/button_Ver
 WebUI.click(findTestObject('AdminMenuItems/a_Opportunities'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/input_Search opportunities_b2-SearchInput'), 
-    'Cancel Opp Tied to NPO')
+    inputSearchOppTiedNPO)
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/input_Search opportunities_b2-SearchInput'), 
     Keys.chord(Keys.ENTER))
@@ -69,7 +82,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of opp
 WebUI.delay(10)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/input_Search opportunities_b2-SearchInput'), 
-    'draft')
+    inputSearchOppDraft )
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/input_Search opportunities_b2-SearchInput'), 
     Keys.chord(Keys.ENTER))
@@ -79,7 +92,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of opp
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/a_Delete'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/input_Search opportunities_b2-SearchInput'), 
-    'Cancel Opp not Tied to NPO')
+    inputSearchOppNotTiedNPO )
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/input_Search opportunities_b2-SearchInput'), 
     Keys.chord(Keys.ENTER))
@@ -89,12 +102,12 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of opp
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/a_Cancel opportunity'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/textarea_Cancellation reason_b2-b40-TextAre_c3b679'), 
-    'a')
+    cancelReason)
 
 WebUI.click(findTestObject('Page_giving.sg - admin Home (7)/button_Confirm'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/input_Search opportunities_b2-SearchInput'), 
-    'Cancel Opp Tied to NPO')
+    inputSearchOppTiedNPO)
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/input_Search opportunities_b2-SearchInput'), 
     Keys.chord(Keys.ENTER))
@@ -104,7 +117,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of opp
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/a_Cancel opportunity'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/textarea_Cancellation reason_b2-b40-TextAre_c3b679'), 
-    'w')
+    cancelReason )
 
 WebUI.click(findTestObject('Page_giving.sg - admin Home (7)/button_Confirm'))
 

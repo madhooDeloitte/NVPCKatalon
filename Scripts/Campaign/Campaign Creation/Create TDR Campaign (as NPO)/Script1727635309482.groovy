@@ -17,6 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL='https://dk.deloitte-sea.com/'
+
+//NPO email
+String npoEmail='npo_partnerships_test@mailto.plus'
+
+//Search input 1
+String inputSearch1 = 'testing approved campaign'
+
+//Campaign title 1
+String campaignTitle1='[AT] Create campaign as NPO (with IPC) 2'
+
+//Campaign description
+String campaignDescription='This is a great campaign'
+
+//Campaign image file path
+String imageFilePath1 ='C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\running.jpg'
+String imageFilePath2 ='C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\beach volleyball.jpg'
+
+//Donation tier
+String donationTier = '500'
+
+//Donation tier description
+String donationTierDesc = 'We appreciate your giving nature'
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://dk.deloitte-sea.com/')
@@ -25,7 +49,7 @@ WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address'), 'npo_partnerships_test@mailto.plus')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address'), npoEmail)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_Log in'))
 
@@ -55,18 +79,18 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Campaigns/b
 
 WebUI.takeScreenshotAsCheckpoint('2')
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/input__CampaignTitle'), '[AT] Create campaign as NPO (with IPC) 2')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/input__CampaignTitle'), campaignTitle1)
 
 WebUI.click(findTestObject('Page_giving.sg - admin Create new campaign/button_AddCampaignGoal'))
 
 WebUI.click(findTestObject('Page_giving.sg - admin Create new campaign/button_AddCampaignGoal'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/textarea_Describe your campaign and the giv_319925'), 
-    'This is a great campaign')
+    campaignDescription)
 
-WebUI.uploadFile(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/label_Select file'), 'C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\beach volleyball.jpg')
+WebUI.uploadFile(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/label_Select file'), imageFilePath1 )
 
-WebUI.uploadFile(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/label_Select file'), 'C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\running.jpg')
+WebUI.uploadFile(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/label_Select file'), imageFilePath2 )
 
 WebUI.executeJavaScript('alert(\'Please verify re-arrangement of images and youtube link at this step.\');', null)
 
@@ -95,9 +119,9 @@ WebUI.takeScreenshotAsCheckpoint('6')
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/button_AddDonationTier'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/input_Donation-Input_TierAmount'), 
-    '500')
+    donationTier)
 
-WebUI.setText(findTestObject('Page_giving.sg - admin Create new campaign/textarea_Description'), 'We appreciate your giving nature')
+WebUI.setText(findTestObject('Page_giving.sg - admin Create new campaign/textarea_Description'), donationTierDesc)
 
 WebUI.takeScreenshotAsCheckpoint('7')
 
