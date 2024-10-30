@@ -80,12 +80,16 @@ WebUI.sendKeys(findTestObject('Create Campaign as Org/Page_giving.sg - admin Cre
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/input_Campaign name_b3-b4-Input_CampaignTitle'), 
     campaignTitle)
 
-WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/CampaignGoals/button__btn btn-icon - Plus'))
+WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/button_CampaignGoals_Plus'))
 
-WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/CampaignGoals/button__btn btn-icon - Minus'))
+WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/button_CampaignGoals_Plus'))
 
+<<<<<<< Updated upstream
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/CampaignGoals/input__CampaignGoals'), 
     campaignGoals)
+=======
+WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/button_CampaignGoals_Minus'))
+>>>>>>> Stashed changes
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/textarea_Describe your campaign and the giv_ddfda1'), 
     campaignDescription)
@@ -97,17 +101,19 @@ WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit c
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/button_Next'))
 
-WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/Causes chips/cause chip 1'))
+WebUI.click(findTestObject('Create Opportunity/Page_giving.sgEdit opportunity/a_Causes Chip 1'))
 
-WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/Causes chips/cause chip 2'))
+WebUI.click(findTestObject('Create Opportunity/Page_giving.sgEdit opportunity/a_Causes Chip 2'))
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/button_Next_1'))
 
-WebUI.click(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/input_Start date_form-control OSFillParent _904945'))
+WebUI.click(findTestObject('Page_giving.sg - admin Create new campaign/input_Start date'))
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/span_StartDate'))
 
-WebUI.click(findTestObject('Create Campaign for NPO as Giver/input_End date'))
+WebUI.click(findTestObject('Page_giving.sg - admin Create opportunity (3)/input_End date'))
+
+WebUI.click(findTestObject('Page_giving.sg - admin Create new campaign/span_30'))
 
 WebUI.delay(5)
 
@@ -149,23 +155,17 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Create Campaign as Org/
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Log in (1)'))
 
-WebUI.setText(findTestObject('null'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_1'), '1')
 
-WebUI.setText(findTestObject('null'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_2'), '1')
 
-WebUI.setText(findTestObject('null'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_3'), '1')
 
-WebUI.setText(findTestObject('null'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_4'), '1')
 
-WebUI.setText(findTestObject('null'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_5'), '1')
 
-WebUI.setText(findTestObject('null'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_6'), '1')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Verify (1)'))
 
