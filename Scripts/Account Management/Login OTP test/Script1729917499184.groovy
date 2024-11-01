@@ -23,7 +23,7 @@ import java.net.URL as URL
 // Replace this with your temporary email
 String tempEmail = 'npo_partnerships_test@mailto.plus'
 
-WebUI.openBrowser('https://uat.giving.sg/auth/login')
+WebUI.openBrowser('https://dk.deloitte-sea.com/auth/login')
 
 //WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/span_Log in with'), 0)
@@ -32,7 +32,7 @@ WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), tempEma
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
-WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password'), 'hJxcABFZyq6YA1kwHae0pw==')
+WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password'), 'hJxcABFZyq7W3jN/JokDdw==')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
@@ -49,7 +49,7 @@ for (int i = 0; i < 6; i++) {
         break
     }
     
-    WebUI.comment("Waiting for OTP... attempt ${i + 1}")
+    WebUI.comment('Waiting for OTP... attempt (i + 1)')
 
     WebUI.delay(5 // Wait for 5 seconds before the next attempt
         )
@@ -86,7 +86,8 @@ if (otpCode != null) {
 //WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_6'), '1')
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Verify'))
 
-WebUI.verifyElementPresent(findTestObject('Page_giving.sg - admin Home/btn_SwitchGiverPortal'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_giving.sg - admin Home/btn_SwitchGiverPortal'), 0 // Log the full URL for debugging
+    ) // Send GET request to Temp Mail Plus API to fetch the latest email
 
 def sendGetRequest(String apiUrl) {
     URL url = new URL(apiUrl)
@@ -109,24 +110,30 @@ def sendGetRequest(String apiUrl) {
 }
 
 String getOTPFromEmail(String tempEmail) {
-    String apiUrl = "https://tempmail.plus/api/emails?email=${tempEmail}&limit=1"
-	WebUI.comment("Requesting OTP from URL: " + apiUrl) // Log the full URL for debugging
-	
-	// Send GET request to Temp Mail Plus API to fetch the latest email
+    String apiUrl = "https://tempmail.plus/api/emails?email=$tempEmail&limit=1"
+
+    WebUI.comment('Requesting OTP from URL: ' + apiUrl)
+
     String responseText = sendGetRequest(apiUrl)
 
     if ((responseText == null) || responseText.isEmpty()) {
         WebUI.comment('No response or empty response from the Temp Mail API')
+
         return null
     }
     
     JsonSlurper jsonParser = new JsonSlurper()
+
     try {
         def jsonResponse = jsonParser.parseText(responseText)
+
         if (jsonResponse.emails.size() > 0) {
             def email = jsonResponse.emails[0]
+
             String subject = email.subject
+
             String body = email.body
+
             if (subject == 'Your OTP — Login to Giving.sg') {
                 def otpMatcher = body =~ 'Your OTP for email verification is (\\d{6})'
 
