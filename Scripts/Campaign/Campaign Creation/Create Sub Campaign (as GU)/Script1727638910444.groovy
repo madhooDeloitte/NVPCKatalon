@@ -17,47 +17,48 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String envURL='https://dk.deloitte-sea.com/'
+String envURL = 'https://dk.deloitte-sea.com/'
 
 //GU email
-String guEmail='skydownGU@mailto.plus'
+String guEmail = 'skydownGU@mailto.plus'
 
 //input Search fundraising
-String inputSearchFundraising='kill'
+String inputSearchFundraising = 'kill'
 
 //Search input 1
 String inputSearch1 = 'testing approved campaign'
 
 //Campaign title 1
-String campaignTitle1='[AT] Sub-campaign as GU 1-1'
+String campaignTitle1 = '[AT] Sub-campaign as GU 1-1'
 
 //Campaign description
-String campaignDescription='TEST'
+String campaignDescription = 'TEST'
 
 //Campaign image file path
-String imageFilePath1 ='C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\running.jpg'
-String imageFilePath2 ='C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\beach volleyball.jpg'
+String imageFilePath1 = 'C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\running.jpg'
+
+String imageFilePath2 = 'C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\beach volleyball.jpg'
 
 //home URL
-String homeURL='https://dk.deloitte-sea.com/home'
+String homeURL = 'https://dk.deloitte-sea.com/home'
 
 //Search input 2
 String inputSearch2 = '20240906 Update Campaign Goal'
 
 //Campaign title 2
-String campaignTitle2='[AT] Sub-campaign as GU 2-1'
+String campaignTitle2 = '[AT] Sub-campaign as GU 2-1'
 
 //Search input 3
 String inputSearch3 = '(DS) Campaign 0005'
 
 //Campaign title 3
-String campaignTitle3 ='[AT] Sub-campaign as GU 3-1'
+String campaignTitle3 = '[AT] Sub-campaign as GU 3-1'
 
 //Search input 4
 String inputSearch4 = '[AT] - Subcampaign test - Foreign campaign'
 
 //Campaign title 4
-String campaignTitle4 ='[AT] Sub-campaign as GU 4-1'
+String campaignTitle4 = '[AT] Sub-campaign as GU 4-1'
 
 //npo email
 String npoEmail = 'emma@kill-charity.com'
@@ -82,23 +83,17 @@ WebUI.takeScreenshotAsCheckpoint('1')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Log in'))
 
-WebUI.setText(findTestObject('null'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_1'), '1')
 
-WebUI.setText(findTestObject('null'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_2'), '1')
 
-WebUI.setText(findTestObject('null'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_3'), '1')
 
-WebUI.setText(findTestObject('null'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_4'), '1')
 
-WebUI.setText(findTestObject('null'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_5'), '1')
 
-WebUI.setText(findTestObject('null'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_6'), '1')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Verify'))
 
@@ -169,9 +164,9 @@ WebUI.executeJavaScript('alert(\'Please rearrange images of campaign at this ste
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath1 )
+WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath1)
 
-WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath2 )
+WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath2)
 
 WebUI.takeScreenshotAsCheckpoint('8')
 
@@ -305,9 +300,9 @@ WebUI.executeJavaScript('alert(\'Please rearrange images of campaign at this ste
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath1 )
+WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath1)
 
-WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath2 )
+WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath2)
 
 WebUI.takeScreenshotAsCheckpoint('27')
 
@@ -439,9 +434,9 @@ WebUI.executeJavaScript('alert(\'Please rearrange images of campaign at this ste
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath1 )
+WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath1)
 
-WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath2 )
+WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath2)
 
 WebUI.takeScreenshotAsCheckpoint('45')
 
@@ -573,9 +568,9 @@ WebUI.executeJavaScript('alert(\'Please rearrange images of campaign at this ste
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath1 )
+WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath1)
 
-WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath2 )
+WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath2)
 
 WebUI.takeScreenshotAsCheckpoint('62')
 
@@ -675,23 +670,17 @@ WebUI.takeScreenshotAsCheckpoint('76')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Log in (1)'))
 
-WebUI.setText(findTestObject('null'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_1'), '1')
 
-WebUI.setText(findTestObject('null'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_2'), '1')
 
-WebUI.setText(findTestObject('null'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_3'), '1')
 
-WebUI.setText(findTestObject('null'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_4'), '1')
 
-WebUI.setText(findTestObject('null'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_5'), '1')
 
-WebUI.setText(findTestObject('null'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_6'), '1')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Verify (1)'))
 
