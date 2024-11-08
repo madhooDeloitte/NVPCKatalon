@@ -42,6 +42,7 @@ String buildingName = 'building'
 
 //Position title
 String positionTitle = 'helper'
+
 String positionDesc = 'helping'
 
 //input search skills
@@ -49,6 +50,7 @@ String inputSearchSkills = 'account'
 
 //Input other response
 String inputOtherResponse = 'testing response'
+
 String inputOtherInfo = 'testing info'
 
 //Input position count
@@ -65,8 +67,7 @@ WebUI.click(findTestObject('Object Repository/Create Opportunity/Page_giving.sgW
 
 WebUI.click(findTestObject('Object Repository/Create Opportunity/Page_giving.sgWelcome to Giving.sg  The one_022050/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), 
-    npoEmail)
+WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), npoEmail)
 
 WebUI.click(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/button_Log in'))
 
@@ -75,23 +76,17 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Create Opportunity/Page
 
 WebUI.click(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/button_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/input_If the account exists, you will recei_834fd0'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_1'), '1')
 
-WebUI.setText(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/input_If the account exists, you will recei_a67e6b'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_2'), '1')
 
-WebUI.setText(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/input_If the account exists, you will recei_138dc5'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_3'), '1')
 
-WebUI.setText(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/input_If the account exists, you will recei_0322ef'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_4'), '1')
 
-WebUI.setText(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/input_If the account exists, you will recei_acc042'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_5'), '1')
 
-WebUI.setText(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/input_If the account exists, you will recei_1714ca'), 
-    '1')
+WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_6'), '1')
 
 WebUI.click(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/button_Verify'))
 
@@ -140,20 +135,19 @@ WebUI.click(findTestObject('Object Repository/Create Opportunity/Page_giving.sgE
 
 WebUI.click(findTestObject('Create Opportunity/Page_giving.sg - admin Create opportunity/a_PhysicalOn-site volunteering with time and venue'))
 
-WebUI.click(findTestObject('Create Opportunity/Page_giving.sg - admin Create opportunity/input_Postal code_b2-b6-Input_PostalCode'))
+WebUI.click(findTestObject('Page_giving.sg - admin Create opportunity (1)/input_Postal code_b2-b6-Input_PostalCode'))
 
-WebUI.setText(findTestObject('Create Opportunity/Page_giving.sg - admin Create opportunity/input_Postal code_b2-b6-Input_PostalCode'), 
+WebUI.setText(findTestObject('Page_giving.sg - admin Create opportunity (1)/input_Postal code_b2-b6-Input_PostalCode'), 
     postalCode)
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Create Opportunity/Page_giving.sg - admin Create opportunity/input_Building name_b2-b6-Input_BuildingName'), 
+WebUI.setText(findTestObject('Page_giving.sg - admin Create opportunity (1)/input_Building name_b2-b6-Input_BuildingName'), 
     buildingName)
 
-WebUI.setText(findTestObject('Create Opportunity/Page_giving.sg - admin Create opportunity/input__b2-b6-Input_Floor'), '1')
+WebUI.setText(findTestObject('Page_giving.sg - admin Create opportunity (1)/input__b2-b6-Input_Floor'), '1')
 
-WebUI.setText(findTestObject('Create Opportunity/Page_giving.sg - admin Create opportunity/input_Unit_b2-b6-Input_UnitNumber'), 
-    '2')
+WebUI.setText(findTestObject('Page_giving.sg - admin Create opportunity (1)/input_Unit_b2-b6-Input_UnitNumber'), '2')
 
 WebUI.click(findTestObject('Object Repository/Create Opportunity/Page_giving.sgEdit opportunity/button_Next_1_2'))
 
@@ -198,17 +192,17 @@ WebUI.click(findTestObject('Object Repository/Create Opportunity/Page_giving.sgE
 
 WebUI.click(findTestObject('Object Repository/Create Opportunity/Page_giving.sgEdit opportunity/input_Gender is female_b2-b1-b7-b20-l1-421__9c2e78'))
 
-WebUI.click(findTestObject('Create Opportunity/Page_giving.sgEdit opportunity/Age picker/a_Add age'))
+WebUI.click(findTestObject('Age picker/a_Add age'))
 
-WebUI.click(findTestObject('Create Opportunity/Page_giving.sgEdit opportunity/Age picker/a_Add age'))
+WebUI.click(findTestObject('Age picker/a_Add age'))
 
-WebUI.click(findTestObject('Create Opportunity/Page_giving.sgEdit opportunity/Age picker/a_Add age'))
+WebUI.click(findTestObject('Age picker/a_Add age'))
 
-WebUI.click(findTestObject('Create Opportunity/Page_giving.sgEdit opportunity/Age picker/a_Minus Age'))
+WebUI.click(findTestObject('Age picker/a_Minus Age'))
 
-WebUI.click(findTestObject('Object Repository/Create Opportunity/Page_giving.sgEdit opportunity/Required skills/input_check box Required skills 1'))
+WebUI.click(findTestObject('Page_giving.sgEdit opportunity (1)/Required skills/input_check box Required skills 1'))
 
-WebUI.click(findTestObject('Create Opportunity/Page_giving.sgEdit opportunity/Required skills/input_check box Required skills 2'))
+WebUI.click(findTestObject('Page_giving.sgEdit opportunity (1)/Required skills/input_check box Required skills 2'))
 
 WebUI.click(findTestObject('Object Repository/Create Opportunity/Page_giving.sgEdit opportunity/button_Add position'))
 

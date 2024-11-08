@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String envURL='https://dk.deloitte-sea.com/'
+String envURL = 'https://dk.deloitte-sea.com/'
 
 //giver email
 String giverEmail = 'member3@dk.dev'
@@ -47,7 +47,7 @@ WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password'), '96
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050/a_Volunteer'))
+WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Volunteer'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgVolunteer/input_Search opportunities_b2-SearchInput'), inputSearchOpp)
 
@@ -100,7 +100,7 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Verify'))
 
 WebUI.click(findTestObject('Page_giving.sg - dk Home/Notification Icon'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgNotifications/a_Youth at-risk - Opp by KILL'))
+WebUI.click(findTestObject('Page_giving.sg - admin List of opportunities/span_Youth at-risk - Opp by KILL'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of volunteers/div_Volunteers'))
 
@@ -108,11 +108,11 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of vol
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of volunteers/a_Review'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Review registered op_fe240b/img_Invoices_b1-b5-AvatarImage_Url'))
+WebUI.click(findTestObject('Page_giving.sg - admin Collaboration/img_Invoices_b1-b5-AvatarImage_Url'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Review registered op_fe240b/div_Logout'))
+WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sgDonate/div_Logout'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Review registered op_fe240b/button_Yes'))
+WebUI.click(findTestObject('Page_giving.sg - admin Home/button_Yes'))
 
 WebUI.closeBrowser()
 

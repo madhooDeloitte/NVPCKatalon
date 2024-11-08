@@ -6,11 +6,11 @@
    <elementGuidId>90263fbc-847c-42fa-a703-9f8194df7578</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[7]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(//button[@ktl-id='btnIWantToVolunteer'])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>51501f40-eea5-4d0e-a816-dba309cf27c0</webElementGuid>
+      <webElementGuid>613e69c1-40c7-424b-b0db-863a22feb772</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary margin-top-m OSFillParent</value>
-      <webElementGuid>6ab96073-8ba2-4d1b-a2c6-caea149f56c6</webElementGuid>
+      <webElementGuid>dde787a8-cdc5-4afd-b600-5c5a728fa1a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>52b5c346-fe6c-4fb7-aefa-9fd9bb9383cd</webElementGuid>
+      <webElementGuid>374ef10b-b1bf-43da-a3aa-d8761973d9a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>ktl-id</name>
       <type>Main</type>
       <value>btnIWantToVolunteer</value>
-      <webElementGuid>ad742490-d21b-43cf-be76-7435d5aef9ad</webElementGuid>
+      <webElementGuid>42e94e9c-cd5e-4b19-939a-93f47ccbfe56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>I want to volunteer</value>
-      <webElementGuid>799c16f5-5a59-4cc0-80f1-44e9bbf9680c</webElementGuid>
+      <webElementGuid>b0ca97fc-15f3-4431-ab59-1552b50bf457</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +62,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-$b13&quot;)/div[@class=&quot;card&quot;]/div[3]/button[@class=&quot;btn btn-primary margin-top-m OSFillParent&quot;]</value>
-      <webElementGuid>3dcb1be9-d0a9-4ead-a199-679b30d618f2</webElementGuid>
+      <webElementGuid>9f060490-8160-4998-86b1-b32e2d284ef9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[7]</value>
-      <webElementGuid>e32204fc-be34-4e63-9656-6c6622bebe21</webElementGuid>
+      <value>(//button[@ktl-id='btnIWantToVolunteer'])</value>
+      <webElementGuid>316dc86f-c91d-4966-b3f0-5bdac1a085df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-$b13']/div/div[3]/button</value>
-      <webElementGuid>a00526d3-c70a-4c67-a37f-3f8c314b5ea3</webElementGuid>
+      <webElementGuid>3243572f-3369-4f23-9967-25b0b0b3095c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='More options'])[2]/following::button[1]</value>
-      <webElementGuid>13c159b6-fc7a-4190-ba90-c6c28d6f5f1c</webElementGuid>
+      <webElementGuid>c7c20baa-7593-44bb-93d9-6d3455f7294e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Volunteer positions'])[1]/preceding::button[1]</value>
-      <webElementGuid>ea4d6d39-a2d6-4ec5-b3ac-c0e98a5ffd7f</webElementGuid>
+      <webElementGuid>c9697d0c-e5c1-4b64-a874-cb9acad83816</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[3]/button</value>
-      <webElementGuid>7e6428d3-69d8-46d3-ac9f-36ca52578d4a</webElementGuid>
+      <webElementGuid>1f1b3098-f598-4cea-9196-99041017f68d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'I want to volunteer' or . = 'I want to volunteer')]</value>
-      <webElementGuid>e0d4ce2b-0d72-44af-acc3-ca3205b8abb6</webElementGuid>
+      <webElementGuid>f2ec80be-9106-4242-901c-71cdeedfdb3a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

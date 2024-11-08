@@ -17,14 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String envURL='https://dk.deloitte-sea.com/'
+String envURL = 'https://dk.deloitte-sea.com/'
 
 //GU Email
 String guEmail = 'seanGUtogether1@mailto.plus'
 
 //input search opportunity
 String inputSearchOppTiedNPO = 'Cancel Opp Tied to NPO'
+
 String inputSearchOppDraft = 'draft'
+
 String inputSearchOppNotTiedNPO = 'Cancel Opp not Tied to NPO'
 
 //Cancel reason
@@ -82,17 +84,17 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of opp
 WebUI.delay(10)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/input_Search opportunities_b2-SearchInput'), 
-    inputSearchOppDraft )
+    inputSearchOppDraft)
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/input_Search opportunities_b2-SearchInput'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/i_Sean Tay VM_fa-solid fa-ellipsis-vertical'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/a_Delete'))
+WebUI.click(findTestObject('Page_giving.sg - admin Campaigns/a_Delete'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/input_Search opportunities_b2-SearchInput'), 
-    inputSearchOppNotTiedNPO )
+    inputSearchOppNotTiedNPO)
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/input_Search opportunities_b2-SearchInput'), 
     Keys.chord(Keys.ENTER))
@@ -117,7 +119,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of opp
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/a_Cancel opportunity'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/textarea_Cancellation reason_b2-b40-TextAre_c3b679'), 
-    cancelReason )
+    cancelReason)
 
 WebUI.click(findTestObject('Page_giving.sg - admin Home (7)/button_Confirm'))
 

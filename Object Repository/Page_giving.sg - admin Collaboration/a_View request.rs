@@ -6,12 +6,12 @@
    <elementGuidId>a7ed6e6b-e0dd-4ec2-844e-d8226fcab8b7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#b2-b12-l1_0-1092_0-b7-Items > a</value>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnApprove1']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@ktl = 'btnApprove1']</value>
+         <key>CSS</key>
+         <value>#b2-b12-l1_0-1092_0-b7-Items > a</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>5c480089-6224-4d5f-8877-60d0ef1569d3</webElementGuid>
+      <webElementGuid>b25ca214-b001-4879-ada1-11cd9a40f53c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,15 +35,15 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>2505805f-540b-43ab-ad35-fc643d42ec24</webElementGuid>
+      <webElementGuid>7fd6bd28-fdc1-4c6c-a0cd-9584652b5707</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ktl</name>
+      <name>ktl-id</name>
       <type>Main</type>
       <value>btnApprove1</value>
-      <webElementGuid>1f94193a-559f-4988-97ba-5622e2354199</webElementGuid>
+      <webElementGuid>59bf5415-7d21-4f9f-9b43-b3e66acce0cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>View request</value>
-      <webElementGuid>b6995eb2-09fe-4a4d-90e2-2849cc6d0bcc</webElementGuid>
+      <webElementGuid>d7a888c6-1ec2-4b07-affd-f23b4c07952d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-b12-l1_0-1092_0-b7-Items&quot;)/a[1]</value>
-      <webElementGuid>b99b35a5-7742-4392-80e7-a9e5f575c99a</webElementGuid>
+      <webElementGuid>254eb64a-69d0-427c-b858-9606febd3708</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b12-l1_0-1092_0-b7-Items']/a</value>
-      <webElementGuid>ff29d8e8-c833-48c1-8428-fe00ad7d597b</webElementGuid>
+      <webElementGuid>485b08e5-fbbf-45ce-8931-eb30ca68a092</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='rajeev@marriott.dk.dev'])[1]/following::a[1]</value>
-      <webElementGuid>8f92d76e-15df-4046-b8ed-6e2a9e662700</webElementGuid>
+      <webElementGuid>eb10fb04-1bbf-4b5b-bc70-b3d8b10c2ed8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rajeev Menon'])[1]/following::a[1]</value>
-      <webElementGuid>78945158-f4a2-4b0f-9025-e347f6c541c7</webElementGuid>
+      <webElementGuid>2e0f0957-fd8d-4f05-9ff9-ae566dcaa745</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve'])[1]/preceding::a[1]</value>
-      <webElementGuid>ecaeb2bf-faa1-43d4-8d4d-a047f7a428d2</webElementGuid>
+      <webElementGuid>064e7650-c21f-4346-9feb-73059aecc1a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[8]</value>
-      <webElementGuid>8d00b580-e7ab-4e59-a519-f606dbd77753</webElementGuid>
+      <webElementGuid>b73248ff-f48c-42c2-9140-7237ba44c4a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div[2]/div/div/a</value>
-      <webElementGuid>17adc4a5-2af3-4fd0-a0ce-b763bf0528bc</webElementGuid>
+      <webElementGuid>cea2806c-c988-4904-8931-6dcfbf3c84a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'View request' or . = 'View request')]</value>
-      <webElementGuid>d4fed846-5502-4715-a9b3-af5cf3919bda</webElementGuid>
+      <webElementGuid>c23da0d9-bf2a-4842-8a79-aa70deba43d9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

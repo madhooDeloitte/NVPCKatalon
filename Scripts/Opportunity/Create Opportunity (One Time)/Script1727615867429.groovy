@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/Create Opportunity/Page_giving.sgW
 
 WebUI.click(findTestObject('Object Repository/Create Opportunity/Page_giving.sgWelcome to Giving.sg  The one_022050/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), 
+WebUI.setText(findTestObject('null'), 
     'seantogetherone@mailto.plus')
 
 WebUI.click(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/button_Log in'))
@@ -35,22 +35,22 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Create Opportunity/Page
 
 WebUI.click(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/button_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/input_If the account exists, you will recei_834fd0'), 
+WebUI.setText(findTestObject('null'), 
     '1')
 
-WebUI.setText(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/input_If the account exists, you will recei_a67e6b'), 
+WebUI.setText(findTestObject('null'), 
     '1')
 
-WebUI.setText(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/input_If the account exists, you will recei_138dc5'), 
+WebUI.setText(findTestObject('null'), 
     '1')
 
-WebUI.setText(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/input_If the account exists, you will recei_0322ef'), 
+WebUI.setText(findTestObject('null'), 
     '1')
 
-WebUI.setText(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/input_If the account exists, you will recei_acc042'), 
+WebUI.setText(findTestObject('null'), 
     '1')
 
-WebUI.setText(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/input_If the account exists, you will recei_1714ca'), 
+WebUI.setText(findTestObject('null'), 
     '1')
 
 WebUI.click(findTestObject('Object Repository/Create Opportunity/Page_giving.sgLogin/button_Verify'))
