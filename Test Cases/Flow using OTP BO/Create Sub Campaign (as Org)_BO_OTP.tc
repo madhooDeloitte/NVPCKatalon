@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Sub Campaign (as Org)_BO_OTP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>658efe4f-9ca2-44df-8425-e68e59fef125</testCaseGuid>
+</TestCaseEntity>

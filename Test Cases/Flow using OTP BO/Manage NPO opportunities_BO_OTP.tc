@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Manage NPO opportunities_BO_OTP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4adbfa2e-d36d-4cdd-a4bf-fc0cf3629896</testCaseGuid>
+</TestCaseEntity>

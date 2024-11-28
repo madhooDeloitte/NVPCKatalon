@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Duplicating Campaign (as NPO)_BO_OTP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e944b451-92c6-4ab4-bc55-baac4522983a</testCaseGuid>
+</TestCaseEntity>

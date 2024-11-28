@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Foreign Campaign (as NPO)_BO_OTP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>82105965-9e4b-45f1-ae8f-d342fc4c64dd</testCaseGuid>
+</TestCaseEntity>
