@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>8bb9aa11-2bdd-45ea-a3e7-df5116390a1c</webElementGuid>
+      <webElementGuid>c51a4921-6f95-4ea7-bd07-590f2c6546df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flatpickr-day</value>
-      <webElementGuid>c51c6741-ff8c-4acf-b642-d746828a80e4</webElementGuid>
+      <webElementGuid>df06462c-c824-48de-a6e0-7c5b089c6f8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>September 30, 2024</value>
-      <webElementGuid>5337623f-a58f-4daf-891e-5e978c0dc11a</webElementGuid>
+      <webElementGuid>85f6b156-ddf2-4e3c-8361-bf89ca6a11b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>3e040a9c-c42e-4151-8592-93ccf715ccca</webElementGuid>
+      <webElementGuid>b2a20827-2669-449f-9bb3-5bda646bddc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>30</value>
-      <webElementGuid>46014298-b188-4be2-acfe-2a1aff0061d3</webElementGuid>
+      <webElementGuid>1e64f73e-ad86-430d-98a7-5fe75d918c3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;flatpickr-calendar-0.u3a3ek3lol&quot;)/div[@class=&quot;flatpickr-innerContainer&quot;]/div[@class=&quot;flatpickr-rContainer&quot;]/div[@class=&quot;flatpickr-days&quot;]/div[@class=&quot;dayContainer&quot;]/span[@class=&quot;flatpickr-day&quot;]</value>
-      <webElementGuid>7d314d96-c9c1-4d27-b26b-610adab36986</webElementGuid>
+      <webElementGuid>f4a44c10-a8d0-4bd0-840e-232ed8d8d7a6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='flatpickr-calendar-0.u3a3ek3lol']/div[2]/div/div[2]/div/span[30]</value>
-      <webElementGuid>c4999826-3efd-4660-8089-81bae13cf4be</webElementGuid>
+      <webElementGuid>ed82771a-5c59-4428-8d90-632ff7048813</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[2]/following::span[30]</value>
-      <webElementGuid>b2096d6c-cfcc-4103-939f-18d3f8ded43f</webElementGuid>
+      <webElementGuid>3f3997b4-86f3-4268-b194-4c9859f5b81d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[2]/following::span[31]</value>
-      <webElementGuid>86b77994-4dc2-44eb-9c76-5ed804830b23</webElementGuid>
+      <webElementGuid>2ef3e4a4-d252-453b-86d7-903fb1626250</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div/div[2]/div/span[30]</value>
-      <webElementGuid>7e908501-8af1-4358-a75f-1ce610676cf9</webElementGuid>
+      <webElementGuid>0f17e437-3e16-4b80-be95-3412f10f33cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '30' or . = '30')]</value>
-      <webElementGuid>7e44e014-4913-4de2-8f2e-ce21687d3d7e</webElementGuid>
+      <webElementGuid>2e6b1e8c-4608-45a6-b12b-3cec3c02ba4b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

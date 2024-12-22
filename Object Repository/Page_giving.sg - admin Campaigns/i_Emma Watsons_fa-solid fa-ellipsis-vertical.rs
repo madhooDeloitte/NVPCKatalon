@@ -13,8 +13,12 @@
          <key>CSS</key>
          <value>i.fa-solid.fa-ellipsis-vertical</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;b2-b29-l1_0-291_0-b10-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]/i[@class=&quot;fa-solid fa-ellipsis-vertical&quot;]document.querySelector(&quot;#b2-b29-l1_0-238_0-b10-b1-Content > div > i&quot;)</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>876e8a55-edd0-4aa5-bc18-e3338168467d</webElementGuid>
+      <webElementGuid>5c8d3d5b-dc0b-496f-b2e0-d629214a66e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>fa-solid fa-ellipsis-vertical</value>
-      <webElementGuid>58c88a2a-fc90-4a30-8766-bb16ca06e772</webElementGuid>
+      <webElementGuid>5bd4a441-66f0-4bdf-bd60-b050053a59ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b2-b29-l1_0-291_0-b10-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]/i[@class=&quot;fa-solid fa-ellipsis-vertical&quot;]</value>
-      <webElementGuid>a83c19d4-2775-4381-99bc-3a752e8131ea</webElementGuid>
+      <value>id(&quot;b2-b29-l1_0-291_0-b10-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]/i[@class=&quot;fa-solid fa-ellipsis-vertical&quot;]document.querySelector(&quot;#b2-b29-l1_0-238_0-b10-b1-Content > div > i&quot;)</value>
+      <webElementGuid>eb8c6269-8f90-4755-915a-50b4b174aaba</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b29-l1_0-291_0-b10-b1-Content']/div/i</value>
-      <webElementGuid>d39e7814-3ece-431d-a904-f5fc82e331fa</webElementGuid>
+      <webElementGuid>746c714b-53f3-4af2-a842-f6a1e533229d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,6 +59,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[7]/div/div/div/div/div/i</value>
-      <webElementGuid>e54015e5-379b-495f-8823-da28e30f6fb9</webElementGuid>
+      <webElementGuid>64075ed4-c690-4760-8059-f3bcade01826</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
