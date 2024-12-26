@@ -6,6 +6,10 @@
    <elementGuidId>8395ce7b-84df-44e5-b13e-0f2b08f70176</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnNext']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#b2-b4-btn_Next</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>//button[@id='b2-b4-btn_Next']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b2ef3382-ed6c-4066-a5fe-564cbdf52798</webElementGuid>
+      <webElementGuid>9a2751a3-8d2d-4a3d-83db-388f85f9b8d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,39 +41,39 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>7a74ff77-3ebf-4172-8fc9-a8ff9fca9f48</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>b03a2a7f-dfa1-4854-b319-954bc323a952</webElementGuid>
+      <webElementGuid>7ca8f208-fb32-4793-9fd1-9dca3026fc39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ktl-id</name>
+      <name>type</name>
       <type>Main</type>
-      <value>btnNext</value>
-      <webElementGuid>651ba2d7-a41f-4d60-8e31-c4c230e2cce8</webElementGuid>
+      <value>button</value>
+      <webElementGuid>5a152676-96df-471c-b6a9-68c4406c3bc3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnNext</value>
+      <webElementGuid>fdcbed13-e5a1-459f-8b73-8430968782c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b2-b4-btn_Next</value>
-      <webElementGuid>68b0a37d-df55-469e-aa2d-d030da5b8444</webElementGuid>
+      <webElementGuid>7231da9e-6aa3-4c3d-ae93-23a0c31700dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Next</value>
-      <webElementGuid>08b20a15-11f5-4b9c-8ed1-12ffbf883456</webElementGuid>
+      <webElementGuid>b684ac4b-d567-407b-af86-902d4aaadc37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-b4-btn_Next&quot;)</value>
-      <webElementGuid>394cb050-dd65-4b8d-88d3-841e8a9ef46d</webElementGuid>
+      <webElementGuid>5fb9e8e7-238a-4e60-ab2c-cdcad01fde95</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='b2-b4-btn_Next']</value>
-      <webElementGuid>83aae38c-553d-428a-89f7-d4b7dbf2db21</webElementGuid>
+      <webElementGuid>05ddd159-de6e-49a6-aa2a-7e23ffb5f898</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b4-b18-Button']/button</value>
-      <webElementGuid>7e1ac080-67dd-4785-a0c2-932634d8a6fc</webElementGuid>
+      <webElementGuid>5d195eeb-0205-448f-aa9d-b578a91552d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Embed YouTube videos by1. Share > Embed2. Copy the URL code'])[1]/following::button[1]</value>
-      <webElementGuid>e4b72714-43b8-4bf5-9697-c9cf79e9ccac</webElementGuid>
+      <webElementGuid>9f35a315-8653-4eb7-958f-7c4a8a527aea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Next']/parent::*</value>
-      <webElementGuid>5cee8c64-b2f1-4747-ac48-2c9e7fffb756</webElementGuid>
+      <webElementGuid>5116e50a-5d24-49b0-b856-596676f3f4ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/button</value>
-      <webElementGuid>1238e1e3-1392-4bc9-91cf-e2bc4020c660</webElementGuid>
+      <webElementGuid>b48ee76c-a4dc-4c10-8a7d-e06d3275e022</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'b2-b4-btn_Next' and (text() = 'Next' or . = 'Next')]</value>
-      <webElementGuid>fc21d1a3-728e-4b37-b829-896c46c6fe8b</webElementGuid>
+      <webElementGuid>26476db7-2249-4ebb-b4c9-a20ecd631481</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

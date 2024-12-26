@@ -6,12 +6,12 @@
    <elementGuidId>aba1fefc-06d0-4641-be8f-dc1307b96338</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.negative.ThemeGrid_MarginGutter</value>
+         <key>XPATH</key>
+         <value>//*[@ktl-id = 'lnkRemoveDonationTier']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='b2-b28-l1-343_4-b5-Items']/a[2]</value>
+         <key>CSS</key>
+         <value>a.negative.ThemeGrid_MarginGutter</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2723b40b-014c-4367-821a-49890b798103</webElementGuid>
+      <webElementGuid>77b43845-cfca-4337-869e-027eeedc0663</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>negative ThemeGrid_MarginGutter</value>
-      <webElementGuid>28fa1479-48e7-48c9-a720-5db28c8fefcb</webElementGuid>
+      <webElementGuid>4bd695e3-7cf9-4963-afd5-5409a78247a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>c77a7474-eedd-4aac-b2dd-798aa6271904</webElementGuid>
+      <webElementGuid>51c1c244-e187-4b88-b311-8782ab46b26a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Remove </value>
-      <webElementGuid>a06684af-f85e-4fd3-8d35-508594b98b1e</webElementGuid>
+      <webElementGuid>ea538d57-f471-4a71-aa14-9f9f0210b1c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-b28-l1-343_4-b5-Items&quot;)/a[@class=&quot;negative ThemeGrid_MarginGutter&quot;]</value>
-      <webElementGuid>16982554-1151-4e2e-b4b2-c7d96a1410e5</webElementGuid>
+      <webElementGuid>6869f2af-9de1-4d51-b2e6-06ec2f85192e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b28-l1-343_4-b5-Items']/a[2]</value>
-      <webElementGuid>d77bccc4-f6e3-4218-a85d-34b22141dafe</webElementGuid>
+      <webElementGuid>068196d4-b9d8-405d-bef6-c6ee88b75b72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::a[1]</value>
-      <webElementGuid>8d4069f7-d197-4062-a709-7c239cb79050</webElementGuid>
+      <webElementGuid>94f1afe0-7157-46d4-aece-8e8bf21c1481</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[1]/following::a[2]</value>
-      <webElementGuid>35bbfb4d-d4d5-4985-a1af-6b8c98fe1a6e</webElementGuid>
+      <webElementGuid>ba06ecec-09d1-4c63-84d7-efe452614232</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[2]/preceding::a[1]</value>
-      <webElementGuid>9209fc9f-0e1d-4b62-87c1-4daf0fcaec54</webElementGuid>
+      <webElementGuid>a77eaa66-6843-46ca-b5bb-b5d20ee03d8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[3]</value>
-      <webElementGuid>8344c2fc-4cbf-4e7a-8444-78648868e964</webElementGuid>
+      <webElementGuid>59252024-38c8-4e3d-ab6c-8aa42fdd8c0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
-      <webElementGuid>f9f9bd5c-15db-4468-9b5d-dcb53ca258f5</webElementGuid>
+      <webElementGuid>fb37e22a-c224-4b4f-b1cd-a7ded8540425</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Remove ' or . = 'Remove ')]</value>
-      <webElementGuid>27e6e1d3-116c-45ca-ac6e-01ed67696a24</webElementGuid>
+      <webElementGuid>1fd042b2-a351-47a0-b918-3d20efd777aa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

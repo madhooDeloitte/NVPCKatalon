@@ -57,13 +57,15 @@ WebUI.takeFullPageScreenshotAsCheckpoint('2')
 
 WebUI.click(findTestObject('Page_giving.sg - admin Campaigns/a_Edit'))
 
+WebUI.delay(4)
+
 WebUI.takeFullPageScreenshotAsCheckpoint('3')
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Edit campaign/button_Next'))
+WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit campaign/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Edit campaign/button_Next_1'))
+WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit campaign/button_Next_1'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Edit campaign/button_Next_1_2'))
+WebUI.click(findTestObject('Object Repository/Page_giving.sgEdit campaign/button_Next_1_2'))
 
 WebUI.takeFullPageScreenshotAsCheckpoint('4')
 
@@ -76,6 +78,8 @@ WebUI.takeFullPageScreenshotAsCheckpoint('5')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Edit campaign/button_Confirm'))
 
+WebUI.delay(4)
+
 WebUI.takeFullPageScreenshotAsCheckpoint('6')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Edit campaign/i__fa-solid fa-ellipsis-vertical'))
@@ -85,9 +89,13 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Edit campai
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Edit campaign/input_Donation amount_b2-b28-b14-Input_TierAmount'), 
     '2316')
 
+WebUI.delay(4)
+
 WebUI.takeFullPageScreenshotAsCheckpoint('7')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Edit campaign/button_Confirm'))
+
+WebUI.delay(4)
 
 WebUI.takeFullPageScreenshotAsCheckpoint('8')
 
@@ -95,9 +103,13 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Edit campai
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Edit campaign/a_Remove'))
 
+WebUI.delay(4)
+
 WebUI.takeFullPageScreenshotAsCheckpoint('9')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Edit campaign/button_Next_1_2_3'))
+
+WebUI.delay(4)
 
 WebUI.takeFullPageScreenshotAsCheckpoint('10')
 
@@ -105,24 +117,27 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Edit campai
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Edit campaign/button_Confirm_1'))
 
+WebUI.delay(4)
+
 WebUI.takeFullPageScreenshotAsCheckpoint('11')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Edit campaign/button_Return to campaign list'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('12')
+//WebUI.takeFullPageScreenshotAsCheckpoint('12')
 
 WebUI.click(findTestObject('Page_giving.sg - admin Campaigns/i_Emma Watsons_fa-solid fa-ellipsis-vertical'))
 
 //WebUI.takeFullPageScreenshotAsCheckpoint('13')
-
 WebUI.click(findTestObject('Page_giving.sg - admin Campaigns/a_View'))
 
 WebUI.switchToWindowTitle('giving.sg : Campaign detail - testing whitespace')
 
+WebUI.scrollToElement(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgCampaign detail/textarea_DonationTiers'),3)
+
+WebUI.delay(4)
 WebUI.takeFullPageScreenshotAsCheckpoint('14')
 
 //WebUI.click(findTestObject('Page_giving.sgCampaign detail - testing whitespace/div_2,315'))
-
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCampaign detail - giver fundr_e71de0/img_Stories_b1-b5-AvatarImage_Url'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCampaign detail - giver fundr_e71de0/div_Logout'))

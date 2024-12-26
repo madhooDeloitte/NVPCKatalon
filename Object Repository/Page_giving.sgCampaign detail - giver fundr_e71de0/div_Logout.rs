@@ -6,16 +6,16 @@
    <elementGuidId>60549710-a194-4518-bd9e-f1cafbea35fb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='b1-b12-Text']</value>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnLogout']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#b1-b12-Text</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'b1-b12-Text' and (text() = 'Logout' or . = 'Logout')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='b1-b12-Text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>80a7e830-6d46-4e7c-afb5-3f5b50e9d5e4</webElementGuid>
+      <webElementGuid>857e65cd-140f-47fa-93d7-2d38b3d944a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,23 +41,23 @@
       <name>class</name>
       <type>Main</type>
       <value>icon-text-pair-text-part</value>
-      <webElementGuid>2fd67e43-cabb-4f7b-8769-15f9bfa54317</webElementGuid>
+      <webElementGuid>cb9da94f-de6d-4d6d-82d8-3379bb27d698</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b1-b12-Text</value>
-      <webElementGuid>8dc05301-fe64-4efa-b789-4992e457ed9f</webElementGuid>
+      <webElementGuid>962723ec-d5c7-44d2-a523-768ff4fbc197</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Logout</value>
-      <webElementGuid>a18117a1-c237-4320-bfd6-a7088d80c6f0</webElementGuid>
+      <webElementGuid>e56c9b0c-3149-447a-94fb-dc4636f95b40</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,15 +65,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b1-b12-Text&quot;)</value>
-      <webElementGuid>8ad0fa05-0ac6-4907-ae7f-14d70f6d1b1a</webElementGuid>
+      <webElementGuid>70d6a372-2b0b-4875-aba5-7e2cb7763d64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ktl-id</name>
       <type>Main</type>
       <value>btnLogout</value>
-      <webElementGuid>4f97f931-84c1-4f88-9508-7b7151441170</webElementGuid>
+      <webElementGuid>1721d486-f645-4af2-a14a-3e4614739de4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='b1-b12-Text']</value>
-      <webElementGuid>e11694bf-eee0-44eb-856c-5a91a62c932d</webElementGuid>
+      <webElementGuid>ea1d7715-cc96-484f-ad17-8eff2fd88a5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b1-$b12']/div/div[2]</value>
-      <webElementGuid>80ee1d5b-6f42-48ef-b781-8fe185713563</webElementGuid>
+      <webElementGuid>0be77837-0522-4ba5-aca3-d681e006012f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My enquiries'])[1]/following::div[5]</value>
-      <webElementGuid>540a15c9-7491-470b-91c1-c9603b912f5f</webElementGuid>
+      <webElementGuid>dc39100c-a549-448e-9285-121324b97dc9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/following::div[15]</value>
-      <webElementGuid>b779f213-8f5c-4367-8cbc-bde19e77bc14</webElementGuid>
+      <webElementGuid>19ce3ac4-e803-4401-bac4-21f682433bcc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='MICHAEL SCOTT'])[1]/preceding::div[6]</value>
-      <webElementGuid>9181c13d-4e6e-4bff-b152-df900e613430</webElementGuid>
+      <webElementGuid>3d85c644-3347-4261-a029-4ea53c8a08eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Public profile'])[2]/preceding::div[17]</value>
-      <webElementGuid>b562d5e4-cc5f-4391-b314-21413065d438</webElementGuid>
+      <webElementGuid>e93e5432-8105-4ebb-b410-03f194a62240</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Logout']/parent::*</value>
-      <webElementGuid>2bfd66d8-b060-4d6e-a937-9dea21fe7db2</webElementGuid>
+      <webElementGuid>bce25024-ec8e-4c26-8272-16fc027d8f77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,7 +137,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[6]/div/div/div[2]</value>
-      <webElementGuid>5442afda-30db-4637-ad59-71d1ac21e55e</webElementGuid>
+      <webElementGuid>051cfb04-fc26-47d0-bf11-f2af74be5afa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -145,6 +145,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'b1-b12-Text' and (text() = 'Logout' or . = 'Logout')]</value>
-      <webElementGuid>c2bae500-2288-4d6b-bff8-2e8ac896cc97</webElementGuid>
+      <webElementGuid>c4029bf4-486c-4beb-977c-028a1e468db2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

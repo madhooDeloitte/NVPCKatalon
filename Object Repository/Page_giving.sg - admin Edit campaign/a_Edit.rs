@@ -6,6 +6,10 @@
    <elementGuidId>96fa6dca-cc70-41bd-b876-d3f1ecee29d9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnEdit']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#b2-b28-l1-343_2-b5-Items > a</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>//div[@id='b2-b28-l1-343_2-b5-Items']/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,23 +33,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>fc7b9c62-63db-4791-93b3-d76734d75392</webElementGuid>
+      <webElementGuid>19f8b7b5-169c-4305-a164-790e9408df0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>6eaf715e-93db-484e-b6b3-22a001f367d9</webElementGuid>
+      <webElementGuid>f5d9f4b5-5236-4c37-96b6-e5239a7b1a69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Edit</value>
-      <webElementGuid>4a3c0096-8417-463e-9f94-5544c73cfa35</webElementGuid>
+      <webElementGuid>982279e5-cb73-4213-9111-2934731f4413</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-b28-l1-343_2-b5-Items&quot;)/a[1]</value>
-      <webElementGuid>4cc9594d-1fb3-4995-9284-242d1e135d71</webElementGuid>
+      <webElementGuid>8e49651b-a4e5-4783-9421-824102cf44ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnEdit</value>
+      <webElementGuid>0df128fb-505c-4f09-b9f5-830341d152f5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b28-l1-343_2-b5-Items']/a</value>
-      <webElementGuid>6dfe79ad-c218-49e0-9708-25c6c3fe6a98</webElementGuid>
+      <webElementGuid>e3a077c4-d4b3-41c9-85e4-aba427c16700</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[1]/following::a[1]</value>
-      <webElementGuid>00fc3e27-bf15-432f-a941-3b9cd5c28f02</webElementGuid>
+      <webElementGuid>d55c48a6-fc63-4750-8260-64a3fb53563e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Donation tiers'])[1]/following::a[1]</value>
-      <webElementGuid>d3bc415d-760e-48e3-96f1-7b69e560867a</webElementGuid>
+      <webElementGuid>7d4cdc57-90e4-4083-beb0-3e794e3c710b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[1]/preceding::a[1]</value>
-      <webElementGuid>b0c5bf21-2b30-4028-a388-67b531c22a95</webElementGuid>
+      <webElementGuid>3ddea09f-1e80-4f5c-ab45-d6a6de9ade84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +105,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[2]</value>
-      <webElementGuid>a729c733-875b-4c93-ad46-e21662c0f1f8</webElementGuid>
+      <webElementGuid>31606f30-e696-4d29-80f1-ca83317ee1e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/a</value>
-      <webElementGuid>fa58dd18-5dbd-492e-a82d-b3c5e9614284</webElementGuid>
+      <webElementGuid>06f794c6-8606-4d4b-bb6a-eb5b2c67a805</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Edit' or . = 'Edit')]</value>
-      <webElementGuid>aba14b3d-8f01-48fd-8fc2-d5b0ac8a18a0</webElementGuid>
+      <webElementGuid>394e6188-93dd-41c1-8cd9-b7ce1cc36072</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

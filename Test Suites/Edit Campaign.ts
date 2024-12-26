@@ -14,8 +14,15 @@
    <testCaseLink>
       <guid>50aa65ca-7287-4814-9f75-16e082f995c1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Campaign/Campaign Edit/Edit Campaign - Set up donation tier (Giver)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7e87233b-d827-4c24-ac5d-c994a7bf92bc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Campaign/Campaign Edit/Edit campaign - Set up donation tier (NPO)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

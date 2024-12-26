@@ -6,6 +6,10 @@
    <elementGuidId>67869906-7b41-41fe-8bcc-53d00ddf7a38</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnReturn']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.btn</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>//button[@type='button']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cff55d03-1a23-4148-9a44-26a9be83d79b</webElementGuid>
+      <webElementGuid>fcfce7c0-2626-41e7-9382-3c609e435867</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,31 +41,31 @@
       <name>class</name>
       <type>Main</type>
       <value>btn</value>
-      <webElementGuid>dd265c56-9dba-4ee9-9db7-46952db427f2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>a7fa68d0-9074-4647-8744-9d19ec06d801</webElementGuid>
+      <webElementGuid>00dd49e9-3f65-40f7-bfb8-af3eb180415d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ktl-id</name>
+      <name>type</name>
       <type>Main</type>
-      <value>btnReturn</value>
-      <webElementGuid>98be9e44-a7aa-4d4a-91e4-2fe886640e72</webElementGuid>
+      <value>button</value>
+      <webElementGuid>3b7a3aab-d599-4a90-854e-506b23b39479</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnReturn</value>
+      <webElementGuid>52fed9bc-eb4b-4680-b925-5e241e4daac6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Return to campaign list</value>
-      <webElementGuid>e76b19ea-629e-4eb0-b472-75b97e010220</webElementGuid>
+      <webElementGuid>7fe15208-40c4-4b1c-95a3-13607528b157</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-b43-b2-Actions&quot;)/button[@class=&quot;btn&quot;]</value>
-      <webElementGuid>81859735-263c-435e-9bf1-a432e957fe67</webElementGuid>
+      <webElementGuid>f8cc73ac-0a8f-41de-a5d2-9d2b4c415ca6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>63f10178-2cac-4f5c-b47c-900b1d64a342</webElementGuid>
+      <webElementGuid>35ac9b4b-cdfa-45c1-9dcd-7187f7452518</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b43-b2-Actions']/button</value>
-      <webElementGuid>faef04fa-3df7-40ae-bb37-59c3005956f5</webElementGuid>
+      <webElementGuid>4c02319f-c6fb-4eac-8242-a07adda4c472</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View and share your new campaign with more people to encourage them to connect with your charity.'])[1]/following::button[1]</value>
-      <webElementGuid>075dc184-a86b-4986-b196-995cedb072da</webElementGuid>
+      <webElementGuid>e9db5d2b-40eb-4a66-ba74-c55180f8b260</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Campaign is edited'])[1]/following::button[1]</value>
-      <webElementGuid>d8645d92-49c8-4fb5-946e-5d2a9c9f34d3</webElementGuid>
+      <webElementGuid>3ae48b2f-2537-4820-847e-27cb198abba4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Return to campaign list']/parent::*</value>
-      <webElementGuid>6d3a4e45-b1c9-40ff-a531-4574b1848e37</webElementGuid>
+      <webElementGuid>8b914477-b288-4db4-9163-dcef6c19a282</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>7262b540-2843-4a27-b2b7-c08ea58ea3ab</webElementGuid>
+      <webElementGuid>8fc07561-a02f-43f0-a164-da35df7ca148</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Return to campaign list' or . = 'Return to campaign list')]</value>
-      <webElementGuid>1984abf1-52ca-4e9b-8920-4f3d9a6e6703</webElementGuid>
+      <webElementGuid>5e6cf590-881c-417d-a408-802cdfd9302a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

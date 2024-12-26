@@ -6,12 +6,16 @@
    <elementGuidId>33bf97c5-a4a4-4ff6-9b53-c838bf416291</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'divProfileIcon-Dropdown']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#b1-b5-AvatarImage_Url</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//img[@id='b1-b5-AvatarImage_Url']</value>
+         <value>//div[@ktl-id='imgAvatar']/div/div/div[1]/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,23 +33,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>cf2efdc6-206e-4db8-abb1-042f7607e2c0</webElementGuid>
+      <webElementGuid>64793c4d-fb54-4d63-8c38-661bde489278</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
       <value>/res/getGiverImage/db15a20a-45a0-412a-a61d-7ce128c52685.jpg</value>
-      <webElementGuid>234ac250-a077-44e8-81f6-1be88d025c7c</webElementGuid>
+      <webElementGuid>c01f4862-993b-4425-a389-9501e0578544</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b1-b5-AvatarImage_Url</value>
-      <webElementGuid>85ac9294-f926-4205-a345-4d0c6b7f7ef2</webElementGuid>
+      <webElementGuid>6aa213a6-d40d-415c-a12f-aa212c7869fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b1-b5-AvatarImage_Url&quot;)</value>
-      <webElementGuid>74b75106-460d-4087-896b-34f3c9ca7dee</webElementGuid>
+      <webElementGuid>3ac0d439-b304-4e7b-8e93-300a97931d25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>divProfileIcon-Dropdown</value>
+      <webElementGuid>259cf31e-d021-4516-8c06-4fb5353dca55</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//img[@id='b1-b5-AvatarImage_Url']</value>
-      <webElementGuid>49557834-b3e3-4d08-9c8e-fcab7d199342</webElementGuid>
+      <webElementGuid>8a9f496b-d08c-4016-8575-42f5101191e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b1-$b5']/div/img</value>
-      <webElementGuid>1c215bad-1c8b-462d-99be-ed072169cef0</webElementGuid>
+      <webElementGuid>cea6df09-5a61-4d8e-af67-be8e3c3603d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/img</value>
-      <webElementGuid>ad1f5277-4f8d-4ea5-aa5d-ff45c4dda138</webElementGuid>
+      <webElementGuid>feb859e3-d8d7-4f4e-800c-9f2794dced0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/res/getGiverImage/db15a20a-45a0-412a-a61d-7ce128c52685.jpg' and @id = 'b1-b5-AvatarImage_Url']</value>
-      <webElementGuid>7e020b58-04bb-4fe4-978c-6ff1a50054b1</webElementGuid>
+      <webElementGuid>6eeb9eeb-00c7-4985-b98d-68b5b2fda032</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

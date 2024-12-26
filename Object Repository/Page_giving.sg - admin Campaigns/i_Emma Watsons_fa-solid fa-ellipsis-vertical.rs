@@ -6,19 +6,19 @@
    <elementGuidId>c4569fa7-6ca2-429c-bcfa-931f7a8ec020</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='b2-b29-l1_0-291_0-b10-b1-Content']/div/i</value>
+         <key>BASIC</key>
+         <value>id(&quot;b2-b29-l1_0-291_0-b10-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]/i[@class=&quot;fa-solid fa-ellipsis-vertical&quot;]document.querySelector(&quot;#b2-b29-l1_0-238_0-b10-b1-Content > div > i&quot;)</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>i.fa-solid.fa-ellipsis-vertical</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;b2-b29-l1_0-291_0-b10-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]/i[@class=&quot;fa-solid fa-ellipsis-vertical&quot;]document.querySelector(&quot;#b2-b29-l1_0-238_0-b10-b1-Content > div > i&quot;)</value>
+         <key>XPATH</key>
+         <value>//div[@ktl-id='btnMoreOptions']/div/div/div[1]/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>5c8d3d5b-dc0b-496f-b2e0-d629214a66e2</webElementGuid>
+      <webElementGuid>d646797f-8233-46fe-af45-64fb3148b77d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fa-solid fa-ellipsis-vertical</value>
-      <webElementGuid>5bd4a441-66f0-4bdf-bd60-b050053a59ea</webElementGuid>
+      <webElementGuid>efc8ebca-56a1-49e4-93b5-bb6c1804267f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +43,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-b29-l1_0-291_0-b10-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]/i[@class=&quot;fa-solid fa-ellipsis-vertical&quot;]document.querySelector(&quot;#b2-b29-l1_0-238_0-b10-b1-Content > div > i&quot;)</value>
-      <webElementGuid>eb8c6269-8f90-4755-915a-50b4b174aaba</webElementGuid>
+      <webElementGuid>52e2122d-6390-468b-8467-503623242180</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b29-l1_0-291_0-b10-b1-Content']/div/i</value>
-      <webElementGuid>746c714b-53f3-4af2-a842-f6a1e533229d</webElementGuid>
+      <webElementGuid>9a888a18-1dbc-4cbc-93d8-4796455fe19f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -59,6 +59,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[7]/div/div/div/div/div/i</value>
-      <webElementGuid>64075ed4-c690-4760-8059-f3bcade01826</webElementGuid>
+      <webElementGuid>5cdb4173-3dcd-49da-9880-7e12f1ce67ec</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
