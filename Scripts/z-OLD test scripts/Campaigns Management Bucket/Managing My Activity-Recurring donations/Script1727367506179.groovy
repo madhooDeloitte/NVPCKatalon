@@ -33,7 +33,7 @@ WebUI.setEncryptedText(findTestObject('null'), '963D2jXv1kXHYewulAqKlg==')
 
 WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050/img_Stories_b1-b5-AvatarImage_Url'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050/div_My activities'))
 

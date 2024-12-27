@@ -6,12 +6,16 @@
    <elementGuidId>974b39e6-421c-4bf4-810d-114dfe1df6ea</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>a.positive.ThemeGrid_MarginGutter</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='b6-b6-l1_0-347_0-b5-Items']/a[2]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>a.positive.ThemeGrid_MarginGutter</value>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn btn-success' and (text() = 'Approve' or . = 'Approve')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -23,15 +27,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2f3af507-fd5a-4598-8f7f-44c512938150</webElementGuid>
+      <webElementGuid>cd27a221-9a0e-4d5a-9c98-42e41280d1cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>positive ThemeGrid_MarginGutter</value>
-      <webElementGuid>3c5587bd-09d0-4665-a97c-890420b9feee</webElementGuid>
+      <value>btn btn-success</value>
+      <webElementGuid>4cb0adf5-b99a-4846-b7e3-59882450ca79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,23 +43,23 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>b3f9df10-06b6-43ee-ac0f-9f0f801ee29c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ktl-id</name>
-      <type>Main</type>
-      <value>lnkApprove</value>
-      <webElementGuid>aaf057c2-ccb4-498c-b697-cd4e2d2d44f9</webElementGuid>
+      <webElementGuid>359eb767-e0c8-4c01-b1da-416f9a5f0b71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>lnkApprove</value>
+      <webElementGuid>cb5d5d16-2848-4497-ad14-4e245bd142de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Approve</value>
-      <webElementGuid>c03ee38b-3f52-45ca-905b-1db45e80ed8c</webElementGuid>
+      <webElementGuid>ca0f797d-42d8-406e-874d-1a2b155ff421</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b6-b6-l1_0-347_0-b5-Items&quot;)/a[@class=&quot;positive ThemeGrid_MarginGutter&quot;]</value>
-      <webElementGuid>3a4b0c0a-2ad6-47ca-968a-59da53fee584</webElementGuid>
+      <webElementGuid>2bfa67d3-667a-414d-8dd2-93e2c185dda7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b6-b6-l1_0-347_0-b5-Items']/a[2]</value>
-      <webElementGuid>c322e273-8df9-4df3-a1a3-4a0a5ef341a8</webElementGuid>
+      <webElementGuid>d17f3914-a829-4bc2-94f9-dbbb1aa5fb9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Review'])[1]/following::a[1]</value>
-      <webElementGuid>ba9b5f7d-aeb7-4e8d-8ffd-b0659e2ef6dd</webElementGuid>
+      <webElementGuid>f824f50e-4465-4a47-b617-5c33e4c6894d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='rajeev@marriott.dk.dev'])[1]/following::a[2]</value>
-      <webElementGuid>8c25f8b6-9b0f-4c34-b554-e2e018309ec4</webElementGuid>
+      <webElementGuid>d2918f74-e18f-4703-a5fe-585feabf2619</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reject'])[1]/preceding::a[1]</value>
-      <webElementGuid>1d2692ea-8ab4-4af0-b3a3-747b733bfcb8</webElementGuid>
+      <webElementGuid>2944972c-5227-41a0-8539-45b53ae5d79c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[9]</value>
-      <webElementGuid>da6572bf-b8af-435d-ad10-8bad54f2da67</webElementGuid>
+      <webElementGuid>6cacb628-0fa9-4a04-af4c-07548a3aba4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +115,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/a[2]</value>
-      <webElementGuid>bacb8034-8796-40ba-be4d-fb21f7add83a</webElementGuid>
+      <webElementGuid>37e8b20a-5330-4f06-a2ad-941d7cd57f84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +123,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Approve' or . = 'Approve')]</value>
-      <webElementGuid>1e1e0935-4ab0-42d1-be38-4433a63052d9</webElementGuid>
+      <webElementGuid>cdad5526-ccf0-4ed5-a1ce-2bbf018978dd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
