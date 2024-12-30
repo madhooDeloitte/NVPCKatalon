@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Tax relief may be claimed only for elig_af06bc</name>
+   <tag></tag>
+   <elementGuidId>a93e2ba1-f8e3-43f1-98c6-55cc1c75fc6b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b15-b4-Description']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b15-b4-Description</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ec37ee87-03f3-4e01-8137-756e875ce640</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input-group-description ph</value>
+      <webElementGuid>0839333a-b11a-4a0f-b26c-9184b1a97822</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b2-b15-b4-Description</value>
+      <webElementGuid>d188d70d-5624-405b-b9ca-7174d3aaf676</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tax relief may be claimed only for eligible donations.</value>
+      <webElementGuid>947f12fa-d63b-4b9a-b2b5-1b6a0c28d5f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b15-b4-Description&quot;)</value>
+      <webElementGuid>d44423ac-647b-4ba4-b84c-cb5fce124a7c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b15-b4-Description']</value>
+      <webElementGuid>96c696cc-03a2-43c0-a436-2599f0bec19a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b15-$b4']/div/div/div[2]</value>
+      <webElementGuid>ceec23f6-e935-4a28-a301-2c5cd0f78b84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About claiming tax'])[1]/following::div[3]</value>
+      <webElementGuid>0f6a5b0f-4e98-49b9-b95a-f0fabdb0e69f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Do you want to claim tax relief?'])[1]/following::div[10]</value>
+      <webElementGuid>7ef3c944-8379-4248-ab75-156c68ad84fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a personal touch for the selected campaigns'])[1]/preceding::div[8]</value>
+      <webElementGuid>da7bc8b8-f5a8-4113-bd3c-019f866c76a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Share your name'])[1]/preceding::div[9]</value>
+      <webElementGuid>5593fdf5-ee9d-44e5-b4e5-5ac71d1bbcaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tax relief may be claimed only for eligible donations.']/parent::*</value>
+      <webElementGuid>c066e593-56ca-454b-b3c0-1396ef692271</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/div/div[2]</value>
+      <webElementGuid>1653142f-aef8-43eb-96d6-0470aa183adb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'b2-b15-b4-Description' and (text() = 'Tax relief may be claimed only for eligible donations.' or . = 'Tax relief may be claimed only for eligible donations.')]</value>
+      <webElementGuid>2c0c523c-9954-4652-9c14-6295cbab642a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

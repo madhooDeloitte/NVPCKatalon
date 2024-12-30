@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Log in or sign up with Singpass to Be a_6a57d7</name>
+   <tag></tag>
+   <elementGuidId>ffe1a5b1-3fc5-44c0-9891-f504f9ce9aaf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-$b3']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.alert-box.alert-info</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f5dd0ff2-b0ec-4c1b-adc6-37c359b950f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alert-box alert-info</value>
+      <webElementGuid>48dab4f7-dfe1-4a86-b9a7-5480c09958b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log in or sign up with Singpass to:	• Be able to claim tax deduction	• Make monthly donations</value>
+      <webElementGuid>3f4a0e7f-f7d0-498c-a4c5-84c4fc212b0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-$b3&quot;)/div[@class=&quot;alert-box alert-info&quot;]</value>
+      <webElementGuid>c6fdf37a-707b-4fac-91c2-8c586633da97</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-$b3']/div</value>
+      <webElementGuid>59b1a0a8-bcf6-4c6d-bdde-fa09da28a374</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Run by the Community Chest'])[1]/following::div[10]</value>
+      <webElementGuid>48609e0b-8ff4-4768-bcea-f1e8faf276b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div/div</value>
+      <webElementGuid>adbddabf-63b9-4a03-8d66-ae793d3de51c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Log in or sign up with Singpass to:	• Be able to claim tax deduction	• Make monthly donations' or . = 'Log in or sign up with Singpass to:	• Be able to claim tax deduction	• Make monthly donations')]</value>
+      <webElementGuid>fac525a9-e12e-4741-bb5d-27fa5aaed22e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

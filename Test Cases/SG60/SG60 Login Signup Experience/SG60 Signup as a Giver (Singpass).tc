@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SG60 Signup as a Giver (Singpass)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>600f5620-190e-4876-924e-60b5161ffabb</testCaseGuid>
+</TestCaseEntity>
