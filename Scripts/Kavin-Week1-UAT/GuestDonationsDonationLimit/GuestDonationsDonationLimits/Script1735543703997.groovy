@@ -36,7 +36,7 @@ WebUI.setText(findTestObject('Page_giving.sgDonate/input_Search charities or cam
 
 WebUI.sendKeys(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgDonate - npo/span_npo without ipc'))
+WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgDonate - npo/span_CharityName'))
 
 WebUI.switchToWindowTitle('(DS) NPO 0001')
 
