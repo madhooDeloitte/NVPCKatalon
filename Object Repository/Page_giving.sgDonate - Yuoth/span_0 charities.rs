@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Opportunities</name>
+   <name>span_0 charities</name>
    <tag></tag>
-   <elementGuidId>26ea1478-aa2a-4a02-87c3-3e1e246bb186</elementGuidId>
+   <elementGuidId>2bd385ab-087e-4e31-acb8-58063d68a2d8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#b1-l1-11_12-b2-Label > span</value>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b7-CharityResultHeader']/div/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@ktl-id='divMenuItems']/div[2]/div/a</value>
+         <key>CSS</key>
+         <value>span.text-sea-normal-02</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,86 +23,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>4f65a71a-d906-40b6-a94e-f1bc210ac7ae</webElementGuid>
+      <webElementGuid>e6be49fd-abce-474a-be05-e19447fed61a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-sea-normal-02</value>
+      <webElementGuid>1ff26a26-1878-42d9-91ef-283f467c133f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Opportunities</value>
-      <webElementGuid>0dbbdfb9-0f0a-4806-9822-0074e6eb7d81</webElementGuid>
+      <value>0 charities</value>
+      <webElementGuid>5fda0312-f602-4cf2-965b-81730361590c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b1-l1-11_12-b2-Label&quot;)/span[1]</value>
-      <webElementGuid>6763e5b4-ab17-481f-866d-1f14e0f6c057</webElementGuid>
+      <value>id(&quot;b2-b7-CharityResultHeader&quot;)/div[@class=&quot;heading4&quot;]/span[@class=&quot;text-sea-normal-02&quot;]</value>
+      <webElementGuid>98cbf960-9827-48f0-b9f9-0cdcaa5866b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@ktl-id='divMenuItems']/div[3]/div/a</value>
-      <webElementGuid>45df56b6-119b-4f5d-a241-3f57bf04468c</webElementGuid>
+      <value>//div[@id='b2-b7-CharityResultHeader']/div/span</value>
+      <webElementGuid>00eb2052-cf71-4a55-a9f5-8c62b02b6bbb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Campaigns'])[1]/following::span[1]</value>
-      <webElementGuid>c8c9a326-0cea-41d3-b2f1-59e18bfd038b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apply'])[1]/following::span[2]</value>
+      <webElementGuid>8ae0788a-0778-43af-984e-4ad77ba5694c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::span[2]</value>
-      <webElementGuid>973e1e35-49db-4979-85cd-9f5977d16a68</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Results per page'])[1]/preceding::span[1]</value>
+      <webElementGuid>0d278420-ae73-4564-a193-a97eb83b397a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Partnerships'])[1]/preceding::span[1]</value>
-      <webElementGuid>ef41a3ff-f669-404b-8c78-6c7a19f13037</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No categories match your search criteria'])[1]/preceding::span[3]</value>
+      <webElementGuid>cf367181-bcc2-455d-894b-d81df5607bb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Members'])[1]/preceding::span[2]</value>
-      <webElementGuid>2fc206e4-1c3c-42e4-8cab-ef77b0a4df7c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Opportunities']/parent::*</value>
-      <webElementGuid>7a04d754-5929-4613-a1b6-0e1e000aba6f</webElementGuid>
+      <value>//*/text()[normalize-space(.)='0 charities']/parent::*</value>
+      <webElementGuid>947dcf67-4a3b-48fe-8927-bf3e1dc2a1bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/a/div[2]/span</value>
-      <webElementGuid>8af54c44-dc77-4e46-ae07-cee850845ca7</webElementGuid>
+      <value>//div[4]/div/div/div/span</value>
+      <webElementGuid>44e86e9c-76b7-46ea-a65f-60eb330e1823</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Opportunities' or . = 'Opportunities')]</value>
-      <webElementGuid>e1e292f2-c126-41b0-9bcd-89bee26a97f1</webElementGuid>
+      <value>//span[(text() = '0 charities' or . = '0 charities')]</value>
+      <webElementGuid>ca2a21b5-8039-430d-96c4-e037a9500c7d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

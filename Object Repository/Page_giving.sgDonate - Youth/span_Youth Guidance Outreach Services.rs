@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Opportunities</name>
+   <name>span_Youth Guidance Outreach Services</name>
    <tag></tag>
-   <elementGuidId>26ea1478-aa2a-4a02-87c3-3e1e246bb186</elementGuidId>
+   <elementGuidId>4dfc6f10-7e0b-4218-a352-408c4be50a73</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#b1-l1-11_12-b2-Label > span</value>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b7-l5-321_0-b16-Title']/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@ktl-id='divMenuItems']/div[2]/div/a</value>
+         <key>CSS</key>
+         <value>#b2-b7-l5-321_0-b16-Title > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,86 +23,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>4f65a71a-d906-40b6-a94e-f1bc210ac7ae</webElementGuid>
+      <webElementGuid>1b180432-348a-49a1-ae1b-e44450e36665</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>spanCharityName</value>
+      <webElementGuid>8ae54946-f26b-455c-a870-5c37dc3f0e04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Opportunities</value>
-      <webElementGuid>0dbbdfb9-0f0a-4806-9822-0074e6eb7d81</webElementGuid>
+      <value>Youth Guidance Outreach Services</value>
+      <webElementGuid>a8801577-81dd-4707-9d9d-5c897b19bf96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b1-l1-11_12-b2-Label&quot;)/span[1]</value>
-      <webElementGuid>6763e5b4-ab17-481f-866d-1f14e0f6c057</webElementGuid>
+      <value>id(&quot;b2-b7-l5-321_0-b16-Title&quot;)/span[1]</value>
+      <webElementGuid>9329ba79-c807-4e04-a4d9-3de2a051381f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@ktl-id='divMenuItems']/div[3]/div/a</value>
-      <webElementGuid>45df56b6-119b-4f5d-a241-3f57bf04468c</webElementGuid>
+      <value>//div[@id='b2-b7-l5-321_0-b16-Title']/span</value>
+      <webElementGuid>2ea0624d-9bba-4653-bc2e-fba5b9e652fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Campaigns'])[1]/following::span[1]</value>
-      <webElementGuid>c8c9a326-0cea-41d3-b2f1-59e18bfd038b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Results per page'])[1]/following::span[3]</value>
+      <webElementGuid>504556fd-a4a6-47b9-9a83-8146cbe4656a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::span[2]</value>
-      <webElementGuid>973e1e35-49db-4979-85cd-9f5977d16a68</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Social service and welfare'])[1]/preceding::span[2]</value>
+      <webElementGuid>359253e3-fdf0-4e7f-86f5-60855c3b1654</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Partnerships'])[1]/preceding::span[1]</value>
-      <webElementGuid>ef41a3ff-f669-404b-8c78-6c7a19f13037</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Malay Youth Literary Association'])[1]/preceding::span[5]</value>
+      <webElementGuid>0f75175a-6155-4787-bfcc-4c5221388c93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Members'])[1]/preceding::span[2]</value>
-      <webElementGuid>2fc206e4-1c3c-42e4-8cab-ef77b0a4df7c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Opportunities']/parent::*</value>
-      <webElementGuid>7a04d754-5929-4613-a1b6-0e1e000aba6f</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Youth Guidance Outreach Services']/parent::*</value>
+      <webElementGuid>ab0dbac3-5061-416e-b6bc-a23fd6d48294</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/a/div[2]/span</value>
-      <webElementGuid>8af54c44-dc77-4e46-ae07-cee850845ca7</webElementGuid>
+      <value>//div[4]/div/div/div/div/div[2]/span</value>
+      <webElementGuid>120319eb-5597-446f-a700-bc2d3d84bf7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Opportunities' or . = 'Opportunities')]</value>
-      <webElementGuid>e1e292f2-c126-41b0-9bcd-89bee26a97f1</webElementGuid>
+      <value>//span[(text() = 'Youth Guidance Outreach Services' or . = 'Youth Guidance Outreach Services')]</value>
+      <webElementGuid>7c58b918-3e85-4284-8794-935e5666599f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

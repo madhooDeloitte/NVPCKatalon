@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Opportunities</name>
+   <name>div__b2-b25-Input</name>
    <tag></tag>
-   <elementGuidId>26ea1478-aa2a-4a02-87c3-3e1e246bb186</elementGuidId>
+   <elementGuidId>540f2e9a-ddc9-45c6-ac42-4eaa348bd811</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#b1-l1-11_12-b2-Label > span</value>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b25-Input']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@ktl-id='divMenuItems']/div[2]/div/a</value>
+         <key>CSS</key>
+         <value>#b2-b25-Input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,87 +22,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>4f65a71a-d906-40b6-a94e-f1bc210ac7ae</webElementGuid>
+      <value>div</value>
+      <webElementGuid>5b9aa593-ba42-4c2f-a7a7-f41716c59230</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Opportunities</value>
-      <webElementGuid>0dbbdfb9-0f0a-4806-9822-0074e6eb7d81</webElementGuid>
+      <value>b2-b25-Input</value>
+      <webElementGuid>689412dc-0152-4e2d-ad4f-08090f232826</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b1-l1-11_12-b2-Label&quot;)/span[1]</value>
-      <webElementGuid>6763e5b4-ab17-481f-866d-1f14e0f6c057</webElementGuid>
+      <value>id(&quot;b2-b25-Input&quot;)</value>
+      <webElementGuid>3d2a1295-6a26-4bd1-bce2-7ae6f73ad4da</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b25-Input']</value>
+      <webElementGuid>98e4dfe8-cf7e-43de-b218-11909a151bc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@ktl-id='divMenuItems']/div[3]/div/a</value>
-      <webElementGuid>45df56b6-119b-4f5d-a241-3f57bf04468c</webElementGuid>
+      <value>//div[@id='b2-$b25']/div/div[2]/div</value>
+      <webElementGuid>177e690a-f5c6-4ae3-be79-3db82a39608b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Campaigns'])[1]/following::span[1]</value>
-      <webElementGuid>c8c9a326-0cea-41d3-b2f1-59e18bfd038b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[6]/following::div[2]</value>
+      <webElementGuid>db2b43cd-c6ff-4c11-8dd1-ea4cc35e07d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::span[2]</value>
-      <webElementGuid>973e1e35-49db-4979-85cd-9f5977d16a68</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other amount'])[1]/following::div[12]</value>
+      <webElementGuid>b3e784f7-03d2-4069-809a-3cd3f625759b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Partnerships'])[1]/preceding::span[1]</value>
-      <webElementGuid>ef41a3ff-f669-404b-8c78-6c7a19f13037</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave an encouraging message (optional)'])[1]/preceding::div[3]</value>
+      <webElementGuid>d842b276-fe64-4731-8a74-0025ecae6253</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Members'])[1]/preceding::span[2]</value>
-      <webElementGuid>2fc206e4-1c3c-42e4-8cab-ef77b0a4df7c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Opportunities']/parent::*</value>
-      <webElementGuid>7a04d754-5929-4613-a1b6-0e1e000aba6f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/preceding::div[17]</value>
+      <webElementGuid>9f0ca12d-c506-4457-a6cc-a7a3be834ced</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/a/div[2]/span</value>
-      <webElementGuid>8af54c44-dc77-4e46-ae07-cee850845ca7</webElementGuid>
+      <value>//div[5]/div/div/div/div[2]/div/div/div/div/div[2]/div</value>
+      <webElementGuid>f484572b-31af-4606-a96a-b449022dd6fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Opportunities' or . = 'Opportunities')]</value>
-      <webElementGuid>e1e292f2-c126-41b0-9bcd-89bee26a97f1</webElementGuid>
+      <value>//div[@id = 'b2-b25-Input']</value>
+      <webElementGuid>6d051e50-c09a-42a6-a9ca-aade5d6f6415</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

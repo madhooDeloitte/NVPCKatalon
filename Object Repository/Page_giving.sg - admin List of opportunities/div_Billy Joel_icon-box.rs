@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Billy Joel_icon-box</name>
+   <tag></tag>
+   <elementGuidId>4fe932d7-4fb0-4dfd-aab2-d6a16561e2d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b40-l1_0-209_0-b13-b1-Content > div.icon-box</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b40-l1_0-209_0-b13-b1-Content']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1a4205fd-b5f1-41b5-9a95-ab2b84d72377</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-box</value>
+      <webElementGuid>0564b195-fd4f-4a75-b983-98815242d6bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b40-l1_0-209_0-b13-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]</value>
+      <webElementGuid>97fc6f32-406f-4df1-9741-7ce199e34104</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b40-l1_0-209_0-b13-b1-Content']/div</value>
+      <webElementGuid>2d826a96-89da-43a1-b546-f0c048b9448c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billy Joel'])[1]/following::div[5]</value>
+      <webElementGuid>0160724a-691e-44dc-a53b-b141bfdd478a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Project based'])[2]/following::div[6]</value>
+      <webElementGuid>1a15ee2b-5b9f-4d62-a353-8822cec89e26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[1]/preceding::div[2]</value>
+      <webElementGuid>28af1e8d-10bb-4a0c-95cd-c3baa31d835b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::div[7]</value>
+      <webElementGuid>513a465e-15ae-43a6-bf78-0091a0051cff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[7]/div/div/div/div/div</value>
+      <webElementGuid>8466dfa7-599d-46e1-83a3-9295b5930310</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

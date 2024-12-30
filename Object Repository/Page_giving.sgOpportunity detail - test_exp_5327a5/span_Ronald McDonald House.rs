@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Opportunities</name>
+   <name>span_Ronald McDonald House</name>
    <tag></tag>
-   <elementGuidId>26ea1478-aa2a-4a02-87c3-3e1e246bb186</elementGuidId>
+   <elementGuidId>ea7826e7-88d3-410a-aab7-c0e4729ef856</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#b1-l1-11_12-b2-Label > span</value>
+         <key>XPATH</key>
+         <value>//span[@ktl-id='txtOppOrgName']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@ktl-id='divMenuItems']/div[2]/div/a</value>
+         <key>CSS</key>
+         <value>a.text-link > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,86 +23,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>4f65a71a-d906-40b6-a94e-f1bc210ac7ae</webElementGuid>
+      <webElementGuid>9fe07510-96d2-458d-bb80-7c694bb14406</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Opportunities</value>
-      <webElementGuid>0dbbdfb9-0f0a-4806-9822-0074e6eb7d81</webElementGuid>
+      <value>Ronald McDonald House</value>
+      <webElementGuid>be7ad849-0573-4ff3-9457-d10735a7d00c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b1-l1-11_12-b2-Label&quot;)/span[1]</value>
-      <webElementGuid>6763e5b4-ab17-481f-866d-1f14e0f6c057</webElementGuid>
+      <value>id(&quot;b2-b1-ProfileName&quot;)/a[@class=&quot;text-link&quot;]/span[1]</value>
+      <webElementGuid>1bf2a3ed-a2a7-4a62-8669-d27410f3da74</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@ktl-id='divMenuItems']/div[3]/div/a</value>
-      <webElementGuid>45df56b6-119b-4f5d-a241-3f57bf04468c</webElementGuid>
+      <value>//div[@id='b2-b1-ProfileName']/a/span</value>
+      <webElementGuid>872ec4c9-68df-4125-af8a-4c59e591449d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Campaigns'])[1]/following::span[1]</value>
-      <webElementGuid>c8c9a326-0cea-41d3-b2f1-59e18bfd038b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test_expired_npo'])[1]/following::span[1]</value>
+      <webElementGuid>0fec1d62-b6b0-49fb-b5cf-1400b11b0a29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::span[2]</value>
-      <webElementGuid>973e1e35-49db-4979-85cd-9f5977d16a68</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ronald McDonald House'])[1]/following::span[2]</value>
+      <webElementGuid>b7380f1f-5150-4752-9ce1-eab056abb5d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Partnerships'])[1]/preceding::span[1]</value>
-      <webElementGuid>ef41a3ff-f669-404b-8c78-6c7a19f13037</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Location'])[1]/preceding::span[1]</value>
+      <webElementGuid>f2487577-3d70-445b-aede-41c399f91546</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Members'])[1]/preceding::span[2]</value>
-      <webElementGuid>2fc206e4-1c3c-42e4-8cab-ef77b0a4df7c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Opportunities']/parent::*</value>
-      <webElementGuid>7a04d754-5929-4613-a1b6-0e1e000aba6f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Virtual Opportunity'])[1]/preceding::span[1]</value>
+      <webElementGuid>518246a9-8b30-4e98-aeb4-b9d92f96f1f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/a/div[2]/span</value>
-      <webElementGuid>8af54c44-dc77-4e46-ae07-cee850845ca7</webElementGuid>
+      <value>//div[2]/a/span</value>
+      <webElementGuid>a0441e4e-561e-4f12-bc6c-def2353217b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Opportunities' or . = 'Opportunities')]</value>
-      <webElementGuid>e1e292f2-c126-41b0-9bcd-89bee26a97f1</webElementGuid>
+      <value>//span[(text() = 'Ronald McDonald House' or . = 'Ronald McDonald House')]</value>
+      <webElementGuid>f5ce532a-fae7-433b-aa05-fae369491ce4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
