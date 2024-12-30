@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_npo without ipc</name>
+   <name>span_Monthly</name>
    <tag></tag>
-   <elementGuidId>6163f088-5556-4b6c-b9cb-360af7039a28</elementGuidId>
+   <elementGuidId>4ca6019b-ac56-4c22-bf7b-b5eedc858d01</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@ktl-id = 'spanCharityName']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#b2-b9-l4-323_0-b23-Title > span</value>
+         <value>a.chips-select-item > span</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='b2-b9-l4-323_0-b23-Title']/span</value>
+         <value>//div[@id='b2-b15-b20-$b6']/div/div/a/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -27,86 +23,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d7da163b-1f13-4e03-ad1b-5f7aaea0e3ed</webElementGuid>
+      <webElementGuid>bcf34914-c07c-4931-80e1-b04866638868</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>npo without ipc</value>
-      <webElementGuid>df19582e-a10f-452e-93e3-15e9d08c3483</webElementGuid>
+      <value>Monthly</value>
+      <webElementGuid>f47cd4ea-f8a4-4292-91b7-f88773b6a4eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b2-b9-l4-323_0-b23-Title&quot;)/span[1]</value>
-      <webElementGuid>dad5558c-e8f0-473d-a3d5-fc26d9b7950b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ktl-id</name>
-      <type>Main</type>
-      <value>spanCharityName</value>
-      <webElementGuid>73a7260a-741a-4b98-8658-31e3f44729c2</webElementGuid>
+      <value>id(&quot;b2-b15-b20-$b6&quot;)/div[@class=&quot;chips-select single-select OSFillParent&quot;]/div[1]/a[@class=&quot;chips-select-item&quot;]/span[1]</value>
+      <webElementGuid>49621bff-6615-40dc-8ba4-0632aa1020af</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b9-l4-323_0-b23-Title']/span</value>
-      <webElementGuid>3505cd29-f290-41d0-ba45-8fdf095c92ca</webElementGuid>
+      <value>//div[@id='b2-b15-b20-$b6']/div/div/a/span</value>
+      <webElementGuid>d784de9c-620f-46b9-af49-86d4d3c8757f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Results per page'])[1]/following::span[3]</value>
-      <webElementGuid>3af34959-45d7-4d8f-99ac-6f3d76c7560b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your recurring donation will begin upon successful checkout.'])[1]/following::span[2]</value>
+      <webElementGuid>f4df9b7a-e50b-4222-959c-8f63937bd1bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unity Cares Association'])[1]/preceding::span[1]</value>
-      <webElementGuid>6855af62-d008-4f92-9504-f31fa396e941</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recurring donation'])[1]/following::span[2]</value>
+      <webElementGuid>9a56aa43-977e-4e32-8015-7f7133eec97a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$10 raised of $4,000'])[1]/preceding::span[2]</value>
-      <webElementGuid>13908cec-f1fd-4313-8f9d-fc4c0a2de2b0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yearly'])[1]/preceding::span[2]</value>
+      <webElementGuid>8ca8ac17-3c77-4387-bfa6-ef94227031dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='npo without ipc']/parent::*</value>
-      <webElementGuid>ff1069a3-c2f3-40c3-807c-0042eeb6f78c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='End date'])[1]/preceding::span[4]</value>
+      <webElementGuid>9145e6df-d8e5-438b-8832-9d10d22e6bab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Monthly']/parent::*</value>
+      <webElementGuid>46e15f61-349c-4fe4-a582-af90c17059e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div/div/div/div[2]/span</value>
-      <webElementGuid>c198479e-e1d0-408d-9533-d57cfb6cac15</webElementGuid>
+      <value>//div[2]/div/div/div/a/span</value>
+      <webElementGuid>6a5ef2ac-4a09-45df-a1e3-3e5e0e86e56d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'npo without ipc' or . = 'npo without ipc')]</value>
-      <webElementGuid>a52dfc7e-7997-4440-9586-6fa0726abe5c</webElementGuid>
+      <value>//span[(text() = 'Monthly' or . = 'Monthly')]</value>
+      <webElementGuid>6b10160b-f7b2-441b-8ef3-faf581f83f69</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

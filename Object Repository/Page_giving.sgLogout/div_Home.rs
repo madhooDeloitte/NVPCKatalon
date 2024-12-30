@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_npo without ipc</name>
+   <name>div_Home</name>
    <tag></tag>
-   <elementGuidId>6163f088-5556-4b6c-b9cb-360af7039a28</elementGuidId>
+   <elementGuidId>68e88063-3c74-4c0f-84f6-bd8909205a96</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@ktl-id = 'spanCharityName']</value>
+         <key>XPATH</key>
+         <value>//div[@id='b2-Text']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#b2-b9-l4-323_0-b23-Title > span</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='b2-b9-l4-323_0-b23-Title']/span</value>
+         <value>#b2-Text</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -26,87 +22,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>d7da163b-1f13-4e03-ad1b-5f7aaea0e3ed</webElementGuid>
+      <value>div</value>
+      <webElementGuid>663718a3-129a-4f28-a1d0-55f415eb3547</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-text-pair-text-part</value>
+      <webElementGuid>dc53a85a-7594-4078-b11c-2b89928920d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b2-Text</value>
+      <webElementGuid>8222c24e-60db-4ff5-b3c6-a001375eb996</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>npo without ipc</value>
-      <webElementGuid>df19582e-a10f-452e-93e3-15e9d08c3483</webElementGuid>
+      <value>Home</value>
+      <webElementGuid>c3d1eef8-3570-48ec-aed8-0804ad1e95ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b2-b9-l4-323_0-b23-Title&quot;)/span[1]</value>
-      <webElementGuid>dad5558c-e8f0-473d-a3d5-fc26d9b7950b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ktl-id</name>
-      <type>Main</type>
-      <value>spanCharityName</value>
-      <webElementGuid>73a7260a-741a-4b98-8658-31e3f44729c2</webElementGuid>
+      <value>id(&quot;b2-Text&quot;)</value>
+      <webElementGuid>77fe5b9f-9da6-4dcb-82c0-5d0fc30d27fe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b2-Text']</value>
+      <webElementGuid>574e5695-b31a-49fe-bb9a-3fbbd609fd35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b9-l4-323_0-b23-Title']/span</value>
-      <webElementGuid>3505cd29-f290-41d0-ba45-8fdf095c92ca</webElementGuid>
+      <value>//div[@id='$b2']/div/div[2]</value>
+      <webElementGuid>4b1d9c06-f0d9-4e34-9429-2009c9ac2e02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Results per page'])[1]/following::span[3]</value>
-      <webElementGuid>3af34959-45d7-4d8f-99ac-6f3d76c7560b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You have been logged out'])[1]/preceding::div[13]</value>
+      <webElementGuid>d1b16452-c7ea-48fc-8165-a3bb68c60eb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unity Cares Association'])[1]/preceding::span[1]</value>
-      <webElementGuid>6855af62-d008-4f92-9504-f31fa396e941</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[1]/preceding::div[16]</value>
+      <webElementGuid>3beec3e7-418d-49d5-ab76-9ef0e35b1c72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$10 raised of $4,000'])[1]/preceding::span[2]</value>
-      <webElementGuid>13908cec-f1fd-4313-8f9d-fc4c0a2de2b0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='npo without ipc']/parent::*</value>
-      <webElementGuid>ff1069a3-c2f3-40c3-807c-0042eeb6f78c</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Home']/parent::*</value>
+      <webElementGuid>eb9eee10-1c03-4187-ab46-c099ee2d72a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div/div/div/div[2]/span</value>
-      <webElementGuid>c198479e-e1d0-408d-9533-d57cfb6cac15</webElementGuid>
+      <value>//button/div/div/div[2]</value>
+      <webElementGuid>de97dea0-8d7d-4fe8-b92c-d2cfe1030815</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'npo without ipc' or . = 'npo without ipc')]</value>
-      <webElementGuid>a52dfc7e-7997-4440-9586-6fa0726abe5c</webElementGuid>
+      <value>//div[@id = 'b2-Text' and (text() = 'Home' or . = 'Home')]</value>
+      <webElementGuid>96ea6c11-af2a-4f37-bc92-bd68335595b1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

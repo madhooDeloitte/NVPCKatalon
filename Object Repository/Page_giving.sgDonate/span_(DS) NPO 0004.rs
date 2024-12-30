@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_npo without ipc</name>
+   <name>span_(DS) NPO 0004</name>
    <tag></tag>
-   <elementGuidId>6163f088-5556-4b6c-b9cb-360af7039a28</elementGuidId>
+   <elementGuidId>928bdc15-f920-4aa2-b954-d262718be3d8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@ktl-id = 'spanCharityName']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#b2-b9-l4-323_0-b23-Title > span</value>
+         <value>#b2-b7-l5-266_2-b16-Title > span</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='b2-b9-l4-323_0-b23-Title']/span</value>
+         <value>//div[@id='b2-b7-l5-266_2-b16-Title']/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -27,86 +23,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d7da163b-1f13-4e03-ad1b-5f7aaea0e3ed</webElementGuid>
+      <webElementGuid>45f50339-18a7-44d6-a7a5-96287b1eacdf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>npo without ipc</value>
-      <webElementGuid>df19582e-a10f-452e-93e3-15e9d08c3483</webElementGuid>
+      <value>(DS) NPO 0004</value>
+      <webElementGuid>9c5bf1b9-9a58-4303-9bbc-b07e1640ff27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b2-b9-l4-323_0-b23-Title&quot;)/span[1]</value>
-      <webElementGuid>dad5558c-e8f0-473d-a3d5-fc26d9b7950b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ktl-id</name>
-      <type>Main</type>
-      <value>spanCharityName</value>
-      <webElementGuid>73a7260a-741a-4b98-8658-31e3f44729c2</webElementGuid>
+      <value>id(&quot;b2-b7-l5-266_2-b16-Title&quot;)/span[1]</value>
+      <webElementGuid>0e83ef28-42e1-4762-a565-5be9db4d16a0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b9-l4-323_0-b23-Title']/span</value>
-      <webElementGuid>3505cd29-f290-41d0-ba45-8fdf095c92ca</webElementGuid>
+      <value>//div[@id='b2-b7-l5-266_2-b16-Title']/span</value>
+      <webElementGuid>f3d33a4c-9394-4154-8372-6f62b3cb046c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Results per page'])[1]/following::span[3]</value>
-      <webElementGuid>3af34959-45d7-4d8f-99ac-6f3d76c7560b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='General population'])[1]/following::span[3]</value>
+      <webElementGuid>a295fd04-821f-475b-a71f-4e8694dd9dc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unity Cares Association'])[1]/preceding::span[1]</value>
-      <webElementGuid>6855af62-d008-4f92-9504-f31fa396e941</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overseas humanitarian aid'])[1]/following::span[4]</value>
+      <webElementGuid>95b020df-09be-4453-8b7f-2a137e08050e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$10 raised of $4,000'])[1]/preceding::span[2]</value>
-      <webElementGuid>13908cec-f1fd-4313-8f9d-fc4c0a2de2b0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(DS) Test About EG'])[1]/preceding::span[1]</value>
+      <webElementGuid>7949e31c-07d8-4c28-87c1-b40046f1db45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='npo without ipc']/parent::*</value>
-      <webElementGuid>ff1069a3-c2f3-40c3-807c-0042eeb6f78c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Environmental protection and sustainability'])[2]/preceding::span[2]</value>
+      <webElementGuid>3b9e8891-ea7e-4af7-89f3-5d1fe0eb61ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='(DS) NPO 0004']/parent::*</value>
+      <webElementGuid>ee4399e7-d4fd-4478-9a2e-11fd4b4df49e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div/div/div/div[2]/span</value>
-      <webElementGuid>c198479e-e1d0-408d-9533-d57cfb6cac15</webElementGuid>
+      <value>//div[3]/div/div/div[4]/div/div/div/div/div[2]/span</value>
+      <webElementGuid>c76b9a1c-a77e-4618-a4eb-9ef25e385c1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'npo without ipc' or . = 'npo without ipc')]</value>
-      <webElementGuid>a52dfc7e-7997-4440-9586-6fa0726abe5c</webElementGuid>
+      <value>//span[(text() = '(DS) NPO 0004' or . = '(DS) NPO 0004')]</value>
+      <webElementGuid>769e75e3-1342-4570-8da8-4d57718049fa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

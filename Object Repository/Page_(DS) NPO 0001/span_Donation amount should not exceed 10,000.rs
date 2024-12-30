@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_npo without ipc</name>
+   <name>span_Donation amount should not exceed 10,000</name>
    <tag></tag>
-   <elementGuidId>6163f088-5556-4b6c-b9cb-360af7039a28</elementGuidId>
+   <elementGuidId>61c0c0a6-912c-4e24-9105-e2254fedee6e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ktl-id = 'spanCharityName']</value>
+         <value>//div[@class='flex1']//span[@class='validation-message ph' and contains(text(), 'Donation amount should not exceed $10,000')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#b2-b9-l4-323_0-b23-Title > span</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='b2-b9-l4-323_0-b23-Title']/span</value>
+         <value>//div[@class='flex1']//span[@class='validation-message ph' and contains(text(), 'Donation amount should not exceed $10,000')]&#xd;
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,86 +27,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d7da163b-1f13-4e03-ad1b-5f7aaea0e3ed</webElementGuid>
+      <webElementGuid>b0809c30-cc82-4675-9861-d7a90f558c32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>validation-message ph</value>
+      <webElementGuid>0efd0e3f-b26a-431e-af6d-ad0ebb38ed0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>npo without ipc</value>
-      <webElementGuid>df19582e-a10f-452e-93e3-15e9d08c3483</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;b2-b9-l4-323_0-b23-Title&quot;)/span[1]</value>
-      <webElementGuid>dad5558c-e8f0-473d-a3d5-fc26d9b7950b</webElementGuid>
+      <value>Donation amount should not exceed $10,000</value>
+      <webElementGuid>4e2b2436-f5c9-4306-8e89-d183deeb094a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ktl-id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>spanCharityName</value>
-      <webElementGuid>73a7260a-741a-4b98-8658-31e3f44729c2</webElementGuid>
+      <value>//div[@class='flex1']//span[@class='validation-message ph' and contains(text(), 'Donation amount should not exceed $10,000')]</value>
+      <webElementGuid>925acd3b-2426-43bf-98f3-80b9e2edbae0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b9-l4-323_0-b23-Title']/span</value>
-      <webElementGuid>3505cd29-f290-41d0-ba45-8fdf095c92ca</webElementGuid>
+      <value>//div[@id='b2-b15-b21-$b4']/div/div[2]/span</value>
+      <webElementGuid>95a71668-9ed6-464f-8b38-de3038836e28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Results per page'])[1]/following::span[3]</value>
-      <webElementGuid>3af34959-45d7-4d8f-99ac-6f3d76c7560b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Donation amount should not exceed $10,000'])[1]/following::span[1]</value>
+      <webElementGuid>6da01839-8a99-4284-a309-81eb5bc07ab0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unity Cares Association'])[1]/preceding::span[1]</value>
-      <webElementGuid>6855af62-d008-4f92-9504-f31fa396e941</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[4]/following::span[3]</value>
+      <webElementGuid>44b9bfe1-7e57-4b9e-bb9d-d0fb84b334e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$10 raised of $4,000'])[1]/preceding::span[2]</value>
-      <webElementGuid>13908cec-f1fd-4313-8f9d-fc4c0a2de2b0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pledge due date'])[1]/preceding::span[1]</value>
+      <webElementGuid>40704340-99f8-46d5-98ef-f797f55ace7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='npo without ipc']/parent::*</value>
-      <webElementGuid>ff1069a3-c2f3-40c3-807c-0042eeb6f78c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun'])[1]/preceding::span[5]</value>
+      <webElementGuid>7c9353a3-5438-4fd5-b55c-69d519ff61e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div/div/div/div[2]/span</value>
-      <webElementGuid>c198479e-e1d0-408d-9533-d57cfb6cac15</webElementGuid>
+      <value>//div[3]/div[2]/div/div/div[2]/span</value>
+      <webElementGuid>de6a5895-5a0d-4e9f-9f36-125ea658a19a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'npo without ipc' or . = 'npo without ipc')]</value>
-      <webElementGuid>a52dfc7e-7997-4440-9586-6fa0726abe5c</webElementGuid>
+      <value>//span[(text() = 'Donation amount should not exceed $10,000' or . = 'Donation amount should not exceed $10,000')]</value>
+      <webElementGuid>ef75eb26-6b08-4af4-9dad-447194df4b3e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

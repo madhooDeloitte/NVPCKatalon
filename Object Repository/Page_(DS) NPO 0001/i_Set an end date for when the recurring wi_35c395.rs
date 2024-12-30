@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Set an end date for when the recurring wi_35c395</name>
+   <tag></tag>
+   <elementGuidId>66f77861-775e-4345-9edb-52ee50374149</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.fa.fa-calendar.fa-1x</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b15-b20-b8-Icon']/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>79371852-4c8f-41b6-8e3a-8bc38c6b9b24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon fa fa-calendar fa-1x</value>
+      <webElementGuid>3e6e093b-dccc-4a1d-9fc0-5901a1bad95f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b15-b20-b8-Icon&quot;)/i[@class=&quot;icon fa fa-calendar fa-1x&quot;]</value>
+      <webElementGuid>97db900d-e102-4951-b7fc-2dbe9a1dbe39</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b15-b20-b8-Icon']/i</value>
+      <webElementGuid>522fb5a9-12a4-4bc2-98f5-2344d834f0d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/div/i</value>
+      <webElementGuid>1f4680e7-1791-4a33-8a1a-85ce57675694</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Edit</name>
+   <tag></tag>
+   <elementGuidId>6a1dc0da-0a70-4587-ad05-668f521df713</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b11-l3-307_0-l3-308_0-b9-Items > div > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b11-l3-617_0-l3-618_0-b9-b1-Tooltip']//a[contains(@href, '#') and .//div[@id='b2-b11-l3-617_0-l3-618_0-b10-Text' and text()='Edit']]&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='b2-b11-l3-617_0-l3-618_0-b9-b1-Tooltip']//a[contains(@href, '#') and .//div[@id='b2-b11-l3-617_0-l3-618_0-b10-Text' and text()='Edit']]&#xd;
+[count(. | //*[(text() = 'Edit' or . = 'Edit')]) = count(//*[(text() = 'Edit' or . = 'Edit')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c5600a55-b02c-4ff6-9815-246f8003b135</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>ce74aca5-eda6-4a46-ab0b-23692ce83d95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>50aed866-09bc-4aa3-8cbd-a37da6e54bf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Edit</value>
+      <webElementGuid>4c70098b-14fc-48d0-b814-8e04021b46dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b11-l3-617_0-l3-618_0-b9-b1-Tooltip']//a[contains(@href, '#') and .//div[@id='b2-b11-l3-617_0-l3-618_0-b10-Text' and text()='Edit']]&#xd;
+</value>
+      <webElementGuid>6ca57652-d300-44c8-98df-f37d0681d3ca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b11-l3-307_0-l3-308_0-b9-Items']/div/a</value>
+      <webElementGuid>27c5db0f-4e14-442b-bc27-f47e31aded8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='One-time'])[2]/following::a[1]</value>
+      <webElementGuid>3c0846d4-3429-4554-b0e3-087abb04863b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[1]/following::a[1]</value>
+      <webElementGuid>87a2893d-9b9d-42e0-9642-57f54e8ea3db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[1]/preceding::a[1]</value>
+      <webElementGuid>55cec883-3287-45c2-b756-1770d450e445</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[5]</value>
+      <webElementGuid>840e49d3-0dec-401f-a6f8-c93d85db5e4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div[2]/div/div/div/a</value>
+      <webElementGuid>b893aaf1-06f1-4355-bf5c-27f71d84b14c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Edit' or . = 'Edit')]</value>
+      <webElementGuid>bf148751-503a-4eb3-ada5-bda1030d9d5b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

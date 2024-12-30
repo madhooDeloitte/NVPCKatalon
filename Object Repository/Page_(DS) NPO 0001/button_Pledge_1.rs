@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Pledge_1</name>
+   <tag></tag>
+   <elementGuidId>79ba9309-03a7-4986-8b25-eb5f55c7d169</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b15-Desktop2']//button[text()='Pledge']&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='b2-b15-Desktop2']//button[text()='Pledge']&#xd;
+[count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>59456ce0-118a-4e14-b697-2071185cfec1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn OSFillParent</value>
+      <webElementGuid>68147169-275a-4a85-b1df-69ee73c0085a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d501497b-46a7-4819-8bf3-d71f22ef7857</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pledge</value>
+      <webElementGuid>ce34e09f-79b5-4c0c-bd3d-c91e5c705959</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b15-Desktop2']//button[text()='Pledge']&#xd;
+</value>
+      <webElementGuid>800f31d5-85e7-4632-a0f3-4c8a696e2097</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[22]</value>
+      <webElementGuid>ffcce642-41d3-49f2-805c-be42d4a30ae1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b15-Desktop2']/button[3]</value>
+      <webElementGuid>80d51dbb-b99a-4069-a7b6-df612103d3ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to cart'])[2]/following::button[1]</value>
+      <webElementGuid>8cbd55d6-25cf-4d8f-9463-5c26c1dbe6e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Donate now'])[2]/following::button[2]</value>
+      <webElementGuid>eb873df7-761c-4358-a6c6-b3f2d00a6f25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Our programmes'])[1]/preceding::button[1]</value>
+      <webElementGuid>09b79c7c-1502-439b-9057-ffee11699e0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='[DS] Test About Programmes'])[1]/preceding::button[1]</value>
+      <webElementGuid>a8d11bcb-d23b-4377-80c3-a3f8f09ca07e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div[2]/div[2]/button[3]</value>
+      <webElementGuid>99a4bea9-1a95-4838-9824-bb34769fb3dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Pledge' or . = 'Pledge')]</value>
+      <webElementGuid>f1b125c5-a118-46a5-a0cf-8890cbba145c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GuestDonationsDonationLimits</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7cb9c12d-9c93-4458-bf4c-38687833ca8b</testCaseGuid>
+</TestCaseEntity>

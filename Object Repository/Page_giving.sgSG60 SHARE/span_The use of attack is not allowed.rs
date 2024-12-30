@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_The use of attack is not allowed</name>
+   <tag></tag>
+   <elementGuidId>c4c69639-dcd4-4be2-8b49-b34989cdc830</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-$b31']/div/div[2]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.display-flex.column-gap-m.margin-top-s > div.flex1 > span.validation-message</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a93c713e-2fc8-4b93-b4f7-d80e71397f29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>validation-message</value>
+      <webElementGuid>5aec85d7-6475-49a7-abeb-7f1778466975</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The use of 'attack' is not allowed.</value>
+      <webElementGuid>710258e9-9eaf-4ff2-8fbd-9c9a34b0f210</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-$b31&quot;)/div[@class=&quot;textarea-enhanced&quot;]/div[@class=&quot;display-flex column-gap-m margin-top-s&quot;]/div[@class=&quot;flex1&quot;]/span[@class=&quot;validation-message&quot;]</value>
+      <webElementGuid>2ed80e38-e60e-44e3-8027-5d4b15876dae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-$b31']/div/div[2]/div/span</value>
+      <webElementGuid>5dd2f2b2-7bbd-42bb-b2b1-7f84749065ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/preceding::span[2]</value>
+      <webElementGuid>cf9191bd-1520-4db8-aed3-5191a058f5eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[2]/preceding::span[3]</value>
+      <webElementGuid>7b00a942-c167-4aed-93d9-4bd6831589db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div[3]/div/div/div[2]/div/span</value>
+      <webElementGuid>904afc0a-b331-4958-a6c7-884422fb75b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = concat(&quot;The use of &quot; , &quot;'&quot; , &quot;attack&quot; , &quot;'&quot; , &quot; is not allowed.&quot;) or . = concat(&quot;The use of &quot; , &quot;'&quot; , &quot;attack&quot; , &quot;'&quot; , &quot; is not allowed.&quot;))]</value>
+      <webElementGuid>9bf55d3e-374a-49e2-b99f-3e8fd6ca7fe2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
