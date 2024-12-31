@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_(DS) NPO 0001</name>
+   <tag></tag>
+   <elementGuidId>45c8b6bc-c71a-4da9-8ac3-7a8c3fc13f35</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b7-l5-304_0-b16-Title']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b7-l5-304_0-b16-Title > span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='b2-b7-l5-304_0-b16-Title']/span[count(. | //*[@ktl-id = 'spanCharityName' and (text() = '(DS) NPO 0001' or . = '(DS) NPO 0001')]) = count(//*[@ktl-id = 'spanCharityName' and (text() = '(DS) NPO 0001' or . = '(DS) NPO 0001')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>03830af9-1ec8-4e70-b38e-676ee74c7060</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>spanCharityName</value>
+      <webElementGuid>3df97710-a626-4774-8998-e293995584ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>(DS) NPO 0001</value>
+      <webElementGuid>1f987aeb-7d5a-4825-9eae-22bc544a79ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b7-l5-304_0-b16-Title']/span</value>
+      <webElementGuid>fac5b474-e148-4d75-9616-6982992d087a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b7-l5-304_0-b16-Title']/span</value>
+      <webElementGuid>0ea057a6-6de0-4fd9-bb55-b2f6140a3908</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Results per page'])[1]/following::span[3]</value>
+      <webElementGuid>0de91175-b944-4b72-935e-0cc533831317</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='[DS] Test About EG'])[1]/preceding::span[1]</value>
+      <webElementGuid>05fd771e-3bce-4d15-9bca-7cc3fcdadc72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Environmental protection and sustainability'])[1]/preceding::span[2]</value>
+      <webElementGuid>5e21bbec-03b3-4841-bf1c-9ec6ffab761d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='(DS) NPO 0001']/parent::*</value>
+      <webElementGuid>79bfc71c-e20d-43db-8361-9ce47eef7fc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div[2]/span</value>
+      <webElementGuid>6351c409-9e25-49c3-a83b-62e392fe74bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '(DS) NPO 0001' or . = '(DS) NPO 0001')]</value>
+      <webElementGuid>3c0e31d2-0c2d-4fa4-a0db-039b8ab71556</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
