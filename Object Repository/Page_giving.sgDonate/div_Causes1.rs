@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Causes1</name>
+   <tag></tag>
+   <elementGuidId>905c3ed5-e1b8-4242-a3c3-96a58c05ff3a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b7-$b1']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.btn.btn-filter.active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>eb171bdf-c6a6-4c4d-8ac7-4b2675203890</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-filter active</value>
+      <webElementGuid>7b22400e-1933-4411-9a60-0656f1c8bf5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Causes1</value>
+      <webElementGuid>bcd83eb0-cb9e-492b-838c-077517b248ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b7-$b1&quot;)/div[1]/div[@class=&quot;btn btn-filter active&quot;]</value>
+      <webElementGuid>4539f045-e8f1-46e0-8e35-436c9234d25a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b7-$b1']/div/div</value>
+      <webElementGuid>eb84911b-6c3d-4b72-8f98-2920a41fe385</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter by'])[1]/following::div[4]</value>
+      <webElementGuid>956e276c-7379-4057-98cf-e327012ca6a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CAMPAIGNS'])[1]/following::div[14]</value>
+      <webElementGuid>05808d86-0150-4cec-8f20-42341c06af6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adults'])[1]/preceding::div[5]</value>
+      <webElementGuid>6be5e57c-885f-406c-bdfa-2082c58b7a6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article/div/div/div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>c6a43237-83c5-4bd8-a720-72d50bdaf72e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Causes1' or . = 'Causes1')]</value>
+      <webElementGuid>29333e09-c3bd-4128-b257-53a028ef4dcb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

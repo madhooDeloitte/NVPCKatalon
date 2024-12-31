@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_volunteer10 of 10 slots leftVolunteer f_be4ba9</name>
+   <tag></tag>
+   <elementGuidId>8794d92a-f7c8-473d-ac2a-d1f69ee1ee6d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.volunteer-card</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b14-l3-127_0-$b1']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>794e22ee-be18-4c0f-9b2a-f93a62f9f81f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>volunteer-card</value>
+      <webElementGuid>51c77cb1-94e1-45dd-906a-dc37baaa128c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>volunteer10 of 10 slots leftVolunteer for thisvolunteering</value>
+      <webElementGuid>85c65a2f-7c2f-4a1e-97e5-06840951ab9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b14-l3-127_0-$b1&quot;)/div[@class=&quot;volunteer-card&quot;]</value>
+      <webElementGuid>17af81e0-a31e-4e28-a856-6538fb9c41dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b14-l3-127_0-$b1']/div</value>
+      <webElementGuid>08151f57-cdbd-479e-9d5d-b0e507416a3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Volunteer positions'])[1]/following::div[5]</value>
+      <webElementGuid>26405cb2-8a17-48a5-8248-923dc957ddb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I want to volunteer'])[2]/following::div[9]</value>
+      <webElementGuid>af1c0172-346d-4edd-8815-9a8991ddf87f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div[2]/div/div/div/div/div/div/div/div</value>
+      <webElementGuid>f805657a-416d-4a1f-8ca9-e6194bb274be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'volunteer10 of 10 slots leftVolunteer for thisvolunteering' or . = 'volunteer10 of 10 slots leftVolunteer for thisvolunteering')]</value>
+      <webElementGuid>dc94f0d5-8dc9-46c9-ba16-16f398993616</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
