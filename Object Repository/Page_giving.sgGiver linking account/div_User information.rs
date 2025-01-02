@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_SG60 SHARE</name>
+   <name>div_User information</name>
    <tag></tag>
-   <elementGuidId>61dc749f-47b4-4723-b1ec-0ac5de3c73b2</elementGuidId>
+   <elementGuidId>213e764c-6dd2-4672-8906-93b4ed5a67c7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.homepage-banner-pill</value>
+         <value>#b4-b2-b5-b1-Title</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@ktl-id='btnSG60Share']/div/button</value>
+         <value>//div[@id='b4-b2-b5-b1-Title']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,95 +22,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>907a3b15-e729-4fc8-8ee7-0f33fd1a6996</webElementGuid>
+      <value>div</value>
+      <webElementGuid>0ccee70b-6dff-47f4-9f1b-aa75d7a3b8d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>homepage-banner-pill</value>
-      <webElementGuid>31c59bc4-64dc-4903-8bf8-718f610851ff</webElementGuid>
+      <value>heading1 margin-bottom-m ph</value>
+      <webElementGuid>b6f96571-4c21-4d04-b820-d066d09359cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>d3342775-6441-4388-960d-68155677c237</webElementGuid>
+      <value>b4-b2-b5-b1-Title</value>
+      <webElementGuid>098767be-a477-4fe1-a895-719603c501cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>SG60 SHARE</value>
-      <webElementGuid>e5d047bf-779a-4518-a22d-fbca555e7bdd</webElementGuid>
+      <value>User information</value>
+      <webElementGuid>f49305bd-5b68-49a8-a80f-14475622f2af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b2-b2-$b4&quot;)/button[@class=&quot;homepage-banner-pill&quot;]</value>
-      <webElementGuid>6c2ebde5-f31b-4d8c-a0cf-2903af98bf34</webElementGuid>
+      <value>id(&quot;b4-b2-b5-b1-Title&quot;)</value>
+      <webElementGuid>86a83250-bef8-4a39-8873-1beafd0c7ef5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[4]</value>
-      <webElementGuid>e94171e1-facc-4c3d-a1a1-783d2f1c0c55</webElementGuid>
+      <value>//div[@id='b4-b2-b5-b1-Title']</value>
+      <webElementGuid>192d8b46-ec0f-4ed8-8f48-f6ba5cfec57f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b2-$b4']/button</value>
-      <webElementGuid>f247d2d4-f0ed-4188-ad99-252fd3fae929</webElementGuid>
+      <value>//div[@id='b4-b2-b5-b1-MainContentWrapper']/div/div[2]/div</value>
+      <webElementGuid>81a2eae9-434b-46c4-8fbe-3cefbee6f9e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Explore our top causes'])[1]/following::button[1]</value>
-      <webElementGuid>babfa4f7-04e2-4575-92d8-56be82808f98</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exit'])[1]/following::div[21]</value>
+      <webElementGuid>64c4e27c-00ca-46e7-839c-26c674e715aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your generosity fuels hope. Join us in making an impact—one donation at a time.'])[1]/following::button[2]</value>
-      <webElementGuid>8e17dc92-3781-404c-a235-b318e27b399d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This information helps us get to know you.'])[1]/preceding::div[1]</value>
+      <webElementGuid>85d9e91f-9d0c-4875-aeed-114a829b6b9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Animals'])[1]/preceding::button[1]</value>
-      <webElementGuid>e31dd992-31aa-4af1-b6e8-ddfd8eee8cee</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Full name'])[1]/preceding::div[2]</value>
+      <webElementGuid>9614afb8-7f4f-4765-a329-a600c376833a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='User information']/parent::*</value>
+      <webElementGuid>8731a7ad-1921-470e-964a-52aa4f3d0ebb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/button</value>
-      <webElementGuid>03dfd780-07bc-4a1d-8fc4-9918173d9d06</webElementGuid>
+      <value>//div[2]/div/div/div/div/div/div[2]/div</value>
+      <webElementGuid>c36b18aa-9643-404e-b826-7a9858546621</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'SG60 SHARE' or . = 'SG60 SHARE')]</value>
-      <webElementGuid>d41b3343-3b35-4e66-a18b-b1ad05e2064f</webElementGuid>
+      <value>//div[@id = 'b4-b2-b5-b1-Title' and (text() = 'User information' or . = 'User information')]</value>
+      <webElementGuid>1312215f-d79a-49a2-8e9f-a2a06bf43f39</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

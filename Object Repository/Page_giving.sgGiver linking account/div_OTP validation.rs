@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_SG60 SHARE</name>
+   <name>div_OTP validation</name>
    <tag></tag>
-   <elementGuidId>61dc749f-47b4-4723-b1ec-0ac5de3c73b2</elementGuidId>
+   <elementGuidId>460fea7d-674e-4112-9ba0-9fae4886c572</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.homepage-banner-pill</value>
+         <value>#b4-b2-b4-b1-Title</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@ktl-id='btnSG60Share']/div/button</value>
+         <value>//div[@id='b4-b2-b4-b1-Title']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,95 +22,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>907a3b15-e729-4fc8-8ee7-0f33fd1a6996</webElementGuid>
+      <value>div</value>
+      <webElementGuid>6ca71598-5520-44d5-b52c-fa4aa1e088e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>homepage-banner-pill</value>
-      <webElementGuid>31c59bc4-64dc-4903-8bf8-718f610851ff</webElementGuid>
+      <value>heading1 margin-bottom-m ph</value>
+      <webElementGuid>5e80b8a9-b48e-4431-97ca-0bb0a1fbcfeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>d3342775-6441-4388-960d-68155677c237</webElementGuid>
+      <value>b4-b2-b4-b1-Title</value>
+      <webElementGuid>fcb47581-301c-46f7-986b-0ba173cf381f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>SG60 SHARE</value>
-      <webElementGuid>e5d047bf-779a-4518-a22d-fbca555e7bdd</webElementGuid>
+      <value>OTP validation</value>
+      <webElementGuid>374c6a14-1a2d-4773-9060-693705974084</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b2-b2-$b4&quot;)/button[@class=&quot;homepage-banner-pill&quot;]</value>
-      <webElementGuid>6c2ebde5-f31b-4d8c-a0cf-2903af98bf34</webElementGuid>
+      <value>id(&quot;b4-b2-b4-b1-Title&quot;)</value>
+      <webElementGuid>9ea3d2e1-2a25-40bb-8019-bf6c51f0a298</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[4]</value>
-      <webElementGuid>e94171e1-facc-4c3d-a1a1-783d2f1c0c55</webElementGuid>
+      <value>//div[@id='b4-b2-b4-b1-Title']</value>
+      <webElementGuid>32982356-40d7-454d-bf12-3799830248a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b2-$b4']/button</value>
-      <webElementGuid>f247d2d4-f0ed-4188-ad99-252fd3fae929</webElementGuid>
+      <value>//div[@id='b4-b2-b4-b1-MainContentWrapper']/div/div[2]/div</value>
+      <webElementGuid>e8ef5b44-7ccd-430c-88b0-e89a9d721c3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Explore our top causes'])[1]/following::button[1]</value>
-      <webElementGuid>babfa4f7-04e2-4575-92d8-56be82808f98</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exit'])[1]/following::div[21]</value>
+      <webElementGuid>03bbd943-5bbe-44e1-8161-a98ad51502ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your generosity fuels hope. Join us in making an impact—one donation at a time.'])[1]/following::button[2]</value>
-      <webElementGuid>8e17dc92-3781-404c-a235-b318e27b399d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='An OTP has been sent to the email address indicated in your registration form.'])[1]/preceding::div[5]</value>
+      <webElementGuid>3d9ca335-055a-4cb5-8fdf-2e59a0d97d24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Animals'])[1]/preceding::button[1]</value>
-      <webElementGuid>e31dd992-31aa-4af1-b6e8-ddfd8eee8cee</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verify'])[1]/preceding::div[24]</value>
+      <webElementGuid>00fc27e1-f8f4-4950-82bb-564b4ba44437</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='OTP validation']/parent::*</value>
+      <webElementGuid>655bc06f-c845-473a-a0e7-29ba5ff06670</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/button</value>
-      <webElementGuid>03dfd780-07bc-4a1d-8fc4-9918173d9d06</webElementGuid>
+      <value>//div[2]/div/div/div/div/div/div[2]/div</value>
+      <webElementGuid>590a92ce-cde0-4201-b4da-15c8236603db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'SG60 SHARE' or . = 'SG60 SHARE')]</value>
-      <webElementGuid>d41b3343-3b35-4e66-a18b-b1ad05e2064f</webElementGuid>
+      <value>//div[@id = 'b4-b2-b4-b1-Title' and (text() = 'OTP validation' or . = 'OTP validation')]</value>
+      <webElementGuid>52d3fd59-61bd-49d4-98e6-6dfc84b484ff</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
