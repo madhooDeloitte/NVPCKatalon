@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Checkout</name>
+   <name>button_Retry transaction</name>
    <tag></tag>
-
-   <elementGuidId>e1a0bd50-21d1-4cde-a4b1-48b3a16dad6f</elementGuidId>
-
+   <elementGuidId>c81a8867-a338-4ffc-ac10-ca7417ce509c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#b2-CheckoutButton</value>
+         <value>div.margin-top-m.text-align-right > button.btn.btn-primary</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@ktl-id='btnCheckOut']</value>
+         <value>//button[@ktl-id='btnRetryTran']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
-
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -26,15 +23,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>84a90ac5-21b4-4a97-91ae-8c8b6feef046</webElementGuid>
+      <webElementGuid>ae9f882f-5dc9-4be7-b726-70feffc37bd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary full-width OSFillParent</value>
-      <webElementGuid>d2611882-0b62-4476-9f99-fc9f2a7e6ee2</webElementGuid>
+      <value>btn btn-primary</value>
+      <webElementGuid>93ac535d-7569-4065-8bb8-0b76498285be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,111 +39,94 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e9f558f1-f7c8-4dee-8dbd-5be6fcebfb10</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-
-      <matchCondition>equals</matchCondition>
-      <name>ktl-id</name>
-      <type>Main</type>
-      <value>btnCheckOut</value>
-      <webElementGuid>02e72072-c55e-446a-a22f-15d7bcf699a9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>b2-CheckoutButton</value>
-      <webElementGuid>2115123f-11bf-4288-8434-779c69b9120a</webElementGuid>
+      <webElementGuid>6efb6891-9f19-4ff4-b31e-0bea1856816c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Checkout</value>
-      <webElementGuid>4e1c05af-020d-4b51-83a4-fbfec9e1a628</webElementGuid>
+      <value>Retry transaction</value>
+      <webElementGuid>f3efd0b4-ebe7-4bcc-ba97-f21bf7abc8d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b2-CheckoutButton&quot;)</value>
-      <webElementGuid>1e58e94a-c4bc-4db6-a5d4-04d114fb2fbc</webElementGuid>
+      <value>id(&quot;b2-b3-Action&quot;)/div[@class=&quot;margin-top-m text-align-right&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>85d6e184-11c3-4ecf-b97e-12aaaf9c49e0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='b2-CheckoutButton']</value>
-      <webElementGuid>3cbd37dd-8805-4c01-ab67-13999dc7afbc</webElementGuid>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>967c1edc-83a3-40d7-97a9-78dfa7e7f773</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b32-Button']/button</value>
-      <webElementGuid>560b7a88-f264-450a-8d9d-7fdd397db5b6</webElementGuid>
+      <value>//div[@id='b2-b3-Action']/div/button</value>
+      <webElementGuid>89e51a32-d3ff-4260-802d-7028f74bac91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave an encouraging message (optional)'])[1]/following::button[1]</value>
-      <webElementGuid>d21dcd73-20f7-42a4-ab4f-5e5f84a7d886</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reference'])[1]/following::button[1]</value>
+      <webElementGuid>07927bfb-ac06-46aa-b41f-d042c1ed87b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='I want to make this a monthly recurring donation'])[1]/following::button[1]</value>
-      <webElementGuid>92cf4517-2e30-4e98-8db4-88e1c569ee7f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date'])[1]/following::button[1]</value>
+      <webElementGuid>d6fb3880-d1a6-42e9-b79e-4b1690a916b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[2]/preceding::button[1]</value>
-      <webElementGuid>0e8c886d-eb00-47f0-a63c-b00b74ef6aa6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organised by'])[1]/preceding::button[1]</value>
+      <webElementGuid>91c1481a-6763-4de6-9023-35ad4486dc8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organised by'])[1]/preceding::button[2]</value>
-      <webElementGuid>1dd847a8-18bc-48e2-8281-01d4e1be6116</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Together, because'])[1]/preceding::button[1]</value>
+      <webElementGuid>3ba85396-1a34-43e0-8f63-0ce2370e5144</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Checkout']/parent::*</value>
-      <webElementGuid>43bc77de-344e-424f-95c8-3fc3692fc168</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Retry transaction']/parent::*</value>
+      <webElementGuid>105b8d78-80c3-4558-a72f-a44747786de9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[7]/div/div/button</value>
-      <webElementGuid>651b5069-ed9c-47ee-928f-e500dd662fb0</webElementGuid>
+      <value>//div[2]/div/button</value>
+      <webElementGuid>ab55819f-8a23-449b-ae7b-de16bace3023</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'b2-CheckoutButton' and (text() = 'Checkout' or . = 'Checkout')]</value>
-      <webElementGuid>1c59c4bb-f735-4b07-a067-f9364b16edfa</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Retry transaction' or . = 'Retry transaction')]</value>
+      <webElementGuid>069a4816-9e96-4cec-b8f7-cfed24defefc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

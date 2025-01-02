@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Skip_1</name>
+   <name>div_Are you an existing user</name>
    <tag></tag>
-   <elementGuidId>bc5efcd3-aed5-4f7a-8e48-762ea3c474ef</elementGuidId>
+   <elementGuidId>4199b3a0-3e87-4b5c-aa39-9a395961c70f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#b4-b2-b7-Back</value>
+         <value>#b4-b2-b1-Title</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@ktl-id='btnSkip']</value>
+         <value>//div[@id='b4-b2-b1-Title']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,119 +22,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>c4a75868-95ee-4f46-b97a-7dbdc568234a</webElementGuid>
+      <value>div</value>
+      <webElementGuid>ab28c959-6eaa-4052-9aca-6d29f8e83d34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn</value>
-      <webElementGuid>40b96b29-dcae-4070-a148-c1af609fde90</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>ccddd14c-4d54-4b77-862a-bb2be383fe77</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ktl-id</name>
-      <type>Main</type>
-      <value>btnSkip</value>
-      <webElementGuid>303c49bd-a589-453e-be94-6298d95be0a7</webElementGuid>
+      <value>heading1 margin-bottom-m ph</value>
+      <webElementGuid>298bd20d-4018-4cc2-8500-d284b4eb19d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>b4-b2-b7-Back</value>
-      <webElementGuid>b998d385-5787-483e-beb3-4dbe252175f7</webElementGuid>
+      <value>b4-b2-b1-Title</value>
+      <webElementGuid>9e549c10-d0b1-424c-816a-ff454cd68ba9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Skip</value>
-      <webElementGuid>fbef93d3-d76b-4000-ad98-5920d0e7d49d</webElementGuid>
+      <value>Are you an existing user?</value>
+      <webElementGuid>d29d1b8a-2db3-431c-bca4-d6c6abfa5d45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b4-b2-b7-Back&quot;)</value>
-      <webElementGuid>3875d649-162d-4d33-8bcc-65fd10353093</webElementGuid>
+      <value>id(&quot;b4-b2-b1-Title&quot;)</value>
+      <webElementGuid>95fa0cc1-de5e-4c59-be4c-3cc45953dc12</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='b4-b2-b7-Back']</value>
-      <webElementGuid>5b5be594-a0be-4f8b-a9c3-e7b02ac52761</webElementGuid>
+      <value>//div[@id='b4-b2-b1-Title']</value>
+      <webElementGuid>f7fd245c-f9ed-464a-a04b-cf09a6c8edad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b4-b2-b7-b3-Left']/button</value>
-      <webElementGuid>3c08c47f-31fd-4f5e-a5a8-26a618ab367f</webElementGuid>
+      <value>//div[@id='b4-b2-b1-MainContentWrapper']/div/div[2]/div</value>
+      <webElementGuid>cbb01bc8-e01c-4c59-a228-a3cde3b962d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Volunteer management'])[1]/following::button[1]</value>
-      <webElementGuid>0854edaf-1b80-4d2f-8837-62449b0d0476</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exit'])[1]/following::div[19]</value>
+      <webElementGuid>a0e354e7-9f7e-4c27-a99f-7b380011dded</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medical and health'])[1]/following::button[1]</value>
-      <webElementGuid>69d65457-8829-457f-a1c9-d9e2b6918c05</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='If you have an account you want to associate with this Singpass, enter your email now.'])[1]/preceding::div[1]</value>
+      <webElementGuid>7773533e-b63a-4510-b40d-4467eed86b80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/preceding::button[1]</value>
-      <webElementGuid>68f2c0e2-0006-4c6a-b262-ad8383956830</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/preceding::div[2]</value>
+      <webElementGuid>addc1454-c790-4843-b9d5-1eda844326fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Skip']/parent::*</value>
-      <webElementGuid>d7e5d3cc-39cc-422c-a896-9bc3998db344</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Are you an existing user?']/parent::*</value>
+      <webElementGuid>f2ffc772-3740-4195-b02e-780a9c51eaf6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/div/button</value>
-      <webElementGuid>73b770c3-37e5-4b56-8a39-60e2e63e7811</webElementGuid>
+      <value>//div[2]/div/div/div/div/div[2]/div</value>
+      <webElementGuid>a3a6bdef-f564-4ee6-bb98-c70aa0f4a7be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'b4-b2-b7-Back' and (text() = 'Skip' or . = 'Skip')]</value>
-      <webElementGuid>c5dd43d3-d01e-473b-9409-a3aefcd8afbb</webElementGuid>
+      <value>//div[@id = 'b4-b2-b1-Title' and (text() = 'Are you an existing user?' or . = 'Are you an existing user?')]</value>
+      <webElementGuid>14d55063-fe43-4769-953a-af618827961f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

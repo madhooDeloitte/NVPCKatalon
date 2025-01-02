@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Skip_1</name>
+   <name>button_Sign up with_1</name>
    <tag></tag>
-   <elementGuidId>bc5efcd3-aed5-4f7a-8e48-762ea3c474ef</elementGuidId>
+   <elementGuidId>6309dc04-5455-418a-879d-ca225e595903</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#b4-b2-b7-Back</value>
+         <value>button.btn.OSFillParent</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@ktl-id='btnSkip']</value>
+         <value>//button[@ktl-id='btnSingpassLogin']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,15 +23,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c4a75868-95ee-4f46-b97a-7dbdc568234a</webElementGuid>
+      <webElementGuid>d1049de5-5f39-41ea-a6aa-73e564f5b3f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn</value>
-      <webElementGuid>40b96b29-dcae-4070-a148-c1af609fde90</webElementGuid>
+      <value>btn OSFillParent</value>
+      <webElementGuid>4fbebdfa-b433-44e5-85cc-48414efaed94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,102 +39,86 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ccddd14c-4d54-4b77-862a-bb2be383fe77</webElementGuid>
+      <webElementGuid>3bb45c8f-ee4e-4e0f-919e-c947e71f02f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ktl-id</name>
       <type>Main</type>
-      <value>btnSkip</value>
-      <webElementGuid>303c49bd-a589-453e-be94-6298d95be0a7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>b4-b2-b7-Back</value>
-      <webElementGuid>b998d385-5787-483e-beb3-4dbe252175f7</webElementGuid>
+      <value>btnSingpassLogin</value>
+      <webElementGuid>c6261be8-51f9-4543-b783-97def73d2d69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Skip</value>
-      <webElementGuid>fbef93d3-d76b-4000-ad98-5920d0e7d49d</webElementGuid>
+      <value>Sign up with</value>
+      <webElementGuid>2e13f1b9-f172-4599-868f-45ec5864ebdb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b4-b2-b7-Back&quot;)</value>
-      <webElementGuid>3875d649-162d-4d33-8bcc-65fd10353093</webElementGuid>
+      <value>id(&quot;b5-b2-b2-b1-Button&quot;)/button[@class=&quot;btn OSFillParent&quot;]</value>
+      <webElementGuid>7e40db7a-e9d2-4370-85fd-2b162ffd8e37</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='b4-b2-b7-Back']</value>
-      <webElementGuid>5b5be594-a0be-4f8b-a9c3-e7b02ac52761</webElementGuid>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>06055c30-1850-48f5-9391-645e471951a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b4-b2-b7-b3-Left']/button</value>
-      <webElementGuid>3c08c47f-31fd-4f5e-a5a8-26a618ab367f</webElementGuid>
+      <value>//div[@id='b5-b2-b2-b1-Button']/button</value>
+      <webElementGuid>39090a06-840e-4cf1-9721-4b9fe8bef038</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Volunteer management'])[1]/following::button[1]</value>
-      <webElementGuid>0854edaf-1b80-4d2f-8837-62449b0d0476</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign up with Singpass for a secure and seamless account creation experience.'])[1]/following::button[1]</value>
+      <webElementGuid>001d1514-9ef3-4061-a330-cd8ef99538a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medical and health'])[1]/following::button[1]</value>
-      <webElementGuid>69d65457-8829-457f-a1c9-d9e2b6918c05</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create account'])[1]/following::button[1]</value>
+      <webElementGuid>4c2207e7-d821-406b-8cba-a34c77317929</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/preceding::button[1]</value>
-      <webElementGuid>68f2c0e2-0006-4c6a-b262-ad8383956830</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Skip']/parent::*</value>
-      <webElementGuid>d7e5d3cc-39cc-422c-a896-9bc3998db344</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OR'])[1]/preceding::button[1]</value>
+      <webElementGuid>65ff81ba-d9d6-456c-b1da-7378bca31c84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/div/button</value>
-      <webElementGuid>73b770c3-37e5-4b56-8a39-60e2e63e7811</webElementGuid>
+      <value>//div[2]/div/div/div/button</value>
+      <webElementGuid>2cd17425-f086-41dd-89fc-096c7e5f110f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'b4-b2-b7-Back' and (text() = 'Skip' or . = 'Skip')]</value>
-      <webElementGuid>c5dd43d3-d01e-473b-9409-a3aefcd8afbb</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Sign up with' or . = 'Sign up with')]</value>
+      <webElementGuid>e0c1d947-d1e2-4d52-98a5-5eea983f6a4c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

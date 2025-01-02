@@ -11,7 +11,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//button[@type='submit']&#xd;
+ </value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +24,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8a5275a3-29c5-4b32-8c20-b8b6c80c67f1</webElementGuid>
+      <webElementGuid>781bbc15-379f-4f0a-8e7d-a0375d9a0352</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +32,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-fullWidth css-i5fvth</value>
-      <webElementGuid>c31dac24-a7a2-438b-9bf6-c966247cda0c</webElementGuid>
+      <webElementGuid>55eca526-c4ad-462b-b994-d55cdd364890</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +40,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>0669dac1-0398-4b61-a50a-d22333acf873</webElementGuid>
+      <webElementGuid>6f31feb0-75de-4cbd-98e9-8d40912a9ba9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +48,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>af4b1c1b-975e-4a65-8473-21a0e6432e63</webElementGuid>
+      <webElementGuid>349f29c8-0221-4ec3-b639-e20309d95ac3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +56,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Submit password for Singpass login</value>
-      <webElementGuid>2bc363c5-989f-43f8-8a54-23ab502837d4</webElementGuid>
+      <webElementGuid>31e23a71-6d22-44bd-9ad3-e7f67759d383</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +64,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Log in</value>
-      <webElementGuid>8197b003-f78b-4d41-a4e6-477a3687a3c7</webElementGuid>
+      <webElementGuid>a492d9ab-aeb9-467e-8024-1ba4fac830bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +72,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;w-full overflow-hidden min-h-screen&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-1ydczbw&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-true css-5ibnpm&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-e006xa&quot;]/div[@class=&quot;py-4 px-[5%] max-lg:py-4 max-lg:px-2 max-sm:p-0&quot;]/div[@class=&quot;MuiContainer-root MuiContainer-maxWidthXl css-176jdxd&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container css-zekjbz&quot;]/div[@class=&quot;ml-auto max-lg:m-auto max-lg:mt-[0%] max-sm:m-0&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-6 css-1wou34o&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1lz9oib&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-8hrceq&quot;]/div[1]/form[@class=&quot;py-0 px-2.5&quot;]/div[@class=&quot;MuiDialogContent-root css-14izxp6&quot;]/div[@class=&quot;MuiDialogActions-root MuiDialogActions-spacing css-1mk672b&quot;]/button[@class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-fullWidth css-i5fvth&quot;]</value>
-      <webElementGuid>8e935fc0-58e6-46f6-80e0-e9e16aed1e68</webElementGuid>
+      <webElementGuid>9a2bb69d-2409-463d-bdd7-b8b37bec1f9b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +80,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>b8db722d-5f7a-46e2-bb94-694788465451</webElementGuid>
+      <webElementGuid>160ba194-4170-4047-b135-6b106ecb300e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +88,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/form/div/div[3]/button</value>
-      <webElementGuid>f85d4aa1-1661-46f1-8d80-77e4170ebe94</webElementGuid>
+      <webElementGuid>d4d71aaa-729a-461c-8746-d0f855161525</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[2]/following::button[1]</value>
-      <webElementGuid>e3fc0488-b42c-42ee-b103-155321054afa</webElementGuid>
+      <webElementGuid>bde9c943-12df-475c-a49e-1ac8e3aa021b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/following::button[1]</value>
-      <webElementGuid>9434c41b-c9f8-4101-a579-a5567ead95e3</webElementGuid>
+      <webElementGuid>6b5fa6fb-d0de-45e2-ad28-3384199cbcd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Retrieve Singpass ID'])[1]/preceding::button[1]</value>
-      <webElementGuid>fb76c430-0008-466a-bade-243309d6690a</webElementGuid>
+      <webElementGuid>61723c4f-74fd-4146-b8f0-141ef15ad5e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +120,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button</value>
-      <webElementGuid>bc9321ca-faf2-4076-bf66-1bbb9ab6353c</webElementGuid>
+      <webElementGuid>cc84c063-7077-42ce-a4b9-19f702239023</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +128,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Log in' or . = 'Log in')]</value>
-      <webElementGuid>e46ab7c2-56c6-4080-8d1e-edc910a969b0</webElementGuid>
+      <webElementGuid>567433d8-09ae-4298-a2f1-3bc5dfc84994</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

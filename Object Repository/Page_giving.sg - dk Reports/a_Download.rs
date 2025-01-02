@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Checkout</name>
+   <name>a_Download</name>
    <tag></tag>
-
-   <elementGuidId>e1a0bd50-21d1-4cde-a4b1-48b3a16dad6f</elementGuidId>
-
+   <elementGuidId>c7c6b84a-e31e-460c-866d-00f2a7080f08</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#b2-CheckoutButton</value>
+         <value>a.text-link</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@ktl-id='btnCheckOut']</value>
+         <value>//a[@ktl-id='lnkDownload']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
-
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -25,128 +22,127 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>84a90ac5-21b4-4a97-91ae-8c8b6feef046</webElementGuid>
+      <value>a</value>
+      <webElementGuid>e5fceaab-da4c-4fe3-b7b9-de008f9f552b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary full-width OSFillParent</value>
-      <webElementGuid>d2611882-0b62-4476-9f99-fc9f2a7e6ee2</webElementGuid>
+      <value>text-link</value>
+      <webElementGuid>c9e2bf38-922a-4e7d-bbb5-63546bab4970</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>e9f558f1-f7c8-4dee-8dbd-5be6fcebfb10</webElementGuid>
+      <value>#</value>
+      <webElementGuid>bba0e620-26ab-4598-a31b-fed5ac1051bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ktl-id</name>
       <type>Main</type>
-      <value>btnCheckOut</value>
-      <webElementGuid>02e72072-c55e-446a-a22f-15d7bcf699a9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>b2-CheckoutButton</value>
-      <webElementGuid>2115123f-11bf-4288-8434-779c69b9120a</webElementGuid>
+      <value>lnkDownload</value>
+      <webElementGuid>64f5c336-49ff-4305-8813-cfff05da8ab5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Checkout</value>
-      <webElementGuid>4e1c05af-020d-4b51-83a4-fbfec9e1a628</webElementGuid>
+      <value>Download</value>
+      <webElementGuid>fdca0457-2dbd-48de-b183-20ed09f2b3e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b2-CheckoutButton&quot;)</value>
-      <webElementGuid>1e58e94a-c4bc-4db6-a5d4-04d114fb2fbc</webElementGuid>
+      <value>id(&quot;b2-b4-Reports&quot;)/tbody[1]/tr[@class=&quot;table-row&quot;]/td[5]/a[@class=&quot;text-link&quot;]</value>
+      <webElementGuid>96e108b1-64c4-40cf-8b16-eb60a0812868</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@id='b2-CheckoutButton']</value>
-      <webElementGuid>3cbd37dd-8805-4c01-ab67-13999dc7afbc</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b32-Button']/button</value>
-      <webElementGuid>560b7a88-f264-450a-8d9d-7fdd397db5b6</webElementGuid>
+      <value>//table[@id='b2-b4-Reports']/tbody/tr/td[5]/a</value>
+      <webElementGuid>d133869e-1716-41c1-9c7e-a48b3c95e615</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Download')]</value>
+      <webElementGuid>927e018d-2deb-4bbf-84cf-3b7a5b8f7238</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave an encouraging message (optional)'])[1]/following::button[1]</value>
-      <webElementGuid>d21dcd73-20f7-42a4-ab4f-5e5f84a7d886</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Finance Admin 00_02'])[2]/following::a[1]</value>
+      <webElementGuid>39eaa623-6c52-4cbe-a776-462819b2d785</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='I want to make this a monthly recurring donation'])[1]/following::button[1]</value>
-      <webElementGuid>92cf4517-2e30-4e98-8db4-88e1c569ee7f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Date : 01/01/2025 End Date : 02/01/2025'])[1]/following::a[1]</value>
+      <webElementGuid>7ad5cbd5-895e-4b5f-8d41-0e49827a27bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[2]/preceding::button[1]</value>
-      <webElementGuid>0e8c886d-eb00-47f0-a63c-b00b74ef6aa6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DBS IDEAL'])[1]/preceding::a[1]</value>
+      <webElementGuid>a11027f9-1dca-4f52-b7a0-b03d68e9ba07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organised by'])[1]/preceding::button[2]</value>
-      <webElementGuid>1dd847a8-18bc-48e2-8281-01d4e1be6116</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Date : 16/12/2024 End Date : 27/12/2024'])[1]/preceding::a[1]</value>
+      <webElementGuid>67d3bb43-6fc2-464b-a596-689a9cfba0cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Checkout']/parent::*</value>
-      <webElementGuid>43bc77de-344e-424f-95c8-3fc3692fc168</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Download']/parent::*</value>
+      <webElementGuid>347f1c20-dec3-4df8-8fef-7804a3b9991a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[6]</value>
+      <webElementGuid>43a8eda4-cb7b-49f0-b7e4-4a3ec32d8e91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[7]/div/div/button</value>
-      <webElementGuid>651b5069-ed9c-47ee-928f-e500dd662fb0</webElementGuid>
+      <value>//td[5]/a</value>
+      <webElementGuid>5873c91b-cb45-45aa-96c2-b903270efbde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'b2-CheckoutButton' and (text() = 'Checkout' or . = 'Checkout')]</value>
-      <webElementGuid>1c59c4bb-f735-4b07-a067-f9364b16edfa</webElementGuid>
+      <value>//a[@href = '#' and (text() = 'Download' or . = 'Download')]</value>
+      <webElementGuid>fd8378fb-8777-4478-9d16-e7a9b373622d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

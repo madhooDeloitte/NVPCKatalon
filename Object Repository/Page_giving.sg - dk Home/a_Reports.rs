@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_SG60 SHARE</name>
+   <name>a_Reports</name>
    <tag></tag>
-
-   <elementGuidId>4559e4d2-978f-4815-8b38-24d3460b42a9</elementGuidId>
-
+   <elementGuidId>027cf92d-17c3-4460-87fc-5b72a7809149</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.homepage-banner-pill</value>
+         <key>XPATH</key>
+         <value>//a[@ktl-id='btnFinReports']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@ktl-id='btnSG60Share']/div/button</value>
+         <key>CSS</key>
+         <value>#b2-b40-iconroudedheader > a.dashboard-text-link.vertical-align</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,95 +22,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>907a3b15-e729-4fc8-8ee7-0f33fd1a6996</webElementGuid>
+      <value>a</value>
+      <webElementGuid>b53023c6-1a3e-4e6e-b4fc-d778d56a023c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>homepage-banner-pill</value>
-      <webElementGuid>31c59bc4-64dc-4903-8bf8-718f610851ff</webElementGuid>
+      <value>dashboard-text-link vertical-align</value>
+      <webElementGuid>68ca7f61-8926-4b82-8db6-4949a0785e24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>d3342775-6441-4388-960d-68155677c237</webElementGuid>
+      <value>#</value>
+      <webElementGuid>7e37f160-e028-4261-8a75-75a64b581f9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>SG60 SHARE</value>
-      <webElementGuid>e5d047bf-779a-4518-a22d-fbca555e7bdd</webElementGuid>
+      <value>Reports</value>
+      <webElementGuid>d280ab50-7b67-4f0d-9abe-1e08204d89f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b2-b2-$b4&quot;)/button[@class=&quot;homepage-banner-pill&quot;]</value>
-      <webElementGuid>6c2ebde5-f31b-4d8c-a0cf-2903af98bf34</webElementGuid>
+      <value>id(&quot;b2-b40-iconroudedheader&quot;)/a[@class=&quot;dashboard-text-link vertical-align&quot;]</value>
+      <webElementGuid>4d0046b0-270a-45ba-bcab-76c61c35f839</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[4]</value>
-      <webElementGuid>e94171e1-facc-4c3d-a1a1-783d2f1c0c55</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b2-$b4']/button</value>
-      <webElementGuid>f247d2d4-f0ed-4188-ad99-252fd3fae929</webElementGuid>
+      <value>//div[@id='b2-b40-iconroudedheader']/a</value>
+      <webElementGuid>aa34551e-c3fe-45da-8de0-3a8c7205c2ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Reports')]</value>
+      <webElementGuid>21cb6e62-fa34-4a35-841f-b5698b74fd5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Explore our top causes'])[1]/following::button[1]</value>
-      <webElementGuid>babfa4f7-04e2-4575-92d8-56be82808f98</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Finance'])[1]/following::a[2]</value>
+      <webElementGuid>40d9ed64-12f5-45be-8429-0f01631fce36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your generosity fuels hope. Join us in making an impact—one donation at a time.'])[1]/following::button[2]</value>
-      <webElementGuid>8e17dc92-3781-404c-a235-b318e27b399d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Review registrations'])[1]/following::a[3]</value>
+      <webElementGuid>66c8b131-8976-4ed6-9fa0-2010b167f76d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Animals'])[1]/preceding::button[1]</value>
-      <webElementGuid>e31dd992-31aa-4af1-b6e8-ddfd8eee8cee</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Reports']/parent::*</value>
+      <webElementGuid>292f7176-0429-4f81-ad87-22407fbb8052</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[9]</value>
+      <webElementGuid>b5775c6f-f8d4-427e-adf3-855c315e2f8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/button</value>
-      <webElementGuid>03dfd780-07bc-4a1d-8fc4-9918173d9d06</webElementGuid>
+      <value>//div[3]/div/div/div[2]/div/div/div/div[2]/div/div/div[2]/a</value>
+      <webElementGuid>00ac084e-6674-4c12-b8da-f16ccfc68cad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'SG60 SHARE' or . = 'SG60 SHARE')]</value>
-      <webElementGuid>d41b3343-3b35-4e66-a18b-b1ad05e2064f</webElementGuid>
+      <value>//a[@href = '#' and (text() = 'Reports' or . = 'Reports')]</value>
+      <webElementGuid>35959bfd-a6af-474e-a911-a219a28c70b3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

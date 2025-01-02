@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_SG60 SHARE</name>
+   <name>span_SGD60.00</name>
    <tag></tag>
-
-   <elementGuidId>4559e4d2-978f-4815-8b38-24d3460b42a9</elementGuidId>
-
+   <elementGuidId>9acfb436-ff44-477c-82c5-4d43c8bcdc3b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.homepage-banner-pill</value>
+         <value>span.CurrencyAmount</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@ktl-id='btnSG60Share']/div/button</value>
+         <value>//span[@id='ProductSummary-totalAmount']/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,95 +22,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>907a3b15-e729-4fc8-8ee7-0f33fd1a6996</webElementGuid>
+      <value>span</value>
+      <webElementGuid>33752f74-0e5b-464e-a0f6-0c2c506ff684</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>homepage-banner-pill</value>
-      <webElementGuid>31c59bc4-64dc-4903-8bf8-718f610851ff</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>d3342775-6441-4388-960d-68155677c237</webElementGuid>
+      <value>CurrencyAmount</value>
+      <webElementGuid>3ad4f7a5-8dad-46be-8080-289b531b4b06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>SG60 SHARE</value>
-      <webElementGuid>e5d047bf-779a-4518-a22d-fbca555e7bdd</webElementGuid>
+      <value>SGD 60.00</value>
+      <webElementGuid>61359860-aa3c-403d-9fc9-f65852226eed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b2-b2-$b4&quot;)/button[@class=&quot;homepage-banner-pill&quot;]</value>
-      <webElementGuid>6c2ebde5-f31b-4d8c-a0cf-2903af98bf34</webElementGuid>
+      <value>id(&quot;ProductSummary-totalAmount&quot;)/span[@class=&quot;CurrencyAmount&quot;]</value>
+      <webElementGuid>81b96613-a410-46b2-9dfe-b8923aeaecc8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[4]</value>
-      <webElementGuid>e94171e1-facc-4c3d-a1a1-783d2f1c0c55</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b2-$b4']/button</value>
-      <webElementGuid>f247d2d4-f0ed-4188-ad99-252fd3fae929</webElementGuid>
+      <value>//span[@id='ProductSummary-totalAmount']/span</value>
+      <webElementGuid>9d7371c7-73e7-4149-ba29-52d29092b0cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Explore our top causes'])[1]/following::button[1]</value>
-      <webElementGuid>babfa4f7-04e2-4575-92d8-56be82808f98</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SG60 SHARE'])[1]/following::span[2]</value>
+      <webElementGuid>1e39e046-0039-40e5-961f-4cd5f00e4292</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your generosity fuels hope. Join us in making an impact—one donation at a time.'])[1]/following::button[2]</value>
-      <webElementGuid>8e17dc92-3781-404c-a235-b318e27b399d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test'])[1]/following::span[3]</value>
+      <webElementGuid>f2bc9997-7cdf-477b-8193-ed9ce3cdcf12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Animals'])[1]/preceding::button[1]</value>
-      <webElementGuid>e31dd992-31aa-4af1-b6e8-ddfd8eee8cee</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay with card'])[1]/preceding::span[2]</value>
+      <webElementGuid>7fcb8bf9-3378-41a9-a2ec-7e143cd3f576</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Or pay with card'])[1]/preceding::span[2]</value>
+      <webElementGuid>0557aa9a-2a1b-4f9e-a1de-3cf138c1a246</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SGD 60.00']/parent::*</value>
+      <webElementGuid>a41f724e-e2ef-411a-b660-77fa1ebc8a16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/button</value>
-      <webElementGuid>03dfd780-07bc-4a1d-8fc4-9918173d9d06</webElementGuid>
+      <value>//span/span</value>
+      <webElementGuid>449a038c-0fff-48bb-9ce8-d4db37e97614</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'SG60 SHARE' or . = 'SG60 SHARE')]</value>
-      <webElementGuid>d41b3343-3b35-4e66-a18b-b1ad05e2064f</webElementGuid>
+      <value>//span[(text() = 'SGD 60.00' or . = 'SGD 60.00')]</value>
+      <webElementGuid>bdc83c0f-28ad-4f5d-afe1-f3afa1b8e3b3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

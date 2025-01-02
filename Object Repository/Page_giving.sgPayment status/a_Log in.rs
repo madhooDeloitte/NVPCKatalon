@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_sign up with Singpass</name>
+   <name>a_Log in</name>
    <tag></tag>
-   <elementGuidId>4510ee9a-760f-4269-aabd-8e8daf8a754f</elementGuidId>
+   <elementGuidId>fff52dd7-0485-4e41-b3e6-444baa2920b8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.text-link.ThemeGrid_MarginGutter</value>
+         <value>div.display-flex.column-gap-base.hide-if-phone > a</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@ktl-id='btnSingpassSignup']</value>
+         <value>//a[@ktl-id='lnkLogIn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,110 +23,118 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b77b2799-89dd-47c4-9249-e03a21a8e730</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>text-link ThemeGrid_MarginGutter</value>
-      <webElementGuid>0392fecc-84fa-4400-8468-41ac0d14b2cf</webElementGuid>
+      <webElementGuid>705701f5-a644-46eb-be3c-489e95ab5dc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#</value>
-      <webElementGuid>640ae3c0-686b-4dad-b296-e5fba8cbc237</webElementGuid>
+      <value>https://dk.deloitte-sea.com/auth/login</value>
+      <webElementGuid>8e788128-ee36-4945-872b-0bf91e818aa7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>lnkLogIn</value>
+      <webElementGuid>ae568338-6ada-4320-b188-2a24046886f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>sign up with Singpass</value>
-      <webElementGuid>f79a260b-1473-42a9-8e33-79e3e641f98e</webElementGuid>
+      <value>Log in</value>
+      <webElementGuid>acfbb6c2-1794-48d2-94c3-8001950013f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b2-b3-AlertHeader_Placeholder&quot;)/a[@class=&quot;text-link ThemeGrid_MarginGutter&quot;]</value>
-      <webElementGuid>6b3a05f6-7dff-466e-964e-8d2281a537cc</webElementGuid>
+      <value>id(&quot;b1-b1-Header&quot;)/div[@class=&quot;header-top ThemeGrid_Container&quot;]/div[@class=&quot;header-content&quot;]/div[@class=&quot;header-giving__account-menu&quot;]/div[@class=&quot;display-flex column-gap-base hide-if-phone&quot;]/a[1]</value>
+      <webElementGuid>0bd7c63c-f774-4333-b56c-bfe3f99fe3f5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b3-AlertHeader_Placeholder']/a[2]</value>
-      <webElementGuid>1ea9a46f-bb93-4ad6-9349-ab26e35902ba</webElementGuid>
+      <value>//header[@id='b1-b1-Header']/div/div/div[5]/div/a</value>
+      <webElementGuid>58ad4964-b9c7-42b1-ac87-166a0dac51df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'sign up with Singpass')]</value>
-      <webElementGuid>70f8e92f-4c83-4d75-a323-5319172a7532</webElementGuid>
+      <value>//a[contains(text(),'Log in')]</value>
+      <webElementGuid>58de2356-4693-4eaf-bfb8-8518ac7d045f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='or'])[1]/following::a[1]</value>
-      <webElementGuid>71b78e8e-e2c4-4cfd-8703-2b37d643f8da</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stories'])[1]/following::a[1]</value>
+      <webElementGuid>06e3ca88-ddbb-4b86-aea5-aaa3a56ec897</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Run by the Community Chest'])[1]/following::a[2]</value>
-      <webElementGuid>0c507760-0aaa-4aaf-b8ae-f5bb9ea9c30c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Our organisations'])[1]/following::a[2]</value>
+      <webElementGuid>60857b45-70f4-4840-979e-d2253223a719</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='to:'])[1]/preceding::a[1]</value>
-      <webElementGuid>d477c98f-498b-4bb8-b16d-c0e0302e23c3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign up'])[1]/preceding::a[1]</value>
+      <webElementGuid>8abd6eb8-f170-431a-86b0-40a3bf8ffaaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='sign up with Singpass']/parent::*</value>
-      <webElementGuid>93c3a792-ae30-4dee-a8d8-64f3aadc9bf5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[2]/preceding::a[2]</value>
+      <webElementGuid>a7979662-9426-41a9-b6e6-5c4b6501b21c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Log in']/parent::*</value>
+      <webElementGuid>119a5d4a-f9d3-470d-b729-f850353ea82b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[5]</value>
-      <webElementGuid>7eea336b-22e8-40a6-8c20-4c4c48e77d81</webElementGuid>
+      <value>//a[contains(@href, 'https://dk.deloitte-sea.com/auth/login')]</value>
+      <webElementGuid>77a7b9ef-5d4e-4247-bf28-1adc32bb83a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div/div[2]/div/a[2]</value>
-      <webElementGuid>e604f6b3-9e02-4d46-87d9-125b8a5e4341</webElementGuid>
+      <value>//div[5]/div/a</value>
+      <webElementGuid>73640b57-d8b7-4d71-8ed8-4f9f6603adab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#' and (text() = 'sign up with Singpass' or . = 'sign up with Singpass')]</value>
-      <webElementGuid>75e9d66f-1f00-4447-891f-12f4e9c53097</webElementGuid>
+      <value>//a[@href = 'https://dk.deloitte-sea.com/auth/login' and (text() = 'Log in' or . = 'Log in')]</value>
+      <webElementGuid>cbcbd818-2dd1-4bd2-ad66-002868ee5f31</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Log in</name>
+   <name>div_Select type</name>
    <tag></tag>
-   <elementGuidId>35af3972-5f83-44ac-9613-f520d67a81f7</elementGuidId>
+   <elementGuidId>dcfa83a7-dc1e-446f-883d-1cfc294bf325</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-primary</value>
+         <value>div.dropdown-display</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@ktl-id='btnLogIn']</value>
+         <value>//div[@ktl-id='divDropdownReportType']/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,95 +22,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>82013aa7-e3d1-4fed-9309-e73c32e57c9c</webElementGuid>
+      <value>div</value>
+      <webElementGuid>e4db6069-6bcf-4fba-8e85-7fe27558a240</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary</value>
-      <webElementGuid>4d9fe445-7754-41ca-a5e9-fbdeb78b8a73</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>f7b0fdb4-6b69-46fe-b762-7906297c078b</webElementGuid>
+      <value>dropdown-display</value>
+      <webElementGuid>dd183394-2f8c-4d94-ba20-66689b9f907d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Log in</value>
-      <webElementGuid>80e728ac-a8da-4092-a227-29c611947322</webElementGuid>
+      <value>Select type</value>
+      <webElementGuid>7b7b9c1f-f2ae-4ffd-84e7-b8bd9c31aeaf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b4-b2-b9-Actions&quot;)/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>90378c8c-ee54-4331-83f9-aabb91974e91</webElementGuid>
+      <value>id(&quot;b2-b4-Dropdown_ReportType&quot;)/div[@class=&quot;dropdown-display&quot;]</value>
+      <webElementGuid>abe3e610-1695-44dd-a2e7-18e1f1ca5c1b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>5a1546dd-8c59-4c21-aa5e-748c9a06fde2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b4-b2-b9-Actions']/button</value>
-      <webElementGuid>47490a11-c0c5-4f58-86c3-522c85e91b09</webElementGuid>
+      <value>//div[@id='b2-b4-Dropdown_ReportType']/div</value>
+      <webElementGuid>bb8e1b91-8f80-4083-9ae0-97cdf78e3e61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thank you for signing up'])[1]/following::button[1]</value>
-      <webElementGuid>3307f4fa-2a0e-4459-bcf0-fd85a8e675a0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report type'])[1]/following::div[5]</value>
+      <webElementGuid>a53ebd9f-fcd1-4cf6-a82e-b2d33db721d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exit'])[1]/following::button[1]</value>
-      <webElementGuid>c2b9c244-f52c-4059-8664-c866860b38af</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reports'])[2]/following::div[17]</value>
+      <webElementGuid>eff476c1-a143-4f09-8088-a7b49ee8c8ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Log in']/parent::*</value>
-      <webElementGuid>760a051b-f4f9-44e8-a109-e55cba7e5bb4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate report'])[1]/preceding::div[2]</value>
+      <webElementGuid>1813d523-5fa0-4efd-b688-5138531409db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/button</value>
-      <webElementGuid>b015469f-4150-44f7-9feb-fa61cac2cbce</webElementGuid>
+      <value>//div/div/div/div/div[3]/div/div</value>
+      <webElementGuid>4f65a766-f62b-4a20-9151-1ee0edc58d31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Log in' or . = 'Log in')]</value>
-      <webElementGuid>dc6a5207-586c-4dfa-a6cc-09b940fe117b</webElementGuid>
+      <value>//div[(text() = 'Select type' or . = 'Select type')]</value>
+      <webElementGuid>dff169ae-5d6e-4257-8679-4b2af125a6ea</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Skip_1</name>
+   <name>div_Continue to create an account</name>
    <tag></tag>
-   <elementGuidId>bc5efcd3-aed5-4f7a-8e48-762ea3c474ef</elementGuidId>
+   <elementGuidId>bb4de24d-dc1f-49df-a986-6552db9d0120</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#b4-b2-b7-Back</value>
+         <value>#b4-b2-b4-Title</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@ktl-id='btnSkip']</value>
+         <value>//div[@id='b4-b2-b4-Title']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,119 +22,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>c4a75868-95ee-4f46-b97a-7dbdc568234a</webElementGuid>
+      <value>div</value>
+      <webElementGuid>286c77d9-c973-4f93-9e69-cec942343653</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn</value>
-      <webElementGuid>40b96b29-dcae-4070-a148-c1af609fde90</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>ccddd14c-4d54-4b77-862a-bb2be383fe77</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ktl-id</name>
-      <type>Main</type>
-      <value>btnSkip</value>
-      <webElementGuid>303c49bd-a589-453e-be94-6298d95be0a7</webElementGuid>
+      <value>heading2</value>
+      <webElementGuid>27b411a9-ce7b-4738-94f7-5b2a865cc861</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>b4-b2-b7-Back</value>
-      <webElementGuid>b998d385-5787-483e-beb3-4dbe252175f7</webElementGuid>
+      <value>b4-b2-b4-Title</value>
+      <webElementGuid>50fe5ef9-2646-4eb3-8450-17531f06f2c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Skip</value>
-      <webElementGuid>fbef93d3-d76b-4000-ad98-5920d0e7d49d</webElementGuid>
+      <value>Continue to create an account</value>
+      <webElementGuid>3a1b2302-2856-4da8-96b0-2f54f2d1f247</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b4-b2-b7-Back&quot;)</value>
-      <webElementGuid>3875d649-162d-4d33-8bcc-65fd10353093</webElementGuid>
+      <value>id(&quot;b4-b2-b4-Title&quot;)</value>
+      <webElementGuid>d688b16d-96d6-4595-a13d-df453949fe52</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='b4-b2-b7-Back']</value>
-      <webElementGuid>5b5be594-a0be-4f8b-a9c3-e7b02ac52761</webElementGuid>
+      <value>//div[@id='b4-b2-b4-Title']</value>
+      <webElementGuid>b89a4392-d792-4f08-a04c-991d9dec3dda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b4-b2-b7-b3-Left']/button</value>
-      <webElementGuid>3c08c47f-31fd-4f5e-a5a8-26a618ab367f</webElementGuid>
+      <value>//div[@id='b4-b2-$b4']/div/div</value>
+      <webElementGuid>ca532779-0602-4dca-adef-323f11972753</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Volunteer management'])[1]/following::button[1]</value>
-      <webElementGuid>0854edaf-1b80-4d2f-8837-62449b0d0476</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/following::div[10]</value>
+      <webElementGuid>cf7bc67e-0f62-400e-baf1-22d76c7b0168</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medical and health'])[1]/following::button[1]</value>
-      <webElementGuid>69d65457-8829-457f-a1c9-d9e2b6918c05</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[3]</value>
+      <webElementGuid>d942da33-b50a-4d36-97ae-164da581642f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/preceding::button[1]</value>
-      <webElementGuid>68f2c0e2-0006-4c6a-b262-ad8383956830</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create an account'])[1]/preceding::div[5]</value>
+      <webElementGuid>ed7b666d-06cb-433f-9ff2-2857c8995fa5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Skip']/parent::*</value>
-      <webElementGuid>d7e5d3cc-39cc-422c-a896-9bc3998db344</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Continue to create an account']/parent::*</value>
+      <webElementGuid>f5b0a34e-c433-4869-bb12-d56fcfbcbc28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/div/button</value>
-      <webElementGuid>73b770c3-37e5-4b56-8a39-60e2e63e7811</webElementGuid>
+      <value>//div[2]/div/div/div/div/div/div/div</value>
+      <webElementGuid>8213bee2-aa3a-40a2-92f5-8d3dba68559c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'b4-b2-b7-Back' and (text() = 'Skip' or . = 'Skip')]</value>
-      <webElementGuid>c5dd43d3-d01e-473b-9409-a3aefcd8afbb</webElementGuid>
+      <value>//div[@id = 'b4-b2-b4-Title' and (text() = 'Continue to create an account' or . = 'Continue to create an account')]</value>
+      <webElementGuid>c1ffe370-d35b-49f5-91f4-e35640224e02</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

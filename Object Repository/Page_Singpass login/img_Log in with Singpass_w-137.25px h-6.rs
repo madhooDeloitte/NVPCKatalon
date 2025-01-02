@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Log in with Singpass_w-137.25px h-6</name>
+   <tag></tag>
+   <elementGuidId>9a6ca4d0-d8df-48b9-91db-8a9a43b82e26</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div[2]/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>98d44a69-29ec-41dd-aac9-e8b58b019f07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/assets/singpass-logo-c948acf8.svg</value>
+      <webElementGuid>6b27f38b-d84d-4efd-b865-7305edc31a06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Singpass Logo</value>
+      <webElementGuid>4cf7dcf7-707d-4633-b95e-061e914e9178</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-[137.25px] h-6</value>
+      <webElementGuid>4b97112c-45db-4b6f-a0be-c59e02f06e8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;w-full overflow-hidden min-h-screen&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-1ydczbw&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-true css-5ibnpm&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-e006xa&quot;]/div[1]/div[@class=&quot;bg-white lg:h-18 lg:py-0 lg:px-[5%] lg:shadow-[0px_2px_4px_rgba(0,0,0,0.15)]&quot;]/div[@class=&quot;MuiContainer-root MuiContainer-maxWidthXl max-lg:hidden css-fkly5v&quot;]/div[@class=&quot;my-0 mx-auto absolute pt-6&quot;]/img[@class=&quot;w-[137.25px] h-6&quot;]</value>
+      <webElementGuid>da712134-494a-4796-9015-a0ee3ae3abb1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div[2]/div/div/img</value>
+      <webElementGuid>f3c146dc-2a92-4383-83cf-7cf6b477e889</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Singpass Logo']</value>
+      <webElementGuid>65442d7a-02a2-48c0-b309-e9d005da440d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>c2efabf8-0334-4f63-b2eb-e21fa6b7a698</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/assets/singpass-logo-c948acf8.svg' and @alt = 'Singpass Logo']</value>
+      <webElementGuid>33465e13-e62b-43d4-89b5-e7978de72572</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

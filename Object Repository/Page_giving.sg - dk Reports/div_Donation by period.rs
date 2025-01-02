@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Log in</name>
+   <name>div_Donation by period</name>
    <tag></tag>
-   <elementGuidId>35af3972-5f83-44ac-9613-f520d67a81f7</elementGuidId>
+   <elementGuidId>99985464-4da1-42d6-b422-1d08c25cdf5c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-primary</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@ktl-id='btnLogIn']</value>
+         <value>//div[@ktl-id='divDropdownReportType']/div[2]/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,95 +22,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>82013aa7-e3d1-4fed-9309-e73c32e57c9c</webElementGuid>
+      <value>div</value>
+      <webElementGuid>8560de34-e046-4aa0-b4c7-389f62d8820e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary</value>
-      <webElementGuid>4d9fe445-7754-41ca-a5e9-fbdeb78b8a73</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>f7b0fdb4-6b69-46fe-b762-7906297c078b</webElementGuid>
+      <value>dropdown-popup-row</value>
+      <webElementGuid>61c52a17-7091-457e-b337-94c9bcf554a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Log in</value>
-      <webElementGuid>80e728ac-a8da-4092-a227-29c611947322</webElementGuid>
+      <value>Donation by period</value>
+      <webElementGuid>00b08c37-b7ca-4fdc-b452-0ed7ab2af2e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b4-b2-b9-Actions&quot;)/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>90378c8c-ee54-4331-83f9-aabb91974e91</webElementGuid>
+      <value>id(&quot;b2-b4-Dropdown_ReportType&quot;)/div[@class=&quot;dropdown-list&quot;]/div[@class=&quot;scrollable-list scrollable-list-with-scroll&quot;]/div[@class=&quot;dropdown-popup-row&quot;]</value>
+      <webElementGuid>618f173d-b942-4527-894d-31b19d3207a2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>5a1546dd-8c59-4c21-aa5e-748c9a06fde2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b4-b2-b9-Actions']/button</value>
-      <webElementGuid>47490a11-c0c5-4f58-86c3-522c85e91b09</webElementGuid>
+      <value>//div[@id='b2-b4-Dropdown_ReportType']/div[2]/div/div[2]</value>
+      <webElementGuid>28acd9a9-fbf1-4a1b-8700-608a9d6b64f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thank you for signing up'])[1]/following::button[1]</value>
-      <webElementGuid>3307f4fa-2a0e-4459-bcf0-fd85a8e675a0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select type'])[2]/following::div[1]</value>
+      <webElementGuid>e3a5b7dd-02c4-4af0-9801-0d575e9cf14f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exit'])[1]/following::button[1]</value>
-      <webElementGuid>c2b9c244-f52c-4059-8664-c866860b38af</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select type'])[1]/following::div[4]</value>
+      <webElementGuid>ca64f079-894e-4167-a04d-08245168e3b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Log in']/parent::*</value>
-      <webElementGuid>760a051b-f4f9-44e8-a109-e55cba7e5bb4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Donation by campaign'])[1]/preceding::div[1]</value>
+      <webElementGuid>d5007164-931b-4758-a855-516e5cb60017</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/button</value>
-      <webElementGuid>b015469f-4150-44f7-9feb-fa61cac2cbce</webElementGuid>
+      <value>//div[3]/div/div[2]/div/div[2]</value>
+      <webElementGuid>bb37b83f-01a3-460e-aa38-af81da871069</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Log in' or . = 'Log in')]</value>
-      <webElementGuid>dc6a5207-586c-4dfa-a6cc-09b940fe117b</webElementGuid>
+      <value>//div[(text() = 'Donation by period' or . = 'Donation by period')]</value>
+      <webElementGuid>c8489daf-66ad-4411-836e-fb150c56c426</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
