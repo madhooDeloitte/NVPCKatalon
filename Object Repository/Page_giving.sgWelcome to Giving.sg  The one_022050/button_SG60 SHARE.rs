@@ -3,7 +3,9 @@
    <description></description>
    <name>button_SG60 SHARE</name>
    <tag></tag>
-   <elementGuidId>61dc749f-47b4-4723-b1ec-0ac5de3c73b2</elementGuidId>
+
+   <elementGuidId>4559e4d2-978f-4815-8b38-24d3460b42a9</elementGuidId>
+
    <selectorCollection>
       <entry>
          <key>CSS</key>

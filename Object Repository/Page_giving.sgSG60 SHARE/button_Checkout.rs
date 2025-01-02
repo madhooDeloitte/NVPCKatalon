@@ -3,7 +3,9 @@
    <description></description>
    <name>button_Checkout</name>
    <tag></tag>
-   <elementGuidId>c66ce704-d0c4-4d48-9d4b-e9672f4ff2b2</elementGuidId>
+
+   <elementGuidId>e1a0bd50-21d1-4cde-a4b1-48b3a16dad6f</elementGuidId>
+
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -14,7 +16,8 @@
          <value>//button[@ktl-id='btnCheckOut']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -42,7 +45,8 @@
       <webElementGuid>e9f558f1-f7c8-4dee-8dbd-5be6fcebfb10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
+
       <matchCondition>equals</matchCondition>
       <name>ktl-id</name>
       <type>Main</type>

@@ -6,12 +6,12 @@
    <elementGuidId>6163f088-5556-4b6c-b9cb-360af7039a28</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#b2-b9-l4-323_0-b23-Title > span</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'npo without ipc' or . = 'npo without ipc')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b9-l4-323_0-b23-Title > span</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>1a25a64f-eedd-4ecb-8c57-0a2c3daac7dc</webElementGuid>
+      <webElementGuid>d3e5e8f1-6288-4fa0-9a9d-bce0d247d8eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>text</name>
       <type>Main</type>
       <value>npo without ipc</value>
-      <webElementGuid>3b123b8d-8364-4105-b8c5-b35240cb0927</webElementGuid>
+      <webElementGuid>be7ec283-b161-4fbe-bf80-be6918ab33d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-b9-l4-323_0-b23-Title&quot;)/span[1]</value>
-      <webElementGuid>4fde6f66-a3e0-4af9-a5f2-0410e5bf579c</webElementGuid>
+      <webElementGuid>987c2b25-bd94-48b0-b213-a3ebede6aed2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>spanCharityName</value>
+      <webElementGuid>87c10352-ac7c-487b-acf2-49a96bf01cd7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -51,7 +59,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b9-l4-323_0-b23-Title']/span</value>
-      <webElementGuid>0344f0e1-4e88-4cb8-8aa7-df2594b576fb</webElementGuid>
+      <webElementGuid>d344d2d5-cb12-41d9-b321-2059af14ae1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -59,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Results per page'])[1]/following::span[3]</value>
-      <webElementGuid>43de0897-43ec-4c48-8c42-87359d1a3cc2</webElementGuid>
+      <webElementGuid>90910551-b749-4c67-97d9-60e32e21684b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unity Cares Association'])[1]/preceding::span[1]</value>
-      <webElementGuid>2d954b5a-7dcc-48eb-b125-748b7e564317</webElementGuid>
+      <webElementGuid>0b0de3ff-43bd-4686-9398-03f992c7fcf9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$10 raised of $4,000'])[1]/preceding::span[2]</value>
-      <webElementGuid>d1a42f62-6266-4f4e-9b93-9af8be5fb03d</webElementGuid>
+      <webElementGuid>f0f26259-1fe6-4f43-a91e-b98ef4da186a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='npo without ipc']/parent::*</value>
-      <webElementGuid>cbb66575-361d-4df6-a2b3-a8669919ffd3</webElementGuid>
+      <webElementGuid>194be5b9-45bc-4696-a752-4d840c4c1b6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div/div[2]/span</value>
-      <webElementGuid>49ac2616-6bb6-43ad-83bf-c3f1ed3458d3</webElementGuid>
+      <webElementGuid>872f751d-4ef7-4a4e-b509-30c730e4efc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'npo without ipc' or . = 'npo without ipc')]</value>
-      <webElementGuid>72786d93-85c4-4b01-9592-a706fb5ca124</webElementGuid>
+      <webElementGuid>cf8940e4-7814-4cab-b239-fbe6ac812f2e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

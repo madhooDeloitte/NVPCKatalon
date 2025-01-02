@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_31_1_2</name>
+   <tag></tag>
+   <elementGuidId>969d8c5c-0c7e-4c2d-9f4c-2f96c76a3025</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='flatpickr-days']//span[contains(@class, 'flatpickr-day') and not(contains(@class, 'flatpickr-disabled')) and @aria-label]&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='flatpickr-days']//span[contains(@class, 'flatpickr-day') and not(contains(@class, 'flatpickr-disabled')) and @aria-label]&#xd;
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ad59fe00-12b1-4634-acb7-8be0cfeb33ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flatpickr-day</value>
+      <webElementGuid>ee35e4ec-4d84-413f-8882-91be39aeae11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>January 31, 2025</value>
+      <webElementGuid>110d5c29-f502-4b45-bf3c-5475a0986c7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>1eb5268a-9205-4028-adf7-5bcb197d5c02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>31</value>
+      <webElementGuid>c32c51c9-ad9b-45e1-afd5-17c08b7bae69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='flatpickr-days']//span[contains(@class, 'flatpickr-day') and not(contains(@class, 'flatpickr-disabled')) and @aria-label]&#xd;
+</value>
+      <webElementGuid>20bbd56e-bdf7-479d-962f-bfde616560aa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='flatpickr-calendar-0.i6t63ak93y']/div[2]/div/div[2]/div/span[34]</value>
+      <webElementGuid>af83abd4-8131-4432-8a9d-e16f24a72f16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::span[34]</value>
+      <webElementGuid>589955f6-389d-420f-98a2-c72f4a66492c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[1]/following::span[35]</value>
+      <webElementGuid>217f501c-c211-40bd-ae1e-e5b68ecb5fe8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[34]</value>
+      <webElementGuid>4b18c635-dbfc-4302-abd6-1a4ebdabf602</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '31' or . = '31')]</value>
+      <webElementGuid>b57db51e-7cec-4f21-b6da-aea05dd6ec5e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

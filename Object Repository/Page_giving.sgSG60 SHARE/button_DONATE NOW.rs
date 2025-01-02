@@ -3,7 +3,9 @@
    <description></description>
    <name>button_DONATE NOW</name>
    <tag></tag>
-   <elementGuidId>8cf2a20c-c80b-4afe-afa5-ff4c5aef8cfc</elementGuidId>
+
+   <elementGuidId>c29c61ee-47e1-4433-9f4e-ebc66a1e7eaa</elementGuidId>
+
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -13,6 +15,12 @@
          <key>CSS</key>
          <value>#b2-b1-b3-Button > button.btn</value>
       </entry>
+
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'DONATE NOW' or . = 'DONATE NOW')]</value>
+      </entry>
+
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
