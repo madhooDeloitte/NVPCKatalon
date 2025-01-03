@@ -27,16 +27,7 @@ String giverEmail = 'member1@dk.dev'
 String adminEmail = 'DK_Finance_Admin_00_02@nvpc.dev'
 
 'test email\r\n'
-String cardNum = '4242 4242 4242 42424'
-
-'test email\r\n'
-String cardDate = '12 / 28'
-
-'test email\r\n'
-String cardDigit = '111'
-
-'test email\r\n'
-String cardName = 'a'
+String stripeName = 'a'
 
 WebUI.openBrowser('')
 
@@ -72,44 +63,32 @@ WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/b
 'need this'
 WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_DONATE NOW'))
 
-'click the other amount tab'
-WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_clickOtheramt'))
-
-WebUI.setText(findTestObject('Page_giving.sgSG60 SHARE/input_otherAmountenter'), '1')
-
 '-'
 WebUI.click(findTestObject('Object Repository/Page_giving.sgSG60 SHARE/button_Checkout'))
 
 'verify items on checkout screen'
 WebUI.takeScreenshotAsCheckpoint('3')
 
-'click new visa'
-WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_newVisa'))
+'- click grab pay'
+WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/input_VisaMastercardAmex credit  debit card_e98b1d'))
 
 '-'
 WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Continue with Payment'))
 
 'verify on stripe page'
-WebUI.takeScreenshotAsCheckpoint('4')
+WebUI.takeScreenshotAsCheckpoint('2')
 
-WebUI.delay(20)
+'stripe enter name. may need manual'
+WebUI.setText(findTestObject('Page_DK Development Env/input_stripe name'), stripeName)
 
-'if account being used requires you to change card, manually change card. \r\nIf not, ignore step'
-WebUI.comment('')
+'click donate button on stripe'
+WebUI.click(findTestObject('Page_DK Development Env/div_SGD60.00_SubmitButton-IconContainer'))
 
-'works for now'
-WebUI.setText(findTestObject('Object Repository/Page_DK Development Env/input_Card information_cardNumber'), cardNum)
-
-WebUI.setText(findTestObject('Object Repository/Page_DK Development Env/input_Card information_cardExpiry'), cardDate)
-
-WebUI.setText(findTestObject('Object Repository/Page_DK Development Env/input_Card information_cardCvc'), cardDigit)
-
-WebUI.setText(findTestObject('Page_DK Development Env/input_Cardholder name_billingName'), cardName)
-
-WebUI.click(findTestObject('Object Repository/Page_DK Development Env/div_SGD60.00_SubmitButton-IconContainer'))
+'click authorize test payment on stripe'
+WebUI.click(findTestObject('Object Repository/Page_/a_Authorize Test Payment'))
 
 'verify donated thank you page'
-WebUI.takeScreenshotAsCheckpoint('5')
+WebUI.takeScreenshotAsCheckpoint('3')
 
 'click profile'
 WebUI.click(findTestObject('Page_giving.sgLogin/btn_profile logged in'))
@@ -117,9 +96,9 @@ WebUI.click(findTestObject('Page_giving.sgLogin/btn_profile logged in'))
 'click logout\r\n'
 WebUI.click(findTestObject('Page_giving.sgLogin/btn_profile logout'))
 
+'are u sure'
 WebUI.click(findTestObject('Page_giving.sgLogin/btn_are you sure'))
 
-'are u sure'
 WebUI.click(findTestObject('Page_giving.sgLogin/btn_login after'))
 
 '-'
@@ -159,7 +138,7 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Verify'))
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - dk Home/a_Reports'))
 
 'verify on report page'
-WebUI.takeScreenshotAsCheckpoint('6')
+WebUI.takeScreenshotAsCheckpoint('4')
 
 '-'
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - dk Reports/div_Select type'))
