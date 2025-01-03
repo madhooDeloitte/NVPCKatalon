@@ -3,18 +3,28 @@
    <description></description>
    <name>input_Search charities or campaigns_b2-SearchInput</name>
    <tag></tag>
-   <elementGuidId>44079ba8-74bf-4874-a5cb-2704c4ca5d1f</elementGuidId>
+   <elementGuidId>1df46c5f-3db7-4c86-88bf-5ab15544391f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='b2-SearchInput']</value>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'inpSearchDonate']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#b2-SearchInput</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='b2-SearchInput']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Search for a charity or a cause close to your heart&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>63b051e9-7f5e-4ec9-95cd-a71afc485f2a</webElementGuid>
+      <webElementGuid>d9a32633-32f8-49e2-97bd-b4b2d056ddb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,23 +41,23 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control OSFillParent</value>
-      <webElementGuid>f2fbd07d-5dca-4fc7-b18c-96f1b2ebe551</webElementGuid>
+      <webElementGuid>f7fb7e40-6a8d-4800-8ae2-1ad0f31220d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>407167a3-3dc7-4fa5-ae83-bafa0389eb2f</webElementGuid>
+      <webElementGuid>b4e8ce13-541d-4608-98b8-9b73f5a304e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Search for a charity or a cause close to your heart</value>
-      <webElementGuid>937047db-3fc6-4a5c-b98f-2c10e564526c</webElementGuid>
+      <webElementGuid>44bf8d4a-3f7f-48f1-af92-3456ffcced91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,31 +65,31 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>418c9003-8a90-4b2f-a0c4-4310d810142a</webElementGuid>
+      <webElementGuid>9d585ccf-b85c-46db-bea6-954df990ebd8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ktl-id</name>
       <type>Main</type>
       <value>inpSearchDonate</value>
-      <webElementGuid>4fac39bc-757b-4e5f-a712-e9f770e374cc</webElementGuid>
+      <webElementGuid>ae87c6b6-9ea5-402a-8f03-e2d2f5009e00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Yuoth</value>
-      <webElementGuid>3be5401b-16c2-416b-813e-552eab346415</webElementGuid>
+      <value>Y</value>
+      <webElementGuid>1a7a6957-894f-49f6-a871-f88cc8cd5fcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b2-SearchInput</value>
-      <webElementGuid>e7e3929b-a399-4c1a-8926-31af69eb1c1f</webElementGuid>
+      <webElementGuid>50c976d3-b564-406a-9e58-1f3bb3e87f3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-SearchInput&quot;)</value>
-      <webElementGuid>bf5a18ee-e57d-41e1-8010-15cbd2103b85</webElementGuid>
+      <webElementGuid>1f59deee-740d-4720-bbce-fcb42ed94b14</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -95,7 +105,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='b2-SearchInput']</value>
-      <webElementGuid>fb540bfd-bcb9-4dc8-9252-203888310fe4</webElementGuid>
+      <webElementGuid>9ff5fb9c-5567-4d16-932a-487b928ec8b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +113,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b3-Input']/span/input</value>
-      <webElementGuid>e0862a96-740d-4b8c-a20c-a1b701367a4c</webElementGuid>
+      <webElementGuid>1bed55eb-2892-40ac-ac50-bc64b3361b85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>bf8cd394-90b4-414e-a3eb-608ae252f9be</webElementGuid>
+      <webElementGuid>d0d2cf03-c44c-4b94-aee2-4498cd97060e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'search' and @placeholder = 'Search for a charity or a cause close to your heart' and @id = 'b2-SearchInput']</value>
-      <webElementGuid>b00434ee-ef8d-4fa1-aaa6-a9749b2a06c0</webElementGuid>
+      <webElementGuid>d4411e45-842c-47e1-84f1-bcc58301acac</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

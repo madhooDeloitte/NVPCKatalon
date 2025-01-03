@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>additional</name>
+   <name>Browse GSG Volunteer (Grid view)</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>c1866fb2-25d9-4191-87ec-99c3b79e697f</testCaseGuid>
+   <testCaseGuid>201a09db-0c6c-4997-92c3-37bf006cba65</testCaseGuid>
 </TestCaseEntity>

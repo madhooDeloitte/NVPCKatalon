@@ -3,21 +3,28 @@
    <description></description>
    <name>button_Checkout</name>
    <tag></tag>
-
-   <elementGuidId>e1a0bd50-21d1-4cde-a4b1-48b3a16dad6f</elementGuidId>
-
+   <elementGuidId>dad67abb-1265-40df-afe0-696219582d6e</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnCheckOut']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='b2-CheckoutButton']</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>#b2-CheckoutButton</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[@ktl-id='btnCheckOut']</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
-
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Checkout&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -26,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>84a90ac5-21b4-4a97-91ae-8c8b6feef046</webElementGuid>
+      <webElementGuid>2f87ef87-14bd-4a22-9e01-014448259f45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,40 +41,39 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary full-width OSFillParent</value>
-      <webElementGuid>d2611882-0b62-4476-9f99-fc9f2a7e6ee2</webElementGuid>
+      <webElementGuid>954b80ac-454d-4a61-b885-36a32097d4e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e9f558f1-f7c8-4dee-8dbd-5be6fcebfb10</webElementGuid>
+      <webElementGuid>a60b5551-cddb-4b2b-a573-eb37ecf09f4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-
       <matchCondition>equals</matchCondition>
       <name>ktl-id</name>
       <type>Main</type>
       <value>btnCheckOut</value>
-      <webElementGuid>02e72072-c55e-446a-a22f-15d7bcf699a9</webElementGuid>
+      <webElementGuid>242e7be5-0fff-424b-aca6-0627e05e83c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b2-CheckoutButton</value>
-      <webElementGuid>2115123f-11bf-4288-8434-779c69b9120a</webElementGuid>
+      <webElementGuid>c3b91c50-ce30-462f-a2a5-f1866db86b2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Checkout</value>
-      <webElementGuid>4e1c05af-020d-4b51-83a4-fbfec9e1a628</webElementGuid>
+      <webElementGuid>2856f3cf-ee10-4594-b8e6-d60c96c570a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-CheckoutButton&quot;)</value>
-      <webElementGuid>1e58e94a-c4bc-4db6-a5d4-04d114fb2fbc</webElementGuid>
+      <webElementGuid>f8ead4c2-33c7-430f-8051-c43dfdb255a5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -83,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='b2-CheckoutButton']</value>
-      <webElementGuid>3cbd37dd-8805-4c01-ab67-13999dc7afbc</webElementGuid>
+      <webElementGuid>37b9db25-b74b-49e6-8ae1-0ea142801de2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +97,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b32-Button']/button</value>
-      <webElementGuid>560b7a88-f264-450a-8d9d-7fdd397db5b6</webElementGuid>
+      <webElementGuid>781430d6-d985-4e0b-8377-935f3ca6e1f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,15 +105,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave an encouraging message (optional)'])[1]/following::button[1]</value>
-      <webElementGuid>d21dcd73-20f7-42a4-ab4f-5e5f84a7d886</webElementGuid>
+      <webElementGuid>dcc99cf0-14b6-41f1-bd39-872d3325295d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='I want to make this a monthly recurring donation'])[1]/following::button[1]</value>
-      <webElementGuid>92cf4517-2e30-4e98-8db4-88e1c569ee7f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[6]/following::button[1]</value>
+      <webElementGuid>9ad679a1-f3b6-49fb-a53d-4333cdaa7469</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[2]/preceding::button[1]</value>
-      <webElementGuid>0e8c886d-eb00-47f0-a63c-b00b74ef6aa6</webElementGuid>
+      <webElementGuid>0a2ce97d-d2a5-4d83-912f-3d3fd16a669f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Organised by'])[1]/preceding::button[2]</value>
-      <webElementGuid>1dd847a8-18bc-48e2-8281-01d4e1be6116</webElementGuid>
+      <webElementGuid>feeee677-4495-49e7-a8c0-5a3d246e2435</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Checkout']/parent::*</value>
-      <webElementGuid>43bc77de-344e-424f-95c8-3fc3692fc168</webElementGuid>
+      <webElementGuid>ed9a5c05-e120-4ca8-b4b1-70f0f437cea5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -139,7 +145,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div/div/button</value>
-      <webElementGuid>651b5069-ed9c-47ee-928f-e500dd662fb0</webElementGuid>
+      <webElementGuid>7aa21698-b799-4eb8-8adf-be00e3d27662</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,6 +153,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'b2-CheckoutButton' and (text() = 'Checkout' or . = 'Checkout')]</value>
-      <webElementGuid>1c59c4bb-f735-4b07-a067-f9364b16edfa</webElementGuid>
+      <webElementGuid>f9e16766-bffd-4970-be0c-a88168c9c220</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

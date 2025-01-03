@@ -3,18 +3,24 @@
    <description></description>
    <name>svg_Back_InlineSVG Icon Header-backArrow mr_54644a</name>
    <tag></tag>
-   <elementGuidId>da24121a-76df-4565-8214-c759ace6da71</elementGuidId>
+   <elementGuidId>1dc65fce-768b-4484-b845-5b0f4639a28c</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id = 'root']/div/div/div/header/div/div/a/div/div/div[2]/div/span</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>svg.InlineSVG.Icon.Header-backArrow.mr2.Icon--sm</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div[1]/header/div/div/a</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Back to DK Development Env&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>848c1330-11e5-463f-b0b6-d33ce9a9482c</webElementGuid>
+      <webElementGuid>4346d7e7-7a24-4652-beab-46e0ffaddede</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>InlineSVG Icon Header-backArrow mr2 Icon--sm</value>
-      <webElementGuid>b152f847-c8a5-410c-b170-9082b3646510</webElementGuid>
+      <webElementGuid>1b21fada-f37b-40d8-9ddc-8ffe233d9382</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +45,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>619786da-a0d5-4f9b-abbb-5266228cf7ca</webElementGuid>
+      <webElementGuid>78adfb10-84e8-4cab-9e7c-dc1fefe2eaf5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +53,7 @@
       <name>width</name>
       <type>Main</type>
       <value>12</value>
-      <webElementGuid>40be8be4-15bf-45f7-8679-fea95df4f1f3</webElementGuid>
+      <webElementGuid>8f3af5f6-ca56-41c2-b194-7b4048060fad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +61,7 @@
       <name>height</name>
       <type>Main</type>
       <value>12</value>
-      <webElementGuid>11abe43d-495d-4721-a5c9-e9f167d02f4a</webElementGuid>
+      <webElementGuid>164201fd-4033-4abd-875a-030e9fd0dffb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,14 +69,30 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 16 16</value>
-      <webElementGuid>d5aae06a-bc9b-4239-aa4b-831b05e41be3</webElementGuid>
+      <webElementGuid>c339ca97-338c-4f02-8352-010cda5dd331</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;App-Container is-noBackground flex-container justify-content-center&quot;]/div[@class=&quot;App App--singleItem&quot;]/div[@class=&quot;App-Overview&quot;]/header[@class=&quot;Header&quot;]/div[@class=&quot;Header-content flex-container justify-content-space-between align-items-stretch&quot;]/div[@class=&quot;Header-business flex-item width-grow flex-container align-items-center&quot;]/a[@class=&quot;Link Header-businessLink Link--primary&quot;]/div[1]/div[@class=&quot;flex-container align-items-center&quot;]/div[@class=&quot;Header-backArrowContainer&quot;]/svg[@class=&quot;InlineSVG Icon Header-backArrow mr2 Icon--sm&quot;]</value>
-      <webElementGuid>306c77e8-fe95-4f43-8ab4-1977014abd30</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App-Container is-noBackground App-Container--noAnimation flex-container justify-content-center&quot;]/div[@class=&quot;App App--singleItem&quot;]/div[@class=&quot;App-Overview&quot;]/header[@class=&quot;Header&quot;]/div[@class=&quot;Header-content flex-container justify-content-space-between align-items-stretch&quot;]/div[@class=&quot;Header-business flex-item width-grow flex-container align-items-center&quot;]/a[@class=&quot;Link Header-businessLink Link--primary&quot;]/div[1]/div[@class=&quot;flex-container align-items-center&quot;]/div[@class=&quot;Header-backArrowContainer&quot;]/svg[@class=&quot;InlineSVG Icon Header-backArrow mr2 Icon--sm&quot;]</value>
+      <webElementGuid>d7480149-a996-4382-ad9f-f7cecf8351b9</webElementGuid>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>a44cadd6-6b9d-4fa4-a18b-f42e34b78a27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Mode'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>835519cf-734a-48b0-a461-9b0053188354</webElementGuid>
+   </webElementXpaths>
 </WebElementEntity>

@@ -7,11 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Password login' or . = 'Password login')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ba3fddd0-1f57-48d9-a749-b1d3de43f09f</webElementGuid>
+      <webElementGuid>72d0d802-1be1-4d52-830d-c71cc8f0ec96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-fullWidth css-37cndn</value>
-      <webElementGuid>48c3ec22-30d9-4d32-8f28-932fb183cd50</webElementGuid>
+      <webElementGuid>fd8f39d7-7113-413f-beb3-75d5c6d0b7e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +42,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>3d4a1a72-f687-4cdc-af6d-d739d900d8bd</webElementGuid>
+      <webElementGuid>db46dbec-abd9-467b-b1ae-de2beb2be170</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +50,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cef12bdc-1d38-416a-88a5-9894255ac83c</webElementGuid>
+      <webElementGuid>8ae27e9e-4aab-404b-a85d-a4a6ee4a10c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +58,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>fd8d9128-42a5-4103-8819-055b3d331dc4</webElementGuid>
+      <webElementGuid>8b3f5a2b-1f60-43fa-a07c-ffcb38dfec31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +66,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>78c93869-5da9-43b0-8973-6536c465bf0d</webElementGuid>
+      <webElementGuid>410b59f1-6057-4753-b437-63b1d9353c44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +74,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Password login</value>
-      <webElementGuid>2d772966-0b40-443a-8828-811717de5869</webElementGuid>
+      <webElementGuid>98553bea-4465-4272-87f4-5e8dfe74d235</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -79,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Password login</value>
-      <webElementGuid>08977860-cb0d-4da6-84cf-4301f25acc47</webElementGuid>
+      <webElementGuid>7446df20-0251-4048-b338-987351d23d47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;w-full overflow-hidden min-h-screen&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-1ydczbw&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-true css-5ibnpm&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-e006xa&quot;]/div[@class=&quot;py-4 px-[5%] max-lg:py-4 max-lg:px-2 max-sm:p-0&quot;]/div[@class=&quot;MuiContainer-root MuiContainer-maxWidthXl css-176jdxd&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container css-zekjbz&quot;]/div[@class=&quot;ml-auto max-lg:m-auto max-lg:mt-[0%] max-sm:m-0&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-6 css-1wou34o&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1lz9oib&quot;]/div[@class=&quot;MuiGrid-root css-i7zmte&quot;]/div[@class=&quot;MuiTabs-root css-jge34e&quot;]/div[@class=&quot;MuiTabs-scroller MuiTabs-fixed css-1anid1y&quot;]/div[@class=&quot;MuiTabs-flexContainer MuiTabs-centered css-1l4w6pd&quot;]/button[@class=&quot;MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-fullWidth css-37cndn&quot;]</value>
-      <webElementGuid>1ada75af-2c99-4ab4-b19f-3ab81e56204d</webElementGuid>
+      <webElementGuid>062a6a4a-bc28-4c00-aaf8-5164a1ee4db8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -95,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>cd377e11-817b-490e-b145-20359b456db9</webElementGuid>
+      <webElementGuid>9f6a8fe2-42bd-4864-920c-5bac3e842323</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/div[2]/div/div/div[2]/div/div/div/div/div/div/button[2]</value>
-      <webElementGuid>244267c8-5a55-4851-b494-1e2b14118a6b</webElementGuid>
+      <webElementGuid>f8f54e42-a501-449f-aa73-284e6cdcec19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Singpass app'])[1]/following::button[1]</value>
-      <webElementGuid>8dabee8c-f940-4f79-840e-0e4b4c6d6c51</webElementGuid>
+      <webElementGuid>2676b0c3-e1ec-4402-8fb1-7f85a7df521c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your trusted digital identity'])[1]/following::button[2]</value>
-      <webElementGuid>cc001474-1a9f-493a-b192-83c2094d962a</webElementGuid>
+      <webElementGuid>9a858e10-d69d-490d-a0da-8be573a17e11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Register for Singpass'])[1]/preceding::button[1]</value>
-      <webElementGuid>c133029c-b840-45cd-bc90-0850e74bdce7</webElementGuid>
+      <webElementGuid>54ebb8bb-879c-4339-9cb5-9aa7a3335ccf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Singpass app'])[1]/preceding::button[1]</value>
-      <webElementGuid>79b1d0d1-0643-4727-add0-a9d88c3b294f</webElementGuid>
+      <webElementGuid>495c2afa-05af-4980-8758-f0537de8b368</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +146,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Password login']/parent::*</value>
-      <webElementGuid>d175c20e-bc01-4e44-8fcc-d3aea16e60d1</webElementGuid>
+      <webElementGuid>9c2074ae-3990-428c-96f8-5b784ae804f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,7 +154,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>91c0cf85-f493-461b-9e58-d0f048f41198</webElementGuid>
+      <webElementGuid>52b1d9bf-18bd-48b3-a579-e3a9c7ddca7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -159,6 +162,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Password login' or . = 'Password login')]</value>
-      <webElementGuid>aaab8eed-0624-4734-b367-2686ef044a1f</webElementGuid>
+      <webElementGuid>bf02d837-01a3-43cf-8ef5-478043d9d736</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

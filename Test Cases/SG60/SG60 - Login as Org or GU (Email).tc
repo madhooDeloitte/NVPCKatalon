@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SG60 - Login as Org or GU (Email)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ffaf6df5-8b29-4ed3-b383-06a9ec1840bf</testCaseGuid>
+</TestCaseEntity>

@@ -3,18 +3,24 @@
    <description></description>
    <name>img</name>
    <tag></tag>
-   <elementGuidId>fd2e981c-8978-418e-99b3-b739bb68d221</elementGuidId>
+   <elementGuidId>6679086f-361c-4d82-bb70-ab539a41a43d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.sg60-logo.margin-left-s > img</value>
+         <value>div.nvpc-avatar > img</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='b2-b1-Title']/div/div[2]/img</value>
+         <value>//div[@ktl-id='imgAvatar']/div/div/div/div/div/div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#b1-b4-Dropdownmenu >> internal:role=button</value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,46 +29,46 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>5ccbc56b-dbb7-4457-a389-bc210cb34367</webElementGuid>
+      <webElementGuid>a57b548a-dea1-4a57-9398-ab7b9a8f127b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>/img/NVPC_Resources.SG60_SharityElephant.png?Lbcra2IJCI6OyLhgoNzPbw</value>
-      <webElementGuid>5214f676-d2a9-4475-964c-8c18c334a693</webElementGuid>
+      <value>/img/NVPC_Resources.FallBackAvatar.svg?DLsZttr+v9X6smbJiSw9hg</value>
+      <webElementGuid>3d6649e8-1565-4e9a-b5e0-fc39bef7806f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b2-b1-Title&quot;)/div[@class=&quot;display-flex align-items-center&quot;]/div[@class=&quot;sg60-logo margin-left-s&quot;]/img[1]</value>
-      <webElementGuid>1701debe-68e6-4d65-bcf6-8483a639cd81</webElementGuid>
+      <value>id(&quot;b1-$b5&quot;)/div[@class=&quot;nvpc-avatar&quot;]/img[1]</value>
+      <webElementGuid>a820addf-2dbb-46fe-8c8e-b26af36aa26e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b1-Title']/div/div[2]/img</value>
-      <webElementGuid>e76f72de-b305-4a31-8153-3029f6e820f3</webElementGuid>
+      <value>//div[@id='b1-$b5']/div/img</value>
+      <webElementGuid>5b78e56f-c853-4737-9b00-0c5b538b888f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/img</value>
-      <webElementGuid>3897e925-2ee4-4284-961d-937a3fa6ab17</webElementGuid>
+      <value>//div/div/div/div/div/div/img</value>
+      <webElementGuid>b10eb227-1714-4b84-b46b-e3a212e6f871</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//img[@src = '/img/NVPC_Resources.SG60_SharityElephant.png?Lbcra2IJCI6OyLhgoNzPbw']</value>
-      <webElementGuid>ec092d74-f384-4192-950d-2fa63355ec66</webElementGuid>
+      <value>//img[@src = '/img/NVPC_Resources.FallBackAvatar.svg?DLsZttr+v9X6smbJiSw9hg']</value>
+      <webElementGuid>28a81c61-db33-4b19-9de2-18b517ae61b8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
