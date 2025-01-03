@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Log in (1)</name>
+   <name>signUpDate</name>
    <tag></tag>
-   <elementGuidId>4832d326-55a6-4c6a-9aeb-297c8ed9c8a6</elementGuidId>
+   <elementGuidId>90c2059a-73e3-49ed-bce2-3638fba52dc6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-primary.full-width</value>
+         <key>BASIC</key>
+         <value>//div[@class='osui-datepicker']//input[@id='b5-b3-Input_GiverDateOfBirth']&#xd;
+</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//div[@id='flatpickr-calendar-0.0t1311dzmq2p']/div[2]/div/div[2]/div/span</value>
       </entry>
-
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>span.flatpickr-day</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,112 +27,104 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>b0db5cbd-0cb2-4c76-a097-44337a4f8789</webElementGuid>
+      <value>span</value>
+      <webElementGuid>38734c60-375f-4ae6-82ef-661704e09730</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary full-width</value>
-      <webElementGuid>450ee288-f833-414a-bfc0-3efb166216eb</webElementGuid>
+      <value>flatpickr-day</value>
+      <webElementGuid>ea34453c-aa26-4c69-b9aa-2fcff4f9855c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>aria-label</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>72a7da93-6fc9-44f0-9ac6-4a32996f3d32</webElementGuid>
+      <value>December 1, 2024</value>
+      <webElementGuid>bdd19a96-3dd1-44f1-80eb-085069aa2e06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ktl-id</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>btnEmailLogIn</value>
-      <webElementGuid>72252107-c9e0-4b77-bee4-55f87e7446fb</webElementGuid>
+      <value>-1</value>
+      <webElementGuid>099dd3eb-04d1-4b61-a40e-17f6219e71e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Log in</value>
-      <webElementGuid>f0f74323-dc56-483e-ae29-56f6688fba5e</webElementGuid>
+      <value>1</value>
+      <webElementGuid>350a0b74-b0bd-4bdd-be6a-ce1005ebdcc3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b3-b9-b7-Button&quot;)/button[@class=&quot;btn btn-primary full-width&quot;]</value>
-      <webElementGuid>bdb13c81-8c2b-42c0-8130-2a781e8ce3c1</webElementGuid>
+      <value>//div[@class='osui-datepicker']//input[@id='b5-b3-Input_GiverDateOfBirth']&#xd;
+</value>
+      <webElementGuid>b70dbc4a-d938-4438-989f-c8fa9a4641ad</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>028998b0-9b4c-457c-8a65-f9369ae0b4c3</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b3-b9-b7-Button']/button</value>
-      <webElementGuid>f23cbf85-cbf8-4909-8cdf-15bf31a37660</webElementGuid>
+      <value>//div[@id='flatpickr-calendar-0.0t1311dzmq2p']/div[2]/div/div[2]/div/span</value>
+      <webElementGuid>3d8d0fee-44f1-4c5a-b97c-c5b9154bd1eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::button[1]</value>
-      <webElementGuid>03cee8f1-a30a-4061-8190-6227824712a6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::span[1]</value>
+      <webElementGuid>49da16b3-5daa-4e39-83d6-073fcf8468e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OR'])[1]/following::button[1]</value>
-      <webElementGuid>b8548b0c-4dae-4092-b706-19fe0910a0b4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[1]/following::span[2]</value>
+      <webElementGuid>ab4d8b6f-124c-474b-9a15-bb7f4d1a662b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OR'])[2]/preceding::button[1]</value>
-      <webElementGuid>8468eb16-2932-456d-9754-7a7dc8efaba5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Log in']/parent::*</value>
-      <webElementGuid>78268082-8baf-4cd2-95c1-1bc2635992e8</webElementGuid>
+      <value>//*/text()[normalize-space(.)='1']/parent::*</value>
+      <webElementGuid>713910ca-0414-4b3a-a26d-f1badb7595ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/button</value>
-      <webElementGuid>741c21f4-eb18-4671-b87a-b9f4454e23e8</webElementGuid>
+      <value>//div/div[2]/div/span</value>
+      <webElementGuid>532b5e10-c9d3-4403-a9ed-710b5b84db2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'Log in' or . = 'Log in')]</value>
-      <webElementGuid>70b7f776-036c-43ac-b67c-6113dd01de1b</webElementGuid>
-
+      <value>//span[(text() = '1' or . = '1')]</value>
+      <webElementGuid>e8d03be6-ede5-4391-bec7-d9e07fa96145</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='flatpickr-calendar-0.xidcff8y9s']/div[2]/div/div[2]/div/span</value>
+      <webElementGuid>161cf356-b41a-4eff-bfbc-d015174e0a87</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

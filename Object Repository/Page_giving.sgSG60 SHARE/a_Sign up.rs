@@ -10,11 +10,16 @@
          <value>//header[@id='b1-b1-Header']/div/div/div[5]/div/a[2]</value>
       </entry>
       <entry>
+
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'lnkSignUp']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.display-flex.column-gap-base.hide-if-phone > a.ThemeGrid_MarginGutter</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>da6e6868-bc97-4a95-af0b-feb3e337cda4</webElementGuid>
+      <webElementGuid>5d2665de-58cd-4ebc-b0cb-752224cdf39c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,23 +36,23 @@
       <name>class</name>
       <type>Main</type>
       <value>ThemeGrid_MarginGutter</value>
-      <webElementGuid>a1c29453-61d0-43b9-8f63-4ee80217474e</webElementGuid>
+      <webElementGuid>b715ffdd-bd32-4ba5-b215-1a5e8ff999c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/signup</value>
-      <webElementGuid>3b5ea389-53de-430d-9a54-3b757c7fbe54</webElementGuid>
+      <webElementGuid>054251f9-21f4-42e2-bb88-b26b337787df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Sign up</value>
-      <webElementGuid>a61d2540-b8ed-4de1-b0de-206b9ac85e34</webElementGuid>
+      <webElementGuid>57f2d5de-185c-4ad9-9204-6cb273336764</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +60,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b1-b1-Header&quot;)/div[@class=&quot;header-top ThemeGrid_Container&quot;]/div[@class=&quot;header-content&quot;]/div[@class=&quot;header-giving__account-menu&quot;]/div[@class=&quot;display-flex column-gap-base hide-if-phone&quot;]/a[@class=&quot;ThemeGrid_MarginGutter&quot;]</value>
-      <webElementGuid>45c210c0-0a8a-4607-9679-5aa542dd950f</webElementGuid>
+      <webElementGuid>f4a1e597-5a6a-4a4b-b319-6f341370afce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>lnkSignUp</value>
+      <webElementGuid>cb372c6e-08fe-4f0d-bceb-29354b27d921</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +76,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//header[@id='b1-b1-Header']/div/div/div[5]/div/a[2]</value>
-      <webElementGuid>25eecb51-5603-4706-b6cc-71f181f140a2</webElementGuid>
+      <webElementGuid>c0556c5b-0707-40fc-8070-e686248f31ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +84,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Sign up')]</value>
-      <webElementGuid>4c39ef8b-f683-4232-8ebc-d62136308628</webElementGuid>
+      <webElementGuid>8d6c0aa0-b471-4e4d-af4f-be7cd651f3b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[1]/following::a[1]</value>
-      <webElementGuid>76d59d94-8097-4393-a108-f5611a86beba</webElementGuid>
+      <webElementGuid>0f07d949-c585-4e72-ba79-9d410e670e9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Stories'])[1]/following::a[2]</value>
-      <webElementGuid>3c4fdc6b-6e79-448f-b726-4d387a8bf9f3</webElementGuid>
+      <webElementGuid>714dc92d-d3ce-41e4-be48-c905ec72cfd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[2]/preceding::a[1]</value>
-      <webElementGuid>2063d32e-a168-4bd2-b895-a27472084d89</webElementGuid>
+      <webElementGuid>3b1d32fd-e423-4faa-a58f-c04a156e4bde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign up'])[2]/preceding::a[1]</value>
-      <webElementGuid>4e798ed8-3ee7-4583-ab0e-43593a1b6694</webElementGuid>
+      <webElementGuid>258e0dc2-a536-46cb-bdbd-eaef1a270490</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +124,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sign up']/parent::*</value>
-      <webElementGuid>a4d22dac-6d31-40a7-ab3f-77fc5f7a5c64</webElementGuid>
+      <webElementGuid>4d56a845-16d3-40bc-87eb-ee45f55e3da9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +132,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/signup')]</value>
-      <webElementGuid>5810cbc9-446f-40d2-81b0-ab0a661e0561</webElementGuid>
+      <webElementGuid>fb3a94de-1b41-4776-8637-ca46178ceab3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +140,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/a[2]</value>
-      <webElementGuid>419ebf97-a912-4132-af13-aa2d244bb03b</webElementGuid>
+      <webElementGuid>ba538c4f-26fa-46e5-b147-7d188f888871</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,6 +148,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/signup' and (text() = 'Sign up' or . = 'Sign up')]</value>
-      <webElementGuid>10f77fef-c6f5-4785-95a3-e19c9a86b0ae</webElementGuid>
+      <webElementGuid>e308f33f-4bfe-4840-b2a6-96fa3bbd63ef</webElementGuid>
+
    </webElementXpaths>
 </WebElementEntity>

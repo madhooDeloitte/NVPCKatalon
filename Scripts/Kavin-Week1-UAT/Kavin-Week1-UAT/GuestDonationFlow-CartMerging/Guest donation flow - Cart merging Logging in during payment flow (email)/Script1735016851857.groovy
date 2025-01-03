@@ -141,7 +141,8 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Giving cart'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/img_Stories_b1-b5-AvatarImage_Url'))
+
+WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/profileAvatar'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Logout'))
 
@@ -244,7 +245,7 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Giving cart'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/img_Stories_b1-b5-AvatarImage_Url'))
+WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/profileAvatar'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Logout_1'))
 

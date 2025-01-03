@@ -6,16 +6,17 @@
    <elementGuidId>bdc7d1dd-bc82-4715-b7f7-0583063e9c24</elementGuidId>
    <selectorCollection>
       <entry>
+
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnRadio10']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='b2-RadioButton7']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#b2-RadioButton7</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;b2-RadioButton7&quot;)[count(. | //*[@id = 'b2-RadioButton7']) = count(//*[@id = 'b2-RadioButton7'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d2822649-094c-4226-99ac-2783220ec135</webElementGuid>
+      <webElementGuid>21c0d4cd-ca55-4c63-aab6-711be48eb3ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,23 +36,31 @@
       <name>class</name>
       <type>Main</type>
       <value>OSFillParent</value>
-      <webElementGuid>069fe52e-bdba-454c-b04b-f687b0c261bc</webElementGuid>
+      <webElementGuid>f414e803-0a12-4bb0-bdf4-066686f3361d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b2-RadioButton7</value>
-      <webElementGuid>e8774a04-87bb-4f9a-9369-65da904da397</webElementGuid>
+      <webElementGuid>60dbbcba-71db-401d-b46e-21aeae19c998</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-RadioButton7&quot;)</value>
-      <webElementGuid>fbda1748-4175-47c9-b220-28e9a23237d9</webElementGuid>
+      <webElementGuid>680d0f2e-689a-4f81-87ca-f9c4e8197653</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnRadio10</value>
+      <webElementGuid>b5b281d5-ca29-4c4d-82b5-5d98d3ebd6c3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -59,7 +68,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='b2-RadioButton7']</value>
-      <webElementGuid>6c62b36e-7962-4096-92ee-7fea2281e8ad</webElementGuid>
+      <webElementGuid>e5be9379-bbbe-4f3d-9a94-1e89eb3f9f6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,7 +76,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-RadioGroup4']/div/div</value>
-      <webElementGuid>6578d280-a6ab-4ab1-94f1-59dbdf69037b</webElementGuid>
+      <webElementGuid>def097d9-1a33-440a-880f-87d268a57d43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[3]/following::div[4]</value>
-      <webElementGuid>06e8ff65-c5f9-48f4-a525-5aba93284696</webElementGuid>
+      <webElementGuid>22bbc43c-e9c2-4a12-a04f-e855a17eada8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Give other amounts'])[1]/following::div[10]</value>
-      <webElementGuid>82385656-44ef-4318-bba0-bdab1887be0a</webElementGuid>
+      <webElementGuid>a1ebfab9-d1a8-47bd-b468-b702968bb440</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[4]/preceding::div[3]</value>
-      <webElementGuid>2909273b-bb24-4ada-b6c7-157c627b89b0</webElementGuid>
+      <webElementGuid>0ee247c6-5822-414d-a841-d5436bcdbd4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[5]/preceding::div[15]</value>
-      <webElementGuid>7a2451d2-ba35-409e-8700-a7e623780296</webElementGuid>
+      <webElementGuid>8c23c8c6-e7ec-4e5e-b5ac-a2689627d343</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +116,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/div/div/div/div/div[2]/div/div/div</value>
-      <webElementGuid>6a2bf3b4-832c-461e-abeb-82921eb973ad</webElementGuid>
+      <webElementGuid>28a2bc81-a6ed-4703-b783-3e3ab75caed0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +124,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'b2-RadioButton7']</value>
-      <webElementGuid>d611c13a-71be-4f19-a394-e488712d0333</webElementGuid>
+      <webElementGuid>ed6d11bd-a42f-45a7-9c16-d08d8f342907</webElementGuid>
+
    </webElementXpaths>
 </WebElementEntity>

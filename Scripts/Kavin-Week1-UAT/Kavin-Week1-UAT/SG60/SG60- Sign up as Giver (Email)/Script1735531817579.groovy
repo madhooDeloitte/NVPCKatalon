@@ -44,6 +44,48 @@ WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking acco
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_Date of birth_form-control OSFillPare_aaf11f'))
 
+<<<<<<< HEAD
+WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/signUpDate'))
+
+WebUI.setEncryptedText(findTestObject('Page_giving.sgGiver linking account/input_Password_b5-b3-Input_Password'), '963D2jXv1kXHYewulAqKlg==')
+
+WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/i_Password_icon fa fa-eye fa-1x'))
+
+WebUI.setEncryptedText(findTestObject('Page_giving.sgGiver linking account/input_Confirm password_b5-b3-Input_ConfirmPassword'), 
+    '963D2jXv1kXHYewulAqKlg==')
+
+WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/i_Confirm password_icon fa fa-eye fa-1x'))
+
+WebUI.click(findTestObject('Page_giving.sgGiver linking account/input_Confirm password_b5-b3-IsConsent_Checkbox'))
+
+WebUI.click(findTestObject('Page_giving.sgGiver linking account/button_Continue'))
+
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_An OTP has been sent to the email add_50c1c8'), 
+    '1')
+
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_An OTP has been sent to the email add_747b5b'), 
+    '2')
+
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_An OTP has been sent to the email add_94a906'), 
+    '3')
+
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_An OTP has been sent to the email add_3c6129'), 
+    '4')
+
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_An OTP has been sent to the email add_0844e5'), 
+    '5')
+
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_An OTP has been sent to the email add_6c0a23'), 
+    '6')
+
+WebUI.setText(findTestObject('Page_giving.sgGiver linking account/input_NRIC_b5-b5-Input_NRIC'), 'S9912345A')
+
+WebUI.click(findTestObject('Page_giving.sgGiver linking account/button_Continue_1'))
+
+WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/button_Skip_Interests'))
+
+WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/button_Skip_Skills'))
+=======
 WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/span_1'))
 
 WebUI.setEncryptedText(findTestObject('Page_giving.sgGiver linking account/input_Password_b5-b3-Input_Password'), '963D2jXv1kXHYewulAqKlg==')
@@ -84,6 +126,7 @@ WebUI.click(findTestObject('Page_giving.sgGiver linking account/button_Continue_
 WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/button_Skip'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/button_Skip_1'))
+>>>>>>> branch 'UATSG60' of https://github.com/madhooDeloitte/NVPCKatalon
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/button_Log in'))
 

@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Pledge</name>
+   <name>button_Skip_Interests</name>
    <tag></tag>
-   <elementGuidId>1c2f1ca2-d07f-4632-a741-85b174f7b316</elementGuidId>
+   <elementGuidId>01dc25bc-1fc0-4f8f-bf14-e3bb2aec9583</elementGuidId>
    <selectorCollection>
       <entry>
-
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and @ktl-id = 'btnPledge']</value>
+         <key>XPATH</key>
+         <value>//button[@id='b5-b6-Back']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@ktl-id = 'btnPledge']&#xd;
-</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @ktl-id = 'btnSkip' and @id = 'b5-b6-Back' and (text() = 'Skip' or . = 'Skip')]</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>#b5-b6-Back</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -28,15 +27,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6adcfd2c-1954-472b-90fe-2c2014891c1c</webElementGuid>
+      <webElementGuid>992d7636-9a2a-4989-8aa0-a31773970751</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn OSFillParent</value>
-      <webElementGuid>a48cdafa-a72b-483c-84a7-d0a97da2211c</webElementGuid>
+      <value>btn</value>
+      <webElementGuid>8aad70a1-375f-4a52-9b0e-b3a50dc917ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,103 +43,102 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2673fad4-ef71-4530-a26e-e7b7c904cc9b</webElementGuid>
+      <webElementGuid>693a31c9-d7f9-4990-a338-bf1504aaee8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ktl-id</name>
       <type>Main</type>
-      <value>btnPledge</value>
-      <webElementGuid>80929269-f561-4de4-9f08-5c81537786be</webElementGuid>
+      <value>btnSkip</value>
+      <webElementGuid>576837be-42a7-461f-b947-d0db49855d10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b5-b6-Back</value>
+      <webElementGuid>a18ddb59-af75-4886-b500-8fa87c060dc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Pledge</value>
-      <webElementGuid>ca7996f0-ae40-423f-8376-76f9522dd004</webElementGuid>
+      <value>Skip</value>
+      <webElementGuid>5b1de8e1-6ed9-40c4-bf71-37ea806b84f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@ktl-id = 'btnPledge']</value>
-      <webElementGuid>52ba0d69-6e34-4d86-ae93-b70da1136608</webElementGuid>
+      <value>id(&quot;b5-b6-Back&quot;)</value>
+      <webElementGuid>72e413eb-8219-4d1d-97ca-c4513b4d5e2b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[16]</value>
-      <webElementGuid>24912ce7-00d0-4a31-aac2-69d027aabd69</webElementGuid>
+      <value>//button[@id='b5-b6-Back']</value>
+      <webElementGuid>a72205df-41d1-4415-9ed1-ea92849fd88d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b15-l3-129_0-Desktop']/button[3]</value>
-      <webElementGuid>fa55138e-be4f-49d3-a098-bacb3efaccb7</webElementGuid>
+      <value>//div[@id='b5-b6-b3-Left']/button</value>
+      <webElementGuid>6bdbdfb7-063b-4752-acb0-a794093fd4d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to cart'])[1]/following::button[1]</value>
-      <webElementGuid>029fad32-6ad9-4272-98d9-31a58ea22424</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Youth'])[1]/following::button[1]</value>
+      <webElementGuid>e24719f7-71e4-4474-b2c2-89911190a8a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Donate now'])[1]/following::button[2]</value>
-      <webElementGuid>4c020d86-3001-40cd-9d16-d2aa0f4a3b22</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The environment'])[1]/following::button[1]</value>
+      <webElementGuid>cd172885-fc11-4d1b-bb46-570d4eb66c34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[2]/preceding::button[1]</value>
-      <webElementGuid>423db963-5080-4711-8c85-ca557ded5609</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/preceding::button[1]</value>
+      <webElementGuid>540284eb-4fef-4b96-905f-7e1fb2a59629</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other amount'])[1]/preceding::button[1]</value>
-      <webElementGuid>53e12afb-5a75-4f73-ace9-f79d6822840d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Pledge']/parent::*</value>
-      <webElementGuid>62cb2742-98be-4f33-8466-450629264da4</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Skip']/parent::*</value>
+      <webElementGuid>7cb61a7d-af11-47ca-ac02-a0ebaa3ebd78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/button[3]</value>
-      <webElementGuid>e82eb5a6-0506-4a7c-8a92-8565214c0556</webElementGuid>
+      <value>//div[3]/div/div/div/button</value>
+      <webElementGuid>edffc6f9-2a7d-4856-aa86-2c1384e49ec9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Pledge' or . = 'Pledge')]</value>
-      <webElementGuid>7e66b762-975b-431c-bc20-0476ea1fe8f3</webElementGuid>
-
+      <value>//button[@type = 'button' and @id = 'b5-b6-Back' and (text() = 'Skip' or . = 'Skip')]</value>
+      <webElementGuid>d97540fe-e8a2-4685-b425-83e3bc351612</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

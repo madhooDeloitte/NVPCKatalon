@@ -3,11 +3,12 @@
    <description></description>
    <name>button_DONATE NOW</name>
    <tag></tag>
-   <elementGuidId>8663c3b6-5758-4c42-80c8-f192e88807d4</elementGuidId>
+
+   <elementGuidId>c29c61ee-47e1-4433-9f4e-ebc66a1e7eaa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@ktl-id = 'btnSG60DonateNow']</value>
+         <value>//*[@type = 'button' and @ktl-id = 'btnSG60DonateNow']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -19,12 +20,6 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;DONATE NOW&quot;i]</value>
-      </entry>
-   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -33,23 +28,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a3a80cc9-7916-4b2e-b31c-ffff7eefc018</webElementGuid>
+      <webElementGuid>5893242f-b44f-4cb4-a862-089a0720613d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>1d1eeba5-1523-4e15-b391-47c88d3f441f</webElementGuid>
+      <value>btn</value>
+      <webElementGuid>0a80f267-6e78-465b-bb1a-ef7339e98f30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4ba43a99-942c-4dab-9762-8c06458472fa</webElementGuid>
+      <webElementGuid>50ed8ff8-a4c1-4d8f-b47a-5bd748de4408</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +52,7 @@
       <name>text</name>
       <type>Main</type>
       <value>DONATE NOW</value>
-      <webElementGuid>7b4370f7-676e-4913-a004-f2c0a54bdb4b</webElementGuid>
+      <webElementGuid>41d7bdf7-c273-4df5-b36c-fbcb00a24e30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +60,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-b1-b3-Button&quot;)/button[@class=&quot;btn&quot;]</value>
-      <webElementGuid>563760ef-f6db-4ab9-a95e-ccecf5b1fce1</webElementGuid>
+      <webElementGuid>fefd1ade-d6cd-437a-a0a6-3fe1122fb1a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,7 +68,7 @@
       <name>ktl-id</name>
       <type>Main</type>
       <value>btnSG60DonateNow</value>
-      <webElementGuid>fed3aa1f-1b1d-4afb-b57e-615d2dded0f0</webElementGuid>
+      <webElementGuid>0671e876-2306-4580-bb00-60888948b8ac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -81,7 +76,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>c146bea6-6221-407a-aff7-300c6bebab2e</webElementGuid>
+      <webElementGuid>ffc92cbd-5527-45c6-ad04-b4fe3c559d5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +84,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b1-b3-Button']/button</value>
-      <webElementGuid>35861208-df26-4d9f-993c-8213e0c1aa39</webElementGuid>
+      <webElementGuid>aa76aa14-b4d7-4e3a-9979-585c2916e034</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Give 60 for SG60'])[6]/following::button[1]</value>
-      <webElementGuid>2acdc4eb-29d5-47c9-be56-081ebd9bedd8</webElementGuid>
+      <webElementGuid>36e93e2b-a549-49c7-82b4-fdc0dc024bf4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Streamline your donations today'])[6]/following::button[1]</value>
-      <webElementGuid>390ac14a-7e88-4495-9bc1-143c6c055ade</webElementGuid>
+      <webElementGuid>da010037-9854-4272-9b47-00d303ed3c97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tax-deductible'])[1]/preceding::button[1]</value>
-      <webElementGuid>22522cf7-cb64-4725-b15b-17f47318ba02</webElementGuid>
+      <webElementGuid>4ffbcbdf-9312-47aa-a259-2eb1f64b1cd9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +116,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/button</value>
-      <webElementGuid>fea6151a-959d-47d8-b252-87e0110bbf41</webElementGuid>
+      <webElementGuid>1662bede-4bf5-4a83-9663-25c0fa8db515</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,6 +124,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'DONATE NOW' or . = 'DONATE NOW')]</value>
-      <webElementGuid>3a2dc841-ba9f-4f46-a1b1-d2103c6403fd</webElementGuid>
+      <webElementGuid>a2587f8f-47c7-4c38-bf3f-d2b0b4f32653</webElementGuid>
+
    </webElementXpaths>
 </WebElementEntity>

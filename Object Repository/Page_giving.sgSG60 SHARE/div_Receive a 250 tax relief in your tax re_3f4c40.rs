@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Pledge</name>
+   <name>div_Receive a 250 tax relief in your tax re_3f4c40</name>
    <tag></tag>
-   <elementGuidId>1c2f1ca2-d07f-4632-a741-85b174f7b316</elementGuidId>
+   <elementGuidId>2b7a809d-be6c-4328-93e1-9519da38faa0</elementGuidId>
    <selectorCollection>
       <entry>
-
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and @ktl-id = 'btnPledge']</value>
+         <key>CSS</key>
+         <value>#b2-b2-AlertHeader_Placeholder</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@ktl-id = 'btnPledge']&#xd;
-</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <value>//div[@id='b2-b2-AlertHeader_Placeholder']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,120 +22,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>6adcfd2c-1954-472b-90fe-2c2014891c1c</webElementGuid>
+      <value>div</value>
+      <webElementGuid>653942d4-89f2-4230-b540-d7df83bd1760</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn OSFillParent</value>
-      <webElementGuid>a48cdafa-a72b-483c-84a7-d0a97da2211c</webElementGuid>
+      <value>alert-box-header ph</value>
+      <webElementGuid>95a03689-5ed0-46eb-a0bf-995ae299943c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>2673fad4-ef71-4530-a26e-e7b7c904cc9b</webElementGuid>
+      <value>b2-b2-AlertHeader_Placeholder</value>
+      <webElementGuid>5b7091ef-4c94-40c2-8906-f9d68cfdf23c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ktl-id</name>
-      <type>Main</type>
-      <value>btnPledge</value>
-      <webElementGuid>80929269-f561-4de4-9f08-5c81537786be</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Pledge</value>
-      <webElementGuid>ca7996f0-ae40-423f-8376-76f9522dd004</webElementGuid>
+      <value>Receive a 250% tax relief in your tax returns for any donation amount starting from $1. A tax-deductible receipt can be requested on the payment page.</value>
+      <webElementGuid>a9301825-029e-487a-b5ad-eb184b78dfcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@ktl-id = 'btnPledge']</value>
-      <webElementGuid>52ba0d69-6e34-4d86-ae93-b70da1136608</webElementGuid>
+      <value>id(&quot;b2-b2-AlertHeader_Placeholder&quot;)</value>
+      <webElementGuid>d775fcbb-8e19-407d-b165-4ab2f8729cee</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[16]</value>
-      <webElementGuid>24912ce7-00d0-4a31-aac2-69d027aabd69</webElementGuid>
+      <value>//div[@id='b2-b2-AlertHeader_Placeholder']</value>
+      <webElementGuid>0e900ce5-ffbf-4dfd-9c9a-9d8e532a23f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b15-l3-129_0-Desktop']/button[3]</value>
-      <webElementGuid>fa55138e-be4f-49d3-a098-bacb3efaccb7</webElementGuid>
+      <value>//div[@id='b2-b2-AlertText_container']/div</value>
+      <webElementGuid>afbdac2b-e3e8-48a2-a974-387f87832a36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to cart'])[1]/following::button[1]</value>
-      <webElementGuid>029fad32-6ad9-4272-98d9-31a58ea22424</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Run by the Community Chest'])[1]/following::div[13]</value>
+      <webElementGuid>8f6cc569-6b9c-48f1-817f-fadf3877b15f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Donate now'])[1]/following::button[2]</value>
-      <webElementGuid>4c020d86-3001-40cd-9d16-d2aa0f4a3b22</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Give $60 for SG60'])[1]/preceding::div[9]</value>
+      <webElementGuid>8c8df9c0-987a-49c3-941e-7fc36c0ae01c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[2]/preceding::button[1]</value>
-      <webElementGuid>423db963-5080-4711-8c85-ca557ded5609</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[1]/preceding::div[10]</value>
+      <webElementGuid>e44527aa-cd08-4bde-b305-9a3e5ff9389b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other amount'])[1]/preceding::button[1]</value>
-      <webElementGuid>53e12afb-5a75-4f73-ace9-f79d6822840d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Pledge']/parent::*</value>
-      <webElementGuid>62cb2742-98be-4f33-8466-450629264da4</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Receive a 250% tax relief in your tax returns for any donation amount starting from $1. A tax-deductible receipt can be requested on the payment page.']/parent::*</value>
+      <webElementGuid>c5d303e7-7043-4d46-b6da-141282a41472</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/button[3]</value>
-      <webElementGuid>e82eb5a6-0506-4a7c-8a92-8565214c0556</webElementGuid>
+      <value>//div[2]/div/div[2]/div/div/div/div/div[2]/div</value>
+      <webElementGuid>d31ef280-f651-4061-9be7-a22e7ee8a5e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Pledge' or . = 'Pledge')]</value>
-      <webElementGuid>7e66b762-975b-431c-bc20-0476ea1fe8f3</webElementGuid>
-
+      <value>//div[@id = 'b2-b2-AlertHeader_Placeholder' and (text() = 'Receive a 250% tax relief in your tax returns for any donation amount starting from $1. A tax-deductible receipt can be requested on the payment page.' or . = 'Receive a 250% tax relief in your tax returns for any donation amount starting from $1. A tax-deductible receipt can be requested on the payment page.')]</value>
+      <webElementGuid>5f1f025b-d25c-41dc-909f-ef3151d5a69d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_605x12 months</name>
+   <name>profileAvatar</name>
    <tag></tag>
-   <elementGuidId>1e195b46-4889-4d52-be18-bed93325cb0a</elementGuidId>
+   <elementGuidId>827de80b-f741-4439-b308-b53736fc17a7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-
-         <value>id(&quot;b2-b8-MainBlock&quot;)/div[@class=&quot;heading-section&quot;]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;b2-b8-MainBlock&quot;)/div[@class=&quot;heading-section&quot;]</value>
+         <value>//div[@ktl-id = 'imgAvatar']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#b2-b8-MainBlock > div.heading-section</value>
+         <value>#b1-b5-AvatarImage_Url</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'imgAvatar&#xd;
+']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,64 +27,65 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>18971b0a-1fc7-49c2-adfc-498afabefd5e</webElementGuid>
+      <value>div&#xd;
+</value>
+      <webElementGuid>4dcd003f-af37-4736-ac26-ceb56d24c261</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>id</name>
       <type>Main</type>
-      <value>heading-section</value>
-      <webElementGuid>fbe13b65-119f-4621-ab81-aa6bd2621d8c</webElementGuid>
+      <value>b1-DesktopOnly</value>
+      <webElementGuid>e1225a92-4c32-4739-aacd-a30ae6844b6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>$ 60$5x12 months</value>
-      <webElementGuid>31e191f4-be85-41a1-99a4-9518ebca663e</webElementGuid>
+      <value>//div[@ktl-id = 'imgAvatar']</value>
+      <webElementGuid>3d3911e2-496d-4a6f-9fe7-130c5952dc10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>ktl-id</name>
       <type>Main</type>
-      <value>id(&quot;b2-b8-MainBlock&quot;)/div[@class=&quot;heading-section&quot;]</value>
-      <webElementGuid>8b468364-6309-4237-98e5-82ed5ee73d51</webElementGuid>
+      <value>imgAvatar&#xd;
+</value>
+      <webElementGuid>4fac9513-5d9e-462c-8147-4abafe54738f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='b2-b8-MainBlock']/div</value>
-      <webElementGuid>1330da8c-5fc8-47ba-a976-e8d0529f2be2</webElementGuid>
+      <value>//img[@id='b1-b5-AvatarImage_Url']</value>
+      <webElementGuid>8e8b20ca-aff8-4808-aadd-58595c3af526</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Give $60 for SG60'])[2]/following::div[4]</value>
-      <webElementGuid>e4467009-66fb-4e83-9710-f92ac5561378</webElementGuid>
+      <value>//div[@id='b1-$b5']/div/img</value>
+      <webElementGuid>d3c7d40c-6b4d-497d-b0fe-653353409662</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div[3]/div/div/div</value>
-      <webElementGuid>3854123b-cfa1-423f-b50d-f2513ba7fa30</webElementGuid>
+      <value>//div/div/div/div/div/div/img</value>
+      <webElementGuid>7cb35650-5948-4aed-93d3-55f655c778f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '$ 60$5x12 months' or . = '$ 60$5x12 months')]</value>
-      <webElementGuid>e4fca4eb-2c4c-4dc8-b076-6392ecb0cb81</webElementGuid>
-
+      <value>//img[@src = '/res/getGiverImage/33ad96c7-7e4c-4e83-b480-9672511ca3fc.jpg' and @id = 'b1-b5-AvatarImage_Url']</value>
+      <webElementGuid>ec081ed5-6e8e-405b-925d-29b24cf827d8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

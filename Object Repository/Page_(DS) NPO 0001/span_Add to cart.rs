@@ -6,8 +6,10 @@
    <elementGuidId>0bdb3b96-780e-4b13-8bdb-3e242e1ab3c7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-primary > span</value>
+
+         <key>BASIC</key>
+         <value>//button&#xd;
+[@ktl-id = 'btnDonatePopUp']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -16,21 +18,21 @@
 </value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@ktl-id='btnDonatePopUp']/span&#xd;
-</value>
+         <key>CSS</key>
+         <value>button.btn.btn-primary > span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>f2500d93-6663-4653-9587-6ad4b7a772e2</webElementGuid>
+      <value>button&#xd;
+</value>
+      <webElementGuid>95da9f16-0eff-4161-94b8-ade037004585</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,16 +40,24 @@
       <name>text</name>
       <type>Main</type>
       <value>Add to cart</value>
-      <webElementGuid>5729d78f-5b25-41e1-a48a-6c9641f5c400</webElementGuid>
+      <webElementGuid>49971ef5-8c3c-4057-96e2-e1f670f84fc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@ktl-id='btnDonatePopUp']&#xd;
+</value>
+      <webElementGuid>09129151-4afa-4776-ad49-ac5dbb6e11c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>ktl-id</name>
       <type>Main</type>
-      <value>//button[@ktl-id='btnDonatePopUp']/span&#xd;
-</value>
-      <webElementGuid>bb7c6a35-f5c6-48df-8f76-12309f82c2b7</webElementGuid>
+      <value>btnDonatePopUp</value>
+      <webElementGuid>0a2bd84a-a3cf-4fe2-9dda-11aabb08a053</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b15-b20-b1-PrimaryButtons']/button/span</value>
-      <webElementGuid>940ec4cf-5939-4eb7-90af-b9588e467718</webElementGuid>
+      <webElementGuid>dccfd6f4-2207-4cf5-ae4e-a1b9aa581421</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::span[1]</value>
-      <webElementGuid>ab5349e8-f77c-4206-9cf0-a056ba0acb05</webElementGuid>
+      <webElementGuid>0e381cb1-8bbb-4cc8-ab96-3c2714f446c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test question to ask'])[1]/following::span[2]</value>
-      <webElementGuid>33f37c73-769d-4f99-a6d4-fbb4e444c2c8</webElementGuid>
+      <webElementGuid>8287bf82-6caf-4310-ac15-b743f386e400</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/span</value>
-      <webElementGuid>b16810f5-0b66-471a-be49-35c74e7c368f</webElementGuid>
+      <webElementGuid>7b0f7b61-c543-4b17-9796-197ea4393dda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +97,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Add to cart' or . = 'Add to cart')]</value>
-      <webElementGuid>f1f8df95-edcc-406c-933e-5af653982155</webElementGuid>
+      <webElementGuid>a40ab78f-cd14-47fa-9c6b-840cc08a1a37</webElementGuid>
+
    </webElementXpaths>
 </WebElementEntity>
