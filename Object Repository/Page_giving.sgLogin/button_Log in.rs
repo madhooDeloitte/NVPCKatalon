@@ -7,27 +7,27 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@ktl-id = 'btnEmailLogIn']</value>
+         <value>//button[@ktl-id = 'btnEmailLogIn']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.btn.btn-primary.full-width</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'submit' and @ktl-id = 'btnEmailLogIn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e26b6f50-527e-4d93-99c9-dd4bf28ef3ce</webElementGuid>
+      <webElementGuid>c3a227e7-eed9-466a-a075-7ce897980daf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,15 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary full-width</value>
-      <webElementGuid>2f040a5b-57a5-41a5-83d9-a84fe7645562</webElementGuid>
+      <webElementGuid>365a2661-715c-454a-82c7-2209ce56d523</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>bb51d91e-e2c6-4644-b96d-3406af3a6222</webElementGuid>
+      <webElementGuid>d9455161-d1d7-4a3a-8d70-6b8416769175</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
       <name>ktl-id</name>
       <type>Main</type>
       <value>btnEmailLogIn</value>
-      <webElementGuid>096a7110-145f-4007-ba68-f8e9fc29196d</webElementGuid>
+      <webElementGuid>1fdc87f6-44ad-4922-8b9d-99db855c79d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,15 +59,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Log in</value>
-      <webElementGuid>e36011a8-3beb-4f49-9ab9-ffbbc19e802b</webElementGuid>
+      <webElementGuid>97a8700e-635b-4c20-b401-235ea1bdef59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b3-b9-b7-Button&quot;)/button[@class=&quot;btn btn-primary full-width&quot;]</value>
-      <webElementGuid>d7c914b8-5ff7-4bc7-a12b-ec3545f6e792</webElementGuid>
+      <value>//button[@ktl-id = 'btnEmailLogIn']</value>
+      <webElementGuid>b4ea4587-5628-4bc5-bc2a-793cdf705472</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>c83826bf-416f-4f84-b3fc-dd437fc86c67</webElementGuid>
+      <webElementGuid>73d57176-7b56-4f87-8442-22c7bdb5ed3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b3-b9-b7-Button']/button</value>
-      <webElementGuid>c8f834f9-2083-44af-acef-c55aceab6959</webElementGuid>
+      <webElementGuid>33295633-9e87-4880-a58a-53d1f1cbea40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::button[1]</value>
-      <webElementGuid>34973988-7e0c-4c3c-80ab-cd64a3fd0500</webElementGuid>
+      <webElementGuid>9f02c4d2-d964-42af-ae63-333f90e39f2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OR'])[1]/following::button[1]</value>
-      <webElementGuid>dffce326-d153-4262-87ff-17a6f80b07fd</webElementGuid>
+      <webElementGuid>902d0c8b-96a9-4b45-99f2-2e71449b99b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OR'])[2]/preceding::button[1]</value>
-      <webElementGuid>1f7fd25b-6ea5-447b-810c-25211e16bb92</webElementGuid>
+      <webElementGuid>6d78bef3-65dc-44ee-86b3-df313264f1fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Log in']/parent::*</value>
-      <webElementGuid>6c508d56-0f94-4856-96a4-c3aeec64be4c</webElementGuid>
+      <webElementGuid>d41f972d-129d-48aa-81be-e4711d8ebefa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/button</value>
-      <webElementGuid>dc5758ab-edf7-4adf-b0e3-935682128355</webElementGuid>
+      <webElementGuid>1b859af0-72ac-432c-8640-4e68ca303311</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,6 +131,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Log in' or . = 'Log in')]</value>
-      <webElementGuid>6b2f0ee2-6a6d-423e-8caa-6d61fef7c250</webElementGuid>
+      <webElementGuid>62be4698-2dad-4269-8d1b-b68d735b6689</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

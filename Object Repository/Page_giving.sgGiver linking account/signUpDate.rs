@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_1</name>
+   <name>signUpDate</name>
    <tag></tag>
    <elementGuidId>90c2059a-73e3-49ed-bce2-3638fba52dc6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[@class='osui-datepicker']//input[@id='b5-b3-Input_GiverDateOfBirth']&#xd;
+</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='flatpickr-calendar-0.xidcff8y9s']/div[2]/div/div[2]/div/span</value>
+         <value>//div[@id='flatpickr-calendar-0.0t1311dzmq2p']/div[2]/div/div[2]/div/span</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>span.flatpickr-day</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>02a257d2-7cd0-42da-ae7c-ff5a92154534</webElementGuid>
+      <webElementGuid>38734c60-375f-4ae6-82ef-661704e09730</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flatpickr-day</value>
-      <webElementGuid>ab99b64f-966b-4651-9647-a047edb7ad42</webElementGuid>
+      <webElementGuid>ea34453c-aa26-4c69-b9aa-2fcff4f9855c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +44,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>December 1, 2024</value>
-      <webElementGuid>55f024ba-bee5-4f20-9917-af0252d73859</webElementGuid>
+      <webElementGuid>bdd19a96-3dd1-44f1-80eb-085069aa2e06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,31 +52,32 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>96df2b2a-53b7-4c24-80b6-1bcff7f88a0f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>1</value>
-      <webElementGuid>0da3fe01-8fdc-4e2e-8509-ebb7014a90c1</webElementGuid>
+      <webElementGuid>099dd3eb-04d1-4b61-a40e-17f6219e71e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>350a0b74-b0bd-4bdd-be6a-ce1005ebdcc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;flatpickr-calendar-0.xidcff8y9s&quot;)/div[@class=&quot;flatpickr-innerContainer&quot;]/div[@class=&quot;flatpickr-rContainer&quot;]/div[@class=&quot;flatpickr-days&quot;]/div[@class=&quot;dayContainer&quot;]/span[@class=&quot;flatpickr-day&quot;]</value>
-      <webElementGuid>8d030500-c072-4799-8018-625a29825b23</webElementGuid>
+      <value>//div[@class='osui-datepicker']//input[@id='b5-b3-Input_GiverDateOfBirth']&#xd;
+</value>
+      <webElementGuid>b70dbc4a-d938-4438-989f-c8fa9a4641ad</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='flatpickr-calendar-0.xidcff8y9s']/div[2]/div/div[2]/div/span</value>
-      <webElementGuid>98c49bbb-e41a-4176-b178-2d8503c7c842</webElementGuid>
+      <value>//div[@id='flatpickr-calendar-0.0t1311dzmq2p']/div[2]/div/div[2]/div/span</value>
+      <webElementGuid>3d8d0fee-44f1-4c5a-b97c-c5b9154bd1eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::span[1]</value>
-      <webElementGuid>231c2818-9c7f-4b33-b5bb-aeb03aa82d4e</webElementGuid>
+      <webElementGuid>49da16b3-5daa-4e39-83d6-073fcf8468e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[1]/following::span[2]</value>
-      <webElementGuid>a3d2dd04-0c34-4349-b642-0d7150da6542</webElementGuid>
+      <webElementGuid>ab4d8b6f-124c-474b-9a15-bb7f4d1a662b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='1']/parent::*</value>
-      <webElementGuid>82b033c7-df9e-479b-8459-0d6eb9f0b21b</webElementGuid>
+      <webElementGuid>713910ca-0414-4b3a-a26d-f1badb7595ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div/span</value>
-      <webElementGuid>6deef533-4a23-419b-acfe-667e65ab9aec</webElementGuid>
+      <webElementGuid>532b5e10-c9d3-4403-a9ed-710b5b84db2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +117,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '1' or . = '1')]</value>
-      <webElementGuid>6296429d-c57c-462b-aca2-74aa40bd6df1</webElementGuid>
+      <webElementGuid>e8d03be6-ede5-4391-bec7-d9e07fa96145</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='flatpickr-calendar-0.xidcff8y9s']/div[2]/div/div[2]/div/span</value>
+      <webElementGuid>161cf356-b41a-4eff-bfbc-d015174e0a87</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

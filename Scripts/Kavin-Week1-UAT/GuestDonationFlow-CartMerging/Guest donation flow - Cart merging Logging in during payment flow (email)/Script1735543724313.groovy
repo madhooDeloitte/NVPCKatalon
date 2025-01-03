@@ -33,6 +33,7 @@ WebUI.click(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/span_(DS) NPO 0
 
 WebUI.switchToWindowTitle('(DS) NPO 0001')
 
+//---------------------------------------------------------------------------------------------------------------One time donation 
 TestObject donationBoxTier = findTestObject('Page_(DS) NPO 0001/donationBoxTier')
 
 WebUI.comment('Found the donation box. Next step is hover!')
@@ -46,19 +47,17 @@ WebUI.waitForElementClickable(donationBoxTier, 10)
 //
 WebUI.mouseOver(donationBoxTier)
 
-TestObject addToCartButton = findTestObject('Object Repository/Page_(DS) NPO 0001/button_Add to cart_TieredDonation')
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_(DS) NPO 0001/button_Add to cart_TieredDonation'), 10)
 
-//WebUI.waitForElementVisible(addToCartButton, 10)
-//WebUI.waitForElementClickable(addToCartButton, 10)
-//
-//WebUI.click(addToCartButton)
-//WebUI.click(findTestObject('Object Repository/Page_(DS) NPO 0001/div_I want to donate to (DS) NPO 0001Donati_3ceecc'))
+WebUI.click(findTestObject('Object Repository/Page_(DS) NPO 0001/button_Add to cart_TieredDonation'))
+
 WebUI.setText(findTestObject('Page_(DS) NPO 0001/input_Test question to ask_b2-b15-b20-l1-13_f08c15'), 'test')
 
 WebUI.click(findTestObject('Page_(DS) NPO 0001/span_Add to cart'))
 
 //WebUI.switchToWindowTitle('(DS) NPO 0001')
 //donationBoxTier = findTestObject('Page_(DS) NPO 0001/donationBoxTier')
+// -------------------------------------------------------------------------------------------------->> Recurring Donation 
 WebUI.comment('Hovering over the donation box for the second time')
 
 WebUI.waitForElementVisible(donationBoxTier, 10)
@@ -70,24 +69,9 @@ WebUI.scrollToElement(donationBoxTier, 10)
 
 WebUI.mouseOver(donationBoxTier)
 
-////Second iteration in clicking the add to cart button 
-////TestObject addToCartButton2 = findTestObject('Object Repository/Page_(DS) NPO 0001/button_Add to cart_TieredDonation')
-//WebUI.takeScreenshot()
-//
-//WebUI.waitForElementVisible(addToCartButton, 10)
-//
-//if (WebUI.verifyElementVisible(addToCartButton)) {
-//    WebUI.comment('Add to cart button  is visible')
-//} else {
-//    WebUI.comment('Add to cart button is not visible')
-//}
-//
-//WebUI.waitForElementVisible(addToCartButton, 10)
-//
-//WebUI.waitForElementClickable(addToCartButton, 10)
-//WebUI.click(addToCartButton)  //--> This clicking button has issues. Script seems to run with after commenting <-- // 
-////////////////////////////////////////////////////////////////////////////////////////
-WebUI.click(findTestObject('Object Repository/Page_(DS) NPO 0001/div_I want to donate to (DS) NPO 0001Donati_3ceecc_1'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_(DS) NPO 0001/button_Add to cart_TieredDonation'), 10)
+
+WebUI.click(findTestObject('Object Repository/Page_(DS) NPO 0001/button_Add to cart_TieredDonation'))
 
 WebUI.click(findTestObject('Object Repository/Page_(DS) NPO 0001/span_Make this a recurring donation'))
 
@@ -104,7 +88,22 @@ WebUI.setText(findTestObject('Object Repository/Page_(DS) NPO 0001/input_Test qu
 
 WebUI.click(findTestObject('Page_(DS) NPO 0001/span_Add to cart'))
 
-//WebUI.click(findTestObject('Page_(DS) NPO 0001/button_Pledge'))
+// --------------------------------------------------------------------------------------------->> Pledge Donation 
+WebUI.comment('Hovering over the donation box for the third time')
+
+WebUI.waitForElementVisible(donationBoxTier, 10)
+
+//
+WebUI.waitForElementClickable(donationBoxTier, 10)
+
+WebUI.scrollToElement(donationBoxTier, 10)
+
+WebUI.mouseOver(donationBoxTier)
+
+WebUI.waitForElementVisible(findTestObject('Page_(DS) NPO 0001/button_Pledge'), 10)
+
+WebUI.click(findTestObject('Page_(DS) NPO 0001/button_Pledge'))
+
 WebUI.click(findTestObject('Page_(DS) NPO 0001/input_Set an end date for when the recurrin_a6ccf3'))
 
 WebUI.click(findTestObject('Page_(DS) NPO 0001/span_31_1'))
@@ -114,24 +113,22 @@ WebUI.setText(findTestObject('Object Repository/Page_(DS) NPO 0001/input_Test qu
 
 WebUI.click(findTestObject('Page_(DS) NPO 0001/span_Pledge now'))
 
+// ====================================================================================================================================>> Page_(DS) NPO 0001 ENDS 
+// ====================================================================================================================================>> Page_giving.sgCheckOutCart STARTS 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Enjoy tax benefits with your donations _40356b'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/button_Log in'))
-
-WebUI.verifyElementText(findTestObject('Page_giving.sgLogin/span_Log in with'), 'Log in with')
+WebUI.click(findTestObject('Page_giving.sgCheckout cart/buttonLoginTaxBar'))
 
 WebUI.click(findTestObject('Page_giving.sgLogin/div_Back'))
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Back'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Giving cart'), 0)
+WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/button_Log in'))
+WebUI.click(findTestObject('Page_giving.sgCheckout cart/buttonLoginTaxBar'))
 
-WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/span_Log in with'), 0)
-
-WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), 'member1@dk.dev')
+WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), 'member9@dk.dev')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
@@ -141,10 +138,12 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Giving cart'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/img_Stories_b1-b5-AvatarImage_Url'))
+//WebUI.click(findTestObject('Page_giving.sgCheckout cart/profileAvatar'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Logout'))
 
+// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX END OF SECTION 1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+// &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& SECTION 2 BEGINS &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/button_Yes'))
 
 WebUI.click(findTestObject('Object Repository/Page_/img'))
@@ -167,9 +166,10 @@ WebUI.setText(findTestObject('Page_giving.sgDonate/input_Search charities or cam
 
 WebUI.sendKeys(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), Keys.chord(Keys.ENTER))
 
-//WebUI.click(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/span_(DS) NPO 0001'))
-WebUI.switchToWindowTitle('(DS) NPO 0001')
+WebUI.click(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/span_(DS) NPO 0001'))
 
+// ----------------------------------------------------------------------------------------.> One - Time Donation 
+//WebUI.switchToWindowTitle('(DS) NPO 0001')
 WebUI.waitForElementVisible(donationBoxTier, 10)
 
 //
@@ -179,9 +179,7 @@ WebUI.waitForElementClickable(donationBoxTier, 10)
 WebUI.mouseOver(donationBoxTier)
 
 //TestObject addToCartButton = findTestObject('Object Repository/Page_(DS) NPO 0001/button_Add to cart_TieredDonation')
-
-WebUI.click(addToCartButton)
-
+//WebUI.click(addToCartButton)
 WebUI.setText(findTestObject('Object Repository/Page_(DS) NPO 0001/input_Test question to ask_b2-b15-b20-l1-30_1b4cca'), 
     'TEST')
 
@@ -222,7 +220,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/input_
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_You are not eligible for tax-deduction _101149'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/span_Log in'))
+WebUI.click(findTestObject('Page_giving.sgCheckout cart/SideBarLoginLink'))
 
 WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/span_Log in with'), 0)
 
@@ -230,7 +228,7 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Back'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Giving cart'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/span_Log in'))
+WebUI.click(findTestObject('Page_giving.sgCheckout cart/SideBarLoginLink'))
 
 WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/span_Log in with'), 0)
 
@@ -244,7 +242,7 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Giving cart'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/img_Stories_b1-b5-AvatarImage_Url'))
+WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/profileAvatar'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Logout_1'))
 
@@ -312,7 +310,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgCheck
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Enjoy tax benefits with your donations _40356b_1'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/button_Log in'))
+WebUI.click(findTestObject('Page_giving.sgCheckout cart/ButtonPaymentPageLogin'))
 
 WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/span_Log in with'), 0)
 
@@ -320,7 +318,7 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Back'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Payment Details'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/button_Log in'))
+WebUI.click(findTestObject('Page_giving.sgCheckout cart/ButtonPaymentPageLogin'))
 
 WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/span_Log in with'), 0)
 
@@ -351,5 +349,4 @@ WebUI.click(findTestObject('Object Repository/Page_DK Development Env/button_Com
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgPayment status/span_Completed'), 0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_giving.sgPayment status/span_Completed'), 'Completed')
-
 

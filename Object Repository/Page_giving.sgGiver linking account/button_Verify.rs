@@ -10,11 +10,15 @@
          <value>//button[@id='b5-b4-b2-VerifyButton']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnOTPVerify']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#b5-b4-b2-VerifyButton</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f1d23f63-14b0-4ae9-9b3b-68fb90701877</webElementGuid>
+      <webElementGuid>8a76a4e7-d5cc-49cb-9c4b-ff9661c210b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,39 +35,39 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>6416bc37-22fc-4dc4-b017-44936bcd7beb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>b3006d2e-a97e-4515-8542-9cc916e36427</webElementGuid>
+      <webElementGuid>e47baba7-a25a-40c2-a69d-f4d859ea3c87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ktl-id</name>
+      <name>type</name>
       <type>Main</type>
-      <value>btnOTPVerify</value>
-      <webElementGuid>2332624e-3ec2-4f13-8cb2-329dad6faa62</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>0e94ff8b-a4c4-48c0-8f11-79e22958f1bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnOTPVerify</value>
+      <webElementGuid>e78720b1-7792-4124-8767-a4b958159585</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b5-b4-b2-VerifyButton</value>
-      <webElementGuid>80367eb0-22e2-4095-aef1-7637f973074d</webElementGuid>
+      <webElementGuid>7f635b7a-96d3-44fa-9b1f-b0b9cebde599</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Verify</value>
-      <webElementGuid>6292330e-fc59-49f6-b937-fafdd49e4bf3</webElementGuid>
+      <webElementGuid>7dd7df7d-deae-43f3-b572-e3c93f151079</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b5-b4-b2-VerifyButton&quot;)</value>
-      <webElementGuid>c0f469ed-ff03-4b61-89a3-76a0bcdfb54f</webElementGuid>
+      <webElementGuid>522b5ae0-ec6e-48c9-8280-7b0609819a02</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='b5-b4-b2-VerifyButton']</value>
-      <webElementGuid>86f7b426-2951-4200-9ef6-ef49ef78ebcc</webElementGuid>
+      <webElementGuid>da57f23e-f82d-4e9a-8fbe-5099273c453c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b5-b4-b2-b5-Button']/button</value>
-      <webElementGuid>fa494333-1084-4bf7-9216-0439c3d99cc7</webElementGuid>
+      <webElementGuid>f6577688-a67d-4758-bf97-da001e594af4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='An OTP has been sent to the email address indicated in your registration form.'])[1]/following::button[1]</value>
-      <webElementGuid>d4875000-1b69-436c-96f9-5aa297996aa6</webElementGuid>
+      <webElementGuid>54de2ba8-ef80-4c42-8d81-445dd8a4b158</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OTP validation'])[1]/following::button[1]</value>
-      <webElementGuid>60429f8c-35a6-4c8b-8aa8-864ca9eb7dff</webElementGuid>
+      <webElementGuid>1d91ce74-b0e3-4c08-933d-0ebefeb153e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(03:08)'])[1]/preceding::button[1]</value>
-      <webElementGuid>53d23ef7-9dd9-4e71-911c-244d8ac46225</webElementGuid>
+      <webElementGuid>8dd0812f-7f3f-4c07-96e1-4e3d66de41a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Verify']/parent::*</value>
-      <webElementGuid>62d92b08-da81-4dc6-affe-4ad1d831ec45</webElementGuid>
+      <webElementGuid>4c18b350-1b79-4b10-a10a-679941e3d2fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +131,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/button</value>
-      <webElementGuid>d0a7cce1-a5e2-4e05-a76c-48cc3ad09811</webElementGuid>
+      <webElementGuid>8c0fa2f5-5b2e-4be1-b0d4-557db6995d75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,6 +139,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and @id = 'b5-b4-b2-VerifyButton' and (text() = 'Verify' or . = 'Verify')]</value>
-      <webElementGuid>03be3732-e4ee-4944-815a-e6d9febaca8e</webElementGuid>
+      <webElementGuid>848bfe95-c1aa-4f30-8e53-ec9101ee83ce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

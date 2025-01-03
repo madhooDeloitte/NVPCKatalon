@@ -6,15 +6,13 @@
    <elementGuidId>1c2f1ca2-d07f-4632-a741-85b174f7b316</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='b2-b15-Desktop2']//button[text()='Pledge']&#xd;
-&#xd;
-</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @ktl-id = 'btnPledge']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@id='b2-b15-Desktop2']//button[text()='Pledge']&#xd;
-[count(. | //*[@type = 'button' and @ktl-id = 'btnPledge']) = count(//*[@type = 'button' and @ktl-id = 'btnPledge'])]</value>
+         <key>XPATH</key>
+         <value>//button[@ktl-id = 'btnPledge']&#xd;
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>dd28bc31-ce11-4f8d-942e-0da9d15408cc</webElementGuid>
+      <webElementGuid>6adcfd2c-1954-472b-90fe-2c2014891c1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn OSFillParent</value>
-      <webElementGuid>9c385817-3591-4392-bda5-4ccf6c760846</webElementGuid>
+      <webElementGuid>a48cdafa-a72b-483c-84a7-d0a97da2211c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +43,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>63dfa1ed-9360-460d-8df2-87db8ebc0c2c</webElementGuid>
+      <webElementGuid>2673fad4-ef71-4530-a26e-e7b7c904cc9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +51,7 @@
       <name>ktl-id</name>
       <type>Main</type>
       <value>btnPledge</value>
-      <webElementGuid>731023fd-c6c4-4995-b4d7-b90bfe9353d9</webElementGuid>
+      <webElementGuid>80929269-f561-4de4-9f08-5c81537786be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,16 +59,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Pledge</value>
-      <webElementGuid>854e20b9-8c99-450f-9cb6-f84fc106cad3</webElementGuid>
+      <webElementGuid>ca7996f0-ae40-423f-8376-76f9522dd004</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='b2-b15-Desktop2']//button[text()='Pledge']&#xd;
-</value>
-      <webElementGuid>9e061437-a277-472c-ae73-ae427e481cdf</webElementGuid>
+      <value>//button[@ktl-id = 'btnPledge']</value>
+      <webElementGuid>52ba0d69-6e34-4d86-ae93-b70da1136608</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[16]</value>
-      <webElementGuid>0598c191-8dab-47fc-b2e1-73d829c9f149</webElementGuid>
+      <webElementGuid>24912ce7-00d0-4a31-aac2-69d027aabd69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b15-l3-129_0-Desktop']/button[3]</value>
-      <webElementGuid>9b570840-90b6-43c4-bd9b-afdb467c92b7</webElementGuid>
+      <webElementGuid>fa55138e-be4f-49d3-a098-bacb3efaccb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to cart'])[1]/following::button[1]</value>
-      <webElementGuid>07a34dcf-c4db-4606-a430-4192fd6cf717</webElementGuid>
+      <webElementGuid>029fad32-6ad9-4272-98d9-31a58ea22424</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Donate now'])[1]/following::button[2]</value>
-      <webElementGuid>278ac538-bd60-4dcb-8dc7-8f131e9a60c7</webElementGuid>
+      <webElementGuid>4c020d86-3001-40cd-9d16-d2aa0f4a3b22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[2]/preceding::button[1]</value>
-      <webElementGuid>d155c174-8310-438f-b073-0b8d0d6c749f</webElementGuid>
+      <webElementGuid>423db963-5080-4711-8c85-ca557ded5609</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Other amount'])[1]/preceding::button[1]</value>
-      <webElementGuid>edf755d3-35a7-4ba9-90c7-6ef82b4b3d4c</webElementGuid>
+      <webElementGuid>53e12afb-5a75-4f73-ace9-f79d6822840d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Pledge']/parent::*</value>
-      <webElementGuid>9dd09a08-1373-48c6-ada1-e26a11a6b52e</webElementGuid>
+      <webElementGuid>62cb2742-98be-4f33-8466-450629264da4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +131,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button[3]</value>
-      <webElementGuid>68c39af6-a525-4544-a784-0805101fa0e8</webElementGuid>
+      <webElementGuid>e82eb5a6-0506-4a7c-8a92-8565214c0556</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +139,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Pledge' or . = 'Pledge')]</value>
-      <webElementGuid>d4be0d8c-a7f3-43c8-a506-ff3a8f225eba</webElementGuid>
+      <webElementGuid>7e66b762-975b-431c-bc20-0476ea1fe8f3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

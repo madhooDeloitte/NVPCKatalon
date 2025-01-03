@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Good Mo</name>
+   <name>button_Skip_Skills</name>
    <tag></tag>
-   <elementGuidId>3eb8c062-9d64-439c-abde-eecb652fa3d3</elementGuidId>
+   <elementGuidId>68853004-be17-4f9b-91a4-5bbaf645cd7b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='b2-TextArea_DedicationMessage']</value>
+         <value>//button[@id='b5-b7-Back']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @ktl-id = 'btnSkip' and @id = 'b5-b7-Back' and (text() = 'Skip' or . = 'Skip')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#b2-TextArea_DedicationMessage</value>
+         <value>#b5-b7-Back</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,127 +26,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
-      <webElementGuid>66d06c08-c205-44b1-b6af-08add71ee1af</webElementGuid>
+      <value>button</value>
+      <webElementGuid>67c3e5d8-72d0-4f0b-a755-12cb05315ffe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control OSFillParent</value>
-      <webElementGuid>87267135-95c0-4b0d-8ba9-63be7256fc11</webElementGuid>
+      <value>btn</value>
+      <webElementGuid>bd1521a4-bc98-4421-824c-6233b830e6e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>rows</name>
+      <name>type</name>
       <type>Main</type>
-      <value>3</value>
-      <webElementGuid>67c4ac89-a7d9-4082-aebd-0b932ce3801e</webElementGuid>
+      <value>button</value>
+      <webElementGuid>8cc4d840-dbd1-4a41-af2e-5e0886ee01a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
+      <name>ktl-id</name>
       <type>Main</type>
-      <value>500</value>
-      <webElementGuid>747b2312-a5b5-4beb-9567-f25ad2d9e544</webElementGuid>
+      <value>btnSkip</value>
+      <webElementGuid>57b8782a-ce3d-4bb3-9f6f-68d64ca57967</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>b2-TextArea_DedicationMessage</value>
-      <webElementGuid>661e6de2-5a82-4a7b-ae0b-5cf48885a6c0</webElementGuid>
+      <value>b5-b7-Back</value>
+      <webElementGuid>671c32e3-e420-4f77-8177-64325444f55d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Good Mo</value>
-      <webElementGuid>735cf0e6-0e44-4c8d-bf1d-eed8839db062</webElementGuid>
+      <value>Skip</value>
+      <webElementGuid>3260834d-6b7b-44fd-8aa5-c332325ea926</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b2-TextArea_DedicationMessage&quot;)</value>
-      <webElementGuid>948cb72a-8d68-45a0-ace8-13975f672ec0</webElementGuid>
+      <value>id(&quot;b5-b7-Back&quot;)</value>
+      <webElementGuid>31498269-ef45-471e-aa4d-d9078e4308cb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='b2-TextArea_DedicationMessage']</value>
-      <webElementGuid>9b5fadbd-0c1d-46fb-93ab-d78a3263a78c</webElementGuid>
+      <value>//button[@id='b5-b7-Back']</value>
+      <webElementGuid>fee819d1-a141-40b8-b5bf-68850683436f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b31-TextArea']/span/textarea</value>
-      <webElementGuid>dd628357-ea65-4281-bb36-7156ceb69bc7</webElementGuid>
+      <value>//div[@id='b5-b7-b3-Left']/button</value>
+      <webElementGuid>b472a00a-b958-42de-9ff2-20b81ed544c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave an encouraging message (optional)'])[1]/following::textarea[1]</value>
-      <webElementGuid>f23ddfce-40f5-4b40-8715-ed98bf976a4c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Volunteer management'])[1]/following::button[1]</value>
+      <webElementGuid>2f1db037-82ea-44f6-8303-4757a82d4b42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[6]/following::textarea[1]</value>
-      <webElementGuid>3a8043cb-8512-4b20-9784-721dd6e91a3f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medical and health'])[1]/following::button[1]</value>
+      <webElementGuid>b18117b2-5b31-4082-858e-62a61d2a4c1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/preceding::textarea[1]</value>
-      <webElementGuid>72c14785-9f8e-4999-b1db-55e82dd8abbf</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/preceding::button[1]</value>
+      <webElementGuid>8595e39a-786a-47ea-95c9-7c3b42147992</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[2]/preceding::textarea[1]</value>
-      <webElementGuid>e686560c-0d89-4cec-bc1f-74185be1fabb</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Good Mo']/parent::*</value>
-      <webElementGuid>b1e365f4-68b5-45a7-8296-47b1fdcef1d1</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Skip']/parent::*</value>
+      <webElementGuid>b0f6937d-6278-42fc-a94d-a766d641a023</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//textarea</value>
-      <webElementGuid>d58802ca-5db6-4004-ba0e-8bf2810364a5</webElementGuid>
+      <value>//div[3]/div/div/div/button</value>
+      <webElementGuid>3163e5b9-d8e4-4d3b-b2ca-719153496091</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//textarea[@id = 'b2-TextArea_DedicationMessage' and (text() = 'Good Mo' or . = 'Good Mo')]</value>
-      <webElementGuid>9de5ca89-4602-4520-848d-5bf82fb7c557</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'b5-b7-Back' and (text() = 'Skip' or . = 'Skip')]</value>
+      <webElementGuid>57d4a136-f585-4439-9891-975e5a306882</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

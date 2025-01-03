@@ -6,12 +6,17 @@
    <elementGuidId>159fc925-bdc0-4846-a999-31807f047d2a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#b2-Text</value>
+         <key>XPATH</key>
+         <value>//div[@id='b1-Actions']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='b2-Text']</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'b1-Actions&#xd;
+' and @ktl-id  = 'btnBack']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-Text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>efc92cbf-b5df-4d90-9399-62d4bec3ae16</webElementGuid>
+      <webElementGuid>dfc08669-c9b9-419a-87af-c26d2dea614a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,23 +36,24 @@
       <name>class</name>
       <type>Main</type>
       <value>icon-text-pair-text-part</value>
-      <webElementGuid>328c458c-e375-4039-97bd-801323a0cc65</webElementGuid>
+      <webElementGuid>d32b1a69-2d1d-4a54-be11-133d46ee2142</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>b2-Text</value>
-      <webElementGuid>2ced247e-bc71-41f5-9188-26018ce21e45</webElementGuid>
+      <value>b1-Actions&#xd;
+</value>
+      <webElementGuid>09c833c3-0e9c-4aaa-bc65-ff54e2554674</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Back</value>
-      <webElementGuid>ca14c412-4d2c-4b9d-a2f5-2817e6c4f6ee</webElementGuid>
+      <webElementGuid>2d5a2425-a54b-476e-88ac-e619cbedcdf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +61,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-Text&quot;)</value>
-      <webElementGuid>fe0cd281-5b99-4da8-8c64-9e71f944529c</webElementGuid>
+      <webElementGuid>970499a6-a048-4eaf-8e95-92df89af23e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id </name>
+      <type>Main</type>
+      <value>btnBack</value>
+      <webElementGuid>b11628aa-877f-4ccc-a822-fa535ca79b77</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='b2-Text']</value>
-      <webElementGuid>1f903a79-906c-49b0-b2f4-f09a865564b2</webElementGuid>
+      <webElementGuid>7dbd4649-218e-4275-a3a0-6dd68109d715</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='$b2']/div/div[2]</value>
-      <webElementGuid>4a8d0bb8-e5e9-4537-a6b7-6d53c4573794</webElementGuid>
+      <webElementGuid>c5720055-9061-47ea-aed3-1f7afb1e152b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in with'])[1]/preceding::div[12]</value>
-      <webElementGuid>c28b2013-b904-4880-8bba-d504377e2629</webElementGuid>
+      <webElementGuid>3cff0707-e7f8-43b9-bdb0-f8c699657378</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Important notice'])[1]/preceding::div[15]</value>
-      <webElementGuid>608c90ff-4fa3-4203-9346-3fc077b3d9e3</webElementGuid>
+      <webElementGuid>7dfc010c-d47c-4f4c-bc93-3ab9ea22ebfb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Back']/parent::*</value>
-      <webElementGuid>4e94b5c2-7e57-4869-8c08-42730f001d87</webElementGuid>
+      <webElementGuid>3fa262df-7eca-4300-a87d-6ec997fcd2fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/div/div/div[2]</value>
-      <webElementGuid>11356cd4-43ed-41b3-80d7-32566ea88d1e</webElementGuid>
+      <webElementGuid>f73d89f5-264e-4a1e-b66f-9a3e5e089bf9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'b2-Text' and (text() = 'Back' or . = 'Back')]</value>
-      <webElementGuid>9ca6f52f-8e3c-4db3-a2d6-846d52ed6f29</webElementGuid>
+      <webElementGuid>830f0500-b1d1-48f1-a2d4-b37174be598e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

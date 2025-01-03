@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Skip</name>
+   <name>div_Receive a 250 tax relief in your tax re_3f4c40</name>
    <tag></tag>
-   <elementGuidId>01dc25bc-1fc0-4f8f-bf14-e3bb2aec9583</elementGuidId>
+   <elementGuidId>2b7a809d-be6c-4328-93e1-9519da38faa0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='b5-b6-Back']</value>
+         <key>CSS</key>
+         <value>#b2-b2-AlertHeader_Placeholder</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#b5-b6-Back</value>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b2-AlertHeader_Placeholder']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,119 +22,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>457721ef-e1bb-4c94-ae1d-2efd102f270d</webElementGuid>
+      <value>div</value>
+      <webElementGuid>653942d4-89f2-4230-b540-d7df83bd1760</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn</value>
-      <webElementGuid>9eb0bf00-dc0f-4456-accd-420fae56259b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>b7e20a1c-995f-4a43-9741-dccdcf7e1436</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ktl-id</name>
-      <type>Main</type>
-      <value>btnSkip</value>
-      <webElementGuid>95165384-ce2e-4f7b-a5bf-a6784fff8f87</webElementGuid>
+      <value>alert-box-header ph</value>
+      <webElementGuid>95a03689-5ed0-46eb-a0bf-995ae299943c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>b5-b6-Back</value>
-      <webElementGuid>ebe9c930-649c-40e8-8268-7e600311b46d</webElementGuid>
+      <value>b2-b2-AlertHeader_Placeholder</value>
+      <webElementGuid>5b7091ef-4c94-40c2-8906-f9d68cfdf23c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Skip</value>
-      <webElementGuid>e573ba1d-f9f0-430e-9b2f-effee2f86771</webElementGuid>
+      <value>Receive a 250% tax relief in your tax returns for any donation amount starting from $1. A tax-deductible receipt can be requested on the payment page.</value>
+      <webElementGuid>a9301825-029e-487a-b5ad-eb184b78dfcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b5-b6-Back&quot;)</value>
-      <webElementGuid>d9fd22e5-962e-4ea2-8ad9-6aa6316afd76</webElementGuid>
+      <value>id(&quot;b2-b2-AlertHeader_Placeholder&quot;)</value>
+      <webElementGuid>d775fcbb-8e19-407d-b165-4ab2f8729cee</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='b5-b6-Back']</value>
-      <webElementGuid>caa59ab5-df1b-4663-b76a-73a9cfcec802</webElementGuid>
+      <value>//div[@id='b2-b2-AlertHeader_Placeholder']</value>
+      <webElementGuid>0e900ce5-ffbf-4dfd-9c9a-9d8e532a23f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b5-b6-b3-Left']/button</value>
-      <webElementGuid>f7088064-c103-4a11-9a8b-83f495de8fa8</webElementGuid>
+      <value>//div[@id='b2-b2-AlertText_container']/div</value>
+      <webElementGuid>afbdac2b-e3e8-48a2-a974-387f87832a36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Youth'])[1]/following::button[1]</value>
-      <webElementGuid>24f3a8a7-18aa-4bb6-84e1-43422925852c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Run by the Community Chest'])[1]/following::div[13]</value>
+      <webElementGuid>8f6cc569-6b9c-48f1-817f-fadf3877b15f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='The environment'])[1]/following::button[1]</value>
-      <webElementGuid>39a4115f-b97b-41ca-8a5a-e00012162197</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Give $60 for SG60'])[1]/preceding::div[9]</value>
+      <webElementGuid>8c8df9c0-987a-49c3-941e-7fc36c0ae01c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/preceding::button[1]</value>
-      <webElementGuid>b3057e1f-556d-4149-8941-3f3596ebba30</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[1]/preceding::div[10]</value>
+      <webElementGuid>e44527aa-cd08-4bde-b305-9a3e5ff9389b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Skip']/parent::*</value>
-      <webElementGuid>cafe5aa6-26fa-4040-a663-f4459ff28bb4</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Receive a 250% tax relief in your tax returns for any donation amount starting from $1. A tax-deductible receipt can be requested on the payment page.']/parent::*</value>
+      <webElementGuid>c5d303e7-7043-4d46-b6da-141282a41472</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/div/button</value>
-      <webElementGuid>05959820-d916-4afb-8b35-e5d1828b0a62</webElementGuid>
+      <value>//div[2]/div/div[2]/div/div/div/div/div[2]/div</value>
+      <webElementGuid>d31ef280-f651-4061-9be7-a22e7ee8a5e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'b5-b6-Back' and (text() = 'Skip' or . = 'Skip')]</value>
-      <webElementGuid>5dc28f69-ec96-449f-a2f6-1ae645621972</webElementGuid>
+      <value>//div[@id = 'b2-b2-AlertHeader_Placeholder' and (text() = 'Receive a 250% tax relief in your tax returns for any donation amount starting from $1. A tax-deductible receipt can be requested on the payment page.' or . = 'Receive a 250% tax relief in your tax returns for any donation amount starting from $1. A tax-deductible receipt can be requested on the payment page.')]</value>
+      <webElementGuid>5f1f025b-d25c-41dc-909f-ef3151d5a69d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

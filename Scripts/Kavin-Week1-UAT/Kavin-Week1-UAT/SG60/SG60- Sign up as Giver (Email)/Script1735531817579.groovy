@@ -44,7 +44,7 @@ WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking acco
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_Date of birth_form-control OSFillPare_aaf11f'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/span_1'))
+WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/signUpDate'))
 
 WebUI.setEncryptedText(findTestObject('Page_giving.sgGiver linking account/input_Password_b5-b3-Input_Password'), '963D2jXv1kXHYewulAqKlg==')
 
@@ -81,9 +81,9 @@ WebUI.setText(findTestObject('Page_giving.sgGiver linking account/input_NRIC_b5-
 
 WebUI.click(findTestObject('Page_giving.sgGiver linking account/button_Continue_1'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/button_Skip'))
+WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/button_Skip_Interests'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/button_Skip_1'))
+WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/button_Skip_Skills'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/button_Log in'))
 

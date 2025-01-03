@@ -26,7 +26,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//div[@id='b2-b15-l3-129_0-b12-Action']</value>
-      <webElementGuid>45b0e966-650f-4fad-8afb-b14c1f42f22d</webElementGuid>
+      <webElementGuid>a374a47e-5e44-48a4-bab5-446fc7734565</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,6 +34,6 @@
       <name>ktl-id</name>
       <type>Main</type>
       <value>divCharityDonationTier</value>
-      <webElementGuid>1850e2da-ce94-44e7-af9d-0848f13f07ca</webElementGuid>
+      <webElementGuid>865be993-0412-4921-90b1-ecf716a46848</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

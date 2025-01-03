@@ -33,11 +33,20 @@ WebUI.click(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/span_(DS) NPO 0
 
 WebUI.switchToWindowTitle('(DS) NPO 0001')
 
-WebUI.click(findTestObject('Page_(DS) NPO 0001/button_Add to cart_TieredDonation'))
+TestObject donationBoxTier = findTestObject('Page_(DS) NPO 0001/donationBoxTier')
+
+WebUI.waitForElementVisible(donationBoxTier, 10)
+
+WebUI.waitForElementClickable(donationBoxTier, 10)
+
+WebUI.mouseOver(donationBoxTier)
+
+TestObject addToCartButton = WebUI.click(findTestObject('Page_(DS) NPO 0001/button_Add to cart_TieredDonation'))
+WebUI.click(addToCartButton);
 
 WebUI.setText(findTestObject('Page_(DS) NPO 0001/input_Test question to ask_b2-b15-b20-l1-13_f08c15'), 'test')
 
-WebUI.click(findTestObject('Page_(DS) NPO 0001/button_Add to cart_1'))
+WebUI.click(findTestObject('Page_(DS) NPO 0001/span_Add to cart'))
 
 WebUI.click(findTestObject('Page_(DS) NPO 0001/button_Add to cart_TieredDonation'))
 

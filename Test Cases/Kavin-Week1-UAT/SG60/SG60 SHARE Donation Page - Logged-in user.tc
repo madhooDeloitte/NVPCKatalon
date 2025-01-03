@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SG60 SHARE Donation Page - Logged-in user</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9a4d7643-9423-4e50-bf6c-bfa511e44fa7</testCaseGuid>
+</TestCaseEntity>

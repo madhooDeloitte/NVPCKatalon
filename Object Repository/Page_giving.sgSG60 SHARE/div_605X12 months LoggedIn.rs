@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_605X12 months LoggedIn</name>
+   <tag></tag>
+   <elementGuidId>ed8a19fc-f743-421f-8226-d51da20bc5ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;b2-b7-MainBlock&quot;)/div[@class=&quot;heading-section&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>id(&quot;b2-b7-MainBlock&quot;)/div[@class=&quot;heading-section&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b7-MainBlock&quot;)/div[@class=&quot;heading-section&quot;]</value>
+      <webElementGuid>5bb33918-9dd1-46d9-955e-d3f910981423</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b2-b7-MainBlock</value>
+      <webElementGuid>09aa1250-6fc5-4bce-9807-7aa7cd4eca1c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

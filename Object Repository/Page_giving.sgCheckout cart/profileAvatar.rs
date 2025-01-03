@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_Stories_b1-b5-AvatarImage_Url</name>
+   <name>profileAvatar</name>
    <tag></tag>
    <elementGuidId>827de80b-f741-4439-b308-b53736fc17a7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//img[@id='b1-b5-AvatarImage_Url']</value>
+         <value>//div[@ktl-id = 'imgAvatar']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#b1-b5-AvatarImage_Url</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'imgAvatar&#xd;
+']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,32 +27,34 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
-      <webElementGuid>785173c5-d3be-47a5-9147-a9ea79bfe64c</webElementGuid>
+      <value>div&#xd;
+</value>
+      <webElementGuid>4dcd003f-af37-4736-ac26-ceb56d24c261</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>/res/getGiverImage/33ad96c7-7e4c-4e83-b480-9672511ca3fc.jpg</value>
-      <webElementGuid>646afc4c-b672-41ff-b1ab-1af79c7c9aa0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>b1-b5-AvatarImage_Url</value>
-      <webElementGuid>98ed9257-3cef-4e44-a8f2-dabec6c20c0f</webElementGuid>
+      <value>b1-DesktopOnly</value>
+      <webElementGuid>e1225a92-4c32-4739-aacd-a30ae6844b6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b1-b5-AvatarImage_Url&quot;)</value>
-      <webElementGuid>3ff4b5fb-0b64-411f-8751-4383bd189fcd</webElementGuid>
+      <value>//div[@ktl-id = 'imgAvatar']</value>
+      <webElementGuid>3d3911e2-496d-4a6f-9fe7-130c5952dc10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>imgAvatar&#xd;
+</value>
+      <webElementGuid>4fac9513-5d9e-462c-8147-4abafe54738f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//img[@id='b1-b5-AvatarImage_Url']</value>
-      <webElementGuid>e7735891-65dd-4093-8f78-33cbbf9d03a3</webElementGuid>
+      <webElementGuid>8e8b20ca-aff8-4808-aadd-58595c3af526</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b1-$b5']/div/img</value>
-      <webElementGuid>f7a415be-400b-4323-97cd-f0439109dd42</webElementGuid>
+      <webElementGuid>d3c7d40c-6b4d-497d-b0fe-653353409662</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div/div/img</value>
-      <webElementGuid>8a85943c-3dab-496d-bb2d-d0b28c3ee523</webElementGuid>
+      <webElementGuid>7cb35650-5948-4aed-93d3-55f655c778f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/res/getGiverImage/33ad96c7-7e4c-4e83-b480-9672511ca3fc.jpg' and @id = 'b1-b5-AvatarImage_Url']</value>
-      <webElementGuid>73ca8e75-4ff2-400c-9f1e-a8568d2456d6</webElementGuid>
+      <webElementGuid>ec081ed5-6e8e-405b-925d-29b24cf827d8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

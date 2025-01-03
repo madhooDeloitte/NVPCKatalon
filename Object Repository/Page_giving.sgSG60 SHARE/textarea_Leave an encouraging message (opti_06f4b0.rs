@@ -6,16 +6,16 @@
    <elementGuidId>341a4c2e-9c19-491a-9789-5ed87adf5c9e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'b2-TextArea_DedicationMessage']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//textarea[@id='b2-TextArea_DedicationMessage']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#b2-TextArea_DedicationMessage</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'b2-TextArea_DedicationMessage']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>1c4a578f-1eb0-4a1c-9fcb-f05282f746b0</webElementGuid>
+      <webElementGuid>d6a2b396-a720-425d-8ba6-d49904f8a2cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control OSFillParent</value>
-      <webElementGuid>8c700685-f34d-420e-913b-e5d680289fb2</webElementGuid>
+      <webElementGuid>a97372f9-2354-4a3f-bf1f-13585d974e75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>3</value>
-      <webElementGuid>d521d1b9-98a3-4cba-8558-082e4bf8e857</webElementGuid>
+      <webElementGuid>74d4d4dc-7cee-41a5-ba53-aac7b70eb027</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>500</value>
-      <webElementGuid>31172c32-aea8-43e8-8e9c-6e9ee34cabc4</webElementGuid>
+      <webElementGuid>89764f99-aa13-4a68-9bbd-53679cd239d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -59,7 +59,7 @@
       <name>id</name>
       <type>Main</type>
       <value>b2-TextArea_DedicationMessage</value>
-      <webElementGuid>759d264a-de8e-43b5-97e2-48ed609668f2</webElementGuid>
+      <webElementGuid>6c4f1df7-4aa0-44f3-b64d-b3961301e065</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-TextArea_DedicationMessage&quot;)</value>
-      <webElementGuid>ac928bf1-948c-4f7b-8f7a-91c115a31dc0</webElementGuid>
+      <webElementGuid>474563dd-b459-4d39-b86c-85e901eaa528</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='b2-TextArea_DedicationMessage']</value>
-      <webElementGuid>53d76fbf-af00-4a16-b77c-f1f9bc4e96e3</webElementGuid>
+      <webElementGuid>2b4d7818-f990-49b2-933e-d4ad4a7ac252</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b31-TextArea']/span/textarea</value>
-      <webElementGuid>8a16fdb3-2698-47ba-b84d-78117a146b95</webElementGuid>
+      <webElementGuid>c7169c2e-5ea6-4bbc-88b2-5ef6a3a4415b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
-      <webElementGuid>a294f21a-c5a4-433b-a2ea-d57c6f62802d</webElementGuid>
+      <webElementGuid>e702ca1b-e9d9-4922-a6a1-935c4ba3ea30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +99,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@id = 'b2-TextArea_DedicationMessage']</value>
-      <webElementGuid>48713c34-78ad-4634-84c1-008b7e6a8e1e</webElementGuid>
+      <webElementGuid>14b5d281-018b-46e7-b7da-30ae5d351f0f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

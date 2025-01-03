@@ -10,11 +10,15 @@
          <value>//input[@id='b5-b3-IsConsent_Checkbox']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'checkbox' and @ktl-id = 'chkTermsCond']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#b5-b3-IsConsent_Checkbox</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>82a47036-1cf9-4653-8765-3aba8a44d74b</webElementGuid>
+      <webElementGuid>d1023a9a-d127-4036-80b2-515a4e35ef60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>51f39a53-4135-4789-a816-f8b44c776b1f</webElementGuid>
+      <webElementGuid>6817206b-24ab-4879-9b21-2d3cb235fb4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,15 +43,15 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>e9709ae7-0939-4294-bc46-31b2e2a23b1d</webElementGuid>
+      <webElementGuid>f5af243b-3079-42ac-a8ac-03c651463107</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b5-b3-IsConsent_Checkbox</value>
-      <webElementGuid>fc5e9244-a764-4272-b6c3-d1e7d94c4c2c</webElementGuid>
+      <webElementGuid>6680c84b-513d-4a14-a32c-bae3d42d0647</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b5-b3-IsConsent_Checkbox&quot;)</value>
-      <webElementGuid>1499bc57-232e-4126-863c-adab3d03890d</webElementGuid>
+      <webElementGuid>fc931dc2-52ec-4142-bc0a-b0d2835467e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>chkTermsCond</value>
+      <webElementGuid>f0551ebb-ec1e-4d4d-94e4-72345e0463d3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='b5-b3-IsConsent_Checkbox']</value>
-      <webElementGuid>127ba30d-f3f3-40c9-8c0b-cef35637636b</webElementGuid>
+      <webElementGuid>8ac4f907-5bef-4e2e-a949-df5f424f5097</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b5-b3-b19-Control']/span/input</value>
-      <webElementGuid>da743044-d610-48be-89ad-9114c055b542</webElementGuid>
+      <webElementGuid>b97f5285-8d42-44f0-b125-c3e57e948b82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +91,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div/div/div/span/input</value>
-      <webElementGuid>77dfa6dc-0e58-497b-9bdb-4ef8c4a999a4</webElementGuid>
+      <webElementGuid>29a7f94e-0aec-484b-b76c-8aa7ca1fd9b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +99,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'checkbox' and @id = 'b5-b3-IsConsent_Checkbox']</value>
-      <webElementGuid>edd4fb5e-0ce6-4d08-b03b-9601143b6f1c</webElementGuid>
+      <webElementGuid>6116f8bf-5e11-4932-9a64-d4609c0631ff</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

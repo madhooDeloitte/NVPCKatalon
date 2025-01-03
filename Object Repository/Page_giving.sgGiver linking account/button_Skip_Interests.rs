@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Good Morning</name>
+   <name>button_Skip_Interests</name>
    <tag></tag>
-   <elementGuidId>4371332b-a512-4a2f-99eb-1c1cb9e31c3e</elementGuidId>
+   <elementGuidId>01dc25bc-1fc0-4f8f-bf14-e3bb2aec9583</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='b2-TextArea_DedicationMessage']</value>
+         <value>//button[@id='b5-b6-Back']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @ktl-id = 'btnSkip' and @id = 'b5-b6-Back' and (text() = 'Skip' or . = 'Skip')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#b2-TextArea_DedicationMessage</value>
+         <value>#b5-b6-Back</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -22,127 +26,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
-      <webElementGuid>5d21a0bd-5208-475a-83cd-d4afee7a3289</webElementGuid>
+      <value>button</value>
+      <webElementGuid>992d7636-9a2a-4989-8aa0-a31773970751</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control OSFillParent</value>
-      <webElementGuid>6602fab8-d111-41fe-8d3b-eadbe5a70199</webElementGuid>
+      <value>btn</value>
+      <webElementGuid>8aad70a1-375f-4a52-9b0e-b3a50dc917ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>rows</name>
+      <name>type</name>
       <type>Main</type>
-      <value>3</value>
-      <webElementGuid>85f3212a-67b5-46fb-8be1-c4ca7d8bcad3</webElementGuid>
+      <value>button</value>
+      <webElementGuid>693a31c9-d7f9-4990-a338-bf1504aaee8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
+      <name>ktl-id</name>
       <type>Main</type>
-      <value>500</value>
-      <webElementGuid>858d812f-4d54-4d81-a1fd-e027739099bd</webElementGuid>
+      <value>btnSkip</value>
+      <webElementGuid>576837be-42a7-461f-b947-d0db49855d10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>b2-TextArea_DedicationMessage</value>
-      <webElementGuid>d448c664-0456-4d2e-a225-39723374a003</webElementGuid>
+      <value>b5-b6-Back</value>
+      <webElementGuid>a18ddb59-af75-4886-b500-8fa87c060dc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Good Morning</value>
-      <webElementGuid>a2a96821-924e-4f1f-b546-29aa270c95ef</webElementGuid>
+      <value>Skip</value>
+      <webElementGuid>5b1de8e1-6ed9-40c4-bf71-37ea806b84f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b2-TextArea_DedicationMessage&quot;)</value>
-      <webElementGuid>e3da5e1a-31a0-4200-aaa3-81d228c1a827</webElementGuid>
+      <value>id(&quot;b5-b6-Back&quot;)</value>
+      <webElementGuid>72e413eb-8219-4d1d-97ca-c4513b4d5e2b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='b2-TextArea_DedicationMessage']</value>
-      <webElementGuid>9098b398-9986-4c8f-b760-9cb808f955d0</webElementGuid>
+      <value>//button[@id='b5-b6-Back']</value>
+      <webElementGuid>a72205df-41d1-4415-9ed1-ea92849fd88d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b31-TextArea']/span/textarea</value>
-      <webElementGuid>51662058-f1fe-42e7-8439-2a8554fc138a</webElementGuid>
+      <value>//div[@id='b5-b6-b3-Left']/button</value>
+      <webElementGuid>6bdbdfb7-063b-4752-acb0-a794093fd4d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave an encouraging message (optional)'])[1]/following::textarea[1]</value>
-      <webElementGuid>d26c24d1-b56f-4060-b1c9-1341f20fb16b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Youth'])[1]/following::button[1]</value>
+      <webElementGuid>e24719f7-71e4-4474-b2c2-89911190a8a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[6]/following::textarea[1]</value>
-      <webElementGuid>98442743-4bea-4ae4-8803-94793bc5c18e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The environment'])[1]/following::button[1]</value>
+      <webElementGuid>cd172885-fc11-4d1b-bb46-570d4eb66c34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/preceding::textarea[1]</value>
-      <webElementGuid>a8cfab10-9685-457e-897c-d48dc416637e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/preceding::button[1]</value>
+      <webElementGuid>540284eb-4fef-4b96-905f-7e1fb2a59629</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[2]/preceding::textarea[1]</value>
-      <webElementGuid>75bd2fba-f4d7-448a-aeca-276f693d7404</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Good Morning']/parent::*</value>
-      <webElementGuid>27ca9324-1b2b-47ac-8c0b-384490b2acf7</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Skip']/parent::*</value>
+      <webElementGuid>7cb61a7d-af11-47ca-ac02-a0ebaa3ebd78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//textarea</value>
-      <webElementGuid>a71d7c19-b49a-4a69-aa8c-9cf2600f7a64</webElementGuid>
+      <value>//div[3]/div/div/div/button</value>
+      <webElementGuid>edffc6f9-2a7d-4856-aa86-2c1384e49ec9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//textarea[@id = 'b2-TextArea_DedicationMessage' and (text() = 'Good Morning' or . = 'Good Morning')]</value>
-      <webElementGuid>189e83be-8533-4e91-88c3-ff2598b5e747</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'b5-b6-Back' and (text() = 'Skip' or . = 'Skip')]</value>
+      <webElementGuid>d97540fe-e8a2-4685-b425-83e3bc351612</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
