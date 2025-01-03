@@ -10,7 +10,11 @@
    <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>10.0.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+<<<<<<< HEAD
    <projectFileLocation>C:\Users\bkavinraaj\git\NVPCKatalon2.0\NVPCKatalon\DK UAT Tests.prj</projectFileLocation>
+=======
+   <projectFileLocation>C:\Users\sepower\git\NVPCKatalon 2.0\NVPCKatalon\DK UAT Tests.prj</projectFileLocation>
+>>>>>>> branch 'UATSG60' of https://github.com/madhooDeloitte/NVPCKatalon
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

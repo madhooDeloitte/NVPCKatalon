@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_SG60 SHARE_OSFillParent</name>
+   <tag></tag>
+   <elementGuidId>c9c1e675-40cd-4fc6-94b0-ac679b4d8d07</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b1-Title']/div/div[2]/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.OSFillParent</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>ac70d0e9-6816-4cb0-853a-923d7da37c0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>OSFillParent</value>
+      <webElementGuid>71a9ed1d-1d8b-41f9-9194-3bb163ee77b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/img/NVPC_Resources.SG60_SharityElephant.png?Lbcra2IJCI6OyLhgoNzPbw</value>
+      <webElementGuid>31302b14-b5a3-482c-a699-e899355c07fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b1-Title&quot;)/div[@class=&quot;display-flex column-gap-s align-items-flex-end&quot;]/div[@class=&quot;sg60-sharity-image&quot;]/img[@class=&quot;OSFillParent&quot;]</value>
+      <webElementGuid>37f4894c-9835-4413-9d8a-9c95fbad94fa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b1-Title']/div/div[2]/img</value>
+      <webElementGuid>3d093dd7-2cb4-4acd-a5f5-1f5deb362680</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/img</value>
+      <webElementGuid>cfba7e0f-257d-49b6-b03c-a4a6d7a508d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/img/NVPC_Resources.SG60_SharityElephant.png?Lbcra2IJCI6OyLhgoNzPbw']</value>
+      <webElementGuid>bbd3503f-b28d-45fd-86f0-3b1718f0536f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

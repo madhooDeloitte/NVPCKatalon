@@ -10,6 +10,7 @@
          <value>//div[@id='b5-b2-b1-MainContent']/div[4]/a</value>
       </entry>
       <entry>
+<<<<<<< HEAD
          <key>BASIC</key>
          <value>//*[@href = '#' and (text() = 'Sign up with email' or . = 'Sign up with email')]</value>
       </entry>
@@ -124,5 +125,117 @@
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Sign up with email' or . = 'Sign up with email')]</value>
       <webElementGuid>d50662ec-e73e-46a3-8f05-8a196eccf824</webElementGuid>
+=======
+         <key>CSS</key>
+         <value>a.text-link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>118d228e-82bd-4108-a1eb-ea7c7b2bdd37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-link</value>
+      <webElementGuid>9d07b6f0-c359-4474-9b03-a44c338c7de3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>9f13590d-5dee-4496-9d4f-fb2ddf80a762</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign up with email</value>
+      <webElementGuid>6ebf5200-8e2b-4f0e-a66f-c2ffc78ebd02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b5-b2-b1-MainContent&quot;)/div[@class=&quot;margin-top-m text-align-center&quot;]/a[@class=&quot;text-link&quot;]</value>
+      <webElementGuid>e40f2e78-e982-41cb-94a3-be494126b81a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b5-b2-b1-MainContent']/div[4]/a</value>
+      <webElementGuid>f4d62168-7e39-452d-a7d5-725216c3c481</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Sign up with email')]</value>
+      <webElementGuid>05ff8598-2d85-4838-abda-4cd10e7939f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OR'])[1]/following::a[1]</value>
+      <webElementGuid>345f388d-6b7e-465d-a98f-38871562de22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign up with'])[1]/following::a[1]</value>
+      <webElementGuid>89640ed5-a418-4a58-a2da-4c5056c79ae1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sign up with email']/parent::*</value>
+      <webElementGuid>c914ea29-d3a5-43ae-b529-d1766a7da5ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[2]</value>
+      <webElementGuid>66f83236-3778-4388-a156-1e9477a8c804</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/a</value>
+      <webElementGuid>566c6457-d487-45b0-b537-70ebe5c7f037</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Sign up with email' or . = 'Sign up with email')]</value>
+      <webElementGuid>1be0d150-dc7e-42aa-bfe9-d2fbaa8d9f1c</webElementGuid>
+>>>>>>> branch 'UATSG60' of https://github.com/madhooDeloitte/NVPCKatalon
    </webElementXpaths>
 </WebElementEntity>

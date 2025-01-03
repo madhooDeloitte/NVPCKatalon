@@ -141,6 +141,7 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Giving cart'), 0)
 
+<<<<<<< HEAD
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/profileAvatar'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Logout'))
@@ -245,6 +246,112 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Giving cart'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/profileAvatar'))
+=======
+WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/img_Stories_b1-b5-AvatarImage_Url'))
+
+WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Logout'))
+
+WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/button_Yes'))
+
+WebUI.click(findTestObject('Object Repository/Page_/img'))
+
+WebUI.click(findTestObject('Object Repository/Page_/button_Home'))
+
+WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/span_Donate'))
+
+//////////////////------test code---------////////////////////////
+//
+//WebUI.setText(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), '(DS) NPO 0001')
+//
+//WebUI.sendKeys(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), Keys.chord(Keys.ENTER))
+//
+//WebUI.click(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/span_(DS) NPO 0001'))
+//
+//WebUI.switchToWindowTitle('(DS) NPO 0001')
+//////////////////------test code---------////////////////////////
+WebUI.setText(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), '(DS) NPO 0001')
+
+WebUI.sendKeys(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), Keys.chord(Keys.ENTER))
+
+//WebUI.click(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/span_(DS) NPO 0001'))
+WebUI.switchToWindowTitle('(DS) NPO 0001')
+
+WebUI.waitForElementVisible(donationBoxTier, 10)
+
+//
+WebUI.waitForElementClickable(donationBoxTier, 10)
+
+//
+WebUI.mouseOver(donationBoxTier)
+
+//TestObject addToCartButton = findTestObject('Object Repository/Page_(DS) NPO 0001/button_Add to cart_TieredDonation')
+
+WebUI.click(addToCartButton)
+
+WebUI.setText(findTestObject('Object Repository/Page_(DS) NPO 0001/input_Test question to ask_b2-b15-b20-l1-30_1b4cca'), 
+    'TEST')
+
+WebUI.click(findTestObject('Page_(DS) NPO 0001/span_Add to cart'))
+
+WebUI.click(findTestObject('Page_(DS) NPO 0001/button_Add to cart_TieredDonation'))
+
+WebUI.click(findTestObject('Page_(DS) NPO 0001/input__b2-b15-b20-Checkbox1'))
+
+WebUI.click(findTestObject('Page_(DS) NPO 0001/a_Monthly'))
+
+WebUI.click(findTestObject('Page_(DS) NPO 0001/input_Set an end date for when the recurrin_a6ccf3'))
+
+WebUI.click(findTestObject('Page_(DS) NPO 0001/span_31'))
+
+WebUI.setText(findTestObject('Object Repository/Page_(DS) NPO 0001/input_Test question to ask_b2-b15-b20-l1-46_8da4fa'), 
+    'TEST')
+
+WebUI.click(findTestObject('Object Repository/Page_(DS) NPO 0001/div_Add to cart'))
+
+WebUI.click(findTestObject('Page_(DS) NPO 0001/button_Add to cart_1'))
+
+WebUI.click(findTestObject('Page_(DS) NPO 0001/button_Pledge'))
+
+WebUI.click(findTestObject('Page_(DS) NPO 0001/input_Set an end date for when the recurrin_a6ccf3'))
+
+WebUI.click(findTestObject('Object Repository/Page_(DS) NPO 0001/span_25_1_2_3'))
+
+WebUI.click(findTestObject('Page_(DS) NPO 0001/div_I want to donate to (DS) NPO 0001Donati_718a26'))
+
+WebUI.setText(findTestObject('Object Repository/Page_(DS) NPO 0001/input_Test question to ask_b2-b15-b21-l1-62_a26b93'), 
+    'TEST')
+
+WebUI.click(findTestObject('Page_(DS) NPO 0001/span_Pledge now'))
+
+WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/input_(DS) NPO 0001_b2-b11-l3-768_0-l3-769__f4bdee'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_You are not eligible for tax-deduction _101149'), 
+    0)
+
+WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/span_Log in'))
+
+WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/span_Log in with'), 0)
+
+WebUI.click(findTestObject('Page_giving.sgLogin/button_Back'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Giving cart'), 0)
+
+WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/span_Log in'))
+
+WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/span_Log in with'), 0)
+
+WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), 'member1@dk.dev')
+
+WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
+
+WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password_b3-b9-Input_Password'), '963D2jXv1kXHYewulAqKlg==')
+
+WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Giving cart'), 0)
+
+WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/img_Stories_b1-b5-AvatarImage_Url'))
+>>>>>>> branch 'UATSG60' of https://github.com/madhooDeloitte/NVPCKatalon
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Logout_1'))
 

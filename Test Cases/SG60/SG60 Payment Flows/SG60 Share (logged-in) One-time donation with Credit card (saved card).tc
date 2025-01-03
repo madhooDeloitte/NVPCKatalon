@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SG60 Share (logged-in) One-time donation with Credit card (saved card)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bd1acc8d-dfbd-48bf-beff-da412e4c18cb</testCaseGuid>
+</TestCaseEntity>

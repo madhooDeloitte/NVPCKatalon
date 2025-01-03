@@ -24,7 +24,8 @@ String giverEmail = 'ATmanagemember1@mailto.plus'
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(envURL)
+//WebUI.navigateToUrl(envURL)
+WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
@@ -40,8 +41,9 @@ WebUI.takeScreenshotAsCheckpoint('2')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
-WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password'), 'hJxcABFZyq4oD3Y625LFBg==')
-
+//WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password'), 'hJxcABFZyq4oD3Y625LFBg==')
+WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password'), 'tUM5ps8PP6KPbMdZX3AbAQ==')
+WebUI.delay(300)
 WebUI.takeScreenshotAsCheckpoint('3')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
