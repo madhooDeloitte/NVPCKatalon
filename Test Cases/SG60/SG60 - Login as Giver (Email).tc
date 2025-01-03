@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SG60 - Login as Giver (Email)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>80a1364a-d17b-461d-ad8d-041d150ab1fa</testCaseGuid>
+</TestCaseEntity>

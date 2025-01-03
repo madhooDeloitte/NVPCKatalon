@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Campaign type</name>
+   <tag></tag>
+   <elementGuidId>d37806b1-3921-4b19-8881-60195f109cf7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b9-b3-PopoverBtn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@ktl-id='btnCampaignsType']/div/div[1]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#b2-b9-FilterWrapperDesktop div >> internal:has-text=/^Campaign type$/ >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1804f875-0503-4716-927a-0f6544afb826</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-filter</value>
+      <webElementGuid>8ada8063-4a71-4a41-8fad-75c0770f403f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b2-b9-b3-PopoverBtn</value>
+      <webElementGuid>d459cb27-ad03-4f03-bc5f-b809078c02ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Campaign type</value>
+      <webElementGuid>6ac28b3a-6aaf-4f96-bb8a-bb44a10daf18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b9-b3-PopoverBtn&quot;)</value>
+      <webElementGuid>c2b8b1bb-9b74-4a56-b4a9-b7621e70c8fc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b9-b3-PopoverBtn']</value>
+      <webElementGuid>a98a2719-43c3-406f-8a0a-b722ff3c7c45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b9-$b3']/div/div</value>
+      <webElementGuid>1f4ec755-f86b-4622-86f4-d2b879e75797</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tax-deductible'])[1]/following::div[4]</value>
+      <webElementGuid>f39f1835-44e2-4aa1-8398-5cf51d920f0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select...'])[1]/following::div[9]</value>
+      <webElementGuid>29213d03-4468-462c-95ab-7e64a470df30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/preceding::div[5]</value>
+      <webElementGuid>8d43d625-abb6-41bb-889a-477492ce8473</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article/div/div/div/div/div/div[4]/div/div/div</value>
+      <webElementGuid>7eb2eaaa-6bad-4656-abc7-8c7153abdfea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'b2-b9-b3-PopoverBtn' and (text() = 'Campaign type' or . = 'Campaign type')]</value>
+      <webElementGuid>161130b8-c51a-44de-9349-b1f8c0577276</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

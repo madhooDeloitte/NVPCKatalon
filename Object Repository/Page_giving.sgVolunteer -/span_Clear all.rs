@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Clear all</name>
+   <tag></tag>
+   <elementGuidId>06e45855-a544-4640-9100-86481fba2f3f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnClearAll']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.underline</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b8-ClearAll']/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Clear all&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>27253b0b-1cb4-4902-b26f-505fa0db1b3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>underline</value>
+      <webElementGuid>558f9c25-18d6-4b69-8073-b394d2548c59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Clear all</value>
+      <webElementGuid>7007cae5-2698-43b9-bd9c-01bd41831602</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b8-ClearAll&quot;)/a[@class=&quot;text-link&quot;]/span[@class=&quot;underline&quot;]</value>
+      <webElementGuid>8801dfa2-3759-447c-9084-5736270f0ee1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4ae75ace-da61-422c-8890-840300c50b53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnClearAll</value>
+      <webElementGuid>e5507954-7f6f-44d1-a7d8-7f67f3425101</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b8-ClearAll']/a/span</value>
+      <webElementGuid>0894606c-94d3-4227-b603-6822c0af8d48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Under-served'])[1]/following::span[1]</value>
+      <webElementGuid>af7dbef5-945d-4c32-9177-ce755e1e354c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available period'])[1]/following::span[3]</value>
+      <webElementGuid>f12b5c77-3501-4d7e-83c3-61c9e4ec230a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort:'])[1]/preceding::span[1]</value>
+      <webElementGuid>3942db94-0bec-4d56-b0b8-a86c4fed6fdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Latest'])[1]/preceding::span[2]</value>
+      <webElementGuid>38fbb721-a94b-43d3-895e-11228b121011</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Clear all']/parent::*</value>
+      <webElementGuid>46d8d2ee-e486-4892-87e3-757d38ab2381</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/a/span</value>
+      <webElementGuid>33e5a33a-a9b7-47df-90be-1b90ff9291cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Clear all' or . = 'Clear all')]</value>
+      <webElementGuid>2a33a0e6-68e7-47d5-b3cc-940bcdccdda0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_All filters</name>
+   <tag></tag>
+   <elementGuidId>6c790c0f-3f10-4247-8284-7d4e102e088c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnAllFilters']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b8-Filter</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b8-Filter']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#b2-b8-FilterWrapperDesktop div >> internal:has-text=&quot;All filters&quot;i >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0a268c71-b38e-463e-a4a2-e23d95f12c7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-filter</value>
+      <webElementGuid>54231ccd-a45a-4cc5-97e0-c1079097c848</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b2-b8-Filter</value>
+      <webElementGuid>5264292a-dfda-4138-b337-1570282d6fae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All filters</value>
+      <webElementGuid>573a6e2d-d4e6-4382-9fb8-be353ac65a2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b8-Filter&quot;)</value>
+      <webElementGuid>1e4fd692-b2f4-451c-a73b-b650e7c9ed49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnAllFilters</value>
+      <webElementGuid>c8fadef4-2526-41d3-a869-063d260882d8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b8-Filter']</value>
+      <webElementGuid>77dcc495-182d-4a2f-a869-cafce42c8c85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b8-FilterPills']/div[2]</value>
+      <webElementGuid>bf734f7c-5f11-4816-9875-22daf6672db9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter by'])[1]/following::div[1]</value>
+      <webElementGuid>5a46aae2-bed8-407b-8ee5-149e061e4408</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Map'])[1]/following::div[16]</value>
+      <webElementGuid>8054f971-677d-44f2-bd8d-35827412ffc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Causes'])[1]/preceding::div[6]</value>
+      <webElementGuid>3792175d-ed54-4504-93ea-84e10f5970f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article/div/div/div/div/div/div[2]</value>
+      <webElementGuid>0eeb9da3-c20e-426f-9a75-e8ee422033f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'b2-b8-Filter' and (text() = 'All filters' or . = 'All filters')]</value>
+      <webElementGuid>a1b645c4-a01b-41d8-a5f7-81408de41e6d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
