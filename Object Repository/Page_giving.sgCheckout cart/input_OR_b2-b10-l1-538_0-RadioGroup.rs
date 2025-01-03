@@ -3,7 +3,6 @@
    <description></description>
    <name>input_OR_b2-b10-l1-538_0-RadioGroup</name>
    <tag></tag>
-<<<<<<< HEAD
    <elementGuidId>0003054b-4d3f-44cf-b7cb-05f8b7d3f82d</elementGuidId>
    <selectorCollection>
       <entry>
@@ -115,108 +114,5 @@
       <type>Main</type>
       <value>//input[@type = 'radio' and @id = 'b2-b10-l1-538_0-RadioButton-input' and @name = 'b2-b10-l1-538_0-RadioGroup']</value>
       <webElementGuid>5c03a928-5492-4f2f-a3f1-f119f84ec815</webElementGuid>
-=======
-   <elementGuidId>7393c13b-e204-461b-ba8f-5ebc60f35f1b</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='b2-b10-l1-538_0-RadioButton-input']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#b2-b10-l1-538_0-RadioButton-input</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
-   <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>input</value>
-      <webElementGuid>f74790ba-e8d6-4c81-a69b-ab443a3a5079</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>radio</value>
-      <webElementGuid>8b73f3b9-2347-4b8e-97e3-5c2d039ad0a6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>b2-b10-l1-538_0-RadioButton-input</value>
-      <webElementGuid>e3edce47-edba-4eaa-b9b5-793b7d69569f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>radio-button</value>
-      <webElementGuid>9ed7fe2a-9af1-4a5c-9b3b-73f44cf8d125</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>b2-b10-l1-538_0-RadioGroup</value>
-      <webElementGuid>28d90191-2fdf-4947-b200-a96ad8a1408e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>1</value>
-      <webElementGuid>12fbf9d2-aa37-424d-ac73-c35b5614a865</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;b2-b10-l1-538_0-RadioButton-input&quot;)</value>
-      <webElementGuid>ec9d2863-9245-494d-ad63-831ecac91a93</webElementGuid>
-   </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='b2-b10-l1-538_0-RadioButton-input']</value>
-      <webElementGuid>7111170f-c5da-412f-8ba1-6167f67cfe37</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='b2-b10-l1-538_0-RadioButton']/input</value>
-      <webElementGuid>35e0a36f-e55d-4e6b-be03-399245e896c7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[3]/div/div/div/div/div/div/div/div/div/div/input</value>
-      <webElementGuid>816854c3-3aec-4ebf-9606-d2696a11225f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'radio' and @id = 'b2-b10-l1-538_0-RadioButton-input' and @name = 'b2-b10-l1-538_0-RadioGroup']</value>
-      <webElementGuid>f89160c2-e92c-4108-b277-1eae7ed0b49e</webElementGuid>
->>>>>>> branch 'master' of https://github.com/madhooDeloitte/NVPCKatalon
    </webElementXpaths>
 </WebElementEntity>
