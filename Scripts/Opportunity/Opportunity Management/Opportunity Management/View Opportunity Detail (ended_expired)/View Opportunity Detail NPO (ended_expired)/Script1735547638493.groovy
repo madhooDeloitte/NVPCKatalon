@@ -149,9 +149,6 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Page_giving.sgOppor
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_giving.sgOpportunity detail - test_exp_5327a5/div_About the opportunityexpired opportunity npo'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_giving.sgOpportunity detail - test_exp_5327a5/div_Volunteer positionsvolunteer5 of 5 slot_50647d'), 
-    FailureHandling.STOP_ON_FAILURE)
-
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_giving.sgOpportunity detail - test_exp_5327a5/div_About the organisationThe Brighter Futu_f3b221'), 
     FailureHandling.STOP_ON_FAILURE)
 

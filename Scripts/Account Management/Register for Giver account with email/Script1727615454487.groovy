@@ -44,7 +44,7 @@ WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Sign up'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgSign up now/GiverSignUpBanner'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/button_Sign up with email'))
+//WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/button_Sign up with email'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_Full name_b5-b3-Input_GiverName'), 
     giverName)

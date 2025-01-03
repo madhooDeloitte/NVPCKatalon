@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__b2-Input_OtherAmount</name>
+   <name>input_Pay with_b2-b8-l1-537_0-RadioGroup</name>
    <tag></tag>
-   <elementGuidId>b1784141-64bc-4894-ab66-20828b32114c</elementGuidId>
+   <elementGuidId>48d8e7f2-7520-457a-92a1-dd294763c9d9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@ktl-id='b2-inpOtherAmount']</value>
+         <value>//div[@ktl-id='divExistingCard']/div/div/div/div/div/div/div/div/div/div/input</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#b2-Input_OtherAmount</value>
+         <value>#b2-b8-l1-537_0-RadioButton-input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,94 +23,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e9bd89ac-eac5-4c82-9d08-2cd1759f18b5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control OSFillParent</value>
-      <webElementGuid>7b9b6297-dbd3-41ef-ab65-611ac69047b7</webElementGuid>
+      <webElementGuid>2608d7f9-babd-4d65-a5d5-910f890d68cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>number</value>
-      <webElementGuid>a8a2bfd0-c947-4126-b0b4-e5ac585d8fdd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-required</name>
-      <type>Main</type>
-      <value>false</value>
-      <webElementGuid>8d6aca35-085e-491c-bfad-271e8dc0630f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>pattern</name>
-      <type>Main</type>
-      <value>[0-9]*</value>
-      <webElementGuid>b7507106-3643-4823-9454-f93fa54d2b48</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>max</name>
-      <type>Main</type>
-      <value>2147483647</value>
-      <webElementGuid>febe8ba9-87cb-4fac-bb47-b209e2c09fea</webElementGuid>
+      <value>radio</value>
+      <webElementGuid>c0301f81-619b-410d-b0a6-bcfe5ad8adcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>b2-Input_OtherAmount</value>
-      <webElementGuid>e4f25385-f299-4a42-b3ca-b34cb87a18aa</webElementGuid>
+      <value>b2-b8-l1-537_0-RadioButton-input</value>
+      <webElementGuid>af65bfd7-3285-4872-b73f-7d7dfc5b5452</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>radio-button</value>
+      <webElementGuid>cbbb9bf2-7326-4b59-9c3f-e33cba4df899</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>b2-b8-l1-537_0-RadioGroup</value>
+      <webElementGuid>51aa4e24-ad89-4fce-8d9f-813e857c2d44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>pm_1OJY1GA2ueNEMe8GZmXBMExW</value>
+      <webElementGuid>4aff8e40-7aff-4f1a-8c46-0e4db76f3cd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b2-Input_OtherAmount&quot;)</value>
-      <webElementGuid>103d40e7-6579-4c38-bf56-e0758b2473c8</webElementGuid>
+      <value>id(&quot;b2-b8-l1-537_0-RadioButton-input&quot;)</value>
+      <webElementGuid>c0b4102f-c32f-4031-9f36-0f4f98d91b9a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='b2-Input_OtherAmount']</value>
-      <webElementGuid>04296600-354f-4ef8-85fe-8b258c3e5d66</webElementGuid>
+      <value>//input[@id='b2-b8-l1-537_0-RadioButton-input']</value>
+      <webElementGuid>5b772797-89ec-4cfd-847b-31f15334b077</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-b25-Input']/span/input</value>
-      <webElementGuid>8692b475-f838-4d7d-a37c-f7e3c89a099b</webElementGuid>
+      <value>//div[@id='b2-b8-l1-537_0-RadioButton']/input</value>
+      <webElementGuid>7c351302-3be4-4c92-9e61-6cedcb212cc2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/input</value>
-      <webElementGuid>ec0c4d7e-d339-4911-ac28-a6533e4dbe8a</webElementGuid>
+      <value>//input</value>
+      <webElementGuid>d981dcad-732b-456f-9436-97483b276d50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'number' and @id = 'b2-Input_OtherAmount']</value>
-      <webElementGuid>20f2b902-297c-404f-9b1d-49dd5f3963da</webElementGuid>
+      <value>//input[@type = 'radio' and @id = 'b2-b8-l1-537_0-RadioButton-input' and @name = 'b2-b8-l1-537_0-RadioGroup']</value>
+      <webElementGuid>ac5e857a-7f10-41ff-b1fe-c541d014972b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
