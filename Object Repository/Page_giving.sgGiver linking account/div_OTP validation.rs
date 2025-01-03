@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_OTP validation</name>
+   <tag></tag>
+   <elementGuidId>460fea7d-674e-4112-9ba0-9fae4886c572</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b4-b2-b4-b1-Title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b4-b2-b4-b1-Title']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6ca71598-5520-44d5-b52c-fa4aa1e088e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>heading1 margin-bottom-m ph</value>
+      <webElementGuid>5e80b8a9-b48e-4431-97ca-0bb0a1fbcfeb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b4-b2-b4-b1-Title</value>
+      <webElementGuid>fcb47581-301c-46f7-986b-0ba173cf381f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OTP validation</value>
+      <webElementGuid>374c6a14-1a2d-4773-9060-693705974084</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b4-b2-b4-b1-Title&quot;)</value>
+      <webElementGuid>9ea3d2e1-2a25-40bb-8019-bf6c51f0a298</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b4-b2-b4-b1-Title']</value>
+      <webElementGuid>32982356-40d7-454d-bf12-3799830248a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b4-b2-b4-b1-MainContentWrapper']/div/div[2]/div</value>
+      <webElementGuid>e8ef5b44-7ccd-430c-88b0-e89a9d721c3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exit'])[1]/following::div[21]</value>
+      <webElementGuid>03bbd943-5bbe-44e1-8161-a98ad51502ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='An OTP has been sent to the email address indicated in your registration form.'])[1]/preceding::div[5]</value>
+      <webElementGuid>3d9ca335-055a-4cb5-8fdf-2e59a0d97d24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verify'])[1]/preceding::div[24]</value>
+      <webElementGuid>00fc27e1-f8f4-4950-82bb-564b4ba44437</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='OTP validation']/parent::*</value>
+      <webElementGuid>655bc06f-c845-473a-a0e7-29ba5ff06670</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div[2]/div</value>
+      <webElementGuid>590a92ce-cde0-4201-b4da-15c8236603db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'b4-b2-b4-b1-Title' and (text() = 'OTP validation' or . = 'OTP validation')]</value>
+      <webElementGuid>52d3fd59-61bd-49d4-98e6-6dfc84b484ff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Change</name>
+   <tag></tag>
+   <elementGuidId>4b618e39-f2fa-4724-b82a-ca35d3add130</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/main/div/form/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/button/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.Button.ReadOnlyFormField-actionButton.Button--link.Button--checkoutSecondaryLink.Button--sm > div.flex-container.justify-content-center.align-items-center</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7e087dc0-405a-426a-bb60-eacdc5d5a237</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex-container justify-content-center align-items-center</value>
+      <webElementGuid>2728a080-056a-4ac2-bd8b-a0c35f396a65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Change</value>
+      <webElementGuid>1d9d96bf-9d24-476d-8a15-48e96038267a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App-Container is-noBackground App-Container--noAnimation flex-container justify-content-center&quot;]/div[@class=&quot;App App--singleItem&quot;]/div[@class=&quot;App-Payment is-noBackground&quot;]/main[1]/div[@class=&quot;CheckoutPaymentForm&quot;]/form[@class=&quot;PaymentForm-form&quot;]/div[1]/div[1]/div[1]/div[@class=&quot;PaymentMethodForm&quot;]/div[1]/div[@class=&quot;PaymentForm-paymentMethodForm flex-container direction-column wrap-wrap&quot;]/div[@class=&quot;SavedInfoSummary SavedInfoSummary flex-item width-12&quot;]/div[@class=&quot;ReadOnlyForm ReadOnlyForm--withShadow&quot;]/div[@class=&quot;SavedInfoSummary-payment ReadOnlyFormField is-clickable&quot;]/div[@class=&quot;ReadOnlyFormField-container&quot;]/div[@class=&quot;ReadOnlyFormField-contentContainer&quot;]/div[@class=&quot;ReadOnlyFormField-content&quot;]/div[@class=&quot;ReadOnlyFormField-titleContainer&quot;]/div[@class=&quot;ReadOnlyFormField-action&quot;]/button[@class=&quot;Button ReadOnlyFormField-actionButton Button--link Button--checkoutSecondaryLink Button--sm&quot;]/div[@class=&quot;flex-container justify-content-center align-items-center&quot;]</value>
+      <webElementGuid>e4e518eb-fcf0-4f3c-8399-91fe58e9938c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/main/div/form/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/button/div</value>
+      <webElementGuid>48ae1fc9-9853-45d8-b0fb-0c78b57454a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay with'])[1]/following::div[6]</value>
+      <webElementGuid>35203d7e-685c-443c-ae38-6df05b5bda16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SGD 1.00'])[2]/preceding::div[6]</value>
+      <webElementGuid>c8aa25d0-7751-47d9-b19d-e5e8b1cd7fad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Change']/parent::*</value>
+      <webElementGuid>f3dd8803-9160-4ac1-ab1c-2f0dfbbb06ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div</value>
+      <webElementGuid>fdf52e30-2a45-4ca3-ae18-e428fc162915</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Change' or . = 'Change')]</value>
+      <webElementGuid>91b9c804-fc58-49a8-b41f-f9aa2eb650a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

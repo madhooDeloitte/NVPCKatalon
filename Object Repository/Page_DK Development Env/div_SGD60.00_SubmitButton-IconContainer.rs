@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_SGD60.00_SubmitButton-IconContainer</name>
+   <tag></tag>
+   <elementGuidId>71847765-8b24-49e4-8e9f-c231fdf36620</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.SubmitButton-IconContainer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/main/div/form/div/div/div/div[3]/div/div[3]/button/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b39720bf-43d8-47d7-a6b1-05144e04052a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>SubmitButton-IconContainer</value>
+      <webElementGuid>964241e2-b847-496a-8d49-1c7625426124</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App-Container is-noBackground flex-container justify-content-center&quot;]/div[@class=&quot;App App--singleItem&quot;]/div[@class=&quot;App-Payment is-noBackground&quot;]/main[1]/div[@class=&quot;CheckoutPaymentForm&quot;]/form[@class=&quot;PaymentForm-form&quot;]/div[1]/div[1]/div[1]/div[@class=&quot;PaymentForm-confirmPaymentContainer mt4 flex-item width-grow&quot;]/div[@class=&quot;ConfirmPayment&quot;]/div[@class=&quot;flex-item width-12&quot;]/button[@class=&quot;SubmitButton SubmitButton--complete&quot;]/div[@class=&quot;SubmitButton-IconContainer&quot;]</value>
+      <webElementGuid>ac4c21cd-671d-40b1-aed9-35d60264cb17</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/main/div/form/div/div/div/div[3]/div/div[3]/button/div[3]</value>
+      <webElementGuid>2bfdacd9-ebc4-495b-8ac0-c38afcdab9dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SGD 60.00'])[2]/following::div[1]</value>
+      <webElementGuid>a85675d3-5dbe-41cb-a9e5-ada0c8b9b592</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms'])[1]/preceding::div[43]</value>
+      <webElementGuid>449062a8-ae0b-42ca-8478-33071c8b066b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div[3]</value>
+      <webElementGuid>e893917b-9456-4a0c-b574-efcc441ba9ad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -3,6 +3,7 @@
    <description></description>
    <name>button_Retry transaction</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>b010f8f3-73b7-4d0f-998e-65ed6bfe718b</elementGuidId>
    <selectorCollection>
       <entry>
@@ -146,5 +147,132 @@
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Retry transaction' or . = 'Retry transaction')]</value>
       <webElementGuid>4a2b4a73-a3ad-42f3-a2b3-b08bc6adf8de</webElementGuid>
+=======
+   <elementGuidId>c81a8867-a338-4ffc-ac10-ca7417ce509c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.margin-top-m.text-align-right > button.btn.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@ktl-id='btnRetryTran']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ae9f882f-5dc9-4be7-b726-70feffc37bd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>93ac535d-7569-4065-8bb8-0b76498285be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6efb6891-9f19-4ff4-b31e-0bea1856816c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Retry transaction</value>
+      <webElementGuid>f3efd0b4-ebe7-4bcc-ba97-f21bf7abc8d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b3-Action&quot;)/div[@class=&quot;margin-top-m text-align-right&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>85d6e184-11c3-4ecf-b97e-12aaaf9c49e0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>967c1edc-83a3-40d7-97a9-78dfa7e7f773</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b3-Action']/div/button</value>
+      <webElementGuid>89e51a32-d3ff-4260-802d-7028f74bac91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reference'])[1]/following::button[1]</value>
+      <webElementGuid>07927bfb-ac06-46aa-b41f-d042c1ed87b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date'])[1]/following::button[1]</value>
+      <webElementGuid>d6fb3880-d1a6-42e9-b79e-4b1690a916b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organised by'])[1]/preceding::button[1]</value>
+      <webElementGuid>91c1481a-6763-4de6-9023-35ad4486dc8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Together, because'])[1]/preceding::button[1]</value>
+      <webElementGuid>3ba85396-1a34-43e0-8f63-0ce2370e5144</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Retry transaction']/parent::*</value>
+      <webElementGuid>105b8d78-80c3-4558-a72f-a44747786de9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button</value>
+      <webElementGuid>ab55819f-8a23-449b-ae7b-de16bace3023</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Retry transaction' or . = 'Retry transaction')]</value>
+      <webElementGuid>069a4816-9e96-4cec-b8f7-cfed24defefc</webElementGuid>
+>>>>>>> branch 'master' of https://github.com/madhooDeloitte/NVPCKatalon
    </webElementXpaths>
 </WebElementEntity>

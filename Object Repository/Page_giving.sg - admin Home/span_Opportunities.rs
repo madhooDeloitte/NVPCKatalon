@@ -6,12 +6,12 @@
    <elementGuidId>26ea1478-aa2a-4a02-87c3-3e1e246bb186</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@ktl-id='divMenuItems']/div[3]/div/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#b1-l1-11_12-b2-Label > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@ktl-id='divMenuItems']/div[2]/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>f931c8e7-8ad1-4603-b8bd-902b1b0bfe2b</webElementGuid>
+      <webElementGuid>4f65a71a-d906-40b6-a94e-f1bc210ac7ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Opportunities</value>
-      <webElementGuid>a74a2233-6e7a-4515-b4ec-f7b3fafb9e4f</webElementGuid>
+      <webElementGuid>0dbbdfb9-0f0a-4806-9822-0074e6eb7d81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b1-l1-11_12-b2-Label&quot;)/span[1]</value>
-      <webElementGuid>670d5a57-6765-41cc-aedd-4bc0f555cd9e</webElementGuid>
+      <webElementGuid>6763e5b4-ab17-481f-866d-1f14e0f6c057</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@ktl-id='divMenuItems']/div[3]/div/a</value>
-      <webElementGuid>adfd41d1-5efa-4724-9b9d-29a85f255df9</webElementGuid>
+      <webElementGuid>45df56b6-119b-4f5d-a241-3f57bf04468c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Campaigns'])[1]/following::span[1]</value>
-      <webElementGuid>fd1efdb1-82bb-41b2-977f-79209c984da3</webElementGuid>
+      <webElementGuid>c8c9a326-0cea-41d3-b2f1-59e18bfd038b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::span[2]</value>
-      <webElementGuid>bee6687e-60e4-458b-a3ba-29ba0c4d4e61</webElementGuid>
+      <webElementGuid>973e1e35-49db-4979-85cd-9f5977d16a68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Partnerships'])[1]/preceding::span[1]</value>
-      <webElementGuid>216bfb28-5595-43a6-a69c-28239b7df9a8</webElementGuid>
+      <webElementGuid>ef41a3ff-f669-404b-8c78-6c7a19f13037</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Members'])[1]/preceding::span[2]</value>
-      <webElementGuid>987d95a8-af81-4575-b491-e96311b1c3ce</webElementGuid>
+      <webElementGuid>2fc206e4-1c3c-42e4-8cab-ef77b0a4df7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Opportunities']/parent::*</value>
-      <webElementGuid>6e1d7926-f366-4334-8055-cb6532802d79</webElementGuid>
+      <webElementGuid>7a04d754-5929-4613-a1b6-0e1e000aba6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/a/div[2]/span</value>
-      <webElementGuid>493702a5-380a-4ec0-9718-5f84129627bb</webElementGuid>
+      <webElementGuid>8af54c44-dc77-4e46-ae07-cee850845ca7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Opportunities' or . = 'Opportunities')]</value>
-      <webElementGuid>4de9a884-e437-4be2-a03b-eeabc3fa869b</webElementGuid>
+      <webElementGuid>e1e292f2-c126-41b0-9bcd-89bee26a97f1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

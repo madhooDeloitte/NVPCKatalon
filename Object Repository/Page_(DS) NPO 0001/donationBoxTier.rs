@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>donationBoxTier</name>
+   <tag></tag>
+   <elementGuidId>014f6045-ae03-4ff3-969d-cd3f7747271a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'divCharityDonationTier']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b15-l3-129_0-b12-Action']&#xd;
+&#xd;
+&#xd;
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b15-l3-129_0-b12-Action']</value>
+      <webElementGuid>45b0e966-650f-4fad-8afb-b14c1f42f22d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>divCharityDonationTier</value>
+      <webElementGuid>1850e2da-ce94-44e7-af9d-0848f13f07ca</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

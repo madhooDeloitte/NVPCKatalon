@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_This is optional. Provide a password if y_021f43</name>
+   <tag></tag>
+   <elementGuidId>c4d1225b-62d3-4340-b1d2-ab0bcabde0d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.fa.fa-eye.fa-1x</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b4-b2-b3-b8-b1-Icon']/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>dc942a16-fd5a-45f1-b760-e0757f04e429</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon fa fa-eye fa-1x</value>
+      <webElementGuid>d751029a-9d41-42ea-b224-b7a6c911cc02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b4-b2-b3-b8-b1-Icon&quot;)/a[1]/i[@class=&quot;icon fa fa-eye fa-1x&quot;]</value>
+      <webElementGuid>d2731981-f2ee-46d3-8f81-6a3cc09e3642</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b4-b2-b3-b8-b1-Icon']/a/i</value>
+      <webElementGuid>a0d6f54d-06e0-4516-a3f2-3b671b648d8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/i</value>
+      <webElementGuid>9b5c3505-b9ee-4f9c-b08d-e40e5e68cb7a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

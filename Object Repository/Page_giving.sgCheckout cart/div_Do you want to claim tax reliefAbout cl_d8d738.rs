@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Do you want to claim tax reliefAbout cl_d8d738</name>
+   <tag></tag>
+   <elementGuidId>a6069076-3c8f-40cd-9fce-0be6ebe457e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b15-$b4']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.input-group.display-flex.align-items-flex-start</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>20b28480-de70-4afe-a9f1-83756dc21d50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input-group display-flex align-items-flex-start</value>
+      <webElementGuid>aab76b13-ba54-4528-b348-72cee5eb963b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Do you want to claim tax relief?About claiming taxDonations are eligible for 250% tax deduction and will be automatically included in your tax assessment if you have provided your tax reference number (e.g. NRIC/FIN/UEN). All donations made are non-refundable; please confirm your donation before proceeding.Tax relief may be claimed only for eligible donations.</value>
+      <webElementGuid>b13d21f3-3a22-471f-8f18-954d8d756cef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b15-$b4&quot;)/div[@class=&quot;input-group display-flex align-items-flex-start&quot;]</value>
+      <webElementGuid>ed24caac-ebf1-4de3-a6c0-dc803d99c927</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b15-$b4']/div</value>
+      <webElementGuid>9e884519-e5e9-4a9c-b538-c203c050794b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='member1@dk.dev'])[1]/following::div[3]</value>
+      <webElementGuid>ed9a05e2-193f-4442-8f28-943895898da3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*****388A'])[1]/following::div[4]</value>
+      <webElementGuid>0c0c5ab3-2afe-4065-aa8e-2be4beb8fda3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[3]/div[2]/div/div</value>
+      <webElementGuid>721f1568-9b20-4f0e-87a1-e9d7241aea15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Do you want to claim tax relief?About claiming taxDonations are eligible for 250% tax deduction and will be automatically included in your tax assessment if you have provided your tax reference number (e.g. NRIC/FIN/UEN). All donations made are non-refundable; please confirm your donation before proceeding.Tax relief may be claimed only for eligible donations.' or . = 'Do you want to claim tax relief?About claiming taxDonations are eligible for 250% tax deduction and will be automatically included in your tax assessment if you have provided your tax reference number (e.g. NRIC/FIN/UEN). All donations made are non-refundable; please confirm your donation before proceeding.Tax relief may be claimed only for eligible donations.')]</value>
+      <webElementGuid>f64e328a-ebf5-4dca-83e8-f39a0d47d60e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

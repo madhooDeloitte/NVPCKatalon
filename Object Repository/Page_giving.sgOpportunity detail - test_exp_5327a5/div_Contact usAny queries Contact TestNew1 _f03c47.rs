@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Contact usAny queries Contact TestNew1 _f03c47</name>
+   <tag></tag>
+   <elementGuidId>c617a784-8822-4240-9182-4a69b1ecf996</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@ktl-id='txtOppContact']/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6fea2507-0786-4147-937c-f351a024c0ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Contact usAny queries? Contact TestNew1 from Ronald McDonald House</value>
+      <webElementGuid>1e3c4a12-8570-4ac0-be50-1e8d1f5cfff8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b1-BottomContent&quot;)/div[@class=&quot;margin-top-m&quot;]/div[1]</value>
+      <webElementGuid>3f93d6b7-6d01-49f6-b9b2-cbe3a9a203f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b1-BottomContent']/div[3]/div</value>
+      <webElementGuid>e8233f92-d1d5-40f0-a446-8ebc0d8c66bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About the organisation'])[1]/following::div[9]</value>
+      <webElementGuid>3399cf6c-f1c9-4884-97fd-05465636e2d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='helping people'])[1]/following::div[13]</value>
+      <webElementGuid>480598e0-60a3-4c65-a726-d6b0e2ec65dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[3]/div</value>
+      <webElementGuid>af0e57cb-b46f-49d7-b734-ce23c9815543</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Contact usAny queries? Contact TestNew1 from Ronald McDonald House' or . = 'Contact usAny queries? Contact TestNew1 from Ronald McDonald House')]</value>
+      <webElementGuid>dfbd524c-68d4-47d8-88fe-a65097436ecb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

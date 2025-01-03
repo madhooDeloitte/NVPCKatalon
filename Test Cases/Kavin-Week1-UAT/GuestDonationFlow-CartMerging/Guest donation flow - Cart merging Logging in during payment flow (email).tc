@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guest donation flow - Cart merging Logging in during payment flow (email)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4db91f41-a4e4-464d-9310-a652badf5d1b</testCaseGuid>
+</TestCaseEntity>
