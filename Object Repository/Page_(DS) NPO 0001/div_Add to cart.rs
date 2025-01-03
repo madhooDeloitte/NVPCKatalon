@@ -10,7 +10,7 @@
          <value>//div[@id='b2-b15-b20-b1-b1-Right']</value>
       </entry>
       <entry>
-<<<<<<< HEAD
+
          <key>BASIC</key>
          <value>//*[@id = 'b2-b15-b20-b1-b1-Right']</value>
       </entry>
@@ -117,109 +117,6 @@
       <type>Main</type>
       <value>//div[@id = 'b2-b15-b20-b1-b1-Right' and (text() = 'Add to cart' or . = 'Add to cart')]</value>
       <webElementGuid>254a21e7-39c0-451b-8404-3e2d6d1a18f9</webElementGuid>
-=======
-         <key>CSS</key>
-         <value>#b2-b15-b20-b1-b1-Right</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
-   <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>div</value>
-      <webElementGuid>6e8ec71f-21c7-4279-94b5-393603e87177</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>button-section-split-primary text-align-right</value>
-      <webElementGuid>554f376f-08db-4b2f-96c4-d3288a93b1cd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>b2-b15-b20-b1-b1-Right</value>
-      <webElementGuid>03e44c9b-bba1-41da-ac6c-5dd4030b8809</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Add to cart</value>
-      <webElementGuid>61d5081e-b7a9-42c2-86fc-385b8951c439</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;b2-b15-b20-b1-b1-Right&quot;)</value>
-      <webElementGuid>45208dd0-88ec-497a-8c65-0648ff2c9eec</webElementGuid>
-   </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//div[@id='b2-b15-b20-b1-b1-Right']</value>
-      <webElementGuid>5548de98-5293-4747-b03d-4166d93c77f2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='b2-b15-b20-b1-$b1']/div/div[2]</value>
-      <webElementGuid>bae4a0e7-9d24-49f7-9464-cec1f515e88a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::div[1]</value>
-      <webElementGuid>bbc4a74d-5542-44e7-b55c-8576f32df183</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test question to ask'])[1]/following::div[9]</value>
-      <webElementGuid>7a0c1b3f-358b-44ff-80bd-e77dc7c96b89</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun'])[1]/preceding::div[6]</value>
-      <webElementGuid>89d114e1-11e8-4972-85f8-82e04d86f8f8</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div/div/div/div/div/div/div/div[4]/div/div/div[2]</value>
-      <webElementGuid>467290e6-cfc1-4252-ba44-d56d29eb7ed9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[@id = 'b2-b15-b20-b1-b1-Right' and (text() = 'Add to cart' or . = 'Add to cart')]</value>
-      <webElementGuid>71b32046-7890-4bfe-b0c1-b44e5db1f64d</webElementGuid>
->>>>>>> branch 'UATSG60' of https://github.com/madhooDeloitte/NVPCKatalon
+
    </webElementXpaths>
 </WebElementEntity>
