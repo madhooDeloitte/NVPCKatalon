@@ -47,9 +47,9 @@ WebUI.takeFullPageScreenshotAsCheckpoint('3')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Back'))
 
-//if (WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/button_Back'),10)) {
-//	WebUI.click(findTestObject('Page_giving.sgLogin/button_Back'))
-//	}
+if (WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/button_Back'),10)) {
+	WebUI.click(findTestObject('Page_giving.sgLogin/button_Back'))
+	}
 
 WebUI.delay(3)
 

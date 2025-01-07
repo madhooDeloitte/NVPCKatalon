@@ -12,10 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>e8c7d193-d782-4ee7-8017-af83cfd9a586</testSuiteGuid>
    <testCaseLink>
-      <guid>1f5302a7-f129-4fe5-a229-899baad0e33d</guid>
+      <guid>7c40c28a-0429-46d4-8294-45876b23b9d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Account Management/Reset password</testCaseId>
+      <testCaseId>Test Cases/General Browsing/Browse GSG About us, Contact us, APIs and T and C</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
