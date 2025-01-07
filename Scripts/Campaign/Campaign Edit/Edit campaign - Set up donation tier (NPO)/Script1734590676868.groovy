@@ -51,7 +51,10 @@ WebUI.click(findTestObject('Page_giving.sg - admin Home/span_Campaigns'))
 
 WebUI.takeFullPageScreenshotAsCheckpoint('1')
 
+WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Campaigns/tbl_Campaign - Status'))
+
 WebUI.click(findTestObject('Page_giving.sg - admin Campaigns/i_Emma Watsons_fa-solid fa-ellipsis-vertical'))
+//click on any active campaign ellipsis button
 
 WebUI.takeFullPageScreenshotAsCheckpoint('2')
 
@@ -130,7 +133,9 @@ WebUI.click(findTestObject('Page_giving.sg - admin Campaigns/i_Emma Watsons_fa-s
 //WebUI.takeFullPageScreenshotAsCheckpoint('13')
 WebUI.click(findTestObject('Page_giving.sg - admin Campaigns/a_View'))
 
-WebUI.switchToWindowTitle('giving.sg : Campaign detail - testing whitespace')
+campaignTitle = WebUI.getText(findTestObject('Object Repository/Page_giving.sg - admin Campaigns/span_campaign title'))
+
+WebUI.switchToWindowTitle('giving.sg : Campaign detail - ' + campaignTitle)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgCampaign detail/textarea_DonationTiers'),3)
 

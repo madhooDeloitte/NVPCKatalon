@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.WebDriver as WebDriver
 
 WebUI.openBrowser('')
 
@@ -83,7 +85,46 @@ WebUI.delay(3)
 
 WebUI.takeFullPageScreenshotAsCheckpoint('8')
 
+// Get the current WebDriver instance
+WebDriver driver = DriverFactory.getWebDriver()
+
+// Store the current window handle (main tab)
+String mainTabHandle = driver.getWindowHandle()
+
 WebUI.click(findTestObject('Object Repository/Page_giving.sgPolicies/span_General Terms of Use'))
+
+//WebUI.switchToWindowIndex(3)
+
+WebUI.delay(3)
+
+//WebUI.switchToWindowTitle('General Terms of Use')
+
+Set<String> allWindowHandles = driver.getWindowHandles()
+
+String newTabHandle = null
+
+// Find the new tab handle
+for (String handle : allWindowHandles) {
+	if (!(handle.equals(mainTabHandle))) {
+		newTabHandle = handle
+
+		break
+	}
+}
+
+// Switch to the new tab
+if (newTabHandle != null) {
+	driver.switchTo().window(newTabHandle)
+
+	WebUI.comment('Switched to the new tab.')
+
+	// Get the URL of the new tab
+	String newTabURL = driver.getCurrentUrl()
+
+	WebUI.comment('New tab URL: ' + newTabURL)
+}
+
+//WebUI.delay(40)
 
 WebUI.delay(3)
 
@@ -91,7 +132,46 @@ WebUI.takeFullPageScreenshotAsCheckpoint('9')
 
 WebUI.switchToWindowTitle('giving.sg : Policies')
 
+// Get the current WebDriver instance
+driver = DriverFactory.getWebDriver()
+
+// Store the current window handle (main tab)
+mainTabHandle = driver.getWindowHandle()
+
 WebUI.click(findTestObject('Object Repository/Page_giving.sgPolicies/span_For Donors  Volunteers'))
+
+//WebUI.switchToWindowIndex(3)
+
+WebUI.delay(3)
+
+//WebUI.switchToWindowTitle('General Terms of Use')
+
+allWindowHandles = driver.getWindowHandles()
+
+newTabHandle = null
+
+// Find the new tab handle
+for (String handle : allWindowHandles) {
+	if (!(handle.equals(mainTabHandle))) {
+		newTabHandle = handle
+
+		break
+	}
+}
+
+// Switch to the new tab
+if (newTabHandle != null) {
+	driver.switchTo().window(newTabHandle)
+
+	WebUI.comment('Switched to the new tab.')
+
+	// Get the URL of the new tab
+	String newTabURL = driver.getCurrentUrl()
+
+	WebUI.comment('New tab URL: ' + newTabURL)
+}
+
+//WebUI.switchToWindowTitle('For Donors & Volunteers')
 
 WebUI.delay(3)
 
@@ -99,7 +179,46 @@ WebUI.takeFullPageScreenshotAsCheckpoint('10')
 
 WebUI.switchToWindowTitle('giving.sg : Policies')
 
+// Get the current WebDriver instance
+driver = DriverFactory.getWebDriver()
+
+// Store the current window handle (main tab)
+mainTabHandle = driver.getWindowHandle()
+
 WebUI.click(findTestObject('Object Repository/Page_giving.sgPolicies/span_For Fundraisers'))
+
+//WebUI.switchToWindowIndex(3)
+
+WebUI.delay(3)
+
+//WebUI.switchToWindowTitle('General Terms of Use')
+
+allWindowHandles = driver.getWindowHandles()
+
+newTabHandle = null
+
+// Find the new tab handle
+for (String handle : allWindowHandles) {
+	if (!(handle.equals(mainTabHandle))) {
+		newTabHandle = handle
+
+		break
+	}
+}
+
+// Switch to the new tab
+if (newTabHandle != null) {
+	driver.switchTo().window(newTabHandle)
+
+	WebUI.comment('Switched to the new tab.')
+
+	// Get the URL of the new tab
+	String newTabURL = driver.getCurrentUrl()
+
+	WebUI.comment('New tab URL: ' + newTabURL)
+}
+
+//WebUI.switchToWindowTitle('For Fundraisers')
 
 WebUI.delay(3)
 
@@ -107,7 +226,46 @@ WebUI.takeFullPageScreenshotAsCheckpoint('12')
 
 WebUI.switchToWindowTitle('giving.sg : Policies')
 
+// Get the current WebDriver instance
+driver = DriverFactory.getWebDriver()
+
+// Store the current window handle (main tab)
+mainTabHandle = driver.getWindowHandle()
+
 WebUI.click(findTestObject('Object Repository/Page_giving.sgPolicies/span_For Registered Charities, Organisation_8fa5d7'))
+
+//WebUI.switchToWindowIndex(3)
+
+WebUI.delay(3)
+
+//WebUI.switchToWindowTitle('General Terms of Use')
+
+allWindowHandles = driver.getWindowHandles()
+
+newTabHandle = null
+
+// Find the new tab handle
+for (String handle : allWindowHandles) {
+	if (!(handle.equals(mainTabHandle))) {
+		newTabHandle = handle
+
+		break
+	}
+}
+
+// Switch to the new tab
+if (newTabHandle != null) {
+	driver.switchTo().window(newTabHandle)
+
+	WebUI.comment('Switched to the new tab.')
+
+	// Get the URL of the new tab
+	String newTabURL = driver.getCurrentUrl()
+
+	WebUI.comment('New tab URL: ' + newTabURL)
+}
+
+//WebUI.switchToWindowTitle('For Registered Charities, Organisation')
 
 WebUI.delay(3)
 
@@ -115,7 +273,46 @@ WebUI.takeFullPageScreenshotAsCheckpoint('13')
 
 WebUI.switchToWindowTitle('giving.sg : Policies')
 
+// Get the current WebDriver instance
+driver = DriverFactory.getWebDriver()
+
+// Store the current window handle (main tab)
+mainTabHandle = driver.getWindowHandle()
+
 WebUI.click(findTestObject('Object Repository/Page_giving.sgPolicies/span_Privacy Policy'))
+
+//WebUI.switchToWindowIndex(3)
+
+WebUI.delay(3)
+
+//WebUI.switchToWindowTitle('General Terms of Use')
+
+allWindowHandles = driver.getWindowHandles()
+
+newTabHandle = null
+
+// Find the new tab handle
+for (String handle : allWindowHandles) {
+	if (!(handle.equals(mainTabHandle))) {
+		newTabHandle = handle
+
+		break
+	}
+}
+
+// Switch to the new tab
+if (newTabHandle != null) {
+	driver.switchTo().window(newTabHandle)
+
+	WebUI.comment('Switched to the new tab.')
+
+	// Get the URL of the new tab
+	String newTabURL = driver.getCurrentUrl()
+
+	WebUI.comment('New tab URL: ' + newTabURL)
+}
+
+//WebUI.switchToWindowTitle('Privacy Policy')
 
 WebUI.delay(3)
 

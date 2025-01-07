@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String userEmail = 'michaelscott@dundermifflin.dk.dev'
+String userEmail = 'member1@dk.dev'
 
-String userPassword = 'hJxcABFZyq4oD3Y625LFBg=='
+String userPassword = '963D2jXv1kXHYewulAqKlg=='
 
 WebUI.openBrowser('')
 
@@ -37,52 +37,38 @@ WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password_b3-b9-
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
-WebUI.delay(3)
-
-WebUI.takeFullPageScreenshotAsCheckpoint('1')
-
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/button_SG60 SHARE'))
-
-WebUI.delay(3)
-
-WebUI.takeFullPageScreenshotAsCheckpoint('2')
 
 WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_DONATE NOW'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgSG60 SHARE/div__b2-RadioButton9'))
-WebUI.delay(3)
+WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/div_605x12 months'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('3')
+WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_Checkout'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgSG60 SHARE/button_Checkout'))
+WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Visa ending in 3184'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/input_Visa ending in 0341_b2-b8-l1-537_3-Ra_8a24a0'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('4')
+WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/button_Continue with Payment'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/input_OR_b2-b10-l1-538_0-RadioGroup'))
+//WebUI.switchToFrame(findTestObject('Object Repository/Page_giving.sgCheckout cart/iframe_About___privateStripeFrame5632'), 
+//    10)
+//
+//WebUI.switchToFrame(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_3DS iFrame'), 10)
 
-WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Continue with Payment'))
+//WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/button_Fail'))
 
-WebUI.delay(3)
+WebUI.delay(20)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('5')
+//Select "Fail"
 
-WebUI.click(findTestObject('Object Repository/Page_DK Development Env/svg_Back_InlineSVG Icon Header-backArrow mr_54644a'))
+WebUI.click(findTestObject('Page_giving.sgPayment status/button_Retry transaction'))
 
-WebUI.delay(3)
+WebUI.delay(10)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('6')
+WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/img_Stories_b1-b5-AvatarImage_Url'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgPayment status/button_Retry transaction'))
-
-WebUI.delay(3)
-
-WebUI.takeFullPageScreenshotAsCheckpoint('7')
-
-WebUI.click(findTestObject('Object Repository/Page_giving.sgSG60 SHARE/div_Stories_b1-b5'))
-
-WebUI.click(findTestObject('Object Repository/Page_giving.sgSG60 SHARE/div_Logout'))
+WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/a_Logout'))
 
 WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_Yes'))
 

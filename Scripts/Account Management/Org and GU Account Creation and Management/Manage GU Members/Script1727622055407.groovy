@@ -36,7 +36,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050 (5)/a_Log in'))
 
-WebUI.delay(100)
+//WebUI.delay(100)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin (3)/input_Email address_b3-b9-Input_EmailAddress'), 
     guEmail)

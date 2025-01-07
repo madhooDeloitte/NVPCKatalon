@@ -205,27 +205,27 @@ WebUI.delay(3)
 
 WebUI.takeFullPageScreenshotAsCheckpoint('17')
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgDonate - Youxx/input_Search charities or campaigns_b2-SearchInput'), 
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgDonate -/input_Search charities or campaigns_b2-SearchInput'), 
     'Yuoth')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sgDonate - Youxx/input_Search charities or campaigns_b2-SearchInput'), 
+WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sgDonate -/input_Search charities or campaigns_b2-SearchInput'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(3)
 
 WebUI.takeFullPageScreenshotAsCheckpoint('18')
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgDonate - Yuoth/input_Search charities or campaigns_b2-SearchInput'), 
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgDonate -/input_Search charities or campaigns_b2-SearchInput'), 
     'Youth')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sgDonate - Yuoth/input_Search charities or campaigns_b2-SearchInput'), 
+WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sgDonate -/input_Search charities or campaigns_b2-SearchInput'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(3)
 
 WebUI.takeFullPageScreenshotAsCheckpoint('19')
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgDonate - Youth/input_Search charities or campaigns_b2-SearchInput'), 
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgDonate -/input_Search charities or campaigns_b2-SearchInput'), 
     '')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/div_Sort Popularity'))

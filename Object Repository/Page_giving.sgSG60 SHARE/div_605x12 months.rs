@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='b2-b8-MainBlock']/div</value>
+         <value>//div[@id='b2-b1-TopContent']/div[3]/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c2eaf38b-bff3-4470-89e3-d01a4305f0d0</webElementGuid>
+      <webElementGuid>ec63c05e-f424-402d-99ee-c7c1846b8ac0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>heading-section</value>
-      <webElementGuid>51d79772-6bcc-4b19-8f44-297e49c3f6d9</webElementGuid>
+      <webElementGuid>d25501aa-e047-40c5-8b5c-9f13eace5be4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>$ 60$5x12 months</value>
-      <webElementGuid>f2bea4b6-f30f-479c-b26b-2fd8c8f32700</webElementGuid>
+      <webElementGuid>585075d8-ea77-486f-987a-83853331d796</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-b8-MainBlock&quot;)/div[@class=&quot;heading-section&quot;]</value>
-      <webElementGuid>b1b89236-f148-4ca3-b28b-f7d89b496ccf</webElementGuid>
+      <webElementGuid>51ed6caf-c620-40b3-8fd2-dbff2b48121a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b8-MainBlock']/div</value>
-      <webElementGuid>5f8081be-4c0e-46bd-860b-8a1edf7d6e43</webElementGuid>
+      <webElementGuid>8d49ce13-cee4-42ee-8734-d2409546905d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Give $60 for SG60'])[2]/following::div[4]</value>
-      <webElementGuid>f6e07a40-ea7d-412a-a171-54438e0bfa2e</webElementGuid>
+      <webElementGuid>0043eaaa-60a4-46b6-990e-5b2d7ebe4030</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[3]/div/div/div</value>
-      <webElementGuid>62250de9-7761-4238-8b47-9ba2ed66cb2b</webElementGuid>
+      <webElementGuid>a7811a42-0fe0-4c1c-9e50-a86819133998</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +79,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '$ 60$5x12 months' or . = '$ 60$5x12 months')]</value>
-      <webElementGuid>cc0225e0-9da5-4cdd-8dd3-4fa711abcbff</webElementGuid>
+      <webElementGuid>455e6925-f30c-4b36-b89d-0d0550456dd6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
