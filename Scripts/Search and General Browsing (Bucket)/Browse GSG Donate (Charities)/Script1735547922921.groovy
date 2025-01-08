@@ -37,6 +37,8 @@ WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/b
 'click donate button on home page'
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/a_Donate'))
 
+WebUI.delay(3)
+
 'verify user directed to "Donate today" page'
 WebUI.takeScreenshotAsCheckpoint('1')
 
@@ -44,11 +46,15 @@ WebUI.setText(findTestObject('Page_giving.sgDonate/input_Search charities or cam
 
 WebUI.sendKeys(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), Keys.chord(Keys.ENTER))
 
+WebUI.delay(3)
+
 'verify search results match + default GSG logo displayed'
 WebUI.takeScreenshotAsCheckpoint('2')
 
 'click clear all button to reset\r\n'
 WebUI.click(findTestObject('Page_giving.sgDonate/span_Clear all'))
+
+WebUI.delay(3)
 
 'verify filter pills present and positions and clear all button'
 WebUI.takeScreenshotAsCheckpoint('3')
@@ -64,6 +70,8 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate/label_Tax-ded
 
 'click sort button'
 WebUI.click(findTestObject('Page_giving.sgDonate/div_Sort Name A to Z'))
+
+WebUI.delay(3)
 
 'check pills were clicked'
 WebUI.takeScreenshotAsCheckpoint('4')
@@ -89,8 +97,10 @@ WebUI.scrollToElement(findTestObject('Page_giving.sgDonate/input_Search charitie
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate/div_Causes'))
 
-'manual step: click animals checkbox'
-WebUI.delay(10)
+'can change last div to select different checkbox'
+WebUI.click(findTestObject('Page_giving.sgDonate -/button_animals box'))
+
+WebUI.delay(3)
 
 'verify animal related charities shown and causes pill highlighted with 1'
 WebUI.takeScreenshotAsCheckpoint('6')
@@ -98,10 +108,14 @@ WebUI.takeScreenshotAsCheckpoint('6')
 'click tax deductible'
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate/label_Tax-deductible'))
 
+WebUI.delay(3)
+
 'verify tax deductible charities'
 WebUI.takeScreenshotAsCheckpoint('7')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate/span_Clear all'))
+
+WebUI.delay(3)
 
 'verify filters reset and pills not highlighted'
 WebUI.takeScreenshotAsCheckpoint('8')
@@ -113,30 +127,38 @@ WebUI.setText(findTestObject('Page_giving.sgDonate/input_Search charities or cam
 'click search icon\r\n'
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate - Youxx/i_Search charities or campaigns_icon fa fa-_62f74a'))
 
+WebUI.delay(3)
+
 'screenshot of fuzzy search'
 WebUI.takeScreenshotAsCheckpoint('9')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate - Youxx/div_Donate todayTransform lives and communi_c5c151'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgDonate - Youxx/input_Search charities or campaigns_b2-SearchInput'),
-	inpPrefix)
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgDonate - Youxx/input_Search charities or campaigns_b2-SearchInput'), 
+    inpPrefix)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate - Youxx/i_Search charities or campaigns_icon fa fa-_62f74a'))
+
+WebUI.delay(3)
 
 'screenshot of prefix search'
 WebUI.takeScreenshotAsCheckpoint('10')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate - Yuoth/div_Donate todayTransform lives and communi_c5c151'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgDonate - Yuoth/input_Search charities or campaigns_b2-SearchInput'),
-	inpScoring)
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgDonate - Yuoth/input_Search charities or campaigns_b2-SearchInput'), 
+    inpScoring)
 
 WebUI.click(findTestObject('Page_giving.sgDonate - Youxx/i_Search charities or campaigns_icon fa fa-_62f74a'))
+
+WebUI.delay(3)
 
 'screenshot of "youth" search. not sure how opensearch score is done\r\n'
 WebUI.takeScreenshotAsCheckpoint('11')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate/span_Clear all'))
+
+WebUI.delay(3)
 
 'verify sorted A-Z'
 WebUI.takeScreenshotAsCheckpoint('12')
@@ -144,14 +166,16 @@ WebUI.takeScreenshotAsCheckpoint('12')
 'click sort button'
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate/div_Sort Name A to Z'))
 
+WebUI.delay(3)
+
 'verify 3 options for sort'
 WebUI.takeScreenshotAsCheckpoint('13')
 
 'click Z-A option in sort button'
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate/div_Sort Name Z to A'))
 
+WebUI.delay(3)
+
 'verify sorted Z-A'
 WebUI.takeScreenshotAsCheckpoint('14')
-
-
 

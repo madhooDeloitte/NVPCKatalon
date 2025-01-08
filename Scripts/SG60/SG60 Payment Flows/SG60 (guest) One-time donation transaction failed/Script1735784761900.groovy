@@ -42,6 +42,8 @@ WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_DONATE NOW'))
 '-'
 WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_Checkout'))
 
+WebUI.delay(3)
+
 'verify SG60 payment page'
 WebUI.takeScreenshotAsCheckpoint('1')
 
@@ -65,10 +67,14 @@ WebUI.mouseOver(findTestObject('Page_DK Development Env/span_giving sg logo'))
 'click back button works for now'
 WebUI.click(findTestObject('Page_DK Development Env/svg_Back_InlineSVG Icon Header-backArrow mr_54644a'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
+
 'verify retry transaction page'
 WebUI.takeScreenshotAsCheckpoint('3')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgPayment status/button_Retry transaction'))
+
+WebUI.delay(3)
 
 'verify donation selection page'
 WebUI.takeScreenshotAsCheckpoint('4')

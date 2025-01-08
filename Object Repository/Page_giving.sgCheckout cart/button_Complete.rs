@@ -4,6 +4,7 @@
    <name>button_Complete</name>
    <tag></tag>
    <elementGuidId>89d30532-ae7a-4b2f-897a-0702f3751138</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -13,17 +14,33 @@
          <key>CSS</key>
          <value>#test-source-authorize-3ds</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;test-source-authorize-3ds&quot;)[count(. | //button[@id = 'test-source-authorize-3ds' and @class = 'Button Button--default' and @type = 'submit' and (text() = '
+                Complete
+              ' or . = '
+                Complete
+              ') and @ref_element = 'Object Repository/Page_giving.sgCheckout cart/iframe_Cancel_stripe-challenge-frame']) = count(//button[@id = 'test-source-authorize-3ds' and @class = 'Button Button--default' and @type = 'submit' and (text() = '
+                Complete
+              ' or . = '
+                Complete
+              ') and @ref_element = 'Object Repository/Page_giving.sgCheckout cart/iframe_Cancel_stripe-challenge-frame'])]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>41952252-31c7-4510-b651-bb7561f42fc2</webElementGuid>
+      <webElementGuid>4eeb1a12-5bfd-4c9c-b2ea-cc983d52c622</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,15 +48,15 @@
       <name>id</name>
       <type>Main</type>
       <value>test-source-authorize-3ds</value>
-      <webElementGuid>9fdc6479-44a1-4bd9-a729-b21bf086c236</webElementGuid>
+      <webElementGuid>40f46cd9-0b33-425d-a2d5-49eeb9f95ce4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>Button Button--default</value>
-      <webElementGuid>62c1c0eb-9b46-46ab-81ca-068f788de315</webElementGuid>
+      <webElementGuid>5c0fd150-c1b5-45aa-89b6-0bb3ac5c403e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +64,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>911ef8f3-e284-4bbe-9078-c6b4ca46f727</webElementGuid>
+      <webElementGuid>b99b153c-10d9-4703-b352-b285611fa0b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,15 +74,15 @@
       <value>
                 Complete
               </value>
-      <webElementGuid>73ac8298-4098-4f62-8745-a01df87aa415</webElementGuid>
+      <webElementGuid>0843904e-a2d3-49d0-9535-821d80b5c771</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;test-source-authorize-3ds&quot;)</value>
-      <webElementGuid>3220a126-8579-4a45-a77c-9de32d54b3e7</webElementGuid>
+      <webElementGuid>18e3857d-c8ae-4e5a-8bd8-0c59e2ecf0fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,7 +90,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Page_giving.sgCheckout cart/iframe_Cancel_stripe-challenge-frame</value>
-      <webElementGuid>57ccdec4-353e-49ec-b6c0-9c534d1fb3e2</webElementGuid>
+      <webElementGuid>ca07690c-a413-4259-8db6-8938dacccea7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -81,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='test-source-authorize-3ds']</value>
-      <webElementGuid>4bdabec5-e285-477f-be89-058688cadf49</webElementGuid>
+      <webElementGuid>7866266a-a574-4c7d-be0d-de29ef054724</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fail'])[1]/following::button[1]</value>
-      <webElementGuid>a68aea0d-f0f3-4c74-bf27-a2065b68fcc0</webElementGuid>
+      <webElementGuid>1afa561e-2bb1-4db7-b3a8-55997f27c2aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NVPC DK'])[1]/following::button[2]</value>
-      <webElementGuid>91e2a458-e3e6-43f1-b58d-d0235c11639b</webElementGuid>
+      <webElementGuid>0c716659-9bb7-4528-ac14-e0ee57bf083b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Complete']/parent::*</value>
-      <webElementGuid>893fb218-4c3e-487a-ba27-0cb58e065934</webElementGuid>
+      <webElementGuid>2943c8de-88a6-49c8-a8d1-d1d76f031608</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,18 +130,18 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form[2]/button</value>
-      <webElementGuid>643eb2cb-4864-48fe-9013-aad020c2f185</webElementGuid>
+      <webElementGuid>57d58462-976b-4643-ac33-d054b14ea9f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'test-source-authorize-3ds' and @type = 'submit' and (text() = '
-                Complete
-              ' or . = '
-                Complete
+      <value>//button[@id = 'test-source-authorize-3ds' and @type = 'submit' and (text() = '&#xd;
+                Complete&#xd;
+              ' or . = '&#xd;
+                Complete&#xd;
               ')]</value>
-      <webElementGuid>50cee7e1-4c02-4ef6-8cd4-4942333c926b</webElementGuid>
+      <webElementGuid>ed9efe0e-c32b-4c6f-bb17-55a9cebc02fa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

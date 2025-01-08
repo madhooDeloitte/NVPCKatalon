@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Pay with_b2-b8-l1-537_0-RadioGroup</name>
+   <name>input_Pay with_b2-b8-l1-537_0-RadioGroup_1</name>
    <tag></tag>
-   <elementGuidId>48d8e7f2-7520-457a-92a1-dd294763c9d9</elementGuidId>
+   <elementGuidId>7d13a52b-05f1-4c83-971e-665c8d10203b</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@ktl-id='divExistingCard']/div/div/div/div[2]/div/div/div/div/div/div/input</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#b2-b8-l1-537_0-RadioButton-input</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'radio' and @id = 'b2-b8-l1-537_0-RadioButton-input' and @name = 'b2-b8-l1-537_0-RadioGroup']</value>
+         <key>XPATH</key>
+         <value>//input[@id='b2-b8-l1-537_0-RadioButton-input']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>43cf0132-48da-4857-b310-0d757eca3b62</webElementGuid>
+      <webElementGuid>e80102ed-00a2-4cea-81e2-8af8083e961c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>bd44d061-69f0-49e8-8b5e-6bdbf86121fb</webElementGuid>
+      <webElementGuid>710deb88-cb0e-4f8f-8a29-99c7439fa354</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +39,7 @@
       <name>id</name>
       <type>Main</type>
       <value>b2-b8-l1-537_0-RadioButton-input</value>
-      <webElementGuid>a7de8616-4127-4775-a98f-76cbdb67d103</webElementGuid>
+      <webElementGuid>7ff65944-92a1-45c9-9e9a-c1c16b1cadc6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>radio-button</value>
-      <webElementGuid>65a0a5e9-b4c8-40fb-a5be-b66d140bd7f3</webElementGuid>
+      <webElementGuid>19074b8a-2df5-411c-9dce-a9ff9873b24f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -59,7 +55,7 @@
       <name>name</name>
       <type>Main</type>
       <value>b2-b8-l1-537_0-RadioGroup</value>
-      <webElementGuid>bb538371-8e54-4962-80da-d27fb769decd</webElementGuid>
+      <webElementGuid>d8aacb6b-e6b4-4c23-be15-8de5018921ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +63,7 @@
       <name>value</name>
       <type>Main</type>
       <value>pm_1OJY1GA2ueNEMe8GZmXBMExW</value>
-      <webElementGuid>5ae01774-75ea-47aa-9c0d-11790d66bd79</webElementGuid>
+      <webElementGuid>0c90c07d-2afd-4f75-9c66-40ac24a3d0cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-b8-l1-537_0-RadioButton-input&quot;)</value>
-      <webElementGuid>24d63957-fc50-43cb-bf5e-9edfa9246ae5</webElementGuid>
+      <webElementGuid>4f5bf469-789d-4b6f-abd0-564864959897</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -83,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='b2-b8-l1-537_0-RadioButton-input']</value>
-      <webElementGuid>ad4ab2c2-9f26-4322-bccf-f193b8959a18</webElementGuid>
+      <webElementGuid>6299f9dd-f792-4c03-aecf-6650d9639e79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b8-l1-537_0-RadioButton']/input</value>
-      <webElementGuid>e9b74c50-e898-49d3-a62b-a97d330c420c</webElementGuid>
+      <webElementGuid>17c3de87-7e0c-43f1-a082-59fa4fc26543</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>a6658786-0a29-4472-ba41-745aff79a1c2</webElementGuid>
+      <webElementGuid>b2560dff-3b47-45ec-820b-33f726bdc08b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @id = 'b2-b8-l1-537_0-RadioButton-input' and @name = 'b2-b8-l1-537_0-RadioGroup']</value>
-      <webElementGuid>2902b89d-d8a8-42e5-a5b4-112cf07f514e</webElementGuid>
+      <webElementGuid>aa4ea3d7-127e-47a2-a174-d546d9ab9af8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

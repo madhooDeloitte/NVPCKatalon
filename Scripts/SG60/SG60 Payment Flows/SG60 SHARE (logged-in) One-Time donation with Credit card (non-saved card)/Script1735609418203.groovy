@@ -89,10 +89,14 @@ WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_newVisa'))
 '-'
 WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Continue with Payment'))
 
+WebUI.delay(3)
+
 'verify on stripe page'
 WebUI.takeScreenshotAsCheckpoint('4')
 
-WebUI.delay(20)
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_DK Development Env/button_change visa'), 10)) {
+    WebUI.click(findTestObject('Object Repository/Page_DK Development Env/button_change visa'))
+}
 
 'if account being used requires you to change card, manually change card. \r\nIf not, ignore step'
 WebUI.comment('')
@@ -107,6 +111,8 @@ WebUI.setText(findTestObject('Object Repository/Page_DK Development Env/input_Ca
 WebUI.setText(findTestObject('Page_DK Development Env/input_Cardholder name_billingName'), cardName)
 
 WebUI.click(findTestObject('Object Repository/Page_DK Development Env/div_SGD60.00_SubmitButton-IconContainer'))
+
+WebUI.delay(5)
 
 'verify donated thank you page'
 WebUI.takeScreenshotAsCheckpoint('5')
@@ -157,6 +163,8 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Verify'))
 
 '-'
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - dk Home/a_Reports'))
+
+WebUI.delay(5)
 
 'verify on report page'
 WebUI.takeScreenshotAsCheckpoint('6')
