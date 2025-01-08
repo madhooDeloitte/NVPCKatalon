@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@ktl-id='divCampaignList']/div[1]/div/div/div[1]</value>
+         <value>//div[@ktl-id='divCampaignList']/div[1]/div/div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>09aa1787-8f32-44eb-9be0-dbf721f05c17</webElementGuid>
+      <webElementGuid>2317706a-9500-4127-a0fe-98a73b005aed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>image-card-content-wrapper</value>
-      <webElementGuid>4191ded5-4ae3-49fb-9263-44691b6d4e0a</webElementGuid>
+      <webElementGuid>b0c53feb-5f11-4b3f-9fb7-290440a8f7f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>b2-b9-l4-324_0-b20-Content</value>
-      <webElementGuid>d522ae9f-b988-4bc7-9bee-bbfbe788dd9d</webElementGuid>
+      <webElementGuid>956ceebd-f9d6-4745-9b22-0a2143223f5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>11311 sub campaign 1Marriott International Serve 360 for Ronald McDonald House$0 raised of $8,0000 donors</value>
-      <webElementGuid>0201491b-d3e4-475d-9ada-3585d484afca</webElementGuid>
+      <webElementGuid>b300ba78-1ec9-4417-a4dc-797f970f391e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-b9-l4-324_0-b20-Content&quot;)</value>
-      <webElementGuid>024709d7-623b-4712-81c6-d90fbf5826b7</webElementGuid>
+      <webElementGuid>e0b7e641-1440-46de-83eb-1a98eb5d8da8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='b2-b9-l4-324_0-b20-Content']</value>
-      <webElementGuid>3ef1ecc3-9a84-4b35-8082-8947d7653c4e</webElementGuid>
+      <webElementGuid>375bb47a-5bbd-4951-853c-c0c405712cfc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b9-l4-324_0-$b20']/div/div[4]</value>
-      <webElementGuid>267ef231-66d0-4a77-a443-f31bb9bd59c0</webElementGuid>
+      <webElementGuid>9abc466e-3750-437c-aab0-6973bd1b9044</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Results per page'])[1]/following::div[16]</value>
-      <webElementGuid>5dcfa4ba-b55b-4a7c-81aa-4b1cc817923e</webElementGuid>
+      <webElementGuid>06113b5c-70c3-4777-89ee-457cccfc0424</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/div/div/div[4]</value>
-      <webElementGuid>ad01b46e-6e15-4a3b-9b3b-8ae08fbd0e82</webElementGuid>
+      <webElementGuid>dd35545a-375f-4a27-bc00-fe05421ca77e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'b2-b9-l4-324_0-b20-Content' and (text() = '11311 sub campaign 1Marriott International Serve 360 for Ronald McDonald House$0 raised of $8,0000 donors' or . = '11311 sub campaign 1Marriott International Serve 360 for Ronald McDonald House$0 raised of $8,0000 donors')]</value>
-      <webElementGuid>fdf13966-0e2d-41bd-a5d0-d1aa73867a65</webElementGuid>
+      <webElementGuid>9802e3f3-5db6-45db-a9ab-75d133bd106c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

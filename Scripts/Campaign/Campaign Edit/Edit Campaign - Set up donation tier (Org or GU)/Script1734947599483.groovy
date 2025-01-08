@@ -249,6 +249,9 @@ WebUI.delay(3)
 
 WebUI.takeFullPageScreenshotAsCheckpoint('15')
 
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sg - admin Home/a_SwitchGiverPortal'),
+	3)
+
 WebUI.click(findTestObject('Page_giving.sg - admin Campaigns/button_Fundraisers campaigns'))
 
 WebUI.delay(3)

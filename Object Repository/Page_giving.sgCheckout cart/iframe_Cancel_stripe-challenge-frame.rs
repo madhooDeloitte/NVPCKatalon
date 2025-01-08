@@ -3,7 +3,7 @@
    <description></description>
    <name>iframe_Cancel_stripe-challenge-frame</name>
    <tag></tag>
-   <elementGuidId>719d77de-3069-4b65-9dcc-1d175f165b79</elementGuidId>
+   <elementGuidId>d1b8fdc0-9d1e-4cf8-83cc-c889801715df</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -15,6 +15,12 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>iframe[name=&quot;stripe-challenge-frame&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>137edf42-de5b-45d8-a808-59ff0400ed23</webElementGuid>
+      <webElementGuid>a8fd7251-99c1-41e1-ab02-ef1c934a9eed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +37,7 @@
       <name>allowpaymentrequest</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>3790c901-fc58-44b2-9016-f352fbb07820</webElementGuid>
+      <webElementGuid>69447208-f150-4db4-af4a-63a4a79cab4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>challengeFrame</value>
-      <webElementGuid>7cbe0364-12d0-4435-b5d7-a4a1796754b6</webElementGuid>
+      <webElementGuid>fba3eeea-9dab-417d-9920-55d09edb2591</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +53,7 @@
       <name>frameborder</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>85007464-b6b6-4c7a-a8ed-b41782b46959</webElementGuid>
+      <webElementGuid>95ea2ea8-d005-4e9b-9da1-887f3383b771</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +61,7 @@
       <name>title</name>
       <type>Main</type>
       <value>3DS Challenge</value>
-      <webElementGuid>5710dadc-95a7-4cd3-bf3e-3752cc03062f</webElementGuid>
+      <webElementGuid>9e307533-26f6-4f2d-a667-ea5fbbb4e451</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +69,7 @@
       <name>name</name>
       <type>Main</type>
       <value>stripe-challenge-frame</value>
-      <webElementGuid>a90430ab-d1dc-4045-8fb6-e4d1940cf811</webElementGuid>
+      <webElementGuid>6947fe31-e84a-4db0-9de4-338248e1c98e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +77,7 @@
       <name>height</name>
       <type>Main</type>
       <value>100%</value>
-      <webElementGuid>fec1e71f-b303-4f83-8748-953b147b7006</webElementGuid>
+      <webElementGuid>e469cdb9-453c-4443-96bc-6ac1e6414a35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +85,7 @@
       <name>width</name>
       <type>Main</type>
       <value>100%</value>
-      <webElementGuid>a1a8141d-277d-4c17-adaa-b87252487d8f</webElementGuid>
+      <webElementGuid>50486ce4-6d70-450c-808b-18e33fb0e495</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,7 +93,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ThreeDS2-challenge</value>
-      <webElementGuid>c4ec4041-c9ce-4fa5-9ddc-aea3b333aaea</webElementGuid>
+      <webElementGuid>296197ae-f740-4fff-a72a-cb34eaca801f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -95,15 +101,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;challengeFrame&quot;)</value>
-      <webElementGuid>46b119bc-cf3a-4f76-8ae3-6d4e59ad9630</webElementGuid>
+      <webElementGuid>1298ebf1-1964-4795-975b-847aaf380a51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_giving.sgCheckout cart/iframe_About___privateStripeFrame5212</value>
-      <webElementGuid>802912c2-fd20-43a0-b688-990a93e522f0</webElementGuid>
+      <value>Object Repository/Page_giving.sgCheckout cart/iframe_About___privateStripeFrame5632</value>
+      <webElementGuid>b727c04c-f74b-450b-b4b6-eb70f899293e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -111,7 +117,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//iframe[@id='challengeFrame']</value>
-      <webElementGuid>4ac88fd4-2282-4eca-ba04-f200e417cefb</webElementGuid>
+      <webElementGuid>b13fade3-0f4c-4d2a-b4ea-8ee20a9ec019</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +125,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/div[2]/div/div/iframe</value>
-      <webElementGuid>b6208892-12a7-4581-b02c-f042f3e5ec6c</webElementGuid>
+      <webElementGuid>1ef31601-2f3d-4864-b62f-e44ecc91bc77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//iframe</value>
-      <webElementGuid>375a8fef-33bd-40e1-808f-b1452ffe98d7</webElementGuid>
+      <webElementGuid>9608b767-1cde-4692-90aa-f73ac8065b21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@id = 'challengeFrame' and @title = '3DS Challenge' and @name = 'stripe-challenge-frame']</value>
-      <webElementGuid>91ae9f39-4019-4c61-a93b-d26694d88d7c</webElementGuid>
+      <webElementGuid>6022c49a-7a62-4d6c-b775-27f2f95dac1f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
