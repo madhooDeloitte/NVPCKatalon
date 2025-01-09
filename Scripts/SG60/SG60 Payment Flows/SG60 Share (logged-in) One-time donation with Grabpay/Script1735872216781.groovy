@@ -66,6 +66,8 @@ WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_DONATE NOW'))
 '-'
 WebUI.click(findTestObject('Object Repository/Page_giving.sgSG60 SHARE/button_Checkout'))
 
+WebUI.delay(3)
+
 'verify items on checkout screen'
 WebUI.takeScreenshotAsCheckpoint('3')
 
@@ -75,8 +77,10 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/input_
 '-'
 WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Continue with Payment'))
 
+WebUI.delay(3)
+
 'verify on stripe page'
-WebUI.takeScreenshotAsCheckpoint('2')
+WebUI.takeScreenshotAsCheckpoint('4')
 
 'stripe enter name. may need manual'
 WebUI.setText(findTestObject('Page_DK Development Env/input_stripe name'), stripeName)
@@ -87,8 +91,10 @@ WebUI.click(findTestObject('Page_DK Development Env/div_SGD60.00_SubmitButton-Ic
 'click authorize test payment on stripe'
 WebUI.click(findTestObject('Object Repository/Page_/a_Authorize Test Payment'))
 
+WebUI.delay(5)
+
 'verify donated thank you page'
-WebUI.takeScreenshotAsCheckpoint('3')
+WebUI.takeScreenshotAsCheckpoint('5')
 
 'click profile'
 WebUI.click(findTestObject('Page_giving.sgLogin/btn_profile logged in'))
@@ -137,8 +143,10 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Verify'))
 '-'
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - dk Home/a_Reports'))
 
+WebUI.delay(3)
+
 'verify on report page'
-WebUI.takeScreenshotAsCheckpoint('4')
+WebUI.takeScreenshotAsCheckpoint('6')
 
 '-'
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - dk Reports/div_Select type'))
