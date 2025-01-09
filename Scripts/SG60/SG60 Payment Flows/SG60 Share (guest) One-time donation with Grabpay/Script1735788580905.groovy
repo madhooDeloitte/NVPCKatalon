@@ -76,6 +76,8 @@ WebUI.click(findTestObject('Page_DK Development Env/div_SGD60.00_SubmitButton-Ic
 'click authorize test payment on stripe'
 WebUI.click(findTestObject('Object Repository/Page_/a_Authorize Test Payment'))
 
+WebUI.delay(5)
+
 'verify donated thank you page'
 WebUI.takeScreenshotAsCheckpoint('3')
 
@@ -116,6 +118,8 @@ WebUI.setText(findTestObject('Page_giving.sgLogin/input_If the account exists, y
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Verify'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - dk Home/a_Reports'))
+
+WebUI.delay(3)
 
 'verify on report page'
 WebUI.takeScreenshotAsCheckpoint('4')

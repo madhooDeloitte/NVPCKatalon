@@ -39,10 +39,10 @@ WebUI.setText(findTestObject('Page_giving.sgGiver linking account/input_Full nam
 
 WebUI.setText(findTestObject('Page_giving.sgGiver linking account/input_Email_b5-b3-Input_Email'), 'frocher@dk.dev')
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_Date of birth_form-control OSFillPare_aaf11f'), 
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_Date of birth'), 
     '')
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_Date of birth_form-control OSFillPare_aaf11f'))
+WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_Date of birth'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/span_1'))
 

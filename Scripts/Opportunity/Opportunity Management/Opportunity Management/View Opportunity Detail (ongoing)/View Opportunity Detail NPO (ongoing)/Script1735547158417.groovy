@@ -75,6 +75,8 @@ WebUI.click(findTestObject('Page_giving.sg - admin List of opportunities/filters
 'kti_id settled'
 WebUI.click(findTestObject('Page_giving.sg - admin List of opportunities/button_Apply'))
 
+WebUI.takeScreenshotAsCheckpoint('1')
+
 'opportunity name'
 WebUI.setText(findTestObject('Page_giving.sg - admin List of opportunities/input_Search opportunities_b2-SearchInput'), 
     inpSearch)
@@ -82,6 +84,8 @@ WebUI.setText(findTestObject('Page_giving.sg - admin List of opportunities/input
 'press enter key'
 WebUI.sendKeys(findTestObject('Page_giving.sg - admin List of opportunities/input_Search opportunities_b2-SearchInput'), 
     Keys.chord(Keys.ENTER))
+
+WebUI.takeScreenshotAsCheckpoint('2')
 
 // Get the current WebDriver instance
 WebDriver driver = DriverFactory.getWebDriver()
@@ -127,7 +131,7 @@ if (newTabHandle != null) {
     WebUI.comment('No new tab was found.')
 }
 
-WebUI.takeScreenshotAsCheckpoint('1')
+WebUI.takeScreenshotAsCheckpoint('3')
 
 //WebUI.switchToWindowTitle('giving.sg : Opportunity detail - test ongoing npo')
 'moving tab'
@@ -159,5 +163,5 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Page_giving.sgOppor
 WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgOpportunity detail - test_exp_5327a5/div_Contact usAny queries Contact TestNew1 _f03c47'), 
     0)
 
-WebUI.takeScreenshotAsCheckpoint('2')
+WebUI.takeScreenshotAsCheckpoint('4')
 
