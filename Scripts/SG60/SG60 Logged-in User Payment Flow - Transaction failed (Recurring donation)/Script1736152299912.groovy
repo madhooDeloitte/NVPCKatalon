@@ -37,17 +37,37 @@ WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password_b3-b9-
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('1')
+
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/button_SG60 SHARE'))
+
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('2')
 
 WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_DONATE NOW'))
 
 WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/div_605x12 months'))
 
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('3')
+
 WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_Checkout'))
+
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('4')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/div_Visa ending in 3184'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/input_Visa ending in 0341_b2-b8-l1-537_3-Ra_8a24a0'))
+
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('5')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/button_Continue with Payment'))
 
@@ -62,7 +82,15 @@ WebUI.delay(20)
 
 //Select "Fail"
 
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('6')
+
 WebUI.click(findTestObject('Page_giving.sgPayment status/button_Retry transaction'))
+
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('7')
 
 WebUI.delay(10)
 

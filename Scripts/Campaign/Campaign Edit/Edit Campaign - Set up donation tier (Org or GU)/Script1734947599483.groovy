@@ -59,6 +59,8 @@ WebUI.setText(findTestObject('Page_giving.sgLogin/input_If the account exists, y
 
 WebUI.sendKeys(findTestObject('Page_giving.sgLogin/input_If the account exists, you will recei_1714ca'), Keys.chord(Keys.ENTER))
 
+//To look at donation tiers in main campaign, forn later steps
+
 WebUI.click(findTestObject('Page_giving.sg - admin Home/i_Audit log_fa-solid fa-hand-holding-heart'))
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/span_Donate'))
@@ -77,6 +79,9 @@ WebUI.click(findTestObject('Page_giving.sgDonate - 11311 Main Campaign Test/div_
 
 WebUI.switchToWindowTitle('giving.sg : Campaign detail - 11311 Main Campaign Test')
 
+WebUI.scrollToElement(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgCampaign detail/span_Donate now_Tier'),
+	3)
+
 WebUI.delay(3)
 
 WebUI.takeFullPageScreenshotAsCheckpoint('2')
@@ -89,7 +94,11 @@ WebUI.setText(findTestObject('Page_giving.sg - admin Campaigns/input_Search camp
 
 WebUI.sendKeys(findTestObject('Page_giving.sg - admin Campaigns/input_Search campaigns_b2-SearchInput'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Campaigns/i_Emma Watsons_fa-solid fa-ellipsis-vertical'))
+WebUI.delay(20)
+
+//select 11311 sub campaign 1
+
+//WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Campaigns/i_Emma Watsons_fa-solid fa-ellipsis-vertical'))
 
 WebUI.delay(3)
 
@@ -139,6 +148,10 @@ WebUI.takeFullPageScreenshotAsCheckpoint('7')
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Edit campaign/input_Donation amount_b3-b1-b31-b13-Input_T_f2c879'),
 	'10')
+
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('8')
 
 WebUI.click(findTestObject('Page_giving.sg - admin Edit campaign/button_Confirm'))
 
@@ -204,6 +217,9 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Campaigns/s
 WebUI.click(findTestObject('Page_giving.sg - admin Donation list/div_View your campaign'))
 
 WebUI.switchToWindowTitle('giving.sg : Campaign detail - 11311 sub campaign 1')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgCampaign detail/span_Donate now_Tier'),
+	3)
 
 WebUI.delay(3)
 
