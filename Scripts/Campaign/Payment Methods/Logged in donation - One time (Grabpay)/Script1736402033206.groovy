@@ -22,36 +22,26 @@ import org.openqa.selenium.WebDriver as WebDriver
 'home url\r\n'
 String envURL = 'https://dk.deloitte-sea.com/home'
 
-'test email\r\n'
+'giver email\r\n\r\n'
 String giverEmail = 'member1@dk.dev'
+
+String charityName = '(DS) NPO 0001'
+
+String stripeName = 'abc'
 
 'test email\r\n'
 String adminEmail = 'DK_Finance_Admin_00_02@nvpc.dev'
 
-'test email\r\n'
-String cardNum = '4242 4242 4242 42424'
-
-'test email\r\n'
-String cardDate = '12 / 28'
-
-'test email\r\n'
-String cardDigit = '111'
-
-'test email\r\n'
-String cardName = 'a'
+testQn = 'abc'
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(envURL)
 
 '-'
-WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg/button_Accept all'))
+WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/button_Accept all'))
 
-'main page'
-WebUI.takeScreenshotAsCheckpoint('1')
-
-'-'
-WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/a_Log in'))
+WebUI.click(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/button_paymentLogIn'))
 
 '-'
 WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), giverEmail)
@@ -63,30 +53,95 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password_b3-b9-Input_Password'), '963D2jXv1kXHYewulAqKlg==')
 
 'after username and pass entered'
-WebUI.takeScreenshotAsCheckpoint('2')
+WebUI.takeScreenshotAsCheckpoint('1')
 
 '-'
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
-'need this'
-WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/button_SG60 SHARE'))
-
-'need this'
-WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_DONATE NOW'))
-
-'click the other amount tab'
-WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_clickOtheramt'))
-
-WebUI.setText(findTestObject('Page_giving.sgSG60 SHARE/input_otherAmountenter'), '1')
-
 '-'
-WebUI.click(findTestObject('Object Repository/Page_giving.sgSG60 SHARE/button_Checkout'))
+WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/a_Donate'))
 
-'verify items on checkout screen'
+WebUI.setText(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/inp_charityName'), charityName)
+
+WebUI.click(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/button_searchCharity'))
+
+WebUI.delay(5)
+
+'charity searched and results'
+WebUI.takeScreenshotAsCheckpoint('2')
+
+// Get the current WebDriver instance
+WebDriver driver = DriverFactory.getWebDriver()
+
+// Store the current window handle (main tab)
+String mainTabHandle = driver.getWindowHandle()
+
+'click first charity'
+WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate/span_(DS) NPO 0001'))
+
+// Wait for the new tab to open
+WebUI.delay(2 // Adjust delay based on application behavior
+    )
+
+// Get all open window handles
+Set<String> allWindowHandles = driver.getWindowHandles()
+
+String newTabHandle = null
+
+// Find the new tab handle
+for (String handle : allWindowHandles) {
+    if (!(handle.equals(mainTabHandle))) {
+        newTabHandle = handle
+
+        break
+    }
+}
+
+// Switch to the new tab
+if (newTabHandle != null) {
+    driver.switchTo().window(newTabHandle)
+
+    WebUI.comment('Switched to the new tab.')
+
+    // Get the URL of the new tab
+    String newTabURL = driver.getCurrentUrl()
+
+    WebUI.comment('New tab URL: ' + newTabURL)
+} else {
+    WebUI.comment('No new tab was found.')
+}
+
+WebUI.delay(5)
+
+'check tab moved to correct charity'
 WebUI.takeScreenshotAsCheckpoint('3')
 
-'click new visa'
-WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_newVisa'))
+'hover to click'
+WebUI.mouseOver(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/span_Donatehover'))
+
+WebUI.click(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/button_Donate10'))
+
+WebUI.setText(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/inp_testQnask'), testQn)
+
+WebUI.click(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/button_Donatenowpopup'))
+
+WebUI.delay(5)
+
+'add on time donation to cart'
+WebUI.takeScreenshotAsCheckpoint('4')
+
+WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Check out'))
+
+'scroll to grabpay'
+WebUI.scrollToElement(findTestObject('Page_giving.sgCheckout cart/div_existingCardBox'), 0)
+
+WebUI.delay(5)
+
+'check credit, grab, enet. proceed to giving cart'
+WebUI.takeScreenshotAsCheckpoint('5')
+
+'- click grab pay'
+WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/input_VisaMastercardAmex credit  debit card_e98b1d'))
 
 '-'
 WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Continue with Payment'))
@@ -94,30 +149,21 @@ WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Continue with Pay
 WebUI.delay(3)
 
 'verify on stripe page'
-WebUI.takeScreenshotAsCheckpoint('4')
+WebUI.takeScreenshotAsCheckpoint('6')
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_DK Development Env/button_change visa'), 10)) {
-    WebUI.click(findTestObject('Object Repository/Page_DK Development Env/button_change visa'))
-}
+'stripe enter name. may need manual'
+WebUI.setText(findTestObject('Page_DK Development Env/input_stripe name'), stripeName)
 
-'if account being used requires you to change card, manually change card. \r\nIf not, ignore step'
-WebUI.comment('')
+'click donate button on stripe'
+WebUI.click(findTestObject('Page_DK Development Env/div_SGD60.00_SubmitButton-IconContainer'))
 
-'works for now'
-WebUI.setText(findTestObject('Object Repository/Page_DK Development Env/input_Card information_cardNumber'), cardNum)
+'click authorize test payment on stripe'
+WebUI.click(findTestObject('Object Repository/Page_/a_Authorize Test Payment'))
 
-WebUI.setText(findTestObject('Object Repository/Page_DK Development Env/input_Card information_cardExpiry'), cardDate)
-
-WebUI.setText(findTestObject('Object Repository/Page_DK Development Env/input_Card information_cardCvc'), cardDigit)
-
-WebUI.setText(findTestObject('Page_DK Development Env/input_Cardholder name_billingName'), cardName)
-
-WebUI.click(findTestObject('Object Repository/Page_DK Development Env/div_SGD60.00_SubmitButton-IconContainer'))
-
-WebUI.delay(5)
+WebUI.delay(15)
 
 'verify donated thank you page'
-WebUI.takeScreenshotAsCheckpoint('5')
+WebUI.takeScreenshotAsCheckpoint('7')
 
 'click profile'
 WebUI.click(findTestObject('Page_giving.sgLogin/btn_profile logged in'))
@@ -169,7 +215,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - dk Home/a_Reports
 WebUI.delay(5)
 
 'verify on report page'
-WebUI.takeScreenshotAsCheckpoint('6')
+WebUI.takeScreenshotAsCheckpoint('8')
 
 '-'
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - dk Reports/div_Select type'))
