@@ -49,8 +49,16 @@ WebUI.navigateToUrl(envURL)
 '-'
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/button_Accept all'))
 
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('1 main page')
+
 '-'
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/a_Donate'))
+
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('2 doante page')
 
 WebUI.setText(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/inp_charityName'), charityName)
 
@@ -59,7 +67,7 @@ WebUI.click(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/button_searchCh
 WebUI.delay(5)
 
 'check searched charity and results'
-WebUI.takeScreenshotAsCheckpoint('1')
+WebUI.takeScreenshotAsCheckpoint('3 charity input and search')
 
 // Get the current WebDriver instance
 WebDriver driver = DriverFactory.getWebDriver()
@@ -105,7 +113,7 @@ if (newTabHandle != null) {
 WebUI.delay(5)
 
 'check tab moved'
-WebUI.takeScreenshotAsCheckpoint('2')
+WebUI.takeScreenshotAsCheckpoint('4 check charity tab')
 
 'hover to click'
 WebUI.mouseOver(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/span_Donatehover'))
@@ -114,14 +122,17 @@ WebUI.click(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/button_Donate10
 
 WebUI.setText(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/inp_testQnask'), testQn)
 
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('5 donate inputs')
+
 WebUI.click(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/button_Donatenowpopup'))
 
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('6 cart page')
+
 WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Check out'))
-
-WebUI.delay(5)
-
-'check credit, grab, enet'
-WebUI.takeScreenshotAsCheckpoint('3')
 
 '- click visa/mastercard'
 WebUI.click(findTestObject('Page_giving.sgCheckout cart/input_Pay with_b2-b10-l1-515_0-RadioGroup'))
@@ -130,12 +141,12 @@ WebUI.setText(findTestObject('Page_giving.sgCheckout cart/input_Full name_b2-Inp
 
 WebUI.setText(findTestObject('Page_giving.sgCheckout cart/input_Email_b2-Input_Email'), giverEmail)
 
+WebUI.delay(5)
+
+'check credit, grab, enet'
+WebUI.takeScreenshotAsCheckpoint('7 credit card inputs')
+
 WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Continue with Payment'))
-
-WebUI.delay(3)
-
-'verify on stripe page'
-WebUI.takeScreenshotAsCheckpoint('4')
 
 'works for now'
 WebUI.setText(findTestObject('Page_DK Development Env/input_Card information_cardNumber'), cardNum)
@@ -146,10 +157,15 @@ WebUI.setText(findTestObject('Page_DK Development Env/input_Card information_car
 
 WebUI.setText(findTestObject('Page_DK Development Env/input_Cardholder name_billingName'), cardName)
 
+WebUI.delay(3)
+
+'verify on stripe page'
+WebUI.takeScreenshotAsCheckpoint('8 stripe page inputs')
+
 WebUI.click(findTestObject('Page_DK Development Env/div_SGD60.00_SubmitButton-IconContainer'))
 
-WebUI.delay(30)
+WebUI.delay(15)
 
 'verify donated thank you page'
-WebUI.takeScreenshotAsCheckpoint('5')
+WebUI.takeScreenshotAsCheckpoint('9 verify thank you page')
 

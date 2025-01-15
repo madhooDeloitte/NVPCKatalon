@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.WebDriver as WebDriver
 
 envURL = 'https://dk.deloitte-sea.com/home'
 
@@ -35,8 +37,16 @@ WebUI.navigateToUrl(envURL)
 '-'
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/button_Accept all'))
 
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('1 main page')
+
 '-'
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/a_Donate'))
+
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('2 donate page')
 
 WebUI.setText(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/inp_charityName'), charityName)
 
@@ -44,7 +54,7 @@ WebUI.click(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/button_searchCh
 
 WebUI.delay(5)
 
-WebUI.takeScreenshotAsCheckpoint('1')
+WebUI.takeScreenshotAsCheckpoint('3 charity search')
 
 // Get the current WebDriver instance
 WebDriver driver = DriverFactory.getWebDriver()
@@ -90,7 +100,7 @@ if (newTabHandle != null) {
 WebUI.delay(5)
 
 'check tab moved'
-WebUI.takeScreenshotAsCheckpoint('2')
+WebUI.takeScreenshotAsCheckpoint('4 check charity tab')
 
 WebUI.mouseOver(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/span_Donatehover'))
 
@@ -98,14 +108,17 @@ WebUI.click(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/button_Donate10
 
 WebUI.setText(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/inp_testQnask'), testQn)
 
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('5 donation inputs')
+
 WebUI.click(findTestObject('Page_giving.sgDonate - (DS) NPO 0001/button_Donatenowpopup'))
 
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('6 checkout page')
+
 WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Check out'))
-
-WebUI.delay(5)
-
-'check credit, grab, enet'
-WebUI.takeScreenshotAsCheckpoint('3')
 
 WebUI.click(findTestObject('Page_giving.sgCheckout cart/input_VisaMastercardAmex credit  debit card_e98b1d'))
 
@@ -113,19 +126,30 @@ WebUI.setText(findTestObject('Page_giving.sgCheckout cart/input_Full name_b2-Inp
 
 WebUI.setText(findTestObject('Page_giving.sgCheckout cart/input_Email_b2-Input_Email'), giverEmail)
 
-WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Continue with Payment'))
-
 WebUI.delay(5)
+
+'check credit, grab, enet'
+WebUI.takeScreenshotAsCheckpoint('7 guest inputs')
+
+WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Continue with Payment'))
 
 'no ktl-id\r\n'
 WebUI.setText(findTestObject('Page_DK Development Env/input_Name_billingName'), giverName)
 
+WebUI.delay(5)
+
+WebUI.takeScreenshotAsCheckpoint('8 stripe inputs')
+
 WebUI.click(findTestObject('Page_DK Development Env/div_SGD10.00_SubmitButton-IconContainer'))
+
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('9 stripe authorize')
 
 WebUI.click(findTestObject('Page_/a_Authorize Test Payment'))
 
-WebUI.delay(20)
+WebUI.delay(15)
 
 'verify back to payment summary page\r\n'
-WebUI.takeScreenshotAsCheckpoint('4')
+WebUI.takeScreenshotAsCheckpoint('10 verify thankyou page')
 

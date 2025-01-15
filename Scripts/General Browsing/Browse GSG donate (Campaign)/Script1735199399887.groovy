@@ -49,22 +49,31 @@ WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/s
 
 WebUI.delay(3)
 
+'1.4 verify on donate page'
 WebUI.takeFullPageScreenshotAsCheckpoint('1')
 
 WebUI.setText(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), charityNameWithoutDefaultLogo)
 
 WebUI.sendKeys(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), Keys.chord(Keys.ENTER))
 
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'), 
+    3)
+
 WebUI.delay(3)
 
+'search charity'
 WebUI.takeFullPageScreenshotAsCheckpoint('2')
 
 WebUI.setText(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), charityNameWithDefaultLogo)
 
 WebUI.sendKeys(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), Keys.chord(Keys.ENTER))
 
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'), 
+    3)
+
 WebUI.delay(3)
 
+'search another charity'
 WebUI.takeFullPageScreenshotAsCheckpoint('3')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate/button_CAMPAIGNS'))
@@ -73,22 +82,34 @@ WebUI.setText(findTestObject('Page_giving.sgDonate/input_Search charities or cam
 
 WebUI.sendKeys(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), Keys.chord(Keys.ENTER))
 
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'), 
+    3)
+
 WebUI.delay(3)
 
+'1.5 verify searched campaign has default image'
 WebUI.takeFullPageScreenshotAsCheckpoint('4')
 
 WebUI.setText(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), campaignNameWithDefaultLogo)
 
 WebUI.sendKeys(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), Keys.chord(Keys.ENTER))
 
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'), 
+    3)
+
 WebUI.delay(3)
 
+'verify search result matches search'
 WebUI.takeFullPageScreenshotAsCheckpoint('5')
 
 WebUI.setText(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), ' ')
 
 WebUI.sendKeys(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), Keys.chord(Keys.ENTER))
+
 WebUI.sendKeys(findTestObject('Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), Keys.chord(Keys.ENTER))
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'), 
+    3)
 
 WebUI.delay(3)
 
@@ -98,6 +119,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/div_Causes'
 
 WebUI.delay(3)
 
+'verify causes filter works'
 WebUI.takeFullPageScreenshotAsCheckpoint('7')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/div_Donate todayTransform lives and communi_c5c151'))
@@ -106,6 +128,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/div_Tax-ded
 
 WebUI.delay(3)
 
+'verify tax-deductible'
 WebUI.takeFullPageScreenshotAsCheckpoint('8')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/div_Tax-deductible'))
@@ -114,6 +137,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/div_Campaig
 
 WebUI.delay(3)
 
+'verify campaign type pill works'
 WebUI.takeFullPageScreenshotAsCheckpoint('9')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/div_Campaign type'))
@@ -122,9 +146,8 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/label_Under
 
 WebUI.delay(3)
 
+'verify underserved can be toggled'
 WebUI.takeFullPageScreenshotAsCheckpoint('10')
-
-WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/label_Under-served'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/div_Sort Popularity'))
 
@@ -136,18 +159,21 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/div_Relevan
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/div_Causes'))
 
+'can change last div to select different checkbox'
+WebUI.click(findTestObject('Page_giving.sgDonate -/button_animals box'))
 
 // Click on 3 random options
-
 //WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/span_Adults_checkbox-icon'))
 //
 //WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/span_Animal welfare_checkbox-icon'))
 //
 //WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/span_Animals_checkbox-icon'))
-
 WebUI.delay(3)
 
+'verify animal selected'
 WebUI.takeFullPageScreenshotAsCheckpoint('12')
+
+WebUI.click(findTestObject('Page_giving.sgDonate -/span_Clear all'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/header_CHARITIESCAMPAIGNS'))
 
@@ -155,29 +181,41 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/div_Campaig
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/input_All_b2-b9-RadioGroup2'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/article_Filter byCauses3                   _63a362'))
+WebUI.delay(3)
+
+'verify clicked all campaign'
+WebUI.takeScreenshotAsCheckpoint('13')
+
+WebUI.click(findTestObject('Page_giving.sgDonate -/span_Clear all'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/div_Campaign type'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/input_Public_b2-b9-RadioGroup2'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/article_Filter byCauses3                   _63a362_1'))
-
 WebUI.delay(3)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('13')
+'verify public campaign'
+WebUI.takeScreenshotAsCheckpoint('14')
+
+WebUI.click(findTestObject('Page_giving.sgDonate -/span_Clear all'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/div_Campaign type'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/input_Campaign type_b2-b9-RadioGroup2'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/article_Filter byCauses3                   _63a362_1_2'))
+WebUI.delay(3)
+
+'verify clicked private campaign'
+WebUI.takeScreenshotAsCheckpoint('15')
+
+WebUI.click(findTestObject('Page_giving.sgDonate -/span_Clear all'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/div_Tax-deductible'))
 
 WebUI.delay(3)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('14')
+'enable tax-deductible'
+WebUI.takeFullPageScreenshotAsCheckpoint('15')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/div_Tax-deductible'))
 
@@ -185,7 +223,8 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/label_Under
 
 WebUI.delay(3)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('15')
+'enable under served'
+WebUI.takeFullPageScreenshotAsCheckpoint('16')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/label_Under-served'))
 
@@ -193,7 +232,8 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/span_Clear 
 
 WebUI.delay(3)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('16')
+'2.16 verify clear all filter works'
+WebUI.takeFullPageScreenshotAsCheckpoint('17')
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgDonate -/input_Search charities or campaigns_b2-SearchInput'), 
     'Youxx')
@@ -203,6 +243,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sgDonate -/input_Se
 
 WebUI.delay(3)
 
+'3.3 verify Youxx search'
 WebUI.takeFullPageScreenshotAsCheckpoint('17')
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgDonate -/input_Search charities or campaigns_b2-SearchInput'), 
@@ -253,6 +294,7 @@ WebUI.delay(3)
 WebUI.takeFullPageScreenshotAsCheckpoint('22')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/div_Sort Popularity'))
+
 WebUI.click(findTestObject('Object Repository/Page_giving.sgDonate -/div_Sort Reaching goals'))
 
 WebUI.delay(3)

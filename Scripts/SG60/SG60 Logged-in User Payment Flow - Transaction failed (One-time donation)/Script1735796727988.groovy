@@ -37,27 +37,32 @@ WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password_b3-b9-
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('1')
+'confirm logged in'
+WebUI.takeScreenshotAsCheckpoint('1')
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/button_SG60 SHARE'))
 
 WebUI.delay(3)
 
+'verify on sg60 donate now page'
 WebUI.takeFullPageScreenshotAsCheckpoint('2')
 
 WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_DONATE NOW'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgSG60 SHARE/div__b2-RadioButton9'))
+
 WebUI.delay(3)
 
+'confirm clicked amount $50'
 WebUI.takeFullPageScreenshotAsCheckpoint('3')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgSG60 SHARE/button_Checkout'))
 
 WebUI.delay(3)
 
+'confirm on checkout page'
 WebUI.takeFullPageScreenshotAsCheckpoint('4')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/input_OR_b2-b10-l1-538_0-RadioGroup'))
@@ -66,18 +71,21 @@ WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Continue with Pay
 
 WebUI.delay(3)
 
+'verify on stripe page'
 WebUI.takeFullPageScreenshotAsCheckpoint('5')
 
 WebUI.click(findTestObject('Object Repository/Page_DK Development Env/svg_Back_InlineSVG Icon Header-backArrow mr_54644a'))
 
 WebUI.delay(3)
 
+'verify transaction failed page'
 WebUI.takeFullPageScreenshotAsCheckpoint('6')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgPayment status/button_Retry transaction'))
 
 WebUI.delay(3)
 
+'confirm back at choose donation page'
 WebUI.takeFullPageScreenshotAsCheckpoint('7')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgSG60 SHARE/div_Stories_b1-b5'))

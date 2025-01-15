@@ -16,8 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-import com.kms.katalon.util.CryptoUtil
+import com.kms.katalon.util.CryptoUtil as CryptoUtil
 
 String originalText1 = 'mismatch1'
 
@@ -27,34 +26,40 @@ String originalText2 = 'mismatch2'
 
 String encryptedConfirmPassword = CryptoUtil.encode(CryptoUtil.getDefault(originalText2))
 
-WebUI.openBrowser('')
-
 //String encryptedPassword = 'hJxcABFZyq6YA1kwHae0pw=='
+'Input email. update this email password in confluence'
+String userEmail = 'member8@dk.dev'
 
-'Input email'
-String userEmail = 'michaelscott@dundermifflin1.dk.dev'
+'update this password each time'
+String workingPass1 = 'Deloitte@234'
+
+'update this password each time and update confluence after running script'
+String workingPass2 = 'Deloitte@234'
+
+WebUI.openBrowser('')
 
 //WebUI.setEncryptedText(findTestObject(null), 'hJxcABFZyq6YA1kwHae0pw==')
 WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/button_Accept all'))
 
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('1 main page')
+
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/a_Log in'))
 
 WebUI.delay(3)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('1')
+WebUI.takeScreenshotAsCheckpoint('2 login screen')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/a_Forgot password'))
 
-WebUI.delay(3)
-
-WebUI.takeFullPageScreenshotAsCheckpoint('2')
-
 WebUI.setText(findTestObject('Page_giving.sgForgot password/input_Email address_b3-Input_a_Email'), userEmail)
 
-//OTP
-WebUI.delay(30)
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('3 recovery email input')
 
 WebUI.click(findTestObject('Page_giving.sgForgot password/button_Reset my password'))
 
@@ -80,49 +85,60 @@ WebUI.setText(findTestObject('Object Repository/Page_giving.sgForgot password/in
 
 WebUI.delay(3)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('3')
+WebUI.takeFullPageScreenshotAsCheckpoint('4 OTP input')
 
 WebUI.click(findTestObject('Page_giving.sgForgot password/button_Verify'))
 
-WebUI.setEncryptedText(findTestObject('Page_giving.sgForgot password/input_Password_b3-Input_Password'), encryptedPassword)
+'pass: Mismatched!1'
+WebUI.setEncryptedText(findTestObject('Page_giving.sgForgot password/input_Password_b3-Input_Password'), '1sUQgUd+60S9+w7ahbk61g==')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_hidden password'))
 
+'pass: Mismatched!2'
 WebUI.setEncryptedText(findTestObject('Page_giving.sgForgot password/input_Confirm password_b3-Input_ConfirmPassword'), 
-    encryptedConfirmPassword)
+    '1sUQgUd+60SaX7gQMCjwjw==')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_hidden confirm password'))
+
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('5 fail reset inputs')
 
 WebUI.click(findTestObject('Page_giving.sgForgot password/button_Reset password'))
 
 WebUI.delay(3)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('4')
+WebUI.takeFullPageScreenshotAsCheckpoint('6 reset mismatch error')
 
-WebUI.sendKeys(findTestObject('Page_giving.sgForgot password/input_Password_b3-Input_Password'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.sendKeys(findTestObject('Page_giving.sgForgot password/input_Password_b3-Input_Password'), Keys.chord(Keys.CONTROL, 
+        'a'))
+
 WebUI.sendKeys(findTestObject('Page_giving.sgForgot password/input_Password_b3-Input_Password'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.sendKeys(findTestObject('Page_giving.sgForgot password/input_Confirm password_b3-Input_ConfirmPassword'), Keys.chord(Keys.CONTROL, 'a'))
-WebUI.sendKeys(findTestObject('Page_giving.sgForgot password/input_Confirm password_b3-Input_ConfirmPassword'), Keys.chord(Keys.BACK_SPACE))
+WebUI.sendKeys(findTestObject('Page_giving.sgForgot password/input_Confirm password_b3-Input_ConfirmPassword'), Keys.chord(
+        Keys.CONTROL, 'a'))
 
-'Enter Password'
-WebUI.delay(30)
+WebUI.sendKeys(findTestObject('Page_giving.sgForgot password/input_Confirm password_b3-Input_ConfirmPassword'), Keys.chord(
+        Keys.BACK_SPACE))
 
-//WebUI.setEncryptedText(findTestObject('Page_giving.sgForgot password/input_Password_b3-Input_Password'), encryptedPassword)
-'Enter Confirm Password'
-WebUI.delay(30)
+'pass: Deloitte@345'
+WebUI.setEncryptedText(findTestObject('Page_giving.sgForgot password/input_Password_b3-Input_Password'), 'hJxcABFZyq6NRXe0zEmvlg==')
+
+'pass: Deloitte@345'
+WebUI.setEncryptedText(findTestObject('Page_giving.sgForgot password/input_Confirm password_b3-Input_ConfirmPassword'), 
+    'hJxcABFZyq6NRXe0zEmvlg==')
 
 //WebUI.setEncryptedText(findTestObject('Page_giving.sgForgot password/input_Confirm password_b3-Input_ConfirmPassword'), 
 //    encryptedPassword)
 WebUI.delay(3)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('5')
+WebUI.takeFullPageScreenshotAsCheckpoint('7 input working pass')
 
 WebUI.click(findTestObject('Page_giving.sgForgot password/button_Reset password'))
 
 WebUI.delay(3)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('6')
+WebUI.takeFullPageScreenshotAsCheckpoint('8 password reset page')
 
 WebUI.click(findTestObject('Page_giving.sgForgot password/button_Login'))
 
@@ -130,19 +146,19 @@ WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address_b3-b9-Inpu
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
-'Enter password'
-WebUI.delay(30)
+'pass: Deloitte@345'
+WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password_b3-b9-Input_Password'), 'hJxcABFZyq6NRXe0zEmvlg==')
 
 //WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password_b3-b9-Input_Password'), encryptedPassword)
 WebUI.delay(3)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('7')
+WebUI.takeFullPageScreenshotAsCheckpoint('9 reset inputs')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
-WebUI.delay(3)
+WebUI.delay(7)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('8')
+WebUI.takeFullPageScreenshotAsCheckpoint('10 logged in main page')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050/img'))
 
@@ -151,6 +167,4 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050/button_Yes'))
 
 WebUI.closeBrowser()
-
-//test with 3 different passwords
 

@@ -29,35 +29,39 @@ WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/b
 
 WebUI.delay(3)
 
+'confirm on home page after accepting cookies'
 WebUI.takeFullPageScreenshotAsCheckpoint('1')
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/button_SG60 SHARE'))
 
 WebUI.delay(3)
 
+'confirm on SG60 donate now page'
 WebUI.takeFullPageScreenshotAsCheckpoint('2')
 
 WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_DONATE NOW'))
 
 WebUI.delay(3)
 
+'confirm on choose donation amount page'
 WebUI.takeFullPageScreenshotAsCheckpoint('3')
 
 WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/a_Log in'))
 
 WebUI.delay(3)
 
+'confirm on signup page'
 WebUI.takeFullPageScreenshotAsCheckpoint('4')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Back'))
 
-if (WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/button_Back'),10)) {
-	WebUI.click(findTestObject('Page_giving.sgLogin/button_Back'))
-	}
-
+if (WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/button_Back'), 10)) {
+    WebUI.click(findTestObject('Page_giving.sgLogin/button_Back'))
+}
 
 WebUI.delay(3)
 
+'confirm back to choose donation amount page'
 WebUI.takeFullPageScreenshotAsCheckpoint('5')
 
 WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/a_Log in'))
@@ -68,11 +72,17 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password_b3-b9-Input_Password'), userPassword)
 
+WebUI.delay(3)
+
+'confirm input for login'
+WebUI.takeFullPageScreenshotAsCheckpoint('6')
+
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 WebUI.delay(3)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('6')
+'confirm logged in and back to donation amount page'
+WebUI.takeFullPageScreenshotAsCheckpoint('7')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgSG60 SHARE/div_Stories_b1-b5'))
 

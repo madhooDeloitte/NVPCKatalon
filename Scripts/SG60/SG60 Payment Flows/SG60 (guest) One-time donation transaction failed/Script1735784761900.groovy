@@ -33,11 +33,26 @@ WebUI.navigateToUrl(envURL)
 '-'
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/button_Accept all'))
 
+WebUI.delay(3)
+
+'verify home page'
+WebUI.takeScreenshotAsCheckpoint('1')
+
 '-'
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/button_SG60 SHARE'))
 
+WebUI.delay(3)
+
+'verify donate now page'
+WebUI.takeScreenshotAsCheckpoint('2')
+
 '-'
 WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_DONATE NOW'))
+
+WebUI.delay(3)
+
+'verify donation selection page'
+WebUI.takeScreenshotAsCheckpoint('3')
 
 '-'
 WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_Checkout'))
@@ -45,10 +60,15 @@ WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_Checkout'))
 WebUI.delay(3)
 
 'verify SG60 payment page'
-WebUI.takeScreenshotAsCheckpoint('1')
+WebUI.takeScreenshotAsCheckpoint('4')
 
 '- click visa/mastercard'
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/input_Pay with_b2-b10-l1-515_0-RadioGroup'))
+
+WebUI.delay(3)
+
+'verify chosen card'
+WebUI.takeScreenshotAsCheckpoint('5')
 
 '-'
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCheckout cart/input_Full name_b2-Input_GiverName'), giverName)
@@ -59,23 +79,25 @@ WebUI.setText(findTestObject('Object Repository/Page_giving.sgCheckout cart/inpu
 '-'
 WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Continue with Payment'))
 
+WebUI.delay(5)
+
 'verify on stripe page'
-WebUI.takeScreenshotAsCheckpoint('2')
+WebUI.takeScreenshotAsCheckpoint('6')
 
 WebUI.mouseOver(findTestObject('Page_DK Development Env/span_giving sg logo'))
 
 'click back button works for now'
 WebUI.click(findTestObject('Page_DK Development Env/svg_Back_InlineSVG Icon Header-backArrow mr_54644a'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 'verify retry transaction page'
-WebUI.takeScreenshotAsCheckpoint('3')
+WebUI.takeScreenshotAsCheckpoint('7')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgPayment status/button_Retry transaction'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 'verify donation selection page'
-WebUI.takeScreenshotAsCheckpoint('4')
+WebUI.takeScreenshotAsCheckpoint('8')
 

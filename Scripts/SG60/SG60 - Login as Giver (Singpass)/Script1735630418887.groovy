@@ -27,33 +27,42 @@ WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/button_Accept all'))
 
+WebUI.delay(5)
+
+'verify on main page'
+WebUI.takeFullPageScreenshotAsCheckpoint('1')
+
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/button_SG60 SHARE'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('1')
+'verify on donate now page'
+WebUI.takeFullPageScreenshotAsCheckpoint('2')
 
 WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_DONATE NOW'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('2')
+'verify on donation selection page\r\n'
+WebUI.takeFullPageScreenshotAsCheckpoint('3')
 
 WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/a_Log in'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('3')
+'verify on login page'
+WebUI.takeFullPageScreenshotAsCheckpoint('4')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Back'))
 
-if (WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/button_Back'),10)) {
-	WebUI.click(findTestObject('Page_giving.sgLogin/button_Back'))
-	}
+if (WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/button_Back'), 10)) {
+    WebUI.click(findTestObject('Page_giving.sgLogin/button_Back'))
+}
 
-WebUI.delay(3)
+WebUI.delay(5)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('4')
+'verify back to donation selection page'
+WebUI.takeFullPageScreenshotAsCheckpoint('5')
 
 WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/a_Log in'))
 
@@ -61,19 +70,21 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_Login w
 
 WebUI.click(findTestObject('Page_Singpass login/button_Password login'))
 
-WebUI.delay(7)
-
-WebUI.takeFullPageScreenshotAsCheckpoint('5')
-
 WebUI.setText(findTestObject('Page_Singpass login/input_Password login_username'), userNRIC)
 
 WebUI.setEncryptedText(findTestObject('Page_Singpass login/input__password'), userPassword)
 
+WebUI.delay(5)
+
+'verify singpass inputs\r\n'
+WebUI.takeFullPageScreenshotAsCheckpoint('6')
+
 WebUI.click(findTestObject('Page_Singpass login/button_Log in'))
 
-WebUI.delay(3)
+WebUI.delay(15)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('6')
+'verify successful login\r\n'
+WebUI.takeFullPageScreenshotAsCheckpoint('7')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgSG60 SHARE/img'))
 
