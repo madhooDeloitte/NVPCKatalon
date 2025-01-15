@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Guest donation - One time (GrabPay)</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>7b894231-d52a-45ba-bc12-1fd959e3bc82</testCaseGuid>
-</TestCaseEntity>

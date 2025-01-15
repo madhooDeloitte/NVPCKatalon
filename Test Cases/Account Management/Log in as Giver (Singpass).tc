@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Log in as Giver (Singpass)</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>0323d5f5-1872-41d4-a072-dc757233c633</testCaseGuid>
-</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SG60 (guest) One-time donation transaction failed</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>a6a774b4-ab3e-4140-9e18-8407fed90d08</testCaseGuid>
-</TestCaseEntity>

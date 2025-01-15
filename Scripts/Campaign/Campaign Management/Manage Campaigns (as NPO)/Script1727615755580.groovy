@@ -17,24 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String envURL = 'https://dk.deloitte-sea.com/home'
-
-//NPO email
-String npoEmail = 'emma@kill-charity.com'
-
-//input search
-String inputSearch1 = 'test'
-String inputSearch2 = 'test'
-
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(envURL)
+WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address'), npoEmail)
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address'), 'emma@kill-charity.com')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
@@ -71,7 +62,7 @@ WebUI.click(findTestObject('Page_giving.sg - admin Campaigns/tbl_Campaign - Hist
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Campaigns/button_Campaigns'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Campaigns/input_Search campaigns_b2-SearchInput'), 
-    inputSearch1)
+    'test')
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sg - admin Campaigns/input_Search campaigns_b2-SearchInput'), 
     Keys.chord(Keys.ENTER))
@@ -116,7 +107,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Campaigns/a
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Campaigns/button_Cancel'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Campaigns/input_Search campaigns_b2-SearchInput'), 
-    inputSearch2)
+    'test')
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sg - admin Campaigns/input_Search campaigns_b2-SearchInput'), 
     Keys.chord(Keys.ENTER))

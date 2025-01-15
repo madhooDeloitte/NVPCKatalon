@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SG60 Share (logged-in) One-time donation with Grabpay</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>f327efd8-7294-4799-a9c1-aac05946199e</testCaseGuid>
-</TestCaseEntity>

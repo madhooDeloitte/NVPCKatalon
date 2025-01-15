@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Add items and make payment via GrabPay</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>3aac6f42-5e7a-47f5-88b9-4952029e6cee</testCaseGuid>
-</TestCaseEntity>

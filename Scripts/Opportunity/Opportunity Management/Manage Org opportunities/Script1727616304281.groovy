@@ -19,27 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-String envURL='https://dk.deloitte-sea.com/home'
-
-//npo email
-String npoEmail = 'rajeev@marriott.dk.dev'
-
-//input search opportunities
-String inputSearchOpp1 = 'kind'
-
-//opportunity URL
-String oppURL = 'https://dk.deloitte-sea.com/volunteer/opportunity/youth-atrisk--marriott-for-children'
-
-//Cancel reason
-String cancelReason = 'testing'
-
-WebUI.navigateToUrl(envURL)
+WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address'), npoEmail)
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address'), 'rajeev@marriott.dk.dev')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_Log in'))
 
@@ -112,7 +98,7 @@ WebUI.click(findTestObject('Page_giving.sg - admin List of opportunities/th_sort
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/button_Opportunities'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/input_Search opportunities'), 
-    inputSearchOpp1)
+    'kind')
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/input_Search opportunities'), 
     Keys.chord(Keys.ENTER))
@@ -123,7 +109,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of opp
 
 WebUI.switchToWindowTitle('')
 
-WebUI.navigateToUrl(oppURL)
+WebUI.navigateToUrl('https://dk.deloitte-sea.com/volunteer/opportunity/youth-atrisk--marriott-for-children')
 
 WebUI.takeFullPageScreenshotAsCheckpoint('4')
 
@@ -132,7 +118,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgOpportunity detail -
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Home/span_Opportunities'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/input_Search opportunities'), 
-    inputSearchOpp1)
+    'kind')
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/input_Search opportunities'), 
     Keys.chord(Keys.ENTER))
@@ -141,7 +127,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of opp
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/a_Cancel opportunity'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/textarea_tes'), cancelReason)
+WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/textarea_tes'), 'test')
 
 WebUI.takeFullPageScreenshotAsCheckpoint('5')
 

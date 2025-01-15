@@ -35,22 +35,22 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Create Campaign as Org/
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Log in'))
 
-WebUI.setText(findTestObject('null'), 
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_834fd0'), 
     '1')
 
-WebUI.setText(findTestObject('null'), 
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_a67e6b'), 
     '1')
 
-WebUI.setText(findTestObject('null'), 
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_138dc5'), 
     '1')
 
-WebUI.setText(findTestObject('null'), 
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_0322ef'), 
     '1')
 
-WebUI.setText(findTestObject('null'), 
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_acc042'), 
     '1')
 
-WebUI.setText(findTestObject('null'), 
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_1714ca'), 
     '1')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Verify'))
@@ -145,22 +145,22 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Create Campaign as Org/
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Log in (1)'))
 
-WebUI.setText(findTestObject('null'), 
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_834fd0'), 
     '1')
 
-WebUI.setText(findTestObject('null'), 
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_a67e6b'), 
     '1')
 
-WebUI.setText(findTestObject('null'), 
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_138dc5'), 
     '1')
 
-WebUI.setText(findTestObject('null'), 
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_0322ef'), 
     '1')
 
-WebUI.setText(findTestObject('null'), 
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_acc042'), 
     '1')
 
-WebUI.setText(findTestObject('null'), 
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_1714ca'), 
     '1')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Verify (1)'))

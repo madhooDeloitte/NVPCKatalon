@@ -6,12 +6,12 @@
    <elementGuidId>f0c03fcd-98bf-49ea-b64a-09a0a8a1ea88</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#b2-SearchInput</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'search' and @placeholder = 'Search by charities or campaigns name' and @id = 'b2-SearchInput']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@ktl-id = 'inpSearchDonate']</value>
+         <key>CSS</key>
+         <value>#b2-SearchInput</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b7fe98d3-df06-44ed-bbad-374b0b315bdd</webElementGuid>
+      <webElementGuid>89c5a68f-7d52-4d48-9876-3e0eab5ae06d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,23 +35,23 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control OSFillParent</value>
-      <webElementGuid>b7ee40f2-4cbc-4529-bdd7-1850bf52617e</webElementGuid>
+      <webElementGuid>7c1a6bfe-7c8e-420c-957d-78a93c1dec8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>ff9b0407-31a7-4530-8dea-905658b25fba</webElementGuid>
+      <webElementGuid>23a5038f-c6a3-4de4-8870-97eb2c3c5dc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Search by charities or campaigns name</value>
-      <webElementGuid>f23f2a3e-1415-46e3-b7be-746a260d678e</webElementGuid>
+      <webElementGuid>0daa6800-2631-493d-879f-3eef19a34bf0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,15 +59,15 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>2992f7a1-49f9-46d2-b6fd-2ae8f72a5c16</webElementGuid>
+      <webElementGuid>a0db52fa-81ce-4ce4-99d3-ae9610477fb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b2-SearchInput</value>
-      <webElementGuid>56b5ddb6-891e-47f9-b72f-4fd5d8ce3cc2</webElementGuid>
+      <webElementGuid>318eff3f-e824-4c47-9170-05343f68914e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,15 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-SearchInput&quot;)</value>
-      <webElementGuid>d9a163f1-c200-4d80-8449-7eb992a56e89</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ktl-id</name>
-      <type>Main</type>
-      <value>inpSearchDonate</value>
-      <webElementGuid>7d3f19e1-e3ab-460c-abab-dbea31e54b67</webElementGuid>
+      <webElementGuid>2e68b12c-4e29-494d-85a7-9e2f7236967d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -91,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='b2-SearchInput']</value>
-      <webElementGuid>5ae9326b-46c9-4f90-a24e-07d50f88f468</webElementGuid>
+      <webElementGuid>bd13738d-324c-4b77-8e37-d381ed920a42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b3-Input']/span/input</value>
-      <webElementGuid>e61bc70e-b885-49d2-bf77-545580dcd1e9</webElementGuid>
+      <webElementGuid>1c92600b-d9c2-4d85-8bfd-acfa7a49746b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>08790455-0fbc-438e-9f22-5bea02ac2257</webElementGuid>
+      <webElementGuid>7d06ca04-0a4a-40c8-8749-73edbed734f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'search' and @placeholder = 'Search by charities or campaigns name' and @id = 'b2-SearchInput']</value>
-      <webElementGuid>72045577-de89-4be1-b8ef-8f57f2292bd6</webElementGuid>
+      <webElementGuid>a280b7a3-7fcb-4698-8681-596f39af8b94</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Manage Campaigns (as NPO)_BO_OTP</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>0212ec74-9dbc-43f1-a848-07b65597fafd</testCaseGuid>
-</TestCaseEntity>

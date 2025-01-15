@@ -17,25 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String envURL = 'https://dk.deloitte-sea.com/home'
-
-//email
-String guEmail = 'raseena-sa@gu.test'
-
-//GU public profile
-String guProfile = 'Raseena GU stand alone'
-
-
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(envURL)
+WebUI.navigateToUrl('https://dk.deloitte-sea.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050 (5)/button_Accept all'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050 (5)/a_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin (3)/input_Email address_b3-b9-Input_EmailAddress'), 
-    guEmail)
+    'raseena-sa@gu.test')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin (3)/button_Log in'))
 
@@ -68,7 +59,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Home (4)/im
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Home (4)/a_Public profile'))
 
-WebUI.switchToWindowTitle(guProfile)
+WebUI.switchToWindowTitle('Raseena GU stand alone')
 
 WebUI.click(findTestObject('Object Repository/Page_Raseena GU stand alone/img_Stories_b1-b5-AvatarImage_Url'))
 
@@ -83,7 +74,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin (3)/a_Forgot p
 WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgForgot password/input_Email address_b3-Input_a_Email'), 
-    guEmail)
+    'raseena-sa@gu.test')
 
 'CAPTCHA\r\n'
 WebUI.delay(40)
@@ -125,7 +116,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgForgot password/butt
 WebUI.click(findTestObject('Object Repository/Page_giving.sgForgot password/button_Login'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin (3)/input_Email address_b3-b9-Input_EmailAddress'), 
-    guEmail)
+    'raseena-sa@gu.test')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin (3)/button_Log in'))
 

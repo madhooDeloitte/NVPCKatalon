@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Add items and make payment via Stripe (Credit card) - Onetime (Subsequent Donations)</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>f95c6e4b-034f-497a-8143-865996d0c92f</testCaseGuid>
-</TestCaseEntity>

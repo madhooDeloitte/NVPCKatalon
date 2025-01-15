@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>View Opportunity Detail NPO (ended_expired)</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>4dedad5f-c7ed-401f-8a03-d2961972a0c6</testCaseGuid>
-</TestCaseEntity>

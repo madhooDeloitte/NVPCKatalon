@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Edit campaign - Set up donation tier (NPO)</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>1803fff7-9b72-41d7-a355-b85db44c7fd6</testCaseGuid>
-</TestCaseEntity>
