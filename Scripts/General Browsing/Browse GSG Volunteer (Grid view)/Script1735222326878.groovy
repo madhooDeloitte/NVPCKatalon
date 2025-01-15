@@ -41,28 +41,34 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050/span_Volunteer'))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('1')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('1')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.setText(findTestObject('Page_giving.sgVolunteer/input_Search opportunities_b2-SearchInput'), opportunityNameWithDefaultLogo)
 
 WebUI.sendKeys(findTestObject('Page_giving.sgVolunteer/input_Search opportunities_b2-SearchInput'), Keys.chord(Keys.ENTER))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('2')
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('2')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.setText(findTestObject('Page_giving.sgVolunteer/input_Search opportunities_b2-SearchInput'), ' ')
 
 WebUI.sendKeys(findTestObject('Page_giving.sgVolunteer/input_Search opportunities_b2-SearchInput'), Keys.chord(Keys.ENTER))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('3')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('3')
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_All filters'))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('4')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('4')
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/i_All filters_icon fa fa-times fa-1x'))
 
 WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'), 
@@ -72,18 +78,24 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Caus
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Available period'))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('6')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('6')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/label_Under-served'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('7')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('7')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/label_Under-served'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Causes'))
@@ -99,28 +111,42 @@ WebUI.delay(20)
 //WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Filter byAll filtersCauses3            _b5d92b'))
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('8')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('8')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Available period'))
+
+WebUI.delay(30)
 
 //pick 2 dates
 //WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/span_1'))
 //
 //WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/span_31'))
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('9')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('9')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
+WebUI.delay(30)
+
 //clear dates
+
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_All filters'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/input_All_b2-b8-RadioGroup1'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/button_Apply'))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('10')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('10')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'), 
     3)
 
@@ -130,9 +156,12 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/input_Pu
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/button_Apply'))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('11')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('11')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'), 
     3)
 
@@ -144,9 +173,12 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/input_Al
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/button_Apply'))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('12')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('12')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'), 
     3)
 
@@ -158,9 +190,12 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/input_Lo
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/button_Apply'))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('13')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('13')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'), 
     3)
 
@@ -174,9 +209,12 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/a_Arts a
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/button_Apply'))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('14')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('14')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'), 
     3)
 
@@ -190,9 +228,12 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/input_Pa
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/button_Apply'))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('15')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('15')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'), 
     3)
 
@@ -204,9 +245,12 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/input_Ot
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/button_Apply'))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('16')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('16')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'), 
     3)
 
@@ -216,9 +260,12 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/input_Ot
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/button_Apply'))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('17')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('17')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'), 
     3)
 
@@ -228,9 +275,12 @@ WebUI.setText(findTestObject('Page_giving.sgVolunteer/input_Search opportunities
 
 WebUI.sendKeys(findTestObject('Page_giving.sgVolunteer/input_Search opportunities_b2-SearchInput'), Keys.chord(Keys.ENTER))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('18')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('18')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'), 
     3)
 
@@ -238,9 +288,12 @@ WebUI.setText(findTestObject('Page_giving.sgVolunteer/input_Search opportunities
 
 WebUI.sendKeys(findTestObject('Page_giving.sgVolunteer/input_Search opportunities_b2-SearchInput'), Keys.chord(Keys.ENTER))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('19')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('19')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'), 
     3)
 
@@ -248,9 +301,12 @@ WebUI.setText(findTestObject('Page_giving.sgVolunteer/input_Search opportunities
 
 WebUI.sendKeys(findTestObject('Page_giving.sgVolunteer/input_Search opportunities_b2-SearchInput'), Keys.chord(Keys.ENTER))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('20')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('20')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Be a volunteerVolunteerism is an enthra_d71757'), 
     3)
 
@@ -260,28 +316,37 @@ WebUI.sendKeys(findTestObject('Page_giving.sgVolunteer/input_Search opportunitie
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Sort Latest'))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('21')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('21')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Sort Registration ending soon'))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('22')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('22')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Sort Latest'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Sort Bookmarks'))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('23')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('23')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Giver menu item list'), 3)
+
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Sort Latest'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/div_Sort Relevance'))
 
-//WebUI.delay(3)
-//
-//WebUI.takeFullPageScreenshotAsCheckpoint('24')
+WebUI.delay(3)
+
+WebUI.takeFullPageScreenshotAsCheckpoint('24')
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/img_Stories_b1-b5-AvatarImage_Url'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgVolunteer -/a_Logout'))
