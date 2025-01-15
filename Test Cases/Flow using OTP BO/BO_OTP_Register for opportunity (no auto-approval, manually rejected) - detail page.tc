@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>BO_OTP_Register for opportunity (no auto-approval, manually rejected) - detail page</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>d46e899e-2236-499d-893b-3b04097f3d88</testCaseGuid>
-</TestCaseEntity>

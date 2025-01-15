@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>ManageDraftCampaigns</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>0fd25e37-e204-4945-a90d-00a4a9e887b5</testCaseGuid>
-</TestCaseEntity>

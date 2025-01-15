@@ -17,62 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String envURL = 'https://dk.deloitte-sea.com/'
-
-//GU email
-String guEmail = 'skydownGU@mailto.plus'
-
-//input Search fundraising
-String inputSearchFundraising = 'kill'
-
-//Search input 1
-String inputSearch1 = 'testing approved campaign'
-
-//Campaign title 1
-String campaignTitle1 = '[AT] Sub-campaign as GU 1-1'
-
-//Campaign description
-String campaignDescription = 'TEST'
-
-//Campaign image file path
-String imageFilePath1 = 'C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\running.jpg'
-
-String imageFilePath2 = 'C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\beach volleyball.jpg'
-
-//home URL
-String homeURL = 'https://dk.deloitte-sea.com/home'
-
-//Search input 2
-String inputSearch2 = '20240906 Update Campaign Goal'
-
-//Campaign title 2
-String campaignTitle2 = '[AT] Sub-campaign as GU 2-1'
-
-//Search input 3
-String inputSearch3 = '(DS) Campaign 0005'
-
-//Campaign title 3
-String campaignTitle3 = '[AT] Sub-campaign as GU 3-1'
-
-//Search input 4
-String inputSearch4 = '[AT] - Subcampaign test - Foreign campaign'
-
-//Campaign title 4
-String campaignTitle4 = '[AT] Sub-campaign as GU 4-1'
-
-//npo email
-String npoEmail = 'emma@kill-charity.com'
-
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(envURL)
+WebUI.navigateToUrl('https://dk.deloitte-sea.com/')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgWelcome to Giving.sg  The one_022050/button_Accept all'))
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgWelcome to Giving.sg  The one_022050/a_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), 
-    guEmail)
+    'skydownGU@mailto.plus')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Log in'))
 
@@ -83,17 +37,23 @@ WebUI.takeScreenshotAsCheckpoint('1')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Log in'))
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_1'), '1')
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_834fd0'), 
+    '1')
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_2'), '1')
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_a67e6b'), 
+    '1')
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_3'), '1')
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_138dc5'), 
+    '1')
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_4'), '1')
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_0322ef'), 
+    '1')
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_5'), '1')
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_acc042'), 
+    '1')
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_6'), '1')
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_1714ca'), 
+    '1')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Verify'))
 
@@ -110,7 +70,7 @@ WebUI.click(findTestObject('Object Repository/Create sub campaign as org/Page_gi
 WebUI.verifyElementPresent(findTestObject('Create sub campaign as org/Page_giving.sgDonate/button_CAMPAIGNS_active'), 0)
 
 WebUI.setText(findTestObject('Object Repository/Create sub campaign as org/Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), 
-    inputSearch1)
+    'testing approved campaign')
 
 WebUI.click(findTestObject('Object Repository/Create sub campaign as org/Page_giving.sgDonate/button_Search charities or campaigns_btn bt_5e785d'))
 
@@ -135,7 +95,7 @@ WebUI.verifyElementPresent(findTestObject('Create sub campaign as org/Page_givin
     0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/input_Campaign name_b3-b4-Input_CampaignTitle'), 
-    campaignTitle1)
+    '[AT] Sub-campaign as Org 1-1')
 
 WebUI.setText(findTestObject('CampaignGoals/input__CampaignGoals'), '')
 
@@ -149,7 +109,7 @@ WebUI.verifyElementPresent(findTestObject('Create sub campaign as org/Page_givin
     0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/textarea_Describe your campaign'), 
-    campaignDescription)
+    'Test description')
 
 WebUI.takeScreenshotAsCheckpoint('7')
 
@@ -164,9 +124,9 @@ WebUI.executeJavaScript('alert(\'Please rearrange images of campaign at this ste
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath1)
+WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), 'C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\running.jpg')
 
-WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath2)
+WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), 'C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\beach volleyball.jpg')
 
 WebUI.takeScreenshotAsCheckpoint('8')
 
@@ -233,7 +193,7 @@ WebUI.delay(3)
 
 WebUI.takeScreenshotAsCheckpoint('20')
 
-WebUI.navigateToUrl(homeURL)
+WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
 
 WebUI.takeScreenshotAsCheckpoint('21')
 
@@ -248,7 +208,7 @@ WebUI.click(findTestObject('Object Repository/Create sub campaign as org/Page_gi
 WebUI.verifyElementPresent(findTestObject('Create sub campaign as org/Page_giving.sgDonate/button_CAMPAIGNS_active'), 0)
 
 WebUI.setText(findTestObject('Object Repository/Create sub campaign as org/Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), 
-    inputSearch2)
+    '20240906 Update Campaign Goal')
 
 WebUI.click(findTestObject('Object Repository/Create sub campaign as org/Page_giving.sgDonate/button_Search charities or campaigns_btn bt_5e785d'))
 
@@ -273,7 +233,7 @@ WebUI.verifyElementPresent(findTestObject('Create sub campaign as org/Page_givin
     0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/input_Campaign name_b3-b4-Input_CampaignTitle'), 
-    campaignTitle2)
+    '[AT] Sub-campaign as Org 2-1')
 
 WebUI.click(findTestObject('CampaignGoals/button__btn btn-icon - Plus'))
 
@@ -285,7 +245,7 @@ WebUI.verifyElementPresent(findTestObject('Create sub campaign as org/Page_givin
     0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/textarea_Describe your campaign'), 
-    campaignDescription)
+    'Test description')
 
 WebUI.takeScreenshotAsCheckpoint('26')
 
@@ -300,9 +260,9 @@ WebUI.executeJavaScript('alert(\'Please rearrange images of campaign at this ste
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath1)
+WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), 'C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\running.jpg')
 
-WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath2)
+WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), 'C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\beach volleyball.jpg')
 
 WebUI.takeScreenshotAsCheckpoint('27')
 
@@ -367,7 +327,7 @@ WebUI.takeScreenshotAsCheckpoint('38')
 
 WebUI.click(findTestObject('Object Repository/Create sub campaign as org/Page_giving.sgEdit campaign/button_Go to homepage'))
 
-WebUI.navigateToUrl(homeURL)
+WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
 
 WebUI.takeScreenshotAsCheckpoint('39')
 
@@ -382,7 +342,7 @@ WebUI.click(findTestObject('Object Repository/Create sub campaign as org/Page_gi
 WebUI.verifyElementPresent(findTestObject('Create sub campaign as org/Page_giving.sgDonate/button_CAMPAIGNS_active'), 0)
 
 WebUI.setText(findTestObject('Object Repository/Create sub campaign as org/Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), 
-    inputSearch3)
+    '(DS) Campaign 0005')
 
 WebUI.click(findTestObject('Object Repository/Create sub campaign as org/Page_giving.sgDonate/button_Search charities or campaigns_btn bt_5e785d'))
 
@@ -407,7 +367,7 @@ WebUI.verifyElementPresent(findTestObject('Create sub campaign as org/Page_givin
     0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/input_Campaign name_b3-b4-Input_CampaignTitle'), 
-    campaignTitle3)
+    '[AT] Sub-campaign as Org 3-1')
 
 WebUI.click(findTestObject('CampaignGoals/button__btn btn-icon - Plus'))
 
@@ -419,7 +379,7 @@ WebUI.verifyElementPresent(findTestObject('Create sub campaign as org/Page_givin
     0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/textarea_Describe your campaign'), 
-    campaignDescription)
+    'Test description')
 
 WebUI.takeScreenshotAsCheckpoint('44')
 
@@ -434,9 +394,9 @@ WebUI.executeJavaScript('alert(\'Please rearrange images of campaign at this ste
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath1)
+WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), 'C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\running.jpg')
 
-WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath2)
+WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), 'C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\beach volleyball.jpg')
 
 WebUI.takeScreenshotAsCheckpoint('45')
 
@@ -501,7 +461,7 @@ WebUI.takeScreenshotAsCheckpoint('55')
 
 WebUI.click(findTestObject('Object Repository/Create sub campaign as org/Page_giving.sgEdit campaign/button_Go to homepage'))
 
-WebUI.navigateToUrl(homeURL)
+WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
 
 WebUI.takeScreenshotAsCheckpoint('56')
 
@@ -516,7 +476,7 @@ WebUI.click(findTestObject('Object Repository/Create sub campaign as org/Page_gi
 WebUI.verifyElementPresent(findTestObject('Create sub campaign as org/Page_giving.sgDonate/button_CAMPAIGNS_active'), 0)
 
 WebUI.setText(findTestObject('Object Repository/Create sub campaign as org/Page_giving.sgDonate/input_Search charities or campaigns_b2-SearchInput'), 
-    inputSearch4)
+    '[AT] - Subcampaign test - Foreign campaign')
 
 WebUI.click(findTestObject('Object Repository/Create sub campaign as org/Page_giving.sgDonate/button_Search charities or campaigns_btn bt_5e785d'))
 
@@ -541,7 +501,7 @@ WebUI.verifyElementPresent(findTestObject('Create sub campaign as org/Page_givin
     0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/input_Campaign name_b3-b4-Input_CampaignTitle'), 
-    campaignTitle4)
+    '[AT] Sub-campaign as Org 4-1')
 
 WebUI.click(findTestObject('CampaignGoals/button__btn btn-icon - Plus'))
 
@@ -553,7 +513,7 @@ WebUI.verifyElementPresent(findTestObject('Create sub campaign as org/Page_givin
     0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/textarea_Describe your campaign'), 
-    campaignDescription)
+    'Test description')
 
 WebUI.takeScreenshotAsCheckpoint('61')
 
@@ -568,9 +528,9 @@ WebUI.executeJavaScript('alert(\'Please rearrange images of campaign at this ste
 
 WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath1)
+WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), 'C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\running.jpg')
 
-WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath2)
+WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), 'C:\\Users\\smadhoosudhan\\Downloads\\Stock Images\\beach volleyball.jpg')
 
 WebUI.takeScreenshotAsCheckpoint('62')
 
@@ -631,7 +591,7 @@ WebUI.takeScreenshotAsCheckpoint('73')
 
 WebUI.click(findTestObject('Object Repository/Create sub campaign as org/Page_giving.sgEdit campaign/button_Go to homepage'))
 
-WebUI.navigateToUrl(homeURL)
+WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
 
 WebUI.takeScreenshotAsCheckpoint('74')
 
@@ -659,7 +619,7 @@ WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogout/button_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress (1)'), 
-    npoEmail)
+    'emma@kill-charity.com')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Log in (1)'))
 
@@ -670,17 +630,23 @@ WebUI.takeScreenshotAsCheckpoint('76')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Log in (1)'))
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_1'), '1')
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_834fd0'), 
+    '1')
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_2'), '1')
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_a67e6b'), 
+    '1')
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_3'), '1')
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_138dc5'), 
+    '1')
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_4'), '1')
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_0322ef'), 
+    '1')
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_5'), '1')
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_acc042'), 
+    '1')
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_6'), '1')
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_1714ca'), 
+    '1')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Verify (1)'))
 

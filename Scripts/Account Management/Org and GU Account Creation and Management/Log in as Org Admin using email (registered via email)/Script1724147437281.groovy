@@ -17,14 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String envURL = 'https://dk.deloitte-sea.com/home'
-
-//email
-String orgAdminEmail = 'rajeev@marriott.dk.dev'
-
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(envURL)
+WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050/button_Accept all'))
 
@@ -34,7 +29,7 @@ WebUI.takeScreenshotAsCheckpoint('1')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgLogin/span_Log in with'), 0)
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), orgAdminEmail)
+WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), 'rajeev@marriott.dk.dev')
 
 WebUI.takeScreenshotAsCheckpoint('2')
 

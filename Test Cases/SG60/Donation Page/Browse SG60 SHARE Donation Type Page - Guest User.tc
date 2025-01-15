@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Browse SG60 SHARE Donation Type Page - Guest User</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>cc401d3a-1146-4292-a443-b2117d2085ca</testCaseGuid>
-</TestCaseEntity>

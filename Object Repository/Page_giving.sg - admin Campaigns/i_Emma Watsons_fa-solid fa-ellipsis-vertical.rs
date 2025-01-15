@@ -6,16 +6,12 @@
    <elementGuidId>c4569fa7-6ca2-429c-bcfa-931f7a8ec020</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;b2-b29-l1_0-291_0-b10-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]/i[@class=&quot;fa-solid fa-ellipsis-vertical&quot;]document.querySelector(&quot;#b2-b29-l1_0-238_0-b10-b1-Content > div > i&quot;)</value>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b29-l1_0-291_0-b10-b1-Content']/div/i</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>i.fa-solid.fa-ellipsis-vertical</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@ktl-id='btnMoreOptions']/div/div/div[1]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>d646797f-8233-46fe-af45-64fb3148b77d</webElementGuid>
+      <webElementGuid>876e8a55-edd0-4aa5-bc18-e3338168467d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,15 +31,15 @@
       <name>class</name>
       <type>Main</type>
       <value>fa-solid fa-ellipsis-vertical</value>
-      <webElementGuid>efc8ebca-56a1-49e4-93b5-bb6c1804267f</webElementGuid>
+      <webElementGuid>58c88a2a-fc90-4a30-8766-bb16ca06e772</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b2-b29-l1_0-291_0-b10-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]/i[@class=&quot;fa-solid fa-ellipsis-vertical&quot;]document.querySelector(&quot;#b2-b29-l1_0-238_0-b10-b1-Content > div > i&quot;)</value>
-      <webElementGuid>52e2122d-6390-468b-8467-503623242180</webElementGuid>
+      <value>id(&quot;b2-b29-l1_0-291_0-b10-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]/i[@class=&quot;fa-solid fa-ellipsis-vertical&quot;]</value>
+      <webElementGuid>a83c19d4-2775-4381-99bc-3a752e8131ea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -51,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b29-l1_0-291_0-b10-b1-Content']/div/i</value>
-      <webElementGuid>9a888a18-1dbc-4cbc-93d8-4796455fe19f</webElementGuid>
+      <webElementGuid>d39e7814-3ece-431d-a904-f5fc82e331fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -59,6 +55,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[7]/div/div/div/div/div/i</value>
-      <webElementGuid>5cdb4173-3dcd-49da-9880-7e12f1ce67ec</webElementGuid>
+      <webElementGuid>e54015e5-379b-495f-8823-da28e30f6fb9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -17,41 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String envURL = 'https://dk.deloitte-sea.com/home'
-
-//ORG email
-String orgEmail = 'yodelehyoo@mailto.plus'
-
-//input Search fundraising
-String inputSearchFundraising = 'kill'
-
-//Campaign title
-String campaignTitle = 'Create Private Campaign 1 (as Org)'
-
-//Campaign description
-String campaignDescription = 'TEST'
-
-//Campaign url
-String campaignURL = 'datatagscript3private'
-
-//Campaign image file path
-String imageFilePath = 'C:\\Users\\assaravanan\\OneDrive - Deloitte (O365D)\\Pictures\\Example5.png'
-
-//Campaign donation tier
-String campaignDonationTier = '500'
-
-//Campaign donation tier desc
-String campaignDonationTierDescription = 'test'
-
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(envURL)
+WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address'), orgEmail)
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address'), 'yodelehyoo@mailto.plus')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_Log in'))
 
@@ -81,21 +55,21 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Create new 
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/input_Search Fundraising'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/input_Search Fundraising'), inputSearchFundraising)
+WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/input_Search Fundraising'), 'Kill')
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/input_Search Fundraising'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/input__CampaignTitle'), campaignTitle)
+WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/input__CampaignTitle'), 'Create Private Campaign 1 (as Org)')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/button_AddCampaignGoal'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/button_AddCampaignGoal'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/textarea_Describe your campaign and the giv_319925'), 
-    campaignDescription)
+    'Testing')
 
-WebUI.uploadFile(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/label_Select file'), imageFilePath)
+WebUI.uploadFile(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/label_Select file'), 'C:\\Users\\assaravanan\\OneDrive - Deloitte (O365D)\\Pictures\\Example5.png')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/button_Next'))
 
@@ -116,9 +90,9 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Create new 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/button_AddDonationTier'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/input_Donation-Input_TierAmount'), 
-    campaignDonationTier)
+    '500')
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/textarea_Description'), campaignDonationTierDescription)
+WebUI.setText(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/textarea_Description'), 'test')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin Create new campaign/button_Confirm'))
 

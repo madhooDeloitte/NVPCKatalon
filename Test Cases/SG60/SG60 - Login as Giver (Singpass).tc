@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SG60 - Login as Giver (Singpass)</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>7944731c-ac2a-4a11-80d4-75288fd5bee4</testCaseGuid>
-</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SG60 - Login as non-donor (Email)</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>0b2c7891-83e0-4f99-bca2-70b96bb6c3b2</testCaseGuid>
-</TestCaseEntity>

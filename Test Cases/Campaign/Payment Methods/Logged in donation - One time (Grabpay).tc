@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Logged in donation - One time (Grabpay)</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>96a6fdcf-4b80-4576-9485-68c1e3fcc0d1</testCaseGuid>
-</TestCaseEntity>

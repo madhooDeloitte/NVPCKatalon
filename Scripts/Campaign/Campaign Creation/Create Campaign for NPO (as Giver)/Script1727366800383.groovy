@@ -17,45 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String envURL = 'https://dk.deloitte-sea.com/'
-
-//giver email
-String giverEmail = 'amirgiver1@mailto.plus'
-
-//input Search fundraising
-String inputSearchFundraising = 'kill'
-
-//Campaign title
-String campaignTitle = 'Datatagscript19'
-
-//Campaign Goals
-String campaignGoals = '1022'
-
-//Campaign description
-String campaignDescription = 'TEST'
-
-//Campaign URL
-String campaignURL = 'datatagscript19'
-
-//Campaign image file path
-String imageFilePath = 'C:\\Users\\aahmedmahir\\Downloads\\delete.png'
-
-//Home URL
-String homeURL = 'https://dk.deloitte-sea.com/home'
-
-//NPO email
-String npoEmail = 'emma@kill-charity.com'
-
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(envURL)
+WebUI.navigateToUrl('https://dk.deloitte-sea.com/')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgWelcome to Giving.sg  The one_022050/button_Accept all'))
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgWelcome to Giving.sg  The one_022050/a_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress'), 
-    giverEmail)
+    'amirgiver1@mailto.plus')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Log in'))
 
@@ -72,48 +43,42 @@ WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/input_Search Fundraising'), 
-    inputSearchFundraising)
+    'kill')
 
 WebUI.sendKeys(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/input_Search Fundraising'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/input_Campaign name_b3-b4-Input_CampaignTitle'), 
-    campaignTitle)
+    'Datatagscript19')
 
-WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/button_CampaignGoals_Plus'))
+WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/CampaignGoals/button__btn btn-icon - Plus'))
 
-WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/button_CampaignGoals_Plus'))
+WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/CampaignGoals/button__btn btn-icon - Minus'))
 
-<<<<<<< Updated upstream
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/CampaignGoals/input__CampaignGoals'), 
-    campaignGoals)
-=======
-WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/button_CampaignGoals_Minus'))
->>>>>>> Stashed changes
+    '1022')
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/textarea_Describe your campaign and the giv_ddfda1'), 
-    campaignDescription)
+    'a')
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/inp_CampaignURL'), 
-    campaignURL)
+    'datatagscript19')
 
-WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), imageFilePath)
+WebUI.uploadFile(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/label_Select file'), 'C:\\Users\\aahmedmahir\\Downloads\\delete.png')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/button_Next'))
 
-WebUI.click(findTestObject('Create Opportunity/Page_giving.sgEdit opportunity/a_Causes Chip 1'))
+WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/Causes chips/cause chip 1'))
 
-WebUI.click(findTestObject('Create Opportunity/Page_giving.sgEdit opportunity/a_Causes Chip 2'))
+WebUI.click(findTestObject('Create Campaign as Org/Page_giving.sg - admin Create new campaign/Causes chips/cause chip 2'))
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/button_Next_1'))
 
-WebUI.click(findTestObject('Page_giving.sg - admin Create new campaign/input_Start date'))
+WebUI.click(findTestObject('Create sub campaign as org/Page_giving.sgEdit campaign/input_Start date_form-control OSFillParent _904945'))
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Create new campaign/span_StartDate'))
 
-WebUI.click(findTestObject('Page_giving.sg - admin Create opportunity (3)/input_End date'))
-
-WebUI.click(findTestObject('Page_giving.sg - admin Create new campaign/span_30'))
+WebUI.click(findTestObject('Create Campaign for NPO as Giver/input_End date'))
 
 WebUI.delay(5)
 
@@ -135,7 +100,7 @@ WebUI.click(findTestObject('Object Repository/Create sub campaign as org/Page_gi
 
 WebUI.click(findTestObject('Object Repository/Create sub campaign as org/Page_giving.sgEdit campaign/button_Go to homepage'))
 
-WebUI.navigateToUrl(homeURL)
+WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sg - admin Campaigns/div_ProfileIcon'))
 
@@ -146,7 +111,7 @@ WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogout/button_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_Email address_b3-b9-Input_EmailAddress (1)'), 
-    npoEmail)
+    'emma@kill-charity.com')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Log in (1)'))
 
@@ -155,17 +120,23 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Create Campaign as Org/
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Log in (1)'))
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_1'), '1')
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_834fd0'), 
+    '1')
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_2'), '1')
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_a67e6b'), 
+    '1')
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_3'), '1')
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_138dc5'), 
+    '1')
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_4'), '1')
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_0322ef'), 
+    '1')
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_5'), '1')
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_acc042'), 
+    '1')
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/OTP/input_OTP_6'), '1')
+WebUI.setText(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/input_If the account exists, you will recei_1714ca'), 
+    '1')
 
 WebUI.click(findTestObject('Object Repository/Create Campaign as Org/Page_giving.sgLogin/button_Verify (1)'))
 

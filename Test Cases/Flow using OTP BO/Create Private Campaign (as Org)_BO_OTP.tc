@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Create Private Campaign (as Org)_BO_OTP</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>cfc9782d-8c43-454b-b5f0-7399613cf073</testCaseGuid>
-</TestCaseEntity>

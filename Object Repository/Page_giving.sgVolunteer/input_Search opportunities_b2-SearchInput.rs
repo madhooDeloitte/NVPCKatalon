@@ -6,19 +6,15 @@
    <elementGuidId>9f476a20-cebf-454d-ba4b-85b09510d8dd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@ktl-id = 'inpSearchOpportunities']</value>
+         <key>XPATH</key>
+         <value>//input[@id='b2-SearchInput']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#b2-SearchInput</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='b2-SearchInput']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -27,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1dc28093-873b-48e7-99d3-d375b405d7d9</webElementGuid>
+      <webElementGuid>b92db67c-2fef-4bb9-ba7a-87c1b8da85d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,23 +31,23 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control OSFillParent</value>
-      <webElementGuid>9c428b7b-afd6-4ca6-9774-af7dc0a9ea93</webElementGuid>
+      <webElementGuid>304e97cd-f19b-4394-b4e8-6dda4a148740</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>0c25bd40-68ea-49a5-ac83-324b74aa48ce</webElementGuid>
+      <webElementGuid>db7ebeee-485e-429d-af96-b5dacbd407a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Search by opportunity name or NPO name</value>
-      <webElementGuid>f6722b75-ae0e-40d7-8e8f-869b766c1e68</webElementGuid>
+      <webElementGuid>fe23b136-f1d3-45f0-86c7-7c4318d3ff75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,15 +55,15 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>49b63ad2-f713-4815-8faf-724c2bf918ff</webElementGuid>
+      <webElementGuid>a3184375-8b58-44b6-8807-ee63959bd559</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>b2-SearchInput</value>
-      <webElementGuid>a1e8dd76-b344-4356-a168-2c8955e539c8</webElementGuid>
+      <webElementGuid>46c7852c-d8d5-4714-abdd-b79f85ad15d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,15 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-SearchInput&quot;)</value>
-      <webElementGuid>7b7c67f4-3e1b-4b7d-829d-47abad22b4bf</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ktl-id</name>
-      <type>Main</type>
-      <value>inpSearchOpportunities</value>
-      <webElementGuid>e813b156-3587-440c-8b92-76e60bca8ca2</webElementGuid>
+      <webElementGuid>4456aedc-2d14-410c-9fc0-0990e8511f1e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -91,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='b2-SearchInput']</value>
-      <webElementGuid>54abecbe-20e6-4494-94f4-8e6861a8acfb</webElementGuid>
+      <webElementGuid>5bea99d6-f909-410b-8f3c-8f63f50250aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-b4-Input']/span/input</value>
-      <webElementGuid>3ff04c33-0213-4301-8a2a-934fee78bbc8</webElementGuid>
+      <webElementGuid>79267542-6f28-4b74-8658-1aad45d8dabe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>39289ec6-9677-468f-8b90-6a418edef0e7</webElementGuid>
+      <webElementGuid>aee00ff1-fb7b-4dde-aba6-1cbb1fbf61df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'search' and @placeholder = 'Search by opportunity name or NPO name' and @id = 'b2-SearchInput']</value>
-      <webElementGuid>cd4d4806-d125-42cd-91d7-2e64708574cb</webElementGuid>
+      <webElementGuid>65ccad84-ded8-42d5-9948-84a57e07d6fc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

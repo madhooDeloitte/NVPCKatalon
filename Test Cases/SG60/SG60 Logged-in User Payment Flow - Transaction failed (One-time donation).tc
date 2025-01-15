@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SG60 Logged-in User Payment Flow - Transaction failed (One-time donation)</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>6d4cd5fa-acac-424c-8f0f-6d5a2cbf81de</testCaseGuid>
-</TestCaseEntity>

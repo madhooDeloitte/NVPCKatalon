@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Guest donation flow - Cart merging Logging in during payment flow (Singpass)</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>9f39e605-f48f-403b-aea5-c7264c19fefb</testCaseGuid>
-</TestCaseEntity>

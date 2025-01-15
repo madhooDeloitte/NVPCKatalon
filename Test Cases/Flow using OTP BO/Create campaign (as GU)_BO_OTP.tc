@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Create campaign (as GU)_BO_OTP</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>2a320a1b-86ba-45fa-8943-5c0e7bd1acbb</testCaseGuid>
-</TestCaseEntity>

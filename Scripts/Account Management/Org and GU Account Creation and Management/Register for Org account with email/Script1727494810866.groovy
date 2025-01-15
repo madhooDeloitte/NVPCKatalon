@@ -17,32 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String envURL = 'https://dk.deloitte-sea.com/home'
-
-//org email
-String orgEmail = 'bob@gmail.com'
-
-//full name
-String fullName = 'BobTheBuilder'
-
-//org name
-String orgName = 'Jupiter The Org'
-
-//public enquiry number
-String publicEnquiryNumber = '66664444'
-
-//UEN
-String uen = '201912332D'
-
-//postal code
-String postalCode = '018956'
-
-//file path
-String filePath = 'C:\\Users\\smadhoosudhan\\Downloads\\Katalon\\Test data\\Direct Credit Authorisation Form.pdf'
-
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(envURL)
+WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
@@ -57,19 +34,19 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgSign up now/button_I
 WebUI.click(findTestObject('Object Repository/Page_giving.sgSign up now/button_Sign up with email'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_Organisation name_b4-b2-Input_OrgName'), 
-    orgName)
+    'BobOrg')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgOrganisation registration/dropdown'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgOrganisation registration/div_Government Body'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_(65)_b4-b2-Input_PublicEnquiryNumber'), 
-    publicEnquiryNumber)
+    '88884444')
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_UEN_b4-b2-Input_UEN'), uen )
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_UEN_b4-b2-Input_UEN'), '201912345D')
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_Postal code_b4-b2-Input_PostalCode'), 
-    postalCode)
+    '018956')
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input__b4-b2-Input_Floor'), '3')
 
@@ -81,19 +58,21 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgOrganisation registr
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgOrganisation registration/button_Next'))
 
-WebUI.uploadFile(findTestObject('Page_giving.sgOrganisation registration/label_Upload file Input'), filePath)
+WebUI.uploadFile(findTestObject('Page_giving.sgOrganisation registration/label_Upload file Input'), 'C:\\Users\\assaravanan\\OneDrive - Deloitte (O365D)\\Documents\\Free_Test_Data_1MB_PDF.pdf')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgOrganisation registration/button_Next'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_Full name_b4-b4-Input_FullName'), 
-    fullName)
+    'BobTheBuilder')
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_Work email_b4-b4-Input_Email'), 
-    orgEmail)
+    'bob@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_Password_b4-b4-Input_Password'), 
     'hJxcABFZyq6YA1kwHae0pw==')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_giving.sgOrganisation registration/input_Confirm password_b4-b4-Input_ConfirmPassword'), 
     'hJxcABFZyq6YA1kwHae0pw==')
+
+WebUI.closeBrowser()
 

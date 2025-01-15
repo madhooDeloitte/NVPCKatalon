@@ -6,10 +6,6 @@
    <elementGuidId>7fcf0ae7-1d80-4812-afa0-7399bc4b6bd6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@ktl-id = 'btnConfirmCampaignApprove']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[12]</value>
       </entry>
@@ -27,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ecbd874c-01cf-439e-ba16-485c3586091f</webElementGuid>
+      <webElementGuid>d3a7fa3c-5971-4ebb-8998-bb2dd1cfabe9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-success</value>
-      <webElementGuid>d365eb57-4d50-423b-961f-e4c9697ab204</webElementGuid>
+      <webElementGuid>1850a776-3145-4164-8708-baf62dd83902</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,15 +39,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ed76c6c8-dd8a-4348-89cc-e707788b5abd</webElementGuid>
+      <webElementGuid>081c8419-2c1f-4a07-94ff-80d3d7165177</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ktl-id</name>
       <type>Main</type>
-      <value>btnConfirmCampaignApprove</value>
-      <webElementGuid>853bb21c-3c63-48ac-b887-62609750878e</webElementGuid>
+      <value>btnApprove</value>
+      <webElementGuid>0f8421e7-937a-426f-9aa2-c86dcfbb152e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +55,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Approve</value>
-      <webElementGuid>dfebaf77-7b1a-482b-b6d8-b222a2f0413a</webElementGuid>
+      <webElementGuid>0ce9e4e4-2819-4777-8730-a85f52dff9ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b6-b6-b11-PrimaryButtons&quot;)/button[@class=&quot;btn btn-success&quot;]</value>
-      <webElementGuid>89211513-6526-4b6c-8856-5a72c786ac1e</webElementGuid>
+      <webElementGuid>cf8e62be-b79d-43f6-8d09-2b1b10e6dd8c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[12]</value>
-      <webElementGuid>f53304fb-ee63-4454-832e-34931cd619fa</webElementGuid>
+      <webElementGuid>8010376a-8a68-4016-944f-e2bf12cf7287</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b6-b6-b11-PrimaryButtons']/button</value>
-      <webElementGuid>87c374a5-9810-472b-8dff-12b0be7d962f</webElementGuid>
+      <webElementGuid>9037739b-6c29-4089-a371-c1d2c1bf9053</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
-      <webElementGuid>7d41310a-67e5-4a49-9cd7-fb1ae0895594</webElementGuid>
+      <webElementGuid>4447e53c-ec0f-4c5e-9ee5-0b0a35bbf364</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='The fundraiser will be notified of the approval.'])[1]/following::button[2]</value>
-      <webElementGuid>96f453cd-0aba-435c-930e-4d0b0ef87c9c</webElementGuid>
+      <webElementGuid>2b10ec02-57ac-4861-bc29-57848ca1b525</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div[2]/div/button</value>
-      <webElementGuid>2d166679-c79b-4651-ab59-642e70d59a23</webElementGuid>
+      <webElementGuid>135ca52c-1de0-48a8-86f2-4f336cc91520</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Approve' or . = 'Approve')]</value>
-      <webElementGuid>3cb0b965-ea39-4e95-9c29-8a6e1b02f304</webElementGuid>
+      <webElementGuid>ba0cde35-0936-482c-9011-614ddb2d1867</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
