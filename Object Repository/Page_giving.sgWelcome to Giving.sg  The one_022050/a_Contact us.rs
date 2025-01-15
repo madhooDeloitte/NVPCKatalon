@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Contact us</name>
+   <tag></tag>
+   <elementGuidId>54e648e5-7878-47da-a0f3-680f05a3222a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnContactUs']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b1-b1-SiteMenu']/a[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Contact us&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1e83bb50-e7ff-4b20-99d8-502ef3dd0435</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ThemeGrid_MarginGutter</value>
+      <webElementGuid>ef64eee8-cefc-4d62-ab01-84e14376b281</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/contact-us</value>
+      <webElementGuid>8b9c48ca-cc08-4a54-bafa-0ecfb6baaec7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Contact us</value>
+      <webElementGuid>2e7ea62e-69b5-4618-9272-a4bb5ea9b6ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b1-b1-SiteMenu&quot;)/a[@class=&quot;ThemeGrid_MarginGutter&quot;]</value>
+      <webElementGuid>70d7b852-cad9-4acb-9cf6-252aae413baa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnContactUs</value>
+      <webElementGuid>2f22102b-884d-4828-9d79-53eb78ba72e2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-b1-SiteMenu']/a[4]</value>
+      <webElementGuid>a9cffbb7-b680-455d-a207-b4a6e13e576a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Contact us')]</value>
+      <webElementGuid>6a7cbd02-a691-423f-b659-7fbf950514cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='APIs'])[1]/following::a[1]</value>
+      <webElementGuid>c1e12eb1-12d1-43e0-a72c-56cc1d9e0ec2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FAQ'])[1]/following::a[2]</value>
+      <webElementGuid>634cbfc6-f588-4add-8fd2-abd6cd5e5e43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Donate'])[1]/preceding::a[4]</value>
+      <webElementGuid>dda19ea2-9558-4371-a30c-a07bb8b300a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Volunteer'])[1]/preceding::a[5]</value>
+      <webElementGuid>f40e545c-93e6-4392-898f-587c0219a8da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Contact us']/parent::*</value>
+      <webElementGuid>69694761-5e5b-4a17-a8d7-c5d76f9a5379</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/contact-us')]</value>
+      <webElementGuid>55dc522c-aaa8-4b24-bb1e-ed29579c9ac5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[4]</value>
+      <webElementGuid>0a39b50e-fc6e-477d-97fa-be6d6cdee9c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/contact-us' and (text() = 'Contact us' or . = 'Contact us')]</value>
+      <webElementGuid>7f7b3879-bb0c-4799-bb0e-03f4409512bd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

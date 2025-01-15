@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Tax-deductible</name>
+   <tag></tag>
+   <elementGuidId>6a709d1a-233b-452d-aca0-7fbf62ff3225</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@ktl-id= 'btnTaxDeductible']/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.btn.btn-filter</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>8ef8426f-a1e0-4dba-826d-452abef945ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-filter</value>
+      <webElementGuid>cb69f71b-77df-40ef-ba62-57ea1578f828</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>b2-b7-b2-Checkbox</value>
+      <webElementGuid>420b8ef1-2ae6-4bb1-b327-bc7b0b43950d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tax-deductible</value>
+      <webElementGuid>46e56364-71a7-4cc7-afc0-0724eb7f4aca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b7-$b2&quot;)/label[@class=&quot;btn btn-filter&quot;]</value>
+      <webElementGuid>2d2a6c6c-42eb-4070-8736-1aef97057e6f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b7-$b2']/label</value>
+      <webElementGuid>32d90ab5-a8d9-4f99-9a78-7f00e110622b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select...'])[1]/following::label[1]</value>
+      <webElementGuid>cfdaeffe-52a6-44a9-b685-600202cf0fae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Causes'])[1]/following::label[1]</value>
+      <webElementGuid>a716a98f-d5af-4c73-a170-cb6e5576c275</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear all'])[1]/preceding::label[1]</value>
+      <webElementGuid>5e2adc4c-4f4f-44e5-9444-55cc1154e6d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>231afae6-7a02-4a48-bc09-ce560d70e1ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Tax-deductible' or . = 'Tax-deductible')]</value>
+      <webElementGuid>f82eb457-2f1e-42ff-8230-8c3bf373e558</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,11 +6,11 @@
    <elementGuidId>b77a5d08-c325-4135-aacf-f3ca113ea843</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='b1-l1-19_7-$b2']/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//div[@ktl-id='divGiverMenuItemList']/div[2]/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>09d5ba0e-e893-4c2b-874d-bb75309c8e53</webElementGuid>
+      <webElementGuid>f65ae01b-5de2-4bf0-a18d-e54b3da0b1ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-menu-item</value>
-      <webElementGuid>0615ad83-879a-4393-b2a1-8bbcd74e781f</webElementGuid>
+      <webElementGuid>af2f3502-7f00-4184-94cb-41bbf95418e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/volunteer</value>
-      <webElementGuid>90674118-e4a8-497b-bd18-1296a503e8d4</webElementGuid>
+      <webElementGuid>127f4ec8-6f99-4508-ad86-5adc8d108c9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Volunteer</value>
-      <webElementGuid>b68f47e8-028d-42b7-a915-2d37569ae87f</webElementGuid>
+      <webElementGuid>5e3fb85a-46e1-4f4c-a85e-cc9d30ce4f68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +54,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b1-l1-19_7-$b2&quot;)/a[@class=&quot;nav-menu-item&quot;]</value>
-      <webElementGuid>3d7467bc-f929-40b1-b187-3264789e2850</webElementGuid>
+      <webElementGuid>babf6841-f241-40a9-b596-09dd37d6c783</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b1-l1-19_7-$b2']/a</value>
-      <webElementGuid>f1a10ab9-b08b-4440-b607-be243d6988f8</webElementGuid>
+      <value>//div[@ktl-id='divGiverMenuItemList']/div[2]/div/a</value>
+      <webElementGuid>ba20728d-7f92-40bd-8752-955fe86816a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Donate'])[1]/following::a[1]</value>
-      <webElementGuid>7568a19d-0b2b-46e5-9818-d81ff5ebb37d</webElementGuid>
+      <webElementGuid>8b48e49b-16c4-46e4-a717-d6fb4d895f74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::a[5]</value>
-      <webElementGuid>a8a87e05-92f6-4486-b97f-d11d75407a58</webElementGuid>
+      <webElementGuid>0cd4a2c9-c052-4b02-9567-1f162dc6a282</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Collaborate'])[1]/preceding::a[1]</value>
-      <webElementGuid>96182d23-4f7d-429f-a7d1-d6611697ec36</webElementGuid>
+      <webElementGuid>736b3d3a-fc68-4ee9-a018-2e639a142186</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/volunteer')]</value>
-      <webElementGuid>3061eb09-8e5b-42a9-9c8e-01aec6b33983</webElementGuid>
+      <webElementGuid>e5583f20-be16-4c3f-866f-23322d24ed3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[2]/div/a</value>
-      <webElementGuid>6207718e-4f40-4f4b-b751-f0e6929f99cb</webElementGuid>
+      <webElementGuid>124f76f8-8ae8-443a-9672-0c983458b406</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/volunteer' and (text() = 'Volunteer' or . = 'Volunteer')]</value>
-      <webElementGuid>638caf17-660f-48fd-9294-2f773a73f828</webElementGuid>
+      <webElementGuid>ad5a6106-c05a-4039-8e54-6808bf805e7e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

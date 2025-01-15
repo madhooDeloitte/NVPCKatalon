@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_SGD60.00</name>
+   <tag></tag>
+   <elementGuidId>9acfb436-ff44-477c-82c5-4d43c8bcdc3b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.CurrencyAmount</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='ProductSummary-totalAmount']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>33752f74-0e5b-464e-a0f6-0c2c506ff684</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>CurrencyAmount</value>
+      <webElementGuid>3ad4f7a5-8dad-46be-8080-289b531b4b06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SGD 60.00</value>
+      <webElementGuid>61359860-aa3c-403d-9fc9-f65852226eed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ProductSummary-totalAmount&quot;)/span[@class=&quot;CurrencyAmount&quot;]</value>
+      <webElementGuid>81b96613-a410-46b2-9dfe-b8923aeaecc8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='ProductSummary-totalAmount']/span</value>
+      <webElementGuid>9d7371c7-73e7-4149-ba29-52d29092b0cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SG60 SHARE'])[1]/following::span[2]</value>
+      <webElementGuid>1e39e046-0039-40e5-961f-4cd5f00e4292</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test'])[1]/following::span[3]</value>
+      <webElementGuid>f2bc9997-7cdf-477b-8193-ed9ce3cdcf12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay with card'])[1]/preceding::span[2]</value>
+      <webElementGuid>7fcb8bf9-3378-41a9-a2ec-7e143cd3f576</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Or pay with card'])[1]/preceding::span[2]</value>
+      <webElementGuid>0557aa9a-2a1b-4f9e-a1de-3cf138c1a246</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SGD 60.00']/parent::*</value>
+      <webElementGuid>a41f724e-e2ef-411a-b660-77fa1ebc8a16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span</value>
+      <webElementGuid>449a038c-0fff-48bb-9ce8-d4db37e97614</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'SGD 60.00' or . = 'SGD 60.00')]</value>
+      <webElementGuid>bdc83c0f-28ad-4f5d-afe1-f3afa1b8e3b3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

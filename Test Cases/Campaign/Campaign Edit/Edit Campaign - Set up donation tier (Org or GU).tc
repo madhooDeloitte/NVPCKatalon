@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Campaign - Set up donation tier (Org or GU)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6fa86099-07c4-4231-815e-24c8022f7825</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Confirm password_icon fa fa-eye fa-1x</name>
+   <tag></tag>
+   <elementGuidId>6db09b69-4fa1-47c1-b5e8-7ad06fbce2b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b5-b3-b17-b1-Icon']/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.fa.fa-eye.fa-1x</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>bc204ed9-eb9c-4ed9-84b9-3173340e6ec3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon fa fa-eye fa-1x</value>
+      <webElementGuid>566bd2c7-3cd9-408d-9ee9-000d1f53f0d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b5-b3-b17-b1-Icon&quot;)/a[1]/i[@class=&quot;icon fa fa-eye fa-1x&quot;]</value>
+      <webElementGuid>c65c19af-b046-4ee9-baa8-6ef26a36200e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b5-b3-b17-b1-Icon']/a/i</value>
+      <webElementGuid>d012f57b-b203-40b1-a8d4-c10e505d6d09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div[3]/div/div/div/div/div/div/div/a/i</value>
+      <webElementGuid>93156a38-40a2-46d5-b423-079a73171cb8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

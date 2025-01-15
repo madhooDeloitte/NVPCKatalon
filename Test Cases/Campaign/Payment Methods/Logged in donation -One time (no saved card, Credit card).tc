@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Logged in donation -One time (no saved card, Credit card)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>184c02e9-2ba5-4d0f-ae3e-82ab53d0760e</testCaseGuid>
+</TestCaseEntity>

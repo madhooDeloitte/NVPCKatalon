@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Recurring1</name>
+   <tag></tag>
+   <elementGuidId>8ebe6b02-2ec7-40d5-8c24-daf2fbc681f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;0.gqcse1ngjau&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='b2-RecurringCount' and normalize-space()='Recurring']&#xd;
+&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='b2-RecurringCount' and normalize-space()='Recurring']&#xd;
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span&#xd;
+&#xd;
+&#xd;
+</value>
+      <webElementGuid>401a7e24-2aa7-4d93-8bc0-57a3064cbb7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>osui-tabs__header-item</value>
+      <webElementGuid>ce327e6f-b522-4cde-878c-318d893bfc78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>0.gqcse1ngjau</value>
+      <webElementGuid>0733f719-7856-4ef6-9b84-6105777ce5fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tab</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>4234eb9b-c5f0-408b-8606-7e532235339c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>tab</value>
+      <webElementGuid>18b1b2d5-8d02-4d30-a14b-be2cf33cdab3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>82f6080d-b18d-4992-a183-20bae7f88954</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>d10071a9-08d2-4a06-8b89-466454a765ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>b2-$b14</value>
+      <webElementGuid>753a49cc-1b7f-4845-965d-3c103a86b002</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Recurring1</value>
+      <webElementGuid>ce0ae0db-3814-4337-a532-8275b3b36b3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='b2-RecurringCount' and normalize-space()='Recurring']&#xd;
+</value>
+      <webElementGuid>db6d63c3-4144-4437-ac25-5d51294fd844</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@name='0.gqcse1ngjau']</value>
+      <webElementGuid>c6586316-6744-4be3-b40d-8b292dd681b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-$b8']/button</value>
+      <webElementGuid>34646043-f54a-4e7c-b389-b50ee0f8e30a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pledge'])[1]/following::button[1]</value>
+      <webElementGuid>2f0d5fd0-4bfb-4780-8706-d37a0dbbcd9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='One-time'])[1]/following::button[2]</value>
+      <webElementGuid>68aaa55b-a311-4385-a7d4-f5c40e022a1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(DS) NPO 0001'])[1]/preceding::button[1]</value>
+      <webElementGuid>7efb744c-4a85-4de0-bdd0-549c8e66cfc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>e48fb836-80a1-42e1-956e-e1ec1a9b0125</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@name = '0.gqcse1ngjau' and (text() = 'Recurring1' or . = 'Recurring1')]</value>
+      <webElementGuid>3d6f4b3f-8bfa-4943-90af-b583b2b77d1a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

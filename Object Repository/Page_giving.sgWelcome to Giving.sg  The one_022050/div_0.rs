@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_0</name>
+   <tag></tag>
+   <elementGuidId>c249e35e-acdf-48e8-b3f6-65f054ee045c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b1-b26-b1-$b1']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>44f3e2e0-121a-4fb4-9d96-aa2deb9d52d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>badge border-radius-rounded background-primary  OSInline</value>
+      <webElementGuid>e151a69c-52ab-4548-97e2-f50337404ce0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>94c5bd44-2a0e-4299-b10d-587466e32fb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b1-b26-b1-$b1&quot;)/div[@class=&quot;badge border-radius-rounded background-primary  OSInline&quot;]</value>
+      <webElementGuid>978b258d-67e8-40f5-a363-5b06b7a4d05c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-b26-b1-$b1']/div</value>
+      <webElementGuid>07ed85d1-5c44-4fa2-8f04-0d3957b69268</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::div[8]</value>
+      <webElementGuid>1d3503d6-3965-485f-b988-1389c6d21eb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[2]/following::div[11]</value>
+      <webElementGuid>e501ae05-00b2-47fb-b8a2-00ae1aac3834</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Give Time, Talent and Treasure today and every day'])[1]/preceding::div[8]</value>
+      <webElementGuid>71718ee6-95cf-462f-808f-97b4a5e56d0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your generosity fuels hope. Join us in making an impact—one donation at a time.'])[1]/preceding::div[9]</value>
+      <webElementGuid>d2ebcfb3-aa32-44c6-8b77-d8e1170416ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/a/div/div/div/div[2]/div</value>
+      <webElementGuid>7e9ab2bd-a921-45c5-b077-372dda92d617</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '0' or . = '0')]</value>
+      <webElementGuid>4cd35ecb-6187-46f3-baff-aa028c15a917</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

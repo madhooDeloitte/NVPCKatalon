@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Sort Latest</name>
+   <tag></tag>
+   <elementGuidId>63e281f3-1699-4ee1-815b-1c8c6bc9c00d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@ktl-id='btnSort']/div/div[2]/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Sort: Latest&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9a2822c0-5efe-4a5c-b40a-a284195b9aa1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-popup-row</value>
+      <webElementGuid>32c1c556-ae34-4977-97ad-15e470b27f96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sort: Latest</value>
+      <webElementGuid>d1d88725-dbce-4a22-a5d6-58dc78cfbd31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b9-DropdownSortType&quot;)/div[@class=&quot;dropdown-list&quot;]/div[@class=&quot;scrollable-list scrollable-list-with-scroll&quot;]/div[@class=&quot;dropdown-popup-row&quot;]</value>
+      <webElementGuid>580839d1-7254-462f-8420-553b2d16c83e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b9-DropdownSortType']/div[2]/div/div[2]</value>
+      <webElementGuid>f2cbb60c-40fb-424f-8b64-c6e1f3c23bc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Popularity'])[2]/following::div[1]</value>
+      <webElementGuid>e927606b-6af2-4d50-a6bd-4e48a8f73bb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort:'])[2]/following::div[1]</value>
+      <webElementGuid>1f3ba8be-5da6-4039-a0c0-be97286754f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/div[2]/div/div[2]</value>
+      <webElementGuid>714f8e55-399a-4a08-9e14-86d28f0b9c98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Sort: Latest' or . = 'Sort: Latest')]</value>
+      <webElementGuid>4424acfb-c4f0-446b-ba7b-0bf28c7a39dd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

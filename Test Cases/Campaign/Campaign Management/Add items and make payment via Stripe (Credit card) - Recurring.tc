@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add items and make payment via Stripe (Credit card) - Recurring</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>29fa566f-53f9-4e2d-9db5-cdcd042837d1</testCaseGuid>
+</TestCaseEntity>

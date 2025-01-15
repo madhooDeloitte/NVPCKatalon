@@ -17,29 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL = 'https://dk.deloitte-sea.com/home'
+
+//email
+String giverEmail = 'member1@dk.dev'
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
+//WebUI.navigateToUrl(envURL)
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
-WebUI.takeScreenshotAsCheckpoint('1')
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('1 main page')
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
 WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/span_Log in with'), 0)
 
-WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), 'michaelscott@dundermifflin.dk.dev')
-
-WebUI.takeScreenshotAsCheckpoint('2')
+WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), giverEmail)
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
-WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password'), 'hJxcABFZyq6YA1kwHae0pw==')
+//WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password'), 'hJxcABFZyq4oD3Y625LFBg==')
+'encrypted password'
+WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password'), '963D2jXv1kXHYewulAqKlg==')
 
-WebUI.takeScreenshotAsCheckpoint('3')
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('2 login inputs')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
-WebUI.takeScreenshotAsCheckpoint('4')
+WebUI.delay(7)
+
+WebUI.takeScreenshotAsCheckpoint('3 logged in main page')
 

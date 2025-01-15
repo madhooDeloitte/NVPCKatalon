@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create TDR Campaign (as NPO)_BO_OTP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>da681f74-bf3c-4b20-9384-43f6bdc248a1</testCaseGuid>
+</TestCaseEntity>

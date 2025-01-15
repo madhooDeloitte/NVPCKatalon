@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_test_icon-box_2</name>
+   <tag></tag>
+   <elementGuidId>3fd64b9b-8e1d-45e0-93c3-4f536b485057</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa-solid.fa-ellipsis-vertical</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='osui-tooltip__content' and @id='b2-b13-l3-620_0-l3-621_0-b9-b1-Content']//div[@class='icon-box']&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;b2-b11-l3-278_0-l3-279_0-b9-b1-Content&quot;)/div[@class=&quot;icon-box&quot;]/i[@class=&quot;fa-solid fa-ellipsis-vertical&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>868d306d-11e1-4bf5-8109-1d90150f9341</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa-solid fa-ellipsis-vertical</value>
+      <webElementGuid>97a9140f-55db-4aa7-a358-bf598c9d7e98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='osui-tooltip__content' and @id='b2-b13-l3-620_0-l3-621_0-b9-b1-Content']//div[@class='icon-box']&#xd;
+</value>
+      <webElementGuid>2c263fef-b12f-4522-9788-fc6262b80ca7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b11-l3-278_0-l3-279_0-b9-b1-Content']/div/i</value>
+      <webElementGuid>74ac1810-076a-464f-a5fa-f4df75dcf2c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/i</value>
+      <webElementGuid>255da77f-e891-4269-90c5-7781ed13a658</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

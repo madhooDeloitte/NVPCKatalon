@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Other amountDonateDonate nowAdd to cartPledge_1</name>
+   <tag></tag>
+   <elementGuidId>31b18b57-c581-4ddb-9970-e44e31ebb893</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '$Other amount$DonateDonate nowAdd to cartPledge' or . = '$Other amount$DonateDonate nowAdd to cartPledge')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b15-$b13']/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>42c1a0c5-5863-456c-b5fb-39195dcb920b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>header-portion</value>
+      <webElementGuid>18857feb-631e-4bf6-a569-3978110b81c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$Other amount$DonateDonate nowAdd to cartPledge</value>
+      <webElementGuid>4109a151-286e-41cb-8645-cf3128a1ab36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b15-$b13&quot;)/div[@class=&quot;color-heading-card&quot;]/div[@class=&quot;heading-section scheme-color-sunshine&quot;]/div[@class=&quot;header-portion&quot;]</value>
+      <webElementGuid>33ce095e-2573-47fb-987a-070e9ed1818d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b15-$b13']/div/div/div</value>
+      <webElementGuid>84eacf0d-a3ed-49b1-ad44-41aba85a2ce5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(DS) Test Impact Statement'])[3]/following::div[5]</value>
+      <webElementGuid>06af2da6-f07e-4a9c-8601-c47706ba93d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pledge'])[3]/following::div[7]</value>
+      <webElementGuid>46f85fc4-d767-493a-844c-9768506f9140</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/div/div</value>
+      <webElementGuid>83746310-11e8-4552-8a8d-0beb47393aa1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '$Other amount$DonateDonate nowAdd to cartPledge' or . = '$Other amount$DonateDonate nowAdd to cartPledge')]</value>
+      <webElementGuid>8f7a196b-972a-409c-8414-95f28ab2490e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

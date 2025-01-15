@@ -17,9 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String envURL = 'https://dk.deloitte-sea.com/home'
+
+//Giver name
+String giverName = 'BobGiver1'
+
+//giver email
+String giverEmail = 'bobgiver1@gmail.com'
+
+//NRIC
+String NRIC = 'S4930168E'
+
+//Mobile number
+String mobileNumber = '88884444'
+
+//postal code
+String postalCode = '018956'
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dk.deloitte-sea.com/home')
+WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
@@ -27,12 +44,12 @@ WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Sign up'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgSign up now/GiverSignUpBanner'))
 
-WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/button_Sign up with email'))
+//WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/button_Sign up with email'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_Full name_b5-b3-Input_GiverName'), 
-    'BobGiver1')
+    giverName)
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_Email_b5-b3-Input_Email'), 'bobgiver1@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_Email_b5-b3-Input_Email'), giverEmail)
 
 WebUI.click(findTestObject('Page_giving.sgGiver linking account/input_CalenderDate'))
 
@@ -62,10 +79,10 @@ WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking acco
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/button_Verify'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_NRIC_b5-b5-Input_NRIC'), 'S4930168E')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_NRIC_b5-b5-Input_NRIC'), NRIC)
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_(65)_b5-b5-Input_MobileNumber'), 
-    '88884444')
+    mobileNumber)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/div_ChooseSex'))
 
@@ -76,7 +93,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking accoun
 WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/div_CHINESE'))
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgGiver linking account/input_Postal code_b5-b5-Input_PostalCode'), 
-    '018956')
+    postalCode)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/button_Continue_1'))
 
@@ -98,7 +115,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking accoun
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgGiver linking account/button_Start your giving journey'))
 
-WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address'), 'bobgiver@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/input_Email address'), giverEmail)
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_Log in'))
 

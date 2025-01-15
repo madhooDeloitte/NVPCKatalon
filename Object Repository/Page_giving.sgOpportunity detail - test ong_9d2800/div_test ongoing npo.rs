@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_test ongoing npo</name>
+   <tag></tag>
+   <elementGuidId>b3f96270-e2b7-44ba-afb4-2a8d6a66df8d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b1-Title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b1-Title']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3b8a6cef-1627-47bf-90f3-efd6fdb9d48c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>content-layout-detail-title flex1</value>
+      <webElementGuid>ef7ecfac-10e5-4e0e-9226-a309ff8ebdab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b2-b1-Title</value>
+      <webElementGuid>013f7aee-b308-4879-ba7e-fd7ec4322aa7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>test ongoing npo</value>
+      <webElementGuid>6b69fb88-a4fe-49ee-a922-d1c1c02fa04e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b1-Title&quot;)</value>
+      <webElementGuid>4e93889e-6c0d-439b-b70f-4069c51f8766</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b1-Title']</value>
+      <webElementGuid>c466763d-324b-491e-87be-33284feeb28f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-$b1']/div/div/div[2]/div/div/div/div</value>
+      <webElementGuid>65c471a0-b6e0-4f64-8441-26a20632233b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ronald McDonald House'])[1]/following::div[6]</value>
+      <webElementGuid>948a4892-9621-4fd8-8663-d5765b86932d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::div[32]</value>
+      <webElementGuid>231f9bf4-f311-4eeb-b900-59d56481476b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ronald McDonald House'])[2]/preceding::div[9]</value>
+      <webElementGuid>b0d4151d-54a3-4eaa-8b31-64f844910e0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div[2]/div/div/div/div</value>
+      <webElementGuid>80310505-5709-48ad-b04b-5b535ad96eac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'b2-b1-Title' and (text() = 'test ongoing npo' or . = 'test ongoing npo')]</value>
+      <webElementGuid>6f10428a-991d-44d8-afa9-5a9fb4a0a0e2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

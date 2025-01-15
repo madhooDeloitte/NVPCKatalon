@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_What is Giving.sg</name>
+   <tag></tag>
+   <elementGuidId>bbb0379d-e3b3-4b32-af42-f39a3aa99975</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ktl-id = 'btnWhatIsGivingsg']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b1-b28-AboutUsLinks']/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.footer-base-links.active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;What is Giving.sg&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a58698d7-85a6-4f4b-9b99-717581b7437d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-current</name>
+      <type>Main</type>
+      <value>page</value>
+      <webElementGuid>32c515ab-f119-4eac-8ffa-fc2b8244eeb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>footer-base-links active</value>
+      <webElementGuid>7aa15c81-b61a-4c78-a818-093f4aeed436</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/about</value>
+      <webElementGuid>a203650e-a9fd-430f-8043-15a7089a514b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>What is Giving.sg</value>
+      <webElementGuid>7ce9b81a-99a4-4b27-8857-702f139918c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b1-b28-AboutUsLinks&quot;)/div[@class=&quot;footer-base-section-menu-links&quot;]/a[@class=&quot;footer-base-links active&quot;]</value>
+      <webElementGuid>3b7e2b4f-0805-41cb-8fb2-df606fcf5d0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ktl-id</name>
+      <type>Main</type>
+      <value>btnWhatIsGivingsg</value>
+      <webElementGuid>012e9302-28ed-4d8a-a92e-f2f6a89ae9e8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-b28-AboutUsLinks']/div/a</value>
+      <webElementGuid>02306981-7f2f-4afb-831f-9a32c2fc8798</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'What is Giving.sg')]</value>
+      <webElementGuid>99383c27-237d-465e-8bb9-76b757bcf419</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About us'])[1]/following::a[1]</value>
+      <webElementGuid>e2f5650e-048c-4bd6-a7ca-a3e7cca43c05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Together, because'])[1]/following::a[1]</value>
+      <webElementGuid>dc83bbfb-2c0c-41ef-8892-e1272e66e282</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='APIs'])[2]/preceding::a[1]</value>
+      <webElementGuid>8b4a23ac-1914-4f93-9b32-1f27b2de5b9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Explore'])[1]/preceding::a[2]</value>
+      <webElementGuid>32845f5f-7e68-48c7-9000-7541dafaf417</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='What is Giving.sg']/parent::*</value>
+      <webElementGuid>fdd9d42b-ac35-4736-81c6-f14cbb955d79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/about')])[2]</value>
+      <webElementGuid>c9cf541b-0b00-4505-a4ef-791f3df20f37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/a</value>
+      <webElementGuid>490e1f82-4874-44c6-a106-300bf6cab4b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/about' and (text() = 'What is Giving.sg' or . = 'What is Giving.sg')]</value>
+      <webElementGuid>1ebd7d50-a25a-4488-9269-aaf930f80cf0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Duplicate Collaborative Opportunity</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5a22ce59-5c8c-4379-bdcf-f4a8da7036bc</testCaseGuid>
+</TestCaseEntity>

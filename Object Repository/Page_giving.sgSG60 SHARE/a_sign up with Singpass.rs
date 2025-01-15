@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_sign up with Singpass</name>
+   <tag></tag>
+   <elementGuidId>4510ee9a-760f-4269-aabd-8e8daf8a754f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.text-link.ThemeGrid_MarginGutter</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@ktl-id='btnSingpassSignup']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b77b2799-89dd-47c4-9249-e03a21a8e730</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-link ThemeGrid_MarginGutter</value>
+      <webElementGuid>0392fecc-84fa-4400-8468-41ac0d14b2cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>640ae3c0-686b-4dad-b296-e5fba8cbc237</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>sign up with Singpass</value>
+      <webElementGuid>f79a260b-1473-42a9-8e33-79e3e641f98e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b3-AlertHeader_Placeholder&quot;)/a[@class=&quot;text-link ThemeGrid_MarginGutter&quot;]</value>
+      <webElementGuid>6b3a05f6-7dff-466e-964e-8d2281a537cc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b3-AlertHeader_Placeholder']/a[2]</value>
+      <webElementGuid>1ea9a46f-bb93-4ad6-9349-ab26e35902ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'sign up with Singpass')]</value>
+      <webElementGuid>70f8e92f-4c83-4d75-a323-5319172a7532</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='or'])[1]/following::a[1]</value>
+      <webElementGuid>71b78e8e-e2c4-4cfd-8703-2b37d643f8da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Run by the Community Chest'])[1]/following::a[2]</value>
+      <webElementGuid>0c507760-0aaa-4aaf-b8ae-f5bb9ea9c30c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='to:'])[1]/preceding::a[1]</value>
+      <webElementGuid>d477c98f-498b-4bb8-b16d-c0e0302e23c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='sign up with Singpass']/parent::*</value>
+      <webElementGuid>93c3a792-ae30-4dee-a8d8-64f3aadc9bf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[5]</value>
+      <webElementGuid>7eea336b-22e8-40a6-8c20-4c4c48e77d81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[2]/div/a[2]</value>
+      <webElementGuid>e604f6b3-9e02-4d46-87d9-125b8a5e4341</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'sign up with Singpass' or . = 'sign up with Singpass')]</value>
+      <webElementGuid>75e9d66f-1f00-4447-891f-12f4e9c53097</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

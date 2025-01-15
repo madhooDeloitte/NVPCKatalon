@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Contact usAny queries Contact Billy Joe_547312</name>
+   <tag></tag>
+   <elementGuidId>4dd62795-ab4e-4e2d-9e39-0f33bd9d462b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b1-BottomContent']/div[3]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cc4e9279-47d1-40d3-854a-d31d9c957447</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Contact usAny queries? Contact Billy Joel from Ronald McDonald House</value>
+      <webElementGuid>b68483f6-d35c-435c-9fb9-c73893df6efe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b1-BottomContent&quot;)/div[@class=&quot;margin-top-m&quot;]/div[1]</value>
+      <webElementGuid>9716aaef-b423-4152-a991-d6b552e9d533</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b1-BottomContent']/div[3]/div</value>
+      <webElementGuid>0082fcaf-ba09-45b3-8a05-06ac08793908</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About the organisation'])[1]/following::div[9]</value>
+      <webElementGuid>863be870-36f1-4132-8210-a9b4e6c97ad1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='volunteering'])[1]/following::div[13]</value>
+      <webElementGuid>0a5c9faf-7b19-4da3-b48d-edd88fee7e7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[3]/div</value>
+      <webElementGuid>47e8574a-adeb-4570-8d54-7c93f3a85784</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Contact usAny queries? Contact Billy Joel from Ronald McDonald House' or . = 'Contact usAny queries? Contact Billy Joel from Ronald McDonald House')]</value>
+      <webElementGuid>cb555384-299c-4271-a14d-eb7e76f571a4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

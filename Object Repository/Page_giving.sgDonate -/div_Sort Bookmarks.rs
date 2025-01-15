@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Sort Bookmarks</name>
+   <tag></tag>
+   <elementGuidId>1879bced-be34-4666-803d-25dcc76efc2d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@ktl-id='btnSort']/div/div[2]/div/div[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Sort: Bookmarks&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>218265b2-f4cc-4e0b-8b4c-7f56796d586f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-popup-row</value>
+      <webElementGuid>555c51d7-f1b1-43c5-a4da-da9f7993858c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sort: Bookmarks</value>
+      <webElementGuid>56dd29e3-2138-40c5-90a3-263385b7c359</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b9-DropdownSortType&quot;)/div[@class=&quot;dropdown-list&quot;]/div[@class=&quot;scrollable-list scrollable-list-with-scroll&quot;]/div[@class=&quot;dropdown-popup-row&quot;]</value>
+      <webElementGuid>4d05938a-b1d3-42f1-b756-9aa78a2c9629</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b9-DropdownSortType']/div[2]/div/div[5]</value>
+      <webElementGuid>7af995c9-2138-47bc-b0d1-d8e28fcc7adc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reaching goals'])[2]/following::div[1]</value>
+      <webElementGuid>673b3ecd-aa48-42af-b9b5-8d84d3e09356</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort:'])[5]/following::div[1]</value>
+      <webElementGuid>fa6c061a-28ce-4e1d-9e8f-749b7fc315bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[5]</value>
+      <webElementGuid>8aaec0fd-3ba2-4902-a098-a5a94007b9a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Sort: Bookmarks' or . = 'Sort: Bookmarks')]</value>
+      <webElementGuid>ef1fbc0f-5db4-420c-916d-2562b8e51a0f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

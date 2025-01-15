@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SG60 Logged-in User Payment Flow - Transaction failed (Recurring donation)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b3bb60ce-f242-4252-b354-835da1cd3840</testCaseGuid>
+</TestCaseEntity>

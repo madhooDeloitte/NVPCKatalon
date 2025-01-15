@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Make this a recurring donation</name>
+   <tag></tag>
+   <elementGuidId>da59f1ac-b9e9-4d53-bfe5-df1c2aa7d2ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b15-b20-Recurring']/div/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.padding-left-s</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4abffc06-cc14-4c90-83ff-7a5724a3d6bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>padding-left-s</value>
+      <webElementGuid>8a02c678-b777-4781-bc31-1083d64a5ddd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Make this a recurring donation</value>
+      <webElementGuid>99b58ca3-1d0c-48e2-abab-d0ca02a039af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b15-b20-Recurring&quot;)/div[@class=&quot;display-flex&quot;]/span[@class=&quot;padding-left-s&quot;]</value>
+      <webElementGuid>11325f01-129c-48d7-90d6-1238ae07ed89</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b15-b20-Recurring']/div/span[2]</value>
+      <webElementGuid>7aed1253-3d3c-411f-ae7a-ae911e5dea2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[4]/following::span[4]</value>
+      <webElementGuid>7c29bb55-917f-4b48-a743-38211d4af097</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Donation amount'])[1]/following::span[4]</value>
+      <webElementGuid>4f99e6d2-d4dd-4d01-aa26-5dd9ea0a6e8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recurring donation'])[1]/preceding::span[1]</value>
+      <webElementGuid>bf9893a3-8fbc-4c51-b860-d120d2924dd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your recurring donation will begin upon successful checkout.'])[1]/preceding::span[1]</value>
+      <webElementGuid>09996e7e-9f94-4a0a-92e6-a49f982608ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Make this a recurring donation']/parent::*</value>
+      <webElementGuid>1e9ce40d-2cc4-42b1-98a7-5b305ccfaf38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/span[2]</value>
+      <webElementGuid>c8f9a2a6-2392-4d95-8151-53345442f4fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Make this a recurring donation' or . = 'Make this a recurring donation')]</value>
+      <webElementGuid>529f45a8-4c26-4e23-85a0-ca40515a2c2a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

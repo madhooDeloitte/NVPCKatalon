@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SG60- Sign up as Giver (Email)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>345c9a37-8b9d-4643-957b-8afc81142e8d</testCaseGuid>
+</TestCaseEntity>

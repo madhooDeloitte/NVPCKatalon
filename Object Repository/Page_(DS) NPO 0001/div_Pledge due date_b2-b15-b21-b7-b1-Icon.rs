@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Pledge due date_b2-b15-b21-b7-b1-Icon</name>
+   <tag></tag>
+   <elementGuidId>1a273397-b753-4666-a595-0ce623cfb416</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b15-b21-b7-b1-Icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b15-b21-b7-b1-Icon']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a49917ef-cacc-43b2-999f-6ed52a24df20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input-with-icon-content-icon center ph</value>
+      <webElementGuid>5286edd6-5c92-49a6-bd57-1ab71c00cd94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b2-b15-b21-b7-b1-Icon</value>
+      <webElementGuid>606c4329-a01e-4cb1-b615-6d679a48b371</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b15-b21-b7-b1-Icon&quot;)</value>
+      <webElementGuid>efa18449-61b5-4915-884a-c0b75081bc0c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b15-b21-b7-b1-Icon']</value>
+      <webElementGuid>1139d3db-10b9-4e31-8990-0ec16df0f9a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b15-b21-b7-b1-InputWithIconWrapper']/div</value>
+      <webElementGuid>014f3201-22ff-492b-8777-b2287d64d456</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pledge due date'])[1]/following::div[8]</value>
+      <webElementGuid>154006d3-34e6-4e61-b9b6-9b583cd178ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[4]/following::div[16]</value>
+      <webElementGuid>a23cb8c0-1e1b-4913-a725-c5b13c83480e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun'])[1]/preceding::div[6]</value>
+      <webElementGuid>bc04895a-78b8-4fa0-95de-949b4d4b2c4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mon'])[1]/preceding::div[6]</value>
+      <webElementGuid>78e1299c-b0bf-417e-b6f1-88e95caedb90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[3]/div/div/div/div/div</value>
+      <webElementGuid>ab2f3796-984f-43fd-bc8c-5104249aaa35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'b2-b15-b21-b7-b1-Icon']</value>
+      <webElementGuid>ea8fce7c-192d-4dc8-bad4-cc63f59a2648</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
