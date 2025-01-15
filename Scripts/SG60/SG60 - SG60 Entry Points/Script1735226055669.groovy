@@ -23,21 +23,21 @@ WebUI.navigateToUrl('https://dk.deloitte-sea.com/SG60SHARE')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgSG60 SHARE/button_Accept all'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.takeFullPageScreenshotAsCheckpoint('1')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgSG60 SHARE/img_About_b1-b1-GivingSGLogoWhite'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.takeFullPageScreenshotAsCheckpoint('2')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg  The one_022050/button_SG60 SHARE'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('4')
+WebUI.takeFullPageScreenshotAsCheckpoint('3')
 
 WebUI.closeBrowser()
 

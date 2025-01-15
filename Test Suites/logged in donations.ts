@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>181094a5-f2fe-45a5-85a7-038837f55c8b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Campaign/Payment Methods/Logged in donation - One time (Grabpay)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

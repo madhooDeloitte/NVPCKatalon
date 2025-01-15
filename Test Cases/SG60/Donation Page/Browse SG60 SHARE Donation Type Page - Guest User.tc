@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SG60 Logged-in User Payment Flow - Transaction failed (Recurring donation)</name>
+   <name>Browse SG60 SHARE Donation Type Page - Guest User</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>b3bb60ce-f242-4252-b354-835da1cd3840</testCaseGuid>
+   <testCaseGuid>cc401d3a-1146-4292-a443-b2117d2085ca</testCaseGuid>
 </TestCaseEntity>

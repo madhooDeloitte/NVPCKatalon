@@ -35,6 +35,10 @@ WebUI.navigateToUrl(envURL)
 '\r\n'
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/button_Accept all'))
 
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('1 main page')
+
 '\r\n'
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/a_Log in'))
 
@@ -46,6 +50,10 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 'test enter password\r\n'
 WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password_b3-b9-Input_Password'), 'hJxcABFZyq6YA1kwHae0pw==')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('2 input details for login')
 
 '\r\n'
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
@@ -62,20 +70,38 @@ WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/OTP/input_OT
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/OTP/input_OTP_6'), '1')
 
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('3 OTP verification')
+
 '\r\n'
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Verify'))
 
+WebUI.delay(7)
+
+WebUI.takeScreenshotAsCheckpoint('4 back to main page')
+
 '\r\n'
 WebUI.click(findTestObject('Page_giving.sg - admin Home/span_Opportunities'))
+
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('5 opportunities page')
 
 WebUI.click(findTestObject('Page_giving.sg - admin List of opportunities/div_Filters'))
 
 WebUI.click(findTestObject('Page_giving.sg - admin List of opportunities/filterselectactiveopp'))
 
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('6 select active checkbox ')
+
 'kti_id settled'
 WebUI.click(findTestObject('Page_giving.sg - admin List of opportunities/button_Apply'))
 
-WebUI.takeScreenshotAsCheckpoint('1')
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('7 updated opportunities')
 
 'opportunity name'
 WebUI.setText(findTestObject('Page_giving.sg - admin List of opportunities/input_Search opportunities_b2-SearchInput'), 
@@ -85,7 +111,9 @@ WebUI.setText(findTestObject('Page_giving.sg - admin List of opportunities/input
 WebUI.sendKeys(findTestObject('Page_giving.sg - admin List of opportunities/input_Search opportunities_b2-SearchInput'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.takeScreenshotAsCheckpoint('2')
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('8 searched opportunity')
 
 // Get the current WebDriver instance
 WebDriver driver = DriverFactory.getWebDriver()
@@ -95,6 +123,10 @@ String mainTabHandle = driver.getWindowHandle()
 
 'click 3 dots of first opportunity in the list'
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - admin List of opportunities/div_TestNew1_icon-box'))
+
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('9 click view more options')
 
 'clicked the view button\r\n'
 WebUI.click(findTestObject('Page_giving.sg - admin List of opportunities/a_View'))
@@ -131,7 +163,9 @@ if (newTabHandle != null) {
     WebUI.comment('No new tab was found.')
 }
 
-WebUI.takeScreenshotAsCheckpoint('3')
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('10 verify moved page')
 
 //WebUI.switchToWindowTitle('giving.sg : Opportunity detail - test ongoing npo')
 'moving tab'
@@ -148,6 +182,13 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_giving.sgOppor
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_giving.sgOpportunity detail - test_exp_5327a5/div_Supported causesAnimalsArts, culture an_58e42c'))
 
+WebUI.scrollToElement(findTestObject('Page_giving.sgOpportunity detail - test_exp_5327a5/img_Ronald McDonald House_b2-b9-l1-119_0-b3_5e8f8f'), 
+    0)
+
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('11 middle of moved page')
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_giving.sgOpportunity detail - test_exp_5327a5/div_About the opportunityexpired opportunity npo'), 
     FailureHandling.STOP_ON_FAILURE)
 
@@ -163,5 +204,10 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Page_giving.sgOppor
 WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgOpportunity detail - test_exp_5327a5/div_Contact usAny queries Contact TestNew1 _f03c47'), 
     0)
 
-WebUI.takeScreenshotAsCheckpoint('4')
+WebUI.scrollToElement(findTestObject('Page_giving.sgOpportunity detail - test_exp_5327a5/div_Supported causesAnimalsArts, culture an_58e42c'), 
+    0)
+
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('12 bottom of moved page')
 

@@ -35,6 +35,10 @@ WebUI.navigateToUrl(envURL)
 'kti_id settled\r\n'
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/button_Accept all'))
 
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('1 main page')
+
 'kti_id settled\r\n'
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/a_Log in'))
 
@@ -46,6 +50,10 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 'Enter password\r\n'
 WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password_b3-b9-Input_Password'), 'hJxcABFZyq6YA1kwHae0pw==')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('2 login details')
 
 'kti_id settled\r\n'
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
@@ -63,24 +71,46 @@ WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/OTP/input_OT
 
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgLogin/OTP/input_OTP_6'), '1')
 
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('3 OTP inputs')
+
 '\r\n'
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Verify'))
+
+WebUI.delay(7)
+
+WebUI.takeScreenshotAsCheckpoint('4 back to main page')
 
 'open opportunities tab\r\n'
 WebUI.click(findTestObject('Page_giving.sg - admin Home/span_Opportunities'))
 
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('5 Opportunities tab')
+
 'open history tab for opportunities'
 WebUI.click(findTestObject('Page_giving.sg - admin Create opportunity/opportunity history tab'))
+
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('6 Opportunities history')
 
 '\r\n'
 WebUI.click(findTestObject('Page_giving.sg - admin List of opportunities/div_Filters'))
 
 WebUI.click(findTestObject('Page_giving.sg - admin List of opportunities/input_Draft_b2-b34-l1-135_1-Checkbox'))
 
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('7 Choose filter checkbox')
+
 'kti_id settled'
 WebUI.click(findTestObject('Page_giving.sg - admin List of opportunities/button_Apply'))
 
-WebUI.takeScreenshotAsCheckpoint('1')
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('8 verify changes to opportunities')
 
 'opportunity name'
 WebUI.setText(findTestObject('Page_giving.sg - admin List of opportunities/input_Search opportunities_b2-SearchInput'), 
@@ -90,7 +120,9 @@ WebUI.setText(findTestObject('Page_giving.sg - admin List of opportunities/input
 WebUI.sendKeys(findTestObject('Page_giving.sg - admin List of opportunities/input_Search opportunities_b2-SearchInput'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.takeScreenshotAsCheckpoint('2')
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('9 opportunity search')
 
 // Get the current WebDriver instance
 WebDriver driver = DriverFactory.getWebDriver()
@@ -99,6 +131,10 @@ WebDriver driver = DriverFactory.getWebDriver()
 String mainTabHandle = driver.getWindowHandle()
 
 WebUI.click(findTestObject('Page_giving.sg - admin List of opportunities/historymoreoptions'))
+
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('10 more options tab')
 
 'clicked the view button\r\n'
 WebUI.click(findTestObject('Page_giving.sg - admin List of opportunities/a_View'))
@@ -135,8 +171,9 @@ if (newTabHandle != null) {
     WebUI.comment('No new tab was found.')
 }
 
-'screenshot to verify page'
-WebUI.takeScreenshotAsCheckpoint('3')
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('11 confirm new tab')
 
 //WebUI.switchToWindowTitle('giving.sg : Opportunity detail - test ongoing npo')
 'moving tab'
@@ -150,17 +187,29 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Page_giving.sgOppor
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_giving.sgOpportunity detail - test_exp_5327a5/div_Supported causesAnimalsArts, culture an_58e42c'))
 
+WebUI.scrollToElement(findTestObject('Page_giving.sgOpportunity detail - test_exp_5327a5/img_Ronald McDonald House_b2-b9-l1-119_0-b3_5e8f8f'), 
+    0)
+
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('12 middle of moved page')
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_giving.sgOpportunity detail - test_exp_5327a5/div_About the opportunityexpired opportunity npo'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_giving.sgOpportunity detail - test_exp_5327a5/div_About the organisationThe Brighter Futu_f3b221'), 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('Page_giving.sgOpportunity detail - test_exp_5327a5/div_Supported causesAnimalsArts, culture an_58e42c'), 
+    0)
+
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('13 more details on opportunity')
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_giving.sgOpportunity detail - test_exp_5327a5/div_Contact usAny queries Contact TestNew1 _f03c47'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgOpportunity detail - test_exp_5327a5/div_Contact usAny queries Contact TestNew1 _f03c47'), 
     0)
-
-WebUI.takeScreenshotAsCheckpoint('4')
 

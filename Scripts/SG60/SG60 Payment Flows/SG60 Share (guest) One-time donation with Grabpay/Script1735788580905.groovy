@@ -39,21 +39,43 @@ WebUI.navigateToUrl(envURL)
 '-'
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/button_Accept all'))
 
+WebUI.delay(3)
+
+'verify on home page'
+WebUI.takeScreenshotAsCheckpoint('1')
+
 '-'
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg  The one_022050/button_SG60 SHARE'))
 
+WebUI.delay(3)
+
+'verify on donate now page'
+WebUI.takeScreenshotAsCheckpoint('2')
+
 '-'
 WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_DONATE NOW'))
+
+WebUI.delay(3)
+
+'verify on donation selection page'
+WebUI.takeScreenshotAsCheckpoint('3')
 
 //WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_DONATE NOW'))
 '-'
 WebUI.click(findTestObject('Page_giving.sgSG60 SHARE/button_Checkout'))
 
+WebUI.delay(3)
+
 'verify SG60 payment page'
-WebUI.takeScreenshotAsCheckpoint('1')
+WebUI.takeScreenshotAsCheckpoint('4')
 
 '- click grab pay'
 WebUI.click(findTestObject('Object Repository/Page_giving.sgCheckout cart/input_VisaMastercardAmex credit  debit card_e98b1d'))
+
+WebUI.delay(3)
+
+'verify grabpay button clicked\r\n'
+WebUI.takeScreenshotAsCheckpoint('5')
 
 '-'
 WebUI.setText(findTestObject('Object Repository/Page_giving.sgCheckout cart/input_Full name_b2-Input_GiverName'), giverName)
@@ -64,11 +86,13 @@ WebUI.setText(findTestObject('Object Repository/Page_giving.sgCheckout cart/inpu
 '-'
 WebUI.click(findTestObject('Page_giving.sgCheckout cart/button_Continue with Payment'))
 
-'verify on stripe page'
-WebUI.takeScreenshotAsCheckpoint('2')
-
 'stripe enter name. may need to be manual'
 WebUI.setText(findTestObject('Object Repository/Page_DK Development Env/input_Name_billingName'), stripeName)
+
+WebUI.delay(3)
+
+'verify on stripe page'
+WebUI.takeScreenshotAsCheckpoint('6')
 
 'click donate button on stripe'
 WebUI.click(findTestObject('Page_DK Development Env/div_SGD60.00_SubmitButton-IconContainer'))
@@ -76,10 +100,10 @@ WebUI.click(findTestObject('Page_DK Development Env/div_SGD60.00_SubmitButton-Ic
 'click authorize test payment on stripe'
 WebUI.click(findTestObject('Object Repository/Page_/a_Authorize Test Payment'))
 
-WebUI.delay(5)
+WebUI.delay(15)
 
 'verify donated thank you page'
-WebUI.takeScreenshotAsCheckpoint('3')
+WebUI.takeScreenshotAsCheckpoint('7')
 
 '-'
 WebUI.click(findTestObject('Object Repository/Page_giving.sgPayment status/a_Log in'))
@@ -92,6 +116,11 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 '-'
 WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password_b3-b9-Input_Password'), 'hJxcABFZyq6YA1kwHae0pw==')
+
+WebUI.delay(3)
+
+'verify admin login'
+WebUI.takeScreenshotAsCheckpoint('8')
 
 '-'
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
@@ -119,10 +148,10 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Verify'))
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - dk Home/a_Reports'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 'verify on report page'
-WebUI.takeScreenshotAsCheckpoint('4')
+WebUI.takeScreenshotAsCheckpoint('9')
 
 '-'
 WebUI.click(findTestObject('Object Repository/Page_giving.sg - dk Reports/div_Select type'))
@@ -132,4 +161,7 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sg - dk Reports/div_Do
 
 'manually pick the dates you want to generate, click generate button and download the report to check TDR'
 WebUI.comment('')
+
+'for downloading the required payment transaction excel\r\n'
+WebUI.delay(20)
 

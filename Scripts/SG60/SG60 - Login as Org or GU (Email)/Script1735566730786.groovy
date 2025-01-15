@@ -51,6 +51,11 @@ WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password_b3-b9-Input_Password'), userPassword)
 
+WebUI.delay(3)
+
+'verify user and pass input'
+WebUI.takeFullPageScreenshotAsCheckpoint('4')
+
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 WebUI.setText(findTestObject('Page_giving.sgLogin/input_If the account exists, you will recei_834fd0'), '1')
@@ -67,17 +72,23 @@ WebUI.setText(findTestObject('Page_giving.sgLogin/input_If the account exists, y
 
 WebUI.setText(findTestObject('Page_giving.sgLogin/input_If the account exists, you will recei_1714ca'), '1')
 
+WebUI.delay(3)
+
+'verify otp input'
+WebUI.takeFullPageScreenshotAsCheckpoint('5')
+
 WebUI.sendKeys(findTestObject('Page_giving.sgLogin/input_If the account exists, you will recei_1714ca'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(3)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('4')
+WebUI.takeFullPageScreenshotAsCheckpoint('6')
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgSG60 SHARE/span_give_other_amounts'),3)
+WebUI.scrollToElement(findTestObject('Object Repository/Page_giving.sgSG60 SHARE/span_give_other_amounts'), 3)
 
 WebUI.delay(3)
 
-WebUI.takeFullPageScreenshotAsCheckpoint('5')
+'verify missing recurring donation option'
+WebUI.takeFullPageScreenshotAsCheckpoint('7')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgSG60 SHARE/img_Stories_b1-b5-AvatarImage_Url'))
 
