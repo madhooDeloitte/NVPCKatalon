@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register for Giver account with email shake</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6bf4abb8-bfc5-4e8f-a5e9-3c71a2346b89</testCaseGuid>
+</TestCaseEntity>

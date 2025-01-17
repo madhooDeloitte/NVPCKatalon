@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Logged-In donation flow - Mixed TDR selected item pledge check out shake</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b1bc475d-b218-4ad1-b700-a4d9aff08c80</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login as Giver (email) shake</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>01196f2a-6b4a-4ad4-8b5d-35cc4459a798</testCaseGuid>
+</TestCaseEntity>

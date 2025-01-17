@@ -1,0 +1,61 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+String envURL = 'https://dk.deloitte-sea.com/home'
+
+//email
+String giverEmail = 'member1@dk.dev'
+
+WebUI.openBrowser('')
+
+//WebUI.navigateToUrl(envURL)
+WebUI.navigateToUrl(envURL)
+
+WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all'))
+
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('1 main page')
+
+WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Log in'))
+
+WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/span_Log in with'), 0)
+
+WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), giverEmail)
+
+WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
+
+//WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password'), 'hJxcABFZyq4oD3Y625LFBg==')
+'encrypted password'
+WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password'), '963D2jXv1kXHYewulAqKlg==')
+
+WebUI.delay(3)
+
+WebUI.takeScreenshotAsCheckpoint('2 login inputs')
+
+WebUI.click(findTestObject('Page_giving.sgLogin/button_Back'))
+
+WebUI.delay(7)
+
+WebUI.takeScreenshotAsCheckpoint('3 back to main page')
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
+
