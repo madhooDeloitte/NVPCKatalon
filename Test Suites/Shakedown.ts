@@ -53,4 +53,11 @@
       <testCaseId>Test Cases/Shakedown Scripts/Browse GSG Donate (Campaign) shake</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>05215b5e-6d50-4638-a832-9c619c8ebd09</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Shakedown Scripts/Guest donation flow - Mixed TDR selected item pledge check out shake</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
