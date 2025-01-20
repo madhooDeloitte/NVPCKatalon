@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_first donation tier</name>
+   <name>button_donatenow1</name>
    <tag></tag>
-   <elementGuidId>20f90722-0404-4d02-aeef-d01e96bcfa8c</elementGuidId>
+   <elementGuidId>eb34c135-ae98-4d63-929c-221d741a512f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@ktl-id='spanDonationTiers']/div/div</value>
+         <value>//button[@ktl-id='btnPledgeNow1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

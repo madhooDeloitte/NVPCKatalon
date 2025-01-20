@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_first donation tier</name>
+   <name>span_cart pledge tab</name>
    <tag></tag>
-   <elementGuidId>20f90722-0404-4d02-aeef-d01e96bcfa8c</elementGuidId>
+   <elementGuidId>285508ed-d808-4695-b90b-60db82e55863</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@ktl-id='spanDonationTiers']/div/div</value>
+         <value>/html[@lang='en-US']/body/div/div/div/div/div[1]/div/div/div[2]/div/div/div/div/div[2]/div[1]/div/section/header/div[1]/div[2]/button/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
