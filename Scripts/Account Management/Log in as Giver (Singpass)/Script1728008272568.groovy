@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import utils.GenerateWordScreenshotReport
 
 String envURL = 'https://uat.giving.sg'
 
@@ -33,19 +34,19 @@ WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg
 
 WebUI.delay(3)
 
-WebUI.takeScreenshotAsCheckpoint('1 main page')
+WebUI.takeScreenshotAsCheckpoint('Log in as Giver (Singpass)_1')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
 WebUI.delay(3)
 
-WebUI.takeScreenshotAsCheckpoint('2 login page')
+WebUI.takeScreenshotAsCheckpoint('Log in as Giver (Singpass)_2')
 
 WebUI.click(findTestObject('Object Repository/Page_giving.sgLogin/button_Singpass'))
 
 WebUI.delay(3)
 
-WebUI.takeScreenshotAsCheckpoint('3 singpass login')
+WebUI.takeScreenshotAsCheckpoint('Log in as Giver (Singpass)_3')
 
 WebUI.navigateToUrl(singpassURL)
 
@@ -53,7 +54,7 @@ WebUI.click(findTestObject('Object Repository/Page_Singpass login/button_Passwor
 
 WebUI.delay(3)
 
-WebUI.takeScreenshotAsCheckpoint('4 singpass userpass')
+WebUI.takeScreenshotAsCheckpoint('Log in as Giver (Singpass)_4')
 
 WebUI.setText(findTestObject('Object Repository/Page_Singpass login/input_Password login_username'), singpassUsername)
 
@@ -61,11 +62,12 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Singpass login/inp
 
 WebUI.delay(3)
 
-WebUI.takeScreenshotAsCheckpoint('5 singpass inputs')
+WebUI.takeScreenshotAsCheckpoint('Log in as Giver (Singpass)_5')
 
 WebUI.click(findTestObject('Object Repository/Page_Singpass login/button_Log in'))
 
 WebUI.delay(7)
 
-WebUI.takeScreenshotAsCheckpoint('6 logged in home page')
+WebUI.takeScreenshotAsCheckpoint('Log in as Giver (Singpass)_6')
 
+GenerateWordScreenshotReport.generateWordReport()

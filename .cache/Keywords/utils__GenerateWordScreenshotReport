@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "CCAE6E657DE5A5A8EA61BAEF934C0782",
+  "keywordClasses": [
+    {
+      "name": "utils.GenerateWordScreenshotReport",
+      "keywordMethods": [
+        {
+          "name": "generateWordReportsPerTestCase",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

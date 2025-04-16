@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>d4c40714-c2ab-4a14-a6ce-602598c038ae</testSuiteGuid>
    <testCaseLink>
-      <guid>40ad3e15-2624-4b2d-b042-20a0d3147046</guid>
+      <guid>909ca095-4ceb-4c8b-9558-68696df7f287</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Account Management/Log in as Giver (Singpass)</testCaseId>

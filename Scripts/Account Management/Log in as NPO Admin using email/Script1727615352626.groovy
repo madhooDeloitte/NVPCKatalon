@@ -37,7 +37,7 @@ WebUI.navigateToUrl(envURL)
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all'))
 
-WebUI.takeScreenshotAsCheckpoint('1')
+WebUI.takeScreenshotAsCheckpoint('Log in as NPO Admin using email_1')
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
@@ -45,13 +45,13 @@ WebUI.verifyElementPresent(findTestObject('Page_giving.sgLogin/span_Log in with'
 
 WebUI.setText(findTestObject('Page_giving.sgLogin/input_Email address'), userEmail)
 
-WebUI.takeScreenshotAsCheckpoint('2')
+WebUI.takeScreenshotAsCheckpoint('Log in as NPO Admin using email_2')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password'), 'hJxcABFZyq6YA1kwHae0pw==')
 
-WebUI.takeScreenshotAsCheckpoint('3')
+WebUI.takeScreenshotAsCheckpoint('Log in as NPO Admin using email_3')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
@@ -120,11 +120,11 @@ if (otpCheck != null) {
     WebUI.comment('OTP not found in time.')
 }
 
-WebUI.takeScreenshotAsCheckpoint('4')
+WebUI.takeScreenshotAsCheckpoint('Log in as NPO Admin using email_4')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Verify'))
 
 WebUI.verifyElementPresent(findTestObject('Page_giving.sg - admin Home/btn_SwitchGiverPortal'), 0)
 
-WebUI.takeScreenshotAsCheckpoint('5')
+WebUI.takeScreenshotAsCheckpoint('Log in as NPO Admin using email_5')
 

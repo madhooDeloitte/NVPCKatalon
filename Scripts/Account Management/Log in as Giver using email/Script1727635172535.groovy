@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import utils.GenerateWordScreenshotReport
 
 String envURL = 'https://dk.deloitte-sea.com/home'
 
@@ -31,7 +32,7 @@ WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/button_Accept all
 
 WebUI.delay(3)
 
-WebUI.takeScreenshotAsCheckpoint('1 main page')
+WebUI.takeScreenshotAsCheckpoint('Log in as Giver using email_1')
 
 WebUI.click(findTestObject('Page_giving.sgWelcome to Giving.sg/a_Log in'))
 
@@ -47,11 +48,12 @@ WebUI.setEncryptedText(findTestObject('Page_giving.sgLogin/input_Password'), '96
 
 WebUI.delay(3)
 
-WebUI.takeScreenshotAsCheckpoint('2 login inputs')
+WebUI.takeScreenshotAsCheckpoint('Log in as Giver using email_2')
 
 WebUI.click(findTestObject('Page_giving.sgLogin/button_Log in'))
 
 WebUI.delay(7)
 
-WebUI.takeScreenshotAsCheckpoint('3 logged in main page')
+WebUI.takeScreenshotAsCheckpoint('Log in as Giver using email_3')
+
 
