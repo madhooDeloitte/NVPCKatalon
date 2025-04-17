@@ -1,16 +1,15 @@
 {
-  "keywordFileContentHash": "0FB6838EA2BD8FDB16977E369E30FC73",
+  "keywordFileContentHash": "894CA4F32B4E8A2FB538BE993DF4471D",
   "keywordClasses": [
     {
       "name": "utils.GeneratePdfScreenshotReport",
       "keywordMethods": [
         {
           "name": "generatePdfReportsPerTestCase",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

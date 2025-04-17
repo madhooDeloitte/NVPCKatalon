@@ -12,14 +12,14 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>d4c40714-c2ab-4a14-a6ce-602598c038ae</testSuiteGuid>
    <testCaseLink>
-      <guid>909ca095-4ceb-4c8b-9558-68696df7f287</guid>
+      <guid>52a8987c-f288-48af-8f7e-f1f87d061e3c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Account Management/Log in as Giver (Singpass)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3707905d-ccc0-49f1-a627-a6e73d497db0</guid>
+      <guid>178f027d-87a4-4bcf-afe6-b9400763118d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Account Management/Log in as Giver using email</testCaseId>

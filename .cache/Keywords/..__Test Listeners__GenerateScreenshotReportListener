@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "0FD02FE439DBB5BC3576E28B8F1AD702",
+  "keywordFileContentHash": "08A1E886C0A35F6202E581D03E55F138",
   "keywordClasses": [
     {
       "name": "GenerateScreenshotReportListener",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

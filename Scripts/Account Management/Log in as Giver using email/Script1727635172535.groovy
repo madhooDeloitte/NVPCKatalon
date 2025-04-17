@@ -18,10 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import utils.GenerateWordScreenshotReport
 
-String envURL = 'https://dk.deloitte-sea.com/home'
-
 //email
 String giverEmail = 'member1@dk.dev'
+String envURL = 'https://dk.deloitte-sea.com'
 
 WebUI.openBrowser('')
 

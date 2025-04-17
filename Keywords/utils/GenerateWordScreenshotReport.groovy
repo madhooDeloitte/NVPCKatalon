@@ -1,40 +1,66 @@
+ /*
+ * Keyword: generateWordReportsPerTestCase
+ *
+ * Purpose:
+ * This keyword class is responsible for dynamically retrieving all screenshots taken during
+ * a test case execution and compiling them into a structured Word document.
+ *
+ * What the Word Document Report Contains:
+ * 1. Test case name as the report title
+ * 2. All screenshots related to the executed test case
+ * 3. Descriptions for each screenshot, retrieved from test data (Data Files/ScreenshotDescriptions)
+ *
+ * Screenshot Source:
+ * - Screenshots are pulled from the original 'keyes' folder located in the following path:
+ *   Reports > [outer timestamp] > [test suite name] > [inner timestamp] > keyes
+ * - Each screenshot file must follow the naming convention: keyes-<testCaseName>_<screenshotNumber>.png
+ *
+ * File Naming Format:
+ * - The generated Word will be saved under the test suite folder with the filename:
+ *   <testCaseName>_<executionTimestamp>.docx
+ *
+ * Flow:
+ * 1. Capture the test case name from GlobalVariable
+ * 2. Find the most recent execution folder under /Reports
+ * 3. Traverse into the correct test suite folder and locate the 'keyes' screenshot folder
+ * 4. Screenshots are filtered based on the test case name, matching the naming convention 'keyes-<testCaseName>_<number>.png'.
+ * 5. For each screenshot, the following information is included in the Word document:
+ *    - The screenshot number (e.g., Screenshot 1, Screenshot 2, etc.)
+ *    - The description of the screenshot from the 'ScreenshotDescriptions' data file.
+ *    - The image itself, scaled appropriately to fit within the document layout.
+ * 6. The Word document is saved in the test suite folder.
+ *
+ * Notes:
+ * - If no matching screenshots are found for a test case, no report will be created
+ * - Relies on the ScreenshotDescriptions test data file to include:
+ *     * TestCaseName (string)
+ *     * ScreenshotNumber (string or integer)
+ *     * Description (string)
+ * - Requires Apache POI libraries for DOCX generation
+ * - Designed to be integrated with a Test Listener for automatic post-test reporting
+ */
 package utils
 
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
-import org.apache.poi.xwpf.usermodel.XWPFDocument
-import org.apache.poi.xwpf.usermodel.XWPFParagraph
-import org.apache.poi.xwpf.usermodel.XWPFRun
-import org.apache.poi.xwpf.usermodel.XWPFTable
-import org.apache.poi.xwpf.usermodel.XWPFTableRow
-import org.apache.poi.xwpf.usermodel.XWPFTableCell
-import com.kms.katalon.core.annotation.Keyword
-
 import org.apache.poi.xwpf.usermodel.*
 import javax.imageio.ImageIO
 import java.awt.image.BufferedImage
 import org.apache.poi.util.Units
-import com.kms.katalon.core.testdata.TestData
-import java.io.*
+import com.kms.katalon.core.annotation.Keyword
 import internal.GlobalVariable
 
 class GenerateWordScreenshotReport {
 
-	@com.kms.katalon.core.annotation.Keyword
+	@Keyword
 	def static generateWordReportsPerTestCase() {
-		
-		// Ensure test case name is available
+
+		// 1. Get test case name from GlobalVariable
 		String testCaseName = GlobalVariable.testCaseName ?: "UnknownTestCase"
 
-		// Define the path to the main reports directory
+		// 2. Locate the Reports directory and get the latest outer timestamp folder
 		String reportsFolder = "Reports/"
 		File reportsDir = new File(reportsFolder)
 
-		// Find the most recently modified folder inside the Reports directory (usually the latest test run)
 		File latestFolder1 = reportsDir.listFiles()
 				?.findAll { it.isDirectory() }
 				?.sort { -it.lastModified() }
@@ -45,120 +71,119 @@ class GenerateWordScreenshotReport {
 			return
 		}
 
-		// Get the test suite folder inside the latestFolder1
+		// 3. Locate the test suite folder inside the latest outer folder
 		File[] testSuiteFolders = latestFolder1.listFiles()?.findAll { it.isDirectory() }
-		if (testSuiteFolders == null || testSuiteFolders.length == 0) {
+		if (!testSuiteFolders) {
 			println("No test suite folder found inside: " + latestFolder1.getName())
 			return
 		}
-		File testSuiteFolder = testSuiteFolders[0] // Assuming only one test suite folder exists
+		File testSuiteFolder = testSuiteFolders[0] // Assuming only one suite folder
 
-		// Get the latest autonamed subfolder inside testSuiteFolder
+		// 4. Locate the inner timestamp folder (latest)
 		File latestFolder2 = testSuiteFolder.listFiles()
 				?.findAll { it.isDirectory() }
 				?.sort { -it.lastModified() }
 				?.first()
+
 		if (latestFolder2 == null) {
 			println("No subfolder found inside test suite: " + testSuiteFolder.getName())
 			return
 		}
 
-		// Locate the 'keyes' folder where screenshots are stored
+		// 5. Locate the 'keyes' folder containing screenshots
 		File keyesFolder = new File(latestFolder2, "keyes")
-
 		if (!keyesFolder.exists()) {
 			println("Keyes folder not found in: " + latestFolder2.getName())
 			return
 		}
-
 		println("Found keyes folder: " + keyesFolder.getAbsolutePath())
 
-		// Collect screenshots for the current test case based on filename pattern
-		// Format expected: keyes-<testCaseName>_<number>.png
+		// 6. Filter screenshots related to the current test case
 		File[] imageFiles = keyesFolder.listFiles({ file ->
 			file.name.endsWith(".png") && file.name.contains(testCaseName)
 		} as FileFilter)
-		
-		if (imageFiles.length == 0) {
+
+		if (!imageFiles || imageFiles.length == 0) {
 			println("No matching screenshots found for test case: " + testCaseName)
 			return
 		}
-		
+
+		// Sort screenshots by filename for consistent order in the document
+		imageFiles = imageFiles.sort { a, b -> a.name <=> b.name }
 		println("Total screenshots found: " + imageFiles.size())
 
-		// Define the output Word file name with timestamp and test case name
-		// Example: Log in as Giver using email_20250416_012639.docx 
+		// 7. Prepare Word output document
 		String timeStamp = latestFolder1.getName()
 		File wordFile = new File(testSuiteFolder, "${testCaseName}_${timeStamp}.docx")
 
-		// Create Word document
 		XWPFDocument document = new XWPFDocument()
 		FileOutputStream out = new FileOutputStream(wordFile)
 
-		// Add document title with test case name
+		// Add title with test case name
 		XWPFParagraph intro = document.createParagraph()
 		XWPFRun introRun = intro.createRun()
 		introRun.setBold(true)
 		introRun.setFontSize(14)
 		introRun.setText("Test Case: ${testCaseName}")
 
-		// Load the descriptions from the test data
+		// 8. Load screenshot descriptions from test data
 		def descriptionsData = findTestData('Data Files/ScreenshotDescriptions')
 
-		// Max width for images (to avoid overflow in document)
+		// 9. Add screenshots with labels and descriptions
 		int screenshotCount = 1
-		int maxWidth = 500  // Max image width in pixels
+		int maxWidth = 500 // in pixels
 
-		// Loop through each screenshot
 		for (File imgFile : imageFiles) {
 			println("Adding image to Word: " + imgFile.name)
 
-			// Add label (e.g., Screenshot 1)
+			// Label paragraph (e.g., Screenshot 1, 2, 3...)
 			XWPFParagraph labelParagraph = document.createParagraph()
 			XWPFRun labelRun = labelParagraph.createRun()
 			labelRun.setBold(true)
 			labelRun.setFontSize(12)
 			labelRun.setText("Screenshot " + screenshotCount)
 
-			// Retrieve description from test data for current screenshot
+			// Extract <screenshotNumber> from filename (e.g., keyes-Test_3.png → 3)
+			def matcher = (imgFile.name =~ /.*_(\d+)\.png/)
+			String actualScreenshotNumber = matcher ? matcher[0][1] : ""
+
+			// Match screenshot description based on test case name and actual number
 			String description = ""
 			for (int i = 1; i <= descriptionsData.getRowNumbers(); i++) {
 				String dataTestCaseName = descriptionsData.getValue("TestCaseName", i)
 				String dataScreenshotNumber = descriptionsData.getValue("ScreenshotNumber", i)
 
-				if (dataTestCaseName == testCaseName && dataScreenshotNumber == screenshotCount.toString()) {
+				if (dataTestCaseName == testCaseName && dataScreenshotNumber == actualScreenshotNumber) {
 					description = descriptionsData.getValue("Description", i)
 					break
 				}
 			}
 
-			// Add description to the document
+			// Description paragraph
 			XWPFParagraph descriptionParagraph = document.createParagraph()
 			XWPFRun descriptionRun = descriptionParagraph.createRun()
 			descriptionRun.setItalic(true)
 			descriptionRun.setText(description)
 
-			// Read and scale the image while maintaining aspect ratio
+			// Read and scale image
 			BufferedImage bimg = ImageIO.read(imgFile)
 			if (bimg == null) {
-				println("❌ Failed to read image: " + imgFile.name)
+				println("Failed to read image: " + imgFile.name)
 				continue
 			}
-			
+
 			int originalWidth = bimg.getWidth()
 			int originalHeight = bimg.getHeight()
-
-			// Calculate scaled size with aspect ratio preserved
 			int scaledWidth = originalWidth
 			int scaledHeight = originalHeight
-			
+
 			if (originalWidth > maxWidth) {
 				double scaleRatio = (double) maxWidth / originalWidth
 				scaledWidth = maxWidth
 				scaledHeight = (int) (originalHeight * scaleRatio)
 			}
 
-			// Add image to document
+			// Add image
 			XWPFParagraph imgParagraph = document.createParagraph()
 			XWPFRun imgRun = imgParagraph.createRun()
 			try {
@@ -172,7 +197,7 @@ class GenerateWordScreenshotReport {
 				continue
 			}
 
-			// Add page break after each screenshot (except the last one)
+			// Page break (except after the last screenshot)
 			if (screenshotCount < imageFiles.length) {
 				imgRun.addBreak(BreakType.PAGE)
 			}
@@ -180,7 +205,7 @@ class GenerateWordScreenshotReport {
 			screenshotCount++
 		}
 
-		// Save Word file
+		// 10. Save document
 		document.write(out)
 		out.close()
 		document.close()
